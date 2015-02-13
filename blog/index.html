@@ -1,11 +1,72 @@
 ---
 layout: default
-title: Hank Quinlan's Blog
+title: Josh Martin | Blog
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+<div class="cf blog">
+  <!-- Case-Study Links
+  ================================================== -->  
+  <section class="selected-work grid-container-2 inline-block float-left">
+    <div class="selected-work-content cf">
+
+      <ul class="homepage posts">
+        {% for post in site.posts %}
+
+          <li class="homepage-hero">
+            <a class="cs-lead" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            <div class="cf">            
+              <span class="cs-sub inline-block float-left">{{ post.date | date_to_string }}</span> 
+            </div>
+            <figure>
+              <img src="{{ post.thumbnail }}"/>
+            </figure>
+            <p class="overview">{{ post.description }}</p> 
+            <div class="read-more-container inline-block">
+              <a href="{{ post.url }}"class="link read-more">Continue Reading</a>
+            </div>
+          </li>
+
+        {% endfor %}
+      </ul>
+
+    </div>
+  </section>
+
+  <section class="right-rail">
+    <header class="page-header text-left cf">
+      <div class="page-header-content">
+        <h3>Hello!</h3> 
+        <p class="profile-copy inline-block">This website focuses on long-form writings on past projects, as well as insight into personally &amp; professionally-significant material. You can view my unabridged portfolio on <a href="http://www.behance.net/jawsmartin" class="link pink">Behance</a>, latest WIP's on <a href="http://www.dribbble.com/jawsmartin" class="link pink">Dribbble</a>, updates on <a href="http://www.twitter.com/jawsmartin" class="link pink">Twitter</a> / <a href="http://www.instagram.com/jawsmartin" class="link pink">Instagram</a>, and my projects on <a href="http://www.github.com/jawsmartin" class="link pink">Github</a>.</p>         
+      </div>
+          <div class="follow text-center">
+      <a href="#" class="link text-small pink">RSS</a> /      
+      <a href="#" class="link text-small pink">Newsletter</a>
+    </div>   
+    </header>
+
+    <header class="page-header text-left cf">
+      <div class="page-header-content">
+        <h3>Hello!</h3> 
+        <p class="profile-copy inline-block">This website focuses on long-form writings on past projects, as well as insight into personally &amp; professionally-significant material. You can view my unabridged portfolio on <a href="http://www.behance.net/jawsmartin" class="link pink">Behance</a>, latest WIP's on <a href="http://www.dribbble.com/jawsmartin" class="link pink">Dribbble</a>, updates on <a href="http://www.twitter.com/jawsmartin" class="link pink">Twitter</a> / <a href="http://www.instagram.com/jawsmartin" class="link pink">Instagram</a>, and my projects on <a href="http://www.github.com/jawsmartin" class="link pink">Github</a>.</p>         
+      </div>
+          <div class="follow text-center">
+      <a href="#" class="link text-small pink">RSS</a> /      
+      <a href="#" class="link text-small pink">Newsletter</a>
+    </div>   
+    </header>
+
+    <header class="page-header text-left cf">
+      <div class="page-header-content">
+        <h3>Hello!</h3> 
+        <p class="profile-copy inline-block">This website focuses on long-form writings on past projects, as well as insight into personally &amp; professionally-significant material. You can view my unabridged portfolio on <a href="http://www.behance.net/jawsmartin" class="link pink">Behance</a>, latest WIP's on <a href="http://www.dribbble.com/jawsmartin" class="link pink">Dribbble</a>, updates on <a href="http://www.twitter.com/jawsmartin" class="link pink">Twitter</a> / <a href="http://www.instagram.com/jawsmartin" class="link pink">Instagram</a>, and my projects on <a href="http://www.github.com/jawsmartin" class="link pink">Github</a>.</p>         
+      </div>
+          <div class="follow text-center">
+      <a href="#" class="link text-small pink">RSS</a> /      
+      <a href="#" class="link text-small pink">Newsletter</a>
+    </div>   
+    </header>    
+
+
+  </section>
+
+</div>
