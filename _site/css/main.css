@@ -543,7 +543,7 @@ header.main  {
   border-top: 1px solid #EAEFF1;
   padding-top: 25px;
   padding-bottom: 25px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   border-bottom: 1px solid #EAEFF1;
 }
 
@@ -552,33 +552,7 @@ header.main  {
 }
 
 .related {
-  border-top: 1px solid #EAEFF1;
-  padding-top: 55px;
-  padding-bottom: 25px;  
-}
-
-.related .cs-sub {
-  display: block;
-  opacity: .65;
-  margin-top: 5px;
-  margin-bottom: 30px;
-  font-size: 13px;
-  padding-right: 10px;
-}
-
-.thumbnail {
-  display: inline-block;
-  float: left;
-  width: 10%;
-  background: url(../images/hero-afterskoolz.jpg);
-  background-size: cover;
-  background-position: center center;
-  height: 50px;
-}
-
-.thumbnail-right {
-  width: 87.5%;
-  margin-left: 2.5%;
+  padding-bottom: 35px;  
 }
 
 .related-link {
@@ -589,7 +563,7 @@ header.main  {
 } 
 
 .comments {
-  border-top: 1px solid #EAEFF1;
+  border-top: 2px solid #EAEFF1;
   padding-top: 25px;
 }
 

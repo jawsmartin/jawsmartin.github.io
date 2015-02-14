@@ -4,7 +4,7 @@
 	<title>Hank Quinlan's Blog</title>
 	<link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://hankquinlan.github.io/blog"/>
-	<updated>2015-02-14T10:29:43-06:00</updated>
+	<updated>2015-02-14T13:08:52-06:00</updated>
 	<id>http://hankquinlan.github.io/blog</id>
 	<author>
 		<name>Hank Quinlan</name>
@@ -31,7 +31,7 @@
   &lt;/div&gt;        
 
   &lt;figure&gt;
-    &lt;img src=&quot;/images/hero-loop.jpg&quot;/&gt;
+    &lt;img src=&quot;/images/hero-sun-times.jpg&quot;/&gt;
   &lt;/figure&gt;
 
 &lt;/section&gt;
@@ -356,8 +356,10 @@
     &lt;p&gt;If you have any questions or comments, please post them below. If you liked this post, you can &lt;a href=&quot;http://www.twitter.com/jawsmartin&quot; class=&quot;link pink&quot;&gt;share it with your followers&lt;/a&gt; or follow me on &lt;a href=&quot;http://www.twitter.com/jawsmartin&quot; class=&quot;link pink&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
   &lt;/div&gt;
 
-  &lt;div class=&quot;related-link&quot;&gt;
-
+  &lt;div class=&quot;related&quot;&gt;
+  
+  &lt;h3&gt;Related&lt;/h3&gt;
+  
     &lt;ul class=&quot;homepage posts&quot;&gt;
       
 
@@ -446,7 +448,7 @@
   &lt;/div&gt;        
 
   &lt;figure&gt;
-    &lt;img src=&quot;/images/hero-loop.jpg&quot;/&gt;
+    &lt;img src=&quot;/images/hero-afterskoolz-3.jpg&quot;/&gt;
   &lt;/figure&gt;
 
 &lt;/section&gt;
@@ -852,7 +854,7 @@
   &lt;/div&gt;        
 
   &lt;figure&gt;
-    &lt;img src=&quot;/images/hero-loop.jpg&quot;/&gt;
+    &lt;img src=&quot;/images/hero-pioneer-press.jpg&quot;/&gt;
   &lt;/figure&gt;
 
 &lt;/section&gt;
