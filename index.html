@@ -1,8 +1,34 @@
 ---
 layout: default
-title: Hank Quinlan, Horrible Cop
+title: Josh Martin | Blog
 ---
-<div class="blurb">
-	<h1>Hi there, I'm Hank Quinlan!</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
+
+<!-- Case-Study Links
+================================================== -->  
+<section class="selected-work">
+  <div class="selected-work-content cf">
+
+    <ul class="homepage posts">
+      {% for post in site.posts %}
+
+        <li class="homepage-hero">
+          <a class="cs-lead" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+          <div class="cs-sub-container cf">            
+            <span class="cs-sub inline-block float-left">{{ post.date | date_to_string }}</span>
+            <span class="cs-sub inline-block float-left">{{ post.category }}</span>
+            <span class="cs-sub inline-block float-left">{{ post.comments }}</span>                
+          </div>
+          <figure>
+            <img src="{{ post.thumbnail }}"/>
+          </figure>
+          <p class="overview">{{ post.description }}</p> 
+          <div class="read-more-container inline-block">
+            <a href="{{ post.url }}"class="link read-more">Continue Reading</a>
+          </div>
+        </li>
+
+      {% endfor %}
+    </ul>
+
+  </div>
+</section>

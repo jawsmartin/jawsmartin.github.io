@@ -144,15 +144,15 @@ table {
 
 .email {
   font-size: 13px;
-border: 1px solid;
-border-radius: 3px;
-padding: 10px 0px 10px 0px;
-padding-bottom: 11px;
-width: 100%;
-display: inline-block;
-text-align: center;
-margin-bottom: 19px;
-margin-top: 6px;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 10px 0px 10px 0px;
+  padding-bottom: 11px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 19px;
+  margin-top: 6px;
 }
 
 .email:hover {
@@ -367,67 +367,31 @@ header.main  {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-.content-type {
-  color: #F22F5D;
-  display: block;
-  font-weight: 600;
-  font-size: 12px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
+
 .cs-lead {
   color: rgba(50, 58, 69, 1);
   position: relative;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 300;
   text-decoration: none !important;
-  line-height: 45px;
-}
-.cs-sub {
-  display: block;
-  opacity: .6;
-  margin-top: 12px;
-  font-size: 15px;
-}
-.overview {
-  font-size: 19px;
-  line-height: 28px;
-  margin-top: 15px;
-  color: rgba(50, 58, 69, .8);
-  margin-bottom: 50px;
-}
-.project-header .overview {
-  color: #263d49;
-}
-.homepage .cs-lead {
-  color: rgba(50, 58, 69, 1);
-  position: relative;
-  font-size: 35px;
   line-height: 40px;
-
 }
+
 .cs-sub {
-  display: block;
-  opacity: .65;
+  display: inline-block;
   margin-top: 10px;
   margin-bottom: 35px;
   font-size: 13px;
-  padding-right: 10px;
+  color: rgba(130, 143, 151, 1);
+  border-right: 1px solid RGBA(142, 154, 160, 1);
+  padding-right: 11px;
+  margin-right: 9px;
 }
-.project-header .cs-sub {
-  margin-bottom: 40px;
-  margin-top: 15px;
-  font-size: 13px;
-  font-weight: 300;  
+.cs-sub-container .cs-sub:last-child {
+  border: none;
 }
-.cs-subs:before {
-  font-family: 'icomoon';
-  content: "\ea91";
-  font-size: 12px;
-  opacity: .7;
-  padding-right: 6px;
-}
-.homepage .overview {
+
+.overview {
   font-size: 16px;
   line-height: 27px;
   margin-top: 15px;
@@ -496,7 +460,7 @@ header.main  {
   margin-bottom: 0px;
 }
 .paragraph {
-  border-top: 1px dashed rgba(213, 222, 226, .8);
+  border-top: 1px solid #EAEFF1;
   padding-top: 50px;
   margin-top: 46px;
 }
@@ -552,7 +516,7 @@ header.main  {
 /* Case-Study Section Dividers */
 .cs-sub-section-content {
   padding: 55px 0px 55px 0px;
-  border-bottom: 1px dashed rgba(213, 222, 226, .8);
+  border-bottom: 1px solid #EAEFF1;
 }
 .project-left p:last-child {
   margin-bottom: 0px;
@@ -579,6 +543,8 @@ header.main  {
   border-top: 1px solid #EAEFF1;
   padding-top: 25px;
   padding-bottom: 25px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #EAEFF1;
 }
 
 .share p {
@@ -615,10 +581,12 @@ header.main  {
   margin-left: 2.5%;
 }
 
-.related a {
+.related-link {
   font-weight: 300;
   font-size: 19px;
-}
+  color: RGBA(242, 47, 93, 1);
+  text-decoration: none !important;
+} 
 
 .comments {
   border-top: 1px solid #EAEFF1;
