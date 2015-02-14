@@ -1,8 +1,17 @@
 {% include header.html %}	
 
-<div class="grid-container">
-{{ content }}
+<div class="main grid-container cf">
+
+	<div class="grid-container-2 inline-block float-left">
+		{{ content }}
+	</div>
+
+	<div class="right-rail inline-block float-left">
+		{% include rail.html %}
+	</div>
+
 </div>
+
 
 {% include footer.html %}
 
