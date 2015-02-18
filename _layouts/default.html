@@ -1,6 +1,10 @@
 {% include header.html %}	
 
-<div class="main grid-container cf">
+<div class="main grid-container relative cf">
+
+  <div class="left-rail inline-block float-left">
+      {% include rail-left.html %}
+  </div>
 
 	<div class="grid-container-2 inline-block float-left">
 		{{ content }}

@@ -164,29 +164,12 @@ table {
 ==================================================
 ================================================== */
 body {
+  background-color: RGBA(213, 222, 226, .2);
   color: #51636D;
+  margin-top: 46px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 17px;
-}
-
-.grid-container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 950px;
-}
-.grid-container-2 {
-  max-width: 600px;
-}
-
-.right-rail {
-  position: fixed;
-  width: 300px;
-  margin-left: 50px;
-}
-
-.blog {
-  padding-top: 50px;
 }
 
 img {
@@ -310,46 +293,48 @@ a {
 -----------------------------------------------
 -----------------------------------------------*/
 header.main  {
-
-}
-.header-content {
-  padding: 0px 0px 15px 0px;
-  border-bottom: 1px solid #EAEFF1;
-  margin-bottom: 25px;
+  background-color: RGBA(242, 47, 93, .94);
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 99999999999999999999;
 }
 
 /* Header Left */
-.profile-pic {
-  width: 45px;
-}
 .site-name {
+  position: relative;
+  top: 17px;
   font-weight: 300;
-  font-size: 25px;
-  color: #263d49;
+  font-size: 23px;
+  color: white;
 }
 
 /* Main Navigation */
 .nav-container {
-  position: relative;
-  top: 6px;
+  margin-left: 30px;
 }
 .header-link {
   display: inline-block;
-  font-size: 14px;
-  font-weight: 300;
-  margin-left: 15px;
+  font-size: 15px;
+  padding: 21px 20px;
   position: relative;
   transition: all .3s ease;
   float: left;
-  color: #263d49;
-  font-size: 14px;
-  font-weight: 300;
+  color: white;
+}
+.header-link:before {
+  font-family: 'icomoon';
+  content: "\eab4";
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  margin-right: 6px;
 }
 .header-link-active {
-  color: #f22f5d;
+  background-color: rgba(0,0,0,.07);
 }
 .header-link:hover {
-  color: #f22f5d;
+  background-color: rgba(0,0,0,.07);
   transition: all .3s ease;
 }
 
@@ -358,13 +343,14 @@ header.main  {
 -----------------------------------------------*/
 /* Blog Posts */
 .homepage-hero {
-  margin-bottom: 55px;
-  border-bottom: 1px solid rgba(213, 222, 226, .5);
-  padding-bottom: 60px;
+  margin-bottom: 25px;
+  border: 1px solid rgba(213, 222, 226, .5);
+  background-color: white;
+  padding: 28px 28px 44px 26px;
+  border-radius: 4px;
 }
 .selected-work .homepage-hero:last-of-type {
   border: none;
-  padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
@@ -373,8 +359,29 @@ header.main  {
   position: relative;
   font-size: 35px;
   font-weight: 300;
-  text-decoration: none !important;
+  text-decoration: none;
   line-height: 40px;
+}
+
+.thumbnail-container {
+  overflow: hidden;
+}
+
+.thumbnail {
+  transition: all .5s ease;
+}
+
+.thumbnail:hover {
+  transition: all .3s ease;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Chrome, Safari, Opera */
+  transform: scale(1.1);
+}
+
+.homepage .cs-lead:hover {
+  color: RGBA(242, 47, 93, 1);
+  transition: all .3s ease;
+  cursor: pointer;
 }
 
 .cs-sub {
@@ -393,10 +400,9 @@ header.main  {
 
 .overview {
   font-size: 16px;
-  line-height: 27px;
-  margin-top: 15px;
+  line-height: 25px;
   margin-top: 30px;
-  color: inherit;
+  color: rgba(130, 143, 151, 1);
   margin-bottom: 0px;
 }
 .read-more {
@@ -496,6 +502,10 @@ header.main  {
   transition: all .3s ease;   
 }
 
+.project-header {
+  margin-bottom: 50px;
+}
+
 
 /* #Blog Posts
 -----------------------------------------------
@@ -515,7 +525,7 @@ header.main  {
 
 /* Case-Study Section Dividers */
 .cs-sub-section-content {
-  padding: 55px 0px 55px 0px;
+  padding: 50px 0px 50px 0px;
   border-bottom: 1px solid #EAEFF1;
 }
 .project-left p:last-child {
@@ -567,15 +577,6 @@ header.main  {
   padding-top: 25px;
 }
 
-/* #Footer
------------------------------------------------
------------------------------------------------*/
-/* Blog Header */
-.page-header-content {
-}
-.page-header {
-
-}
 .page-header p {
   display: inline-block;
   font-family: "Helvetica Neue";
@@ -589,24 +590,134 @@ header.main  {
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.follow {
+  margin-top: 50px;
+}
+
+.grid-container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.grid-container-2 {
+  box-sizing: border-box;
+  width: 46%;
+  padding: 50px 0px 75px 0px;
+}
+
+.grid-container-3 {
+  box-sizing: border-box;
+  width: 73%;
+  padding: 50px 0px 75px 0px;
+}
+
+.post {
+  background-color: white;
+  padding: 35px 45px 45px 45px;
+  border-radius: 3px;
+  border: 1px solid #ececec;
+}
+
+.shared {
+  width: 22%;
+  margin-right: 4%;
+  display: inline-block;
+  float: left;
+}
+
+.shared p {
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.cs {
+  width: 74%;
+  display: inline-block;
+  float: left;
+}
+
+.page-header-content {
+  padding-bottom: 30px;
+  margin-bottom: 24px;
+  padding: 25px 25px 25px 25px;
+  border-radius: 3px;
+  background-color: white;
+  border: 1px solid #ececec;
+}
+
+.rail-pic {
+  margin-bottom: 20px;
+}
+
+.right-rail {
+  box-sizing: border-box;
+  position: absolute;
+  width: 27%;
+  padding-top: 50px;
+  padding-left: 2%;
+  height: 100%;
+  top: 0px;
+}
+
+.left-rail {
+  box-sizing: border-box;
+  width: 27%;
+  padding-top: 50px;
+  padding-right: 2%;
+}
+
+.right-rail .page-header-content p:last-of-type {
+  margin-bottom: 0px;
+}
+
+.left-rail .page-header-content p:last-of-type {
+  margin-bottom: 0px;
+}
+
+.project-link {
+  font-size: 15px;
+  line-height: 15px;
+  margin-top: 12px;
+  color: rgba(130, 143, 151, 1);
+}
+
+.page-header-content .project-link:last-of-type {
+  margin-bottom: 0px;
+}
+
+.blog {
+  padding-top: 50px;
+}
+
+
+/* #Footer
+-----------------------------------------------
+-----------------------------------------------*/
+.footer-content {
+  border-top: 1px solid #ececec;
+  padding: 25px 0px 75px 0px;
 }
 
 /* Social Links */
-.social {
-  float: none;
-  display: block;
-  border-top: 1px solid #ececec;
-  margin-top: 10px;
-  padding-top: 25px;
-  margin-bottom: 20px;
-}
 .footer-icon {
   opacity: .5;
-  margin-right: 15px;
+  margin-left: 15px;
   font-size: 18px;
   position: relative;
   top: -3px;
+}
+
+.header-icon {
+  opacity: 1;
+  color: white;
+  margin-left: 15px;
+  font-size: 18px;
+  position: relative;
+  top: 15px;
 }
 .footer-icon:hover {
  opacity: 1;
@@ -630,15 +741,32 @@ header.main  {
   line-height: 19px;
 }
 
-.follow {
-  margin-top: 50px;
+.card-header h3 {
+  margin-bottom: 25px;
 }
 
-.main {
-  margin-top: 75px;
-  margin-bottom: 50px;
+.page-header-content .latest-work {
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
+.page-header-content .latest-work:last-of-type {
+  margin-bottom: 0px;
+  border: none;
+  padding-bottom: 0px;
+}
+
+.latest-work h3 {
+  margin-top: 20px;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+
+.latest-work span {
+  font-size: 12px;
+  opacity: .7;
+}
 
 /* #Media Queries
 -----------------------------------------------
