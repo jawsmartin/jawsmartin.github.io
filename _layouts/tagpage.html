@@ -2,12 +2,40 @@
 layout: default
 ---
 
-<h1>{{ page.tag }}</h1>
+<div class="blog-filter">
+  <span class="blog-filter-title">Blog</span>
+  <a class="filter-item inline-block" href="/">Everything</a>
+  <a class="filter-item inline-block {% if page.tag == 'Personal' %} filter-item-active {% endif %}" href="/tags/personal">Personal</a>   
+  <a class="filter-item inline-block {% if page.tag == 'Case-Study' %} filter-item-active {% endif %}" href="/tags/case-study">Case-Study</a>      
+  <a class="filter-item inline-block {% if page.tag == 'Project' %} filter-item-active {% endif %}" href="/tags/project">Project</a>
+  <a aria-hidden="true" data-icon="&#xe001;" href="http://www.tumblr.com/jawsmartin" class="icon-rss float-right link"></a>              
+</div>
 
-<ul>
-{% for post in site.tags[page.tag] %}
-  <li>
-    {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
+<div class="blog-posts">
+    <ul>
+    {% for post in site.tags[page.tag] %}
+
+      <li class="homepage-hero">
+        <a class="cs-lead" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        <div class="cs-sub-container cf">            
+          <span class="cs-sub inline-block float-left">{{ post.date | date: '%B %d, %Y' }}</span>
+          <div class="published-container inline-block float-left cf">
+            <span class="published">Published in</span>
+            <a href="tags/case-study" class="cs-sub inline-block link pink">{{ post.tag }}</a>
+          </div>
+          <a href="#" class="cs-sub inline-block strong float-left link pink comments-sub">{{ post.comments }}</a>                
+        </div>
+        <a href="{{ post.url }}">
+          <figure class="thumbnail-container">
+            <img class="thumbnail" src="{{ post.thumbnail }}"/>
+          </figure>
+        </a>
+        <p class="overview">{{ post.description }}</p> 
+        <div class="read-more-container inline-block">
+          <a href="{{ post.url }}"class="link read-more">Continue Reading</a>
+        </div>
+      </li>
+
+    {% endfor %}
+    </ul>
+</div>

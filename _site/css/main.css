@@ -847,6 +847,9 @@ header.main  {
   color: inherit;
   margin-right: 20px;
 }
+.filter-item:hover {
+  color: #F22F5D;
+}
 .blog-filter .filter-item:last-of-type {
   margin-right: 0px;
 }
@@ -981,11 +984,15 @@ header.main  {
 */
 
 .footer-content {
+  text-align: center;
   border-top: 1px solid #ececec;
   padding: 25px 0px 75px 0px;
 }
 
 /* Social Links */
+footer .social {
+  display: none;
+}
 .footer-icon {
   opacity: .5;
   margin-left: 15px;
@@ -1001,7 +1008,7 @@ header.main  {
 
 /* Colophon */
 .copyright {
-  max-width: 450px;
+  max-width: 550px;
   opacity: .65;
 }
 .footer-link {

@@ -10,12 +10,13 @@ title: Josh Martin | Blog
 
     <div class="blog-filter">
       <span class="blog-filter-title">Blog</span>
-      <a class="filter-item filter-item-active inline-block" href="#">Everything</a>
-      <a class="filter-item inline-block" href="#">Personal</a>   
-      <a class="filter-item inline-block" href="#">Case-Studies</a>      
-      <a class="filter-item inline-block" href="#">Projects</a>
+      <a class="filter-item inline-block filter-item-active" href="/">Everything</a>
+      <a class="filter-item inline-block" href="tags/personal">Personal</a>   
+      <a class="filter-item inline-block" href="tags/case-study">Case-Study</a>      
+      <a class="filter-item inline-block" href="tags/project">Project</a>
       <a aria-hidden="true" data-icon="&#xe001;" href="http://www.tumblr.com/jawsmartin" class="icon-rss float-right link"></a>              
     </div>
+
 
     <ul class="homepage posts">
       {% for post in site.posts %}
