@@ -17,6 +17,7 @@
   <!-- CSS
   ================================================== -->
   <link rel="stylesheet" href="/css/main.css" media="screen">
+
   
   <!-- Favicons
   ================================================== -->
@@ -52,10 +53,22 @@
 
     <!-- Site Navigation -->  
     <nav class="nav-container relative inline-block float-left cf">
-      <a class="link header-link {% if page.title == 'Josh Martin | Blog' %} header-link-active {% endif %}" href="/">Home</a>        
-      <a class="link header-link {% if page.title == 'Josh Martin | Projects' %} header-link-active {% endif %}" href="/projects">Projects</a>
-      <a class="link header-link {% if page.title == 'Josh Martin | About' %} header-link-active {% endif %}" href="/about">About</a>
-      <a class="link header-link {% if page.title == 'Josh Martin | Archive' %} header-link-active {% endif %}" href="/archive">Archive</a>       
+      <a class="link header-link {% if page.title == 'Josh Martin | Blog' %} header-link-active {% endif %}" href="/">
+        <span class="home"></span>
+        <span class="nav-label">Home</span>
+      </a>        
+      <a class="link header-link {% if page.title == 'Josh Martin | Projects' %} header-link-active {% endif %}" href="/projects">
+        <span class="portfolio"></span>
+        <span class="nav-label">Portfolio</span>        
+      </a>
+      <a class="link header-link {% if page.title == 'Josh Martin | About' %} header-link-active {% endif %}" href="/about">
+        <span class="about"></span>
+        <span class="nav-label">About/CV</span>
+      </a>
+      <a class="link header-link{% if page.title == 'Josh Martin | Archive' %} header-link-active {% endif %}" href="/archive">
+        <span class="archive"></span>
+        <span class="nav-label">Blog</span>
+      </a>       
     </nav>
 
           <!-- Social Links --> 
@@ -65,6 +78,8 @@
         <a aria-hidden="true" data-icon="&#xe001;" href="http://www.twitter.com/jawsmartin" class="icon-twitter link header-icon"></a>
         <a aria-hidden="true" data-icon="&#xe001;" href="http://www.instagram.com/jawsmartin" class="icon-instagram link header-icon"></a>
         <a aria-hidden="true" data-icon="&#xe001;" href="http://www.github.com/jawsmartin" class="icon-github link header-icon"></a>   
+        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.tumblr.com/jawsmartin" class="icon-tumblr link header-icon"></a> 
+
       </div> 
 
   </div>

@@ -8,6 +8,15 @@ title: Josh Martin | Blog
 <section class="selected-work">
   <div class="selected-work-content cf">
 
+    <div class="blog-filter">
+      <span class="blog-filter-title">Blog</span>
+      <a class="filter-item filter-item-active inline-block" href="#">Everything</a>
+      <a class="filter-item inline-block" href="#">Personal</a>   
+      <a class="filter-item inline-block" href="#">Case-Studies</a>      
+      <a class="filter-item inline-block" href="#">Projects</a>
+      <a aria-hidden="true" data-icon="&#xe001;" href="http://www.tumblr.com/jawsmartin" class="icon-rss float-right link"></a>              
+    </div>
+
     <ul class="homepage posts">
       {% for post in site.posts %}
 
@@ -15,8 +24,11 @@ title: Josh Martin | Blog
           <a class="cs-lead" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
           <div class="cs-sub-container cf">            
             <span class="cs-sub inline-block float-left">{{ post.date | date: '%B %d, %Y' }}</span>
-            <a href="tags/case-study" class="cs-sub inline-block link float-left">{{ post.tag }}</a>
-            <span class="cs-sub inline-block float-left">{{ post.comments }}</span>                
+            <div class="published-container inline-block float-left cf">
+              <span class="published">Published in</span>
+              <a href="tags/case-study" class="cs-sub inline-block link pink">{{ post.tag }}</a>
+            </div>
+            <a href="#" class="cs-sub inline-block strong float-left link pink comments-sub">{{ post.comments }}</a>                
           </div>
           <a href="{{ post.url }}">
             <figure class="thumbnail-container">

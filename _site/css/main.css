@@ -1,20 +1,26 @@
-/* Table of Content
+/* 
 ==================================================
+Table of Content
 ==================================================
   #Reset
   #Clearfix
   #Icon Fonts
+  #General  
   #Helper Classes
   #Header  
-  #Blog   
+  #Blog Posts  
   #About/Contact
-  #Blog Posts
   #Footer
   #Media Queries
 */
 
-/* #Reset (reduce browser inconsistencies)
-================================================== */
+
+/*
+==============================================
+#Reset (reduce browser inconsistencies)
+==============================================
+*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -63,9 +69,13 @@ table {
   border-spacing: 0;
 }
 
-/* #Clearfix (control floating elements)
-==================================================
-================================================== */
+
+/*
+==============================================
+#Clearfix (control floating elements)
+==============================================
+*/
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
@@ -91,9 +101,13 @@ table {
     *zoom: 1;
 }
 
-/* #Icon Fonts
-==================================================
-================================================== */
+
+/*
+==============================================
+#Icon Fonts
+==============================================
+*/
+
 @font-face {
   font-family: 'icomoon';
   src:url('../fonts/icomoon.eot?-vmko0h');
@@ -122,12 +136,80 @@ table {
 .icon-instagram:before {
   content: "\e601";
 }
+
+.icon-rss:before {
+  content: "\ea94";
+  font-size: 15px;
+  display: inline-block;
+  color: rgba(130, 143, 151, 1);
+  opacity: .5;
+}
+
+.icon-rss:hover {
+  color: #F22F5D;
+  opacity: 1;
+}
+
+.icon-bubble:before {
+  content: "\e96b";
+}
+.icon-tumblr:before {
+  content: "\eabb";
+  font-size: 17px;
+}
+
 .icon-twitter:before {
   content: "\ea91";
 }
+
+.icon-apple:before {
+  content: "\eabf";
+}
+
+.icon-android:before {
+  content: "\eac1";
+}
+
+.icon-home:before {
+  content: "\e902";
+}
+
+.icon-quill:before {
+  content: "\e907";
+}
+
+.icon-paint-format:before {
+  content: "\e90c";
+}
+
+.icon-books:before {
+  content: "\e920";
+}
+
+.icon-stack:before {
+  content: "\e92e";
+}
+
+.icon-lifebuoy:before {
+  content: "\e941";
+}
+
+.icon-location:before {
+  content: "\e947";
+}
+
+.icon-briefcase:before {
+  content: "\e9ae";
+}
+
+.icon-terminal:before {
+  content: "\ea81";
+}
+
 .icon-dribbble:before {
   content: "\eaa8";
 }
+
 .icon-github:before {
   content: "\eab4";
 }
@@ -138,45 +220,54 @@ table {
   top: 3px; 
 }
 
-.icon-mail:before {
-  content: "\e600";
-}
-
-.email {
-  font-size: 13px;
-  border: 1px solid;
-  border-radius: 3px;
-  padding: 10px 0px 10px 0px;
-  padding-bottom: 11px;
-  width: 100%;
+.portfolio:before {
+  font-family: 'icomoon';
+  content: "\e9ae";
   display: inline-block;
-  text-align: center;
-  margin-bottom: 19px;
-  margin-top: 6px;
+  position: relative;
+  top: 1px;
 }
 
-.email:hover {
-  text-decoration: none !important;
-  background-color: RGBA(242, 47, 93, .05)
+.archive:before {
+  font-family: 'icomoon';
+  content: "\e920";
+  display: inline-block;
+  position: relative;
+  top: 1px;
 }
 
-/* #General
-==================================================
-================================================== */
+.home:before {
+  font-family: 'icomoon';
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  content: "\e902";
+}
+
+.about:before {
+  font-family: 'icomoon';
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  content: "\e907";
+}
+
+
+
+/*
+==============================================
+#General
+==============================================
+*/
+
 body {
+  -webkit-font-smoothing: antialiased;
   background-color: RGBA(213, 222, 226, .2);
   color: #51636D;
-  margin-top: 46px;
+  margin-top: 56px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 17px;
-}
-
-img {
-  max-width: 100%;
-  width: 100%;
-  display: block;
-  height: auto;
 }
 
 /* Typography */
@@ -184,23 +275,11 @@ img {
   font-size: 14px;
   line-height: 20px;
 }
-a {
-  transition: all .2s ease; 
-}
-a:hover {
-  transition: all .2s ease; 
-}
 p {
   line-height: 26px;
   color: #51636D;
   margin-bottom: 20px;
   font-size: 16px;
-  font-weight: 300;
-}
-.css p {
-  font-family: 'Merriweather', serif;
-  font-size: 17px;
-  line-height: 29px;
 }
 h1 {
   color: #263d49;
@@ -214,9 +293,6 @@ h2 {
   font-weight: 600;
   font-size: 12px;
   margin-bottom: 25px;
-}
-.cs-section h2 {
-  padding-top: 55px;
 }
 h3 {
   color: #263d49;
@@ -236,9 +312,19 @@ em {
   font-weight: 500;
 }
 
-/* #Helper Classes
-==================================================
-================================================== */
+/* Images */
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+/*
+==============================================
+#Helper Classes
+==============================================
+*/
 
 /* Positioning */
 .inline-block {
@@ -287,11 +373,20 @@ p .link:hover {
 a {
   color: rgba(242, 47, 93, 1);
 }
+a {
+  transition: all .2s ease; 
+}
+a:hover {
+  transition: all .2s ease; 
+}
 
 
-/* #Header
------------------------------------------------
------------------------------------------------*/
+/*
+==============================================
+#Header
+==============================================
+*/
+
 header.main  {
   background-color: RGBA(242, 47, 93, .94);
   position: fixed;
@@ -303,9 +398,9 @@ header.main  {
 /* Header Left */
 .site-name {
   position: relative;
-  top: 17px;
-  font-weight: 300;
-  font-size: 23px;
+  top: 14px;
+  font-weight: 400;
+  font-size: 25px;
   color: white;
 }
 
@@ -316,19 +411,19 @@ header.main  {
 .header-link {
   display: inline-block;
   font-size: 15px;
-  padding: 21px 20px;
+  padding: 19px 20px 21px 20px;
   position: relative;
   transition: all .3s ease;
   float: left;
   color: white;
 }
-.header-link:before {
-  font-family: 'icomoon';
-  content: "\eab4";
-  display: inline-block;
+.header-icon {
+  opacity: 1;
+  color: white;
+  margin-left: 15px;
+  font-size: 18px;
   position: relative;
-  top: 1px;
-  margin-right: 6px;
+  top: 15px;
 }
 .header-link-active {
   background-color: rgba(0,0,0,.07);
@@ -338,9 +433,122 @@ header.main  {
   transition: all .3s ease;
 }
 
-/* #Blog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #Rails
 -----------------------------------------------
 -----------------------------------------------*/
+.page-header-content {
+  padding-bottom: 30px;
+  margin-bottom: 24px;
+  padding: 25px 25px 25px 25px;
+  border-radius: 3px;
+  background-color: white;
+  border: 1px solid #ececec;
+}
+
+/* #Left Rail
+-----------------------------------------------*/
+.left-rail {
+  box-sizing: border-box;
+  width: 27%;
+  padding-top: 25px;
+  padding-right: 25px;
+}
+.left-rail .page-header-content p:last-of-type {
+  margin-bottom: 0px;
+}
+
+/* About Card */
+.rail-pic {
+  margin-bottom: 22px;
+}
+.email {
+  font-size: 13px;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 10px 0px 10px 0px;
+  padding-bottom: 11px;
+  width: 100%;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+}
+.email:hover {
+  text-decoration: none !important;
+  background-color: RGBA(242, 47, 93, .05)
+}
+
+/* Experience Card */
+
+/* #Right Rail
+-----------------------------------------------*/
+.right-rail {
+  box-sizing: border-box;
+  width: 27%;
+  padding-top: 25px;
+  padding-left: 25px;
+  top: 0px;
+}
+.right-rail .page-header-content p:last-of-type {
+  margin-bottom: 0px;
+}
+
+/* Portfolio Thumbnails */
+.page-header-content .project-link:last-of-type {
+  margin-bottom: 0px;
+}
+.project-link {
+  font-size: 15px;
+  line-height: 15px;
+  margin-top: 12px;
+  color: rgba(130, 143, 151, 1);
+}
+.portfolio-link {
+  font-size: 13px;
+  margin-top: 23px;
+  display: block;
+}
+
+/* Blog Post Thumbnails */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+==============================================
+#Blog
+==============================================
+*/
+
 /* Blog Posts */
 .homepage-hero {
   margin-bottom: 25px;
@@ -348,7 +556,20 @@ header.main  {
   background-color: white;
   padding: 28px 28px 44px 26px;
   border-radius: 4px;
+  transition: all .4s ease;
 }
+
+.hero-link {
+  z-index: 9999999;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.homepage-hero:hover {
+  cursor: pointer;
+}
+
 .selected-work .homepage-hero:last-of-type {
   border: none;
   margin-bottom: 0px;
@@ -359,7 +580,7 @@ header.main  {
   position: relative;
   font-size: 35px;
   font-weight: 300;
-  text-decoration: none;
+  text-decoration: none !important;
   line-height: 40px;
 }
 
@@ -371,14 +592,7 @@ header.main  {
   transition: all .5s ease;
 }
 
-.thumbnail:hover {
-  transition: all .3s ease;
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Chrome, Safari, Opera */
-  transform: scale(1.1);
-}
-
-.homepage .cs-lead:hover {
+.homepage-hero:hover .cs-lead {
   color: RGBA(242, 47, 93, 1);
   transition: all .3s ease;
   cursor: pointer;
@@ -389,20 +603,41 @@ header.main  {
   margin-top: 10px;
   margin-bottom: 35px;
   font-size: 13px;
-  color: rgba(130, 143, 151, 1);
   border-right: 1px solid RGBA(142, 154, 160, 1);
   padding-right: 11px;
   margin-right: 9px;
 }
-.cs-sub-container .cs-sub:last-child {
+
+.published {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.comments-sub {
   border: none;
+  font-size: 12px;
+  position: relative;
+  top: 1px;
+  font-weight: 500;
+}
+
+.comments-sub:before {
+  content: "\e96b";
+  margin-right: 5px;
+  display: inline-block;
+  font-size: 11px;
+  position: relative;
+  top: 0px;
+  padding-left: 2px;
+  font-family: 'icomoon';
 }
 
 .overview {
   font-size: 16px;
   line-height: 25px;
   margin-top: 30px;
-  color: rgba(130, 143, 151, 1);
+  color: rgba(115, 133, 142, 1);
   margin-bottom: 0px;
 }
 .read-more {
@@ -428,9 +663,36 @@ header.main  {
 }
 
 
-/* #About/Contact
------------------------------------------------
------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+==============================================
+#About/CV
+==============================================
+*/
+
 .inset-container {
   margin: 50px 0px 50px 0px;
 }
@@ -508,7 +770,6 @@ header.main  {
 
 
 /* #Blog Posts
------------------------------------------------
 -----------------------------------------------*/
 
 /* Case Study Images */
@@ -547,40 +808,12 @@ header.main  {
   position: relative;
 }
 
-/* Project Footer */
 
-.share {
-  border-top: 1px solid #EAEFF1;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-bottom: 60px;
-  border-bottom: 1px solid #EAEFF1;
-}
-
-.share p {
-  margin-bottom: 0px;
-}
-
-.related {
-  padding-bottom: 35px;  
-}
-
-.related-link {
-  font-weight: 300;
-  font-size: 19px;
-  color: RGBA(242, 47, 93, 1);
-  text-decoration: none !important;
-} 
-
-.comments {
-  border-top: 2px solid #EAEFF1;
-  padding-top: 25px;
-}
 
 .page-header p {
   display: inline-block;
   font-family: "Helvetica Neue";
-  font-weight: 300;
+  margin-bottom: 15px;
   font-size: 14px;
   line-height: 20px;
   color: rgba(130, 143, 151, 1);
@@ -589,30 +822,85 @@ header.main  {
   color: #263d49;
   font-size: 16px;
   line-height: 20px;
-  font-weight: 400;
-  margin-bottom: 10px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+/* Blog Post Filter
+-----------------------------------------------*/
+.blog-filter {
+  background-color: white;
+  padding: 17px 18px 18px 25px;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+.blog-filter-title {
+  font-weight: 500;
+  font-size: 16px;
+  color: #263d49;
+  margin-right: 25px;
+}
+.filter-item {
+  text-decoration: none;
+  font-size: 14px;
+  color: inherit;
+  margin-right: 20px;
+}
+.blog-filter .filter-item:last-of-type {
+  margin-right: 0px;
+}
+.filter-item-active {
+  color: RGBA(242, 47, 93, 1);
 }
 
 .follow {
   margin-top: 50px;
 }
 
+.cv {
+  display: block;
+  margin-top: 15px;
+}
+
 .grid-container {
   max-width: 1200px;
-  width: 90%;
+  width: 92%;
   margin: 0 auto;
+}
+.focus {
+  display: block;
+  margin-bottom: -5px;
 }
 
 .grid-container-2 {
   box-sizing: border-box;
   width: 46%;
-  padding: 50px 0px 75px 0px;
+  padding: 25px 0px 75px 0px;
 }
 
+/* Blog Post Header
+-----------------------------------------------*/
+.project-header h1 {
+  font-size: 45px;
+  line-height: 50px;
+}
+.project-header .sub-header {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+.project-header .cs-sub {
+  margin-bottom: 50px;
+}
+
+/* Blog Post Content
+-----------------------------------------------*/
 .grid-container-3 {
   box-sizing: border-box;
   width: 73%;
-  padding: 50px 0px 75px 0px;
+  padding: 25px 0px 75px 0px;
 }
 
 .post {
@@ -622,81 +910,76 @@ header.main  {
   border: 1px solid #ececec;
 }
 
-.shared {
-  width: 22%;
-  margin-right: 4%;
+.cs {
+  width: 69%;
   display: inline-block;
   float: left;
 }
 
-.shared p {
+/* Blog Post Sidebar
+-----------------------------------------------*/
+.sidebar {
+  width: 26%;
+  box-sizing: border-box;
+  margin-right: 5%;
+  display: inline-block;
+  float: left;
+}
+.sidebar-item {
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 6px;
+  margin-bottom: 13px;
+}
+.sidebar .sidebar-item:last-of-type {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+.sidebar h3 {
+  color: RGBA(242, 47, 93, 1);
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  line-height: 13px;
+}
+.sidebar h4 {
   font-size: 13px;
+  line-height: 14px;
+  margin-bottom: 8px;
+}
+.sidebar h4:before {
+  content: "\eaa8";
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+  top: 1px;
+  font-family: 'icomoon';
+}
+.objective-item {
+  margin-top: 25px;
+}
+.sidebar p {
+  display: inline-block;
+  font-size: 13px;
+  margin-bottom: 0px;
+  line-height: 14px;
   line-height: 17px;
 }
 
-.cs {
-  width: 74%;
-  display: inline-block;
-  float: left;
-}
-
-.page-header-content {
-  padding-bottom: 30px;
-  margin-bottom: 24px;
-  padding: 25px 25px 25px 25px;
-  border-radius: 3px;
-  background-color: white;
-  border: 1px solid #ececec;
-}
-
-.rail-pic {
-  margin-bottom: 20px;
-}
-
-.right-rail {
-  box-sizing: border-box;
-  position: absolute;
-  width: 27%;
-  padding-top: 50px;
-  padding-left: 2%;
-  height: 100%;
-  top: 0px;
-}
-
-.left-rail {
-  box-sizing: border-box;
-  width: 27%;
-  padding-top: 50px;
-  padding-right: 2%;
-}
-
-.right-rail .page-header-content p:last-of-type {
-  margin-bottom: 0px;
-}
-
-.left-rail .page-header-content p:last-of-type {
-  margin-bottom: 0px;
-}
-
-.project-link {
-  font-size: 15px;
-  line-height: 15px;
-  margin-top: 12px;
-  color: rgba(130, 143, 151, 1);
-}
-
-.page-header-content .project-link:last-of-type {
-  margin-bottom: 0px;
-}
-
-.blog {
-  padding-top: 50px;
-}
-
-
-/* #Footer
------------------------------------------------
+/* Comments
 -----------------------------------------------*/
+.comments {
+  border-top: 2px solid #EAEFF1;
+  padding-top: 25px;
+}
+
+/*
+==============================================
+#Footer
+==============================================
+*/
+
 .footer-content {
   border-top: 1px solid #ececec;
   padding: 25px 0px 75px 0px;
@@ -709,15 +992,6 @@ header.main  {
   font-size: 18px;
   position: relative;
   top: -3px;
-}
-
-.header-icon {
-  opacity: 1;
-  color: white;
-  margin-left: 15px;
-  font-size: 18px;
-  position: relative;
-  top: 15px;
 }
 .footer-icon:hover {
  opacity: 1;
@@ -746,9 +1020,7 @@ header.main  {
 }
 
 .page-header-content .latest-work {
-  border-bottom: 1px solid #ececec;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-top: 25px;
 }
 
 .page-header-content .latest-work:last-of-type {
@@ -768,19 +1040,106 @@ header.main  {
   opacity: .7;
 }
 
-/* #Media Queries
------------------------------------------------
------------------------------------------------*/
 
-@media screen and (max-width: 700px) {
-  .grid-container {
-    width: 88%;
+
+
+
+
+
+/*
+==============================================
+#Media Queries
+==============================================
+*/
+
+/* Desktop
+-----------------------------------------------*/
+@media screen and (max-width: 1275px) {
+  /* Moves right rail beneath left rail */  
+  .grid-container-2 {
+    margin-left: 325px;
+    width: auto;
+  }
+  .right-rail {
+    position: absolute;
+    top: 836px;
+    left: 0px;
+    height: auto;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2%;
+    width: 325px;
+  }
+  .left-rail {
+    position: absolute;
+    width: 325px;
+  }
+}
+
+/* Tablet
+-----------------------------------------------*/
+@media screen and (max-width: 1023px) {
+  /* Makes rails fixed width, Main-content stays flexible */
+  .grid-container-2 {
+    margin-left: 275px;
+    width: auto;
+  }
+  .right-rail {
+    position: absolute;
+    top: 836px;
+    left: 0px;
+    height: auto;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2%;
+    width: 275px;
+  }
+  .left-rail {
+    position: absolute;
+    width: 275px;
+  }
+
+  /* Hides social media icons in header */
+    header .social {
+    display: none;
+  }
+}
+
+/* Mobile
+-----------------------------------------------*/
+@media screen and (max-width: 767px) {
+  /* Hides All Rails, Moves to single-column layout */
+  .right-rail {
+    display: none;
+  }
+  .left-rail {
+    display: none;
   }
   /* General */
   .cs-section h2 {
     padding-top: 50px;
   }
-  
+  .grid-container-2 {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  /* Simplifies header */ 
+  body {
+    margin-top: 44px;
+  }   
+  .site-name {
+    top: 12px;
+    font-size: 19px;
+  }
+  .header-link {
+    font-size: 21px;
+    padding: 10px 15px 10px 15px;
+  }
+  .nav-label {
+    display: none;
+  }
+
   /* CS Main Content */
   .photo-caption {
     font-size: 11px;
@@ -788,40 +1147,6 @@ header.main  {
   }
   .cs-sub-section-content {
     padding: 50px 0px 50px 0px;
-  }
-
-  /* General */
-  h1 {
-    font-size: 35px;
-  }
-
-  /* Case-Study Main Content */
-  .cs .cs-section:first-child .cs-sub-section:first-child .cs-sub-section-content {
-    padding-top: 25px;
-  }
-
-  body {
-    margin-top: 61px;
-  }
-
-  /* Header */
-  header.main .header-content {
-    padding: 15px 0px 15px 0px; 
-  }
-  .profile-pic {
-    width: 30px;
-  }
-  .logo-name {
-    top: 7px;
-    font-size: 17px;
-    margin-left: 10px;
-  }
-  .nav-container {
-    top: 10px;
-  }
-  .header-link {
-    font-size: 12px;
-    margin-left: 15px;
   }
 
   /* Footer */
