@@ -244,6 +244,7 @@ p.location {
 }
 
 .portfolio:before {
+  margin-right: 3px;
   font-family: 'icomoon';
   content: "\e9ae";
   display: inline-block;
@@ -252,6 +253,7 @@ p.location {
 }
 
 .blog:before {
+  margin-right: 3px;
   font-family: 'icomoon';
   content: "\e920";
   display: inline-block;
@@ -260,6 +262,7 @@ p.location {
 }
 
 .home:before {
+  margin-right: 3px;
   font-family: 'icomoon';
   display: inline-block;
   position: relative;
@@ -268,6 +271,7 @@ p.location {
 }
 
 .about:before {
+  margin-right: 3px;
   font-family: 'icomoon';
   display: inline-block;
   position: relative;
@@ -411,8 +415,9 @@ a:hover {
 */
 
 header.main  {
-  background-color: RGBA(242, 47, 93, .94);
+  background-color: RGBA(255, 255, 255, .95);
   position: fixed;
+  border: 1px solid rgba(213, 222, 226, .5);
   width: 100%;
   top: 0px;
   z-index: 99999999999999999999;
@@ -421,10 +426,9 @@ header.main  {
 /* Header Left */
 .site-name {
   position: relative;
-  top: 14px;
+  top: 16px;
   font-weight: 400;
   font-size: 25px;
-  color: white;
 }
 
 /* Main Navigation */
@@ -432,13 +436,14 @@ header.main  {
   margin-left: 30px;
 }
 .header-link {
+  opacity: .6;
   display: inline-block;
   font-size: 15px;
-  padding: 19px 20px 21px 20px;
+  padding: 20px 0px 21px 0px;
+  margin-left: 35px;
   position: relative;
   transition: all .3s ease;
   float: left;
-  color: white;
 }
 .header-icon {
   opacity: .6;
@@ -447,10 +452,20 @@ header.main  {
   position: relative;
 }
 .header-link-active {
+  color: #263d49;
+  opacity: 1;
+  font-weight: 500;
 }
+
 .header-link:hover {
-  background-color: rgba(0,0,0,.07);
-  transition: all .3s ease;
+  color: #F22F5D;
+  opacity: 1;
+  transition: all .2s ease;
+}
+
+.header-link-active:hover {
+  color: #263d49;
+  opacity: 1;
 }
 
 .about-social {
