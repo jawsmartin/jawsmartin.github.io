@@ -3,21 +3,20 @@
 <div class="main grid-container relative cf">
 
   <div class="left-rail inline-block float-left">
-      {% include left-rail.html %}
+    {% include about-card.html %}
+    {% include skills-card.html %}    
+    {% include experience-card.html %}      
   </div>
 
 	<div class="grid-container-2 inline-block float-left">
-        <div class="flex">
 		{{ content }}
-        </div>
 	</div>
 
 	<div class="right-rail inline-block float-left">
-		{% include right-rail.html %}
+		{% include portfolio-card.html %}
 	</div>
 
 </div>
-
 
 {% include footer.html %}
 

@@ -4,7 +4,7 @@
 	<title>Hank Quinlan's Blog</title>
 	<link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://hankquinlan.github.io/blog"/>
-	<updated>2015-02-18T21:33:26-06:00</updated>
+	<updated>2015-02-19T19:53:21-06:00</updated>
 	<id>http://hankquinlan.github.io/blog</id>
 	<author>
 		<name>Hank Quinlan</name>
@@ -28,8 +28,11 @@
       &lt;p class=&quot;sub-header&quot;&gt;Ultra HD &#39;4K&#39; Blu-ray discs are due to hit the market at the end of 2015 with enhanced resolution, expanded color and more. Here&#39;s the 411 so far.&lt;/p&gt;      
       &lt;div class=&quot;cs-sub-container cf&quot;&gt;            
         &lt;span class=&quot;cs-sub inline-block float-left&quot;&gt;February 20, 2015&lt;/span&gt;
-        &lt;a href=&quot;tags/case-study&quot; class=&quot;cs-sub inline-block link float-left&quot;&gt;Project&lt;/a&gt;
-        &lt;span class=&quot;cs-sub inline-block float-left&quot;&gt;0 Comments&lt;/span&gt;                
+        &lt;div class=&quot;published-container inline-block float-left cf&quot;&gt;
+          &lt;span class=&quot;published&quot;&gt;Published in&lt;/span&gt;
+          &lt;a href=&quot;tags/case-study&quot; class=&quot;cs-sub inline-block link pink&quot;&gt;Project&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;a href=&quot;#&quot; class=&quot;cs-sub inline-block strong float-left link pink comments-sub&quot;&gt;0 Comments&lt;/a&gt;                
       &lt;/div&gt;
     &lt;/div&gt;        
 
@@ -39,44 +42,6 @@
 
   &lt;/section&gt;
 
-
-  &lt;div class=&quot;sidebar&quot;&gt;
-    &lt;div class=&quot;sidebar-item&quot;&gt;
-      &lt;h3&gt;Client: &lt;/h3&gt;
-      &lt;p&gt;Afterskoolz&lt;/p&gt;
-    &lt;/div&gt; 
-    &lt;div class=&quot;sidebar-item&quot;&gt;
-      &lt;h3&gt;When: &lt;/h3&gt;
-      &lt;p&gt;Fall 2014&lt;/p&gt;
-    &lt;/div&gt; 
-    &lt;div class=&quot;sidebar-item&quot;&gt;
-      &lt;h3&gt;Role: &lt;/h3&gt;
-      &lt;p&gt;Fall 2014&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;sidebar-item&quot;&gt;
-      &lt;h3&gt;Objectives: &lt;/h3&gt;
-      &lt;div class=&quot;objective-item&quot;&gt;
-        &lt;h4&gt;Branding/Identity&lt;/h4&gt;
-        &lt;p&gt;Sal, alongside fellow parent and Afterskoolz co-founder, Mustafa Patni, laid out a rough draft their vision of an ideal product and it was my job to bring it to life.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;objective-item&quot;&gt;
-        &lt;h4&gt;Branding/Identity&lt;/h4&gt;
-        &lt;p&gt;Sal, alongside fellow parent and Afterskoolz co-founder, Mustafa Patni, laid out a rough draft their vision of an ideal product and it was my job to bring it to life.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;objective-item&quot;&gt;
-        &lt;h4&gt;Branding/Identity&lt;/h4&gt;
-        &lt;p&gt;Sal, alongside fellow parent and Afterskoolz co-founder, Mustafa Patni, laid out a rough draft their vision of an ideal product and it was my job to bring it to life.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;objective-item&quot;&gt;
-        &lt;h4&gt;Branding/Identity&lt;/h4&gt;
-        &lt;p&gt;Sal, alongside fellow parent and Afterskoolz co-founder, Mustafa Patni, laid out a rough draft their vision of an ideal product and it was my job to bring it to life.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;objective-item&quot;&gt;
-        &lt;h4&gt;Branding/Identity&lt;/h4&gt;
-        &lt;p&gt;Sal, alongside fellow parent and Afterskoolz co-founder, Mustafa Patni, laid out a rough draft their vision of an ideal product and it was my job to bring it to life.&lt;/p&gt;
-      &lt;/div&gt;                        
-    &lt;/div&gt;         
-  &lt;/div&gt;
 
   &lt;!-- Project Main Content
   ================================================== --&gt; 
@@ -100,45 +65,6 @@
           &lt;/figure&gt;  
         &lt;/div&gt;
       &lt;/article&gt;
-
-      &lt;!-- Objectives --&gt; 
-      &lt;article class=&quot;cs-sub-section&quot;&gt;
-        &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-          &lt;div class=&quot;project-left&quot;&gt;
-            &lt;h3&gt;Objectives&lt;/h3&gt; 
-            &lt;p class=&quot;cs-copy&quot;&gt;In the summer of 2014, I was approached by my former &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Aggrego&lt;/a&gt; co-worker, &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Sal Abassi&lt;/a&gt;, to help get a personal project off the ground; that project would be Afterskoolz. As a parent, he felt there was an opportunity to create a platform to make finding and planning after-school activiites for his children easier.&lt;/p&gt;
-            &lt;p class=&quot;cs-copy&quot;&gt;
-              &lt;ul&gt;
-                &lt;li&gt;
-                  &lt;h4&gt;Craft Afterskoolz Brand&lt;/h4&gt;
-                  &lt;p&gt;I would design logo, branding guidelines, illustrations, and iconography that will be used in all facets of Afterskoolz product&lt;/p&gt;
-                &lt;/li&gt;
-                &lt;li&gt;
-                  &lt;h4&gt;Craft Afterskoolz Brand&lt;/h4&gt;
-                  &lt;p&gt;I would design logo, branding guidelines, illustrations, and iconography that will be used in all facets of Afterskoolz product&lt;/p&gt;
-                &lt;/li&gt;
-                &lt;li&gt;
-                  &lt;h4&gt;Craft Afterskoolz Brand&lt;/h4&gt;
-                  &lt;p&gt;I would design logo, branding guidelines, illustrations, and iconography that will be used in all facets of Afterskoolz product&lt;/p&gt;
-                &lt;/li&gt;
-                &lt;li&gt;
-                  &lt;h4&gt;Craft Afterskoolz Brand&lt;/h4&gt;
-                  &lt;p&gt;I would design logo, branding guidelines, illustrations, and iconography that will be used in all facets of Afterskoolz product&lt;/p&gt;
-                &lt;/li&gt;
-                &lt;li&gt;
-                  &lt;h4&gt;Craft Afterskoolz Brand&lt;/h4&gt;
-                  &lt;p&gt;I would design logo, branding guidelines, illustrations, and iconography that will be used in all facets of Afterskoolz product&lt;/p&gt;
-                &lt;/li&gt;                                               
-              &lt;/ul&gt;
-            &lt;/p&gt;
-          &lt;/div&gt;   
-          &lt;figure class=&quot;image-block project-photo&quot;&gt;
-            &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-            &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-          &lt;/figure&gt;  
-        &lt;/div&gt;
-      &lt;/article&gt;
-
 
     &lt;/section&gt;
 
@@ -1743,7 +1669,7 @@
     &lt;article class=&quot;cs-sub-section&quot;&gt;
       &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
         &lt;h3&gt;At a glance&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;In the summer of 2014, I was approached by my former &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Aggrego&lt;/a&gt; co-worker, &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Sal Abassi&lt;/a&gt;, to help get a personal project off the ground; that project would be Afterskoolz. As a parent, he felt there was an opportunity to create a platform to make finding and planning after-school activiites for his children easier.&lt;/p&gt;
+        &lt;p class=&quot;cs-copy&quot;&gt;The last project I did with Aggrego is most certainly the largest, and for me, the most significant in my career thus far. I did not expect to be the lead designer of a project so. The Chicago Sun-Times is a prestigious brand that is well known, currently the 8th most circulated newspaper in the United States. However, their web presence was less that appropriate. Aggrego was brought in to completely revamp the brand and expand it past Chicago, and into the 70 biggest markets in the US.&lt;/p&gt;
         &lt;p class=&quot;cs-copy&quot;&gt;Sal, alongside fellow parent and Afterskoolz co-founder, &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Mustafa Patni&lt;/a&gt;, laid out a rough draft of all the features they wanted Afterskoolz to have, such as simple search functionality, class registration, teacher-to-parent messaging, and a schedule-overlayed calendar. With their vision laid out, it was my job to bring it to life.&lt;/p&gt;
       &lt;/div&gt;
     &lt;/article&gt;
