@@ -415,6 +415,7 @@ a:hover {
 */
 
 header.main  {
+  height: 57px;
   background-color: RGBA(255, 255, 255, .95);
   position: fixed;
   border: 1px solid rgba(213, 222, 226, .5);
@@ -423,24 +424,41 @@ header.main  {
   z-index: 99999999999999999999;
 }
 
+.header-content {
+  position: relative;
+}
+
 /* Header Left */
+.site-container {
+  float: none;
+  position: relative;
+  top: 11px;
+}
 .site-name {
   position: relative;
-  top: 16px;
+  top: 4px;
+  margin-left: 12px;
   font-weight: 400;
   font-size: 25px;
 }
-
+.site-pic {
+  width: 35px;
+  display: inline-block;
+  float: left;
+}
 /* Main Navigation */
 .nav-container {
+  position: absolute;
+  right: 0px;
+  top: 0px;
   margin-left: 30px;
 }
 .header-link {
   opacity: .6;
   display: inline-block;
   font-size: 15px;
-  padding: 20px 0px 21px 0px;
-  margin-left: 35px;
+  margin-left: 18px;
+  padding: 20px 13px 18px 9px;
   position: relative;
   transition: all .3s ease;
   float: left;
@@ -452,15 +470,17 @@ header.main  {
   position: relative;
 }
 .header-link-active {
+  border-bottom: 4px solid #F22F5D;
   color: #263d49;
   opacity: 1;
   font-weight: 500;
 }
 
 .header-link:hover {
+  transition: all .3s ease;  
+  border-bottom: 4px solid #F22F5D;  
   color: #F22F5D;
   opacity: 1;
-  transition: all .2s ease;
 }
 
 .header-link-active:hover {
@@ -508,8 +528,15 @@ header.main  {
   margin-bottom: 0px;
 }
 
+.arroww {
+  width: 13px;
+  position: relative;
+  top: 2px;
+}
+
 /* About Card */
 .rail-pic {
+  padding-top: 9px;
   margin-bottom: 22px;
 }
 .email {
@@ -589,10 +616,22 @@ h4.job {
 }
 
 
+.portfolio-thumbnail {
+  display: inline-block;
+  margin-bottom: 25px;
+  width: 30%;
+  margin-right: 25px;
+  background-color: white;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+  box-sizing:border-box;
+  padding: 15px;
+}
 
 
-
-
+.portfolio-section .portfolio-thumbnail:nth-child(3n) {
+  margin-right: 0px;
+}
 
 
 
@@ -613,9 +652,15 @@ h4.job {
   margin-bottom: 25px;
   border: 1px solid rgba(213, 222, 226, .5);
   background-color: white;
-  padding: 28px 28px 44px 26px;
+  padding: 28px 28px 36px 26px;
   border-radius: 4px;
   transition: all .4s ease;
+}
+
+.page-header .homepage-hero {
+  padding-bottom: 25px;
+  border: none;
+  padding: 0px;
 }
 
 .hero-link {
@@ -636,10 +681,22 @@ h4.job {
 .cs-lead {
   color: rgba(50, 58, 69, 1);
   position: relative;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 300;
   text-decoration: none !important;
-  line-height: 40px;
+  line-height: 35px;
+}
+
+.page-header .cs-lead {
+  display: block;
+  padding-top: 8px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.rail-blog {
+  padding-top: 25px;
 }
 
 .thumbnail-container {
@@ -656,19 +713,35 @@ h4.job {
   cursor: pointer;
 }
 
+.cs-sub-container {
+  margin: 10px 0px 25px 0px;
+}
+
 .cs-sub {
   display: inline-block;
-  margin-top: 10px;
-  margin-bottom: 35px;
   font-size: 13px;
   border-right: 1px solid RGBA(142, 154, 160, 1);
   padding-right: 11px;
   margin-right: 9px;
 }
 
+.page-header .cs-sub {
+  margin-right: 0px;
+  border: none;
+  margin-bottom: 0px;
+  font-size: 12px;
+  display: block;
+  margin-top: 4px;
+  opacity: .7;
+}
+
+.published-container {
+  position: relative;
+  padding-left: 2px;
+  top: -3px;
+}
+
 .published {
-  display: inline-block;
-  margin-top: 10px;
   font-size: 13px;
 }
 
@@ -694,7 +767,7 @@ h4.job {
 .overview {
   font-size: 15px;
   line-height: 24px;
-  margin-top: 30px;
+  margin-top: 25px;
   color: rgba(115, 133, 142, 1);
   margin-bottom: 0px;
 }
@@ -786,9 +859,9 @@ h4.job {
   margin-bottom: 0px;
 }
 .paragraph {
-  border-top: 1px solid #EAEFF1;
-  padding-top: 50px;
-  margin-top: 46px;
+  border-bottom: 1px solid #EAEFF1;
+  padding-bottom: 50px;
+  margin-bottom: 46px;
 }
 .about .paragraph:first-of-type {
   border-top: none;
@@ -921,7 +994,7 @@ h4.job {
 
 .cv {
   display: block;
-  margin-top: 15px;
+  margin-top: 4px;
 }
 
 .grid-container {
@@ -1041,7 +1114,7 @@ h4.job {
 .footer-content {
   text-align: left;
   border-top: 1px solid #ececec;
-  padding: 25px 0px 75px 0px;
+  padding: 15px 0px 75px 0px;
 }
 
 /* Social Links */
@@ -1060,7 +1133,7 @@ h4.job {
 
 /* Colophon */
 .copyright {
-  max-width: 550px;
+  max-width: 500px;
   opacity: .65;
 }
 .footer-link {
@@ -1165,7 +1238,7 @@ h4.job {
   }
 }
 
-/* Mobile
+/* Phablet
 -----------------------------------------------*/
 @media screen and (max-width: 767px) {
   /* Hides All Rails, Moves to single-column layout */
@@ -1188,11 +1261,18 @@ h4.job {
   body {
     margin-top: 44px;
   }   
+  header.main {
+    height: 47px;
+  }
+  .site-container {
+    top: 6px;
+  }
   .site-name {
-    top: 12px;
-    font-size: 19px;
+    top: 6px;
+    font-size: 22px;
   }
   .header-link {
+    margin-left: 5px;
     font-size: 21px;
     padding: 10px 15px 10px 15px;
   }
@@ -1237,5 +1317,13 @@ h4.job {
     margin-top: 25px;
     display: block;
     float: none;
+  }
+}
+
+/* Mobile
+-----------------------------------------------*/
+@media screen and (max-width: 475px) {
+  .site-name {
+    display: none;
   }
 }

@@ -1,41 +1,25 @@
 <div class="page-header page-header-content">
 
-  <div class="sidebar">
-    <div class="sidebar-item">
-      <h3>Client: </h3>
-      <p>Afterskoolz</p>
-    </div> 
-    <div class="sidebar-item">
-      <h3>When: </h3>
-      <p>Fall 2014</p>
-    </div> 
-    <div class="sidebar-item">
-      <h3>Role: </h3>
-      <p>Fall 2014</p>
+  <div class="r-header cf">
+    <div class="cf">
+      <h3 class="about-title inline-block float-left">Blog</h3>
+      <img src="/images/arrow.png" class="inline-block arroww float-right"/>
     </div>
-    <div class="sidebar-item">
-      <h3>Objectives: </h3>
-      <div class="objective-item">
-        <h4>Branding/Identity</h4>
-        <p>Sal, alongside fellow parent and Afterskoolz co-founder, Mustafa Patni, laid out a rough draft their vision of an ideal product and it was my job to bring it to life.</p>
-      </div>
-      <div class="objective-item">
-        <h4>Branding/Identity</h4>
-        <p>Sal, alongside fellow parent and Afterskoolz co-founder, Mustafa Patni, laid out a rough draft their vision of an ideal product and it was my job to bring it to life.</p>
-      </div>
-      <div class="objective-item">
-        <h4>Branding/Identity</h4>
-        <p>Sal, alongside fellow parent and Afterskoolz co-founder, Mustafa Patni, laid out a rough draft their vision of an ideal product and it was my job to bring it to life.</p>
-      </div>
-      <div class="objective-item">
-        <h4>Branding/Identity</h4>
-        <p>Sal, alongside fellow parent and Afterskoolz co-founder, Mustafa Patni, laid out a rough draft their vision of an ideal product and it was my job to bring it to life.</p>
-      </div>
-      <div class="objective-item">
-        <h4>Branding/Identity</h4>
-        <p>Sal, alongside fellow parent and Afterskoolz co-founder, Mustafa Patni, laid out a rough draft their vision of an ideal product and it was my job to bring it to life.</p>
-      </div>                        
-    </div>         
+    <p class="profile-copy inline-block">You can find my chronological, unabridged portfolio on <a href="http://www.behance.net/jawsmartin" class="link pink">Behance</a> and my latest WIP's on <a href="http://www.dribbble.com/jawsmartin" class="link pink">Dribbble</a>.</p> 
   </div>
+
+  <ul class="rail-blog homepage posts">
+    {% for post in site.posts %}
+
+      <li class="homepage-hero cf">
+        <figure class="thumbnail-container">
+          <img class="thumbnail" src="{{ post.thumbnail }}"/>
+        </figure>          
+        <a class="cs-lead" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        <span class="cs-sub inline-block float-left">{{ post.date | date: '%B %d, %Y' }}</span>
+      </li>
+
+    {% endfor %}
+  </ul>
 
 </div>
