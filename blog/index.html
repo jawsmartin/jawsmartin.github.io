@@ -13,12 +13,19 @@ title: Josh Martin | Blog
 
         <li class="homepage-hero">
           <a class="cs-lead" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-          <div class="cf">            
-            <span class="cs-sub inline-block float-left">{{ post.date | date_to_string }}</span> 
+          <div class="cs-sub-container cf">            
+            <span class="cs-sub inline-block float-left">{{ post.date | date: '%B %d, %Y' }}</span>
+            <div class="published-container inline-block float-left cf">
+              <span class="published">Published in</span>
+              <a href="tags/case-study" class="cs-sub inline-block link pink">{{ post.tag }}</a>
+            </div>
+            <a href="#" class="cs-sub inline-block strong float-left link pink comments-sub">{{ post.comments }}</a>                
           </div>
-          <figure>
-            <img src="{{ post.thumbnail }}"/>
-          </figure>
+          <a href="{{ post.url }}">
+            <figure class="thumbnail-container">
+              <img class="thumbnail" src="{{ post.thumbnail }}"/>
+            </figure>
+          </a>
           <p class="overview">{{ post.description }}</p> 
           <div class="read-more-container inline-block">
             <a href="{{ post.url }}"class="link read-more">Continue Reading</a>

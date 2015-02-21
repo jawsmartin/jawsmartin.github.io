@@ -437,6 +437,7 @@ header.main  {
 .site-name {
   position: relative;
   top: 4px;
+  color: #263d49;
   margin-left: 12px;
   font-weight: 400;
   font-size: 25px;
@@ -505,6 +506,7 @@ header.main  {
   position: relative;
 }
 
+
 .hero-overlay {
   background-color: RGBA(0,0,0,.4);
   position: absolute;
@@ -562,9 +564,13 @@ header.main  {
   top: 2px;
 }
 
+.arroww:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+
 /* About Card */
 .rail-pic {
-  padding-top: 9px;
   margin-bottom: 22px;
 }
 .email {
@@ -644,27 +650,20 @@ h4.job {
 }
 
 
-.portfolio-thumbnail {
-  display: inline-block;
-  margin-bottom: 25px;
-  width: 30%;
-  margin-right: 25px;
-  background-color: white;
-  border: 1px solid #ececec;
-  border-radius: 3px;
-  box-sizing:border-box;
-  padding: 15px;
+
+
+
+
+
+/*
+==============================================
+#Skills
+==============================================
+*/
+
+.skills-list {
+  padding: 0px 0px 5px 0px;
 }
-
-
-.portfolio-section .portfolio-thumbnail:nth-child(3n) {
-  margin-right: 0px;
-}
-
-
-
-
-
 
 
 
@@ -753,16 +752,6 @@ h4.job {
   margin-right: 9px;
 }
 
-.page-header .cs-sub {
-  margin-right: 0px;
-  border: none;
-  margin-bottom: 0px;
-  font-size: 12px;
-  display: block;
-  margin-top: 4px;
-  opacity: .7;
-}
-
 .published-container {
   position: relative;
   padding-left: 2px;
@@ -775,10 +764,10 @@ h4.job {
 
 .comments-sub {
   border: none;
-  font-size: 12px;
+  font-size: 13px;
   position: relative;
-  top: 1px;
-  font-weight: 500;
+  top: 0px;
+  font-weight: 400;
 }
 
 .comments-sub:before {
@@ -924,7 +913,7 @@ h4.job {
 }
 
 .project-header {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 
@@ -1051,9 +1040,13 @@ h4.job {
   font-size: 20px;
   font-weight: 300;
   margin-top: 8px;
-  margin-bottom: 5px;
+  margin-bottom: 16px;
 }
-.project-header .cs-sub {
+.project-header .cs-sub-container{
+  margin-bottom: 40px;
+}
+
+#main-content {
   margin-bottom: 50px;
 }
 
@@ -1132,6 +1125,39 @@ h4.job {
   border-top: 2px solid #EAEFF1;
   padding-top: 25px;
 }
+
+
+/*
+==============================================
+#Portfolio
+==============================================
+*/
+
+.alert {
+  background-color: white;
+  padding: 35px 45px 15px 45px;
+  margin-bottom: 25px;
+  border: 1px solid #ececec;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.portfolio-thumbnail {
+  display: inline-block;
+  margin-bottom: 3%;
+  width: 31.3%;
+  box-sizing: border-box;
+  margin-right: 3%;
+  background-color: white;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+  float: left;
+  padding: 15px;
+}
+
+.thumbnail-list .portfolio-thumbnail:nth-child(3n) {
+  margin-right: 0px;
+}
+
 
 /*
 ==============================================
@@ -1287,10 +1313,10 @@ h4.job {
 
   /* Simplifies header */ 
   body {
-    margin-top: 44px;
+    margin-top: 48px;
   }   
   header.main {
-    height: 47px;
+    height: 46px;
   }
   .site-container {
     top: 6px;
@@ -1306,6 +1332,9 @@ h4.job {
   }
   .nav-label {
     display: none;
+  }
+  .header-link span:before {
+    margin-right: 0px;
   }
 
   /* CS Main Content */
