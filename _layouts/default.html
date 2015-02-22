@@ -1,37 +1,24 @@
 {% include head.html %} 
 {% include header.html %}	
-
-<div class="hero">
-  <div class="hero-overlay"></div>
-  <div class="hero-content text-center">
-    <span class="hero-title">Designer, Illustrator, and Front-End Developer </span>
-    <p class="hero-copy">If you are interested in blog updates, grab the <a href="#" class="link white">RSS</a> or sign-up for the newsletter.</p>
-    <form>
-      <input type="text" name="email">
-      <a href="#" class="button link">Subscribe</a>
-    </form>
-  </div>
-</div>
+{% include hero.html %} 
 
 <div class="homepage-container grid-container relative cf">
 
-  <div>
-    <div class="left-rail inline-block float-left">
-      {% include about-card.html %}
-      {% include skills-card.html %}    
-      {% include experience-card.html %}      
-    </div>
-
-  	<div class="grid-container-2 inline-block float-left">
-  		{{ content }}
-  	</div>
-
-  	<div class="right-rail inline-block float-left">
-      {% include contact-card.html %}      
-  		{% include portfolio-card.html %}
-  	</div>
+  <div class="left-rail inline-block float-left">
+    {% include about-card.html %}
+    {% include skills-card.html %}    
+    {% include experience-card.html %}      
   </div>
 
+	<div class="grid-container-2 inline-block float-left">
+		{{ content }}
+	</div>
+
+	<div class="right-rail inline-block float-left">
+    {% include contact-card.html %}      
+		{% include portfolio-card.html %}
+	</div>
+  
 </div>
 
 {% include footer.html %}
