@@ -291,7 +291,6 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: #FAFCFD;
   color: #51636D;
-  margin-top: 59px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 17px;
@@ -415,6 +414,14 @@ a:hover {
 */
 
 header.main  {
+  position: absolute;
+  width: 100%;
+  top: 28px;
+  z-index: 99999999999999999999;
+}
+
+header.main-2  {
+  display: none;
   height: 57px;
   background-color: RGBA(255, 255, 255, .95);
   position: fixed;
@@ -424,37 +431,37 @@ header.main  {
   z-index: 99999999999999999999;
 }
 
-.header-content {
+header.main-2 .header-content {
   position: relative;
 }
 
 /* Header Left */
-.site-container {
+header.main-2 .site-container {
   float: none;
   position: relative;
   top: 11px;
 }
-.site-name {
-  position: relative;
-  top: 4px;
-  color: #263d49;
-  margin-left: 12px;
-  font-weight: 400;
-  font-size: 25px;
-}
+
 .site-pic {
-  width: 35px;
+  width: 143px;
   display: inline-block;
   float: left;
 }
+
 /* Main Navigation */
-.nav-container {
+header.main-2 .nav-container {
   position: absolute;
   right: 0px;
   top: 0px;
   margin-left: 30px;
 }
-.header-link {
+header.main .nav-container {
+  position: relative;
+  right: 0px;
+  top: -28px;
+  margin-left: 30px;
+}
+header.main-2 .header-link {
   opacity: .6;
   display: inline-block;
   font-size: 15px;
@@ -464,34 +471,47 @@ header.main  {
   transition: all .3s ease;
   float: left;
 }
-.header-icon {
+
+header.main .header-link {
+  display: inline-block;
+  font-size: 15px;
+  color: white;
+  margin-left: 18px;
+  padding: 31px 13px 18px 9px;
+  position: relative;
+  transition: all .3s ease;
+  float: left;
+}
+
+header.main-2 .header-icon {
   opacity: .6;
   margin-right: 15px;
   font-size: 18px;
   position: relative;
 }
-.header-link-active {
+header.main-2 .header-link-active {
   border-bottom: 4px solid #F22F5D;
   color: #263d49;
   opacity: 1;
   font-weight: 500;
 }
+header.main .header-link-active {
+  border-top: 4px solid #F22F5D;
+  padding-top: 27px;
+}
 
-.header-link:hover {
+header.main-2 .header-link:hover {
   transition: all .3s ease;  
   border-bottom: 4px solid #F22F5D;  
   color: #F22F5D;
   opacity: 1;
 }
 
-.header-link-active:hover {
+header.main-2 .header-link-active:hover {
   color: #263d49;
   opacity: 1;
 }
 
-.about-social {
-  padding-top: 5px;
-}
 
 
 
@@ -508,7 +528,7 @@ header.main  {
 
 
 .hero-overlay {
-  background-color: RGBA(0,0,0,.4);
+  background-color: RGBA(38, 61, 72, .7);
   position: absolute;
   left: 0px;
   top: 0px;
@@ -518,35 +538,59 @@ header.main  {
 
 .hero-content {
   z-index: 999;
-  padding: 7.8% 0px 8% 0px;
+  padding: 10% 0px 8% 0px;
   font-weight: 300;
   position: relative;
 }
 
 .hero-title {
   color: white;
-  display: inline-block;
+  display: block;
+  margin-bottom: 2px;
   font-size: 40px;
   line-height: 45px;
 }
 
+.hero-copy {
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  display: inline-block;
+  max-width: 700px;
+  line-height: 18px;
+}
 
+.button {
+  background-color: RGBA(242, 47, 93, 1);
+  padding: 11px 25px 11px 25px;
+  border-radius: 3px;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+input {
+  border: none;
+  height: 35px;
+  position: relative;
+  top: -1px;
+  border-radius: 3px;
+  width: 300px;
+  margin-right: 4px;
+  background-color: rgba(255,255,255,.2);
+  border: 1px solid rgba(255,255,255,.5);
+}
+
+.white.link {
+  color: white;
+  opacity: .7;
+  border-bottom: 1px dotted #ececec;
+}
 
 
 
 /* #Rails
 -----------------------------------------------
------------------------------------------------*/
-.page-header-content {
-  padding-bottom: 30px;
-  margin-bottom: 24px;
-  padding: 25px 25px 25px 25px;
-  border-radius: 3px;
-  background-color: white;
-  border: 1px solid rgba(213, 222, 226, .5);
-}
-
-/* #Left Rail
 -----------------------------------------------*/
 .left-rail {
   box-sizing: border-box;
@@ -557,43 +601,6 @@ header.main  {
 .left-rail .page-header-content p:last-of-type {
   margin-bottom: 0px;
 }
-
-.arroww {
-  width: 13px;
-  position: relative;
-  top: 2px;
-}
-
-.arroww:hover {
-  opacity: .5;
-  cursor: pointer;
-}
-
-/* About Card */
-.rail-pic {
-  margin-bottom: 22px;
-}
-.email {
-  font-size: 13px;
-  border: 1px solid;
-  border-radius: 3px;
-  padding: 10px 0px 10px 0px;
-  padding-bottom: 11px;
-  width: 100%;
-  text-decoration: none;
-  display: inline-block;
-  text-align: center;
-  margin-top: 20px;
-}
-.email:hover {
-  text-decoration: none !important;
-  background-color: RGBA(242, 47, 93, .05)
-}
-
-/* Experience Card */
-
-/* #Right Rail
------------------------------------------------*/
 .right-rail {
   box-sizing: border-box;
   width: 27%;
@@ -605,7 +612,27 @@ header.main  {
   margin-bottom: 0px;
 }
 
-/* Portfolio Thumbnails */
+.page-header-content {
+  padding-bottom: 30px;
+  margin-bottom: 24px;
+  padding: 25px 25px 25px 25px;
+  border-radius: 3px;
+  background-color: white;
+  border: 1px solid rgba(213, 222, 226, .5);
+}
+
+/* About Card */
+.rail-pic {
+  margin-bottom: 22px;
+}
+
+/* Contact Card */
+.about-social {
+  padding-top: 5px;
+}
+
+
+/* Portfolio Thumbnail Card */
 .page-header-content .project-link:last-of-type {
   margin-bottom: 0px;
 }
@@ -621,27 +648,19 @@ header.main  {
   display: block;
 }
 
-/* Blog Post Thumbnails */
-
-
+/* Experience Card */
 .exp-item:first-of-type {
-
   margin-top: 10px;
 }
-
-
-
 .exp-item {
   padding-bottom: 3px;
   margin-bottom: 12px;
 }
-
 h4.job {
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 0px !important;
 }
-
 .job-title {
   display: block !important;
   margin-top: -1px;
@@ -649,21 +668,13 @@ h4.job {
   line-height: 15px !important;
 }
 
-
-
-
-
-
-
-/*
-==============================================
-#Skills
-==============================================
-*/
-
+/* Skills Card */
 .skills-list {
   padding: 0px 0px 5px 0px;
 }
+
+
+
 
 
 
@@ -1117,6 +1128,54 @@ h4.job {
   margin-bottom: 0px;
   line-height: 14px;
   line-height: 17px;
+}
+
+
+.post-right {
+  margin-left: 120px;
+  width: auto;
+}
+
+.share-fix {
+  position: absolute;
+  padding-right: 50px;
+}
+
+.share-fix img {
+  width: 70px;
+}
+
+.author {
+  margin-bottom: 75px;
+  background-color: RGBA(213, 222, 226, .2);
+  padding: 35px 35px 35px 35px;
+  border-radius: 4px;
+}
+
+.author-pic {
+  position: absolute;
+  width: 75px;
+}
+
+.author-details {
+  margin-left: 100px;
+}
+
+.author-name {
+  font-weight: 500;
+  color: #263d49;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 19px;
+}
+
+.author-copy {
+  margin-bottom: 8px;
+}
+
+.lead-paragraph {
+  font-size: 20px;
+  line-height: 28px;
 }
 
 /* Comments
