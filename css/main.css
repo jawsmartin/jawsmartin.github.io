@@ -1070,6 +1070,11 @@ h4.job {
   padding-bottom: 75px;
 }
 
+.homepage-container {
+  padding-top: 25px;
+  padding-bottom: 75px;
+}
+
 /* Blog Post Header
 -----------------------------------------------*/
 .project-header h1 {
