@@ -289,7 +289,7 @@ p.location {
 
 body {
   -webkit-font-smoothing: antialiased;
-  background-color: #FAFCFD;
+  background-color: RGBA(130, 143, 151, .1);
   color: #51636D;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -421,7 +421,6 @@ header.main  {
 }
 
 header.main-2  {
-  display: none;
   height: 57px;
   background-color: RGBA(255, 255, 255, .95);
   position: fixed;
@@ -500,6 +499,16 @@ header.main .header-link-active {
   padding-top: 27px;
 }
 
+header.main .header-link:hover {
+ opacity: .7;
+}
+
+header.main .header-link-active:hover {
+  opacity: 1;
+}
+
+
+
 header.main-2 .header-link:hover {
   transition: all .3s ease;  
   border-bottom: 4px solid #F22F5D;  
@@ -524,6 +533,7 @@ header.main-2 .header-link-active:hover {
   background-position: 60% 0px; 
   overflow: hidden; 
   position: relative;
+  background-attachment: fixed;
 }
 
 
@@ -595,7 +605,6 @@ input {
 .left-rail {
   box-sizing: border-box;
   width: 27%;
-  padding-top: 25px;
   padding-right: 25px;
 }
 .left-rail .page-header-content p:last-of-type {
@@ -604,7 +613,6 @@ input {
 .right-rail {
   box-sizing: border-box;
   width: 27%;
-  padding-top: 25px;
   padding-left: 25px;
   top: 0px;
 }
@@ -618,7 +626,6 @@ input {
   padding: 25px 25px 25px 25px;
   border-radius: 3px;
   background-color: white;
-  border: 1px solid rgba(213, 222, 226, .5);
 }
 
 /* About Card */
@@ -688,7 +695,6 @@ h4.job {
 /* Blog Posts */
 .homepage-hero {
   margin-bottom: 25px;
-  border: 1px solid rgba(213, 222, 226, .5);
   background-color: white;
   padding: 28px 28px 36px 26px;
   border-radius: 4px;
@@ -930,7 +936,9 @@ h4.job {
 
 /* #Blog Posts
 -----------------------------------------------*/
-
+.blog-post-container {
+  padding-top: 85px;
+}
 /* Case Study Images */
 .project-photo {
   padding-top: 50px;
@@ -1038,7 +1046,11 @@ h4.job {
 .grid-container-2 {
   box-sizing: border-box;
   width: 46%;
-  padding: 25px 0px 75px 0px;
+}
+
+.page-container {
+  padding-top: 25px;
+  padding-bottom: 75px;
 }
 
 /* Blog Post Header
@@ -1066,7 +1078,7 @@ h4.job {
 .grid-container-3 {
   box-sizing: border-box;
   width: 73%;
-  padding: 25px 0px 75px 0px;
+  padding: 0px 0px 75px 0px;
 }
 
 .post {
