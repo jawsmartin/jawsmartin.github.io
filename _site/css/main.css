@@ -652,7 +652,12 @@ input {
 
 /* Contact Card */
 .about-social {
-  padding-top: 5px;
+  padding-top: 2px;
+}
+
+.header-icon {
+  opacity: .7;
+  margin-right: 9px;
 }
 
 
@@ -683,11 +688,11 @@ input {
 h4.job {
   font-size: 14px;
   line-height: 20px;
-  margin-bottom: 0px !important;
+  margin-bottom: 1px !important;
 }
 .job-title {
+  margin-left: 11px;
   display: block !important;
-  margin-top: -1px;
   font-size: 12px !important;
   line-height: 15px !important;
 }
@@ -713,7 +718,7 @@ h4.job {
 .homepage-hero {
   margin-bottom: 25px;
   background-color: white;
-  padding: 28px 28px 36px 26px;
+  padding: 24px 28px 36px 26px;
   border-radius: 4px;
   transition: all .4s ease;
 }
@@ -1066,7 +1071,12 @@ h4.job {
 }
 
 .page-container {
-  padding-top: 95px;
+  padding-top: 25px;
+  padding-bottom: 75px;
+}
+
+.homepage-container {
+  padding-top: 25px;
   padding-bottom: 75px;
 }
 
