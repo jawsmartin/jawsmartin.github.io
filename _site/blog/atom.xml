@@ -4,7 +4,7 @@
 	<title>Hank Quinlan's Blog</title>
 	<link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://hankquinlan.github.io/blog"/>
-	<updated>2015-02-22T17:41:14-06:00</updated>
+	<updated>2015-02-22T18:36:07-06:00</updated>
 	<id>http://hankquinlan.github.io/blog</id>
 	<author>
 		<name>Hank Quinlan</name>
@@ -17,9 +17,7 @@
 			<link href="http://hankquinlan.github.io/blog/2015/02/20/your-inbox-just-got-dunked-on"/>
 			<updated>2015-02-20T00:00:00-06:00</updated>
 			<id>http://hankquinlan.github.io//blog/2015/02/20/your-inbox-just-got-dunked-on</id>
-			<content type="html">&lt;div class=&quot;post relative cf&quot;&gt;
-
-  &lt;div class=&quot;share-fix inline-block float-left&quot;&gt;
+			<content type="html">  &lt;div class=&quot;share-fix inline-block float-left&quot;&gt;
     &lt;img src=&quot;/images/share.png&quot;/&gt;
   &lt;/div&gt;
 
@@ -63,54 +61,8 @@
 
     &lt;/main&gt;
 
-    &lt;div class=&quot;author block float-left cf&quot;&gt;
-      &lt;div class=&quot;cf&quot;&gt;
-
-        &lt;figure class=&quot;author-pic inline-block float-left&quot;&gt;
-          &lt;img src=&quot;/images/profile.png&quot;/&gt;
-        &lt;/figure&gt;
-
-        &lt;div class=&quot;author-details inline-block float-left&quot;&gt;
-          &lt;span class=&quot;author-name&quot;&gt;Josh Martin&lt;/span&gt;
-          &lt;p class=&quot;author-copy&quot;&gt;I&#39;m a designer, illustrator, and front-end developer. I currently live in downtown Chicago, Illinois and work as the Creative Director for Threadmeup. Contact me at &lt;a href=&quot;mailto:hellojoshmartin@gmail.com&quot; class=&quot;link pink&quot;&gt;hellojoshmartin@gmail.com&lt;/a&gt;.&lt;/p&gt;
-          &lt;div class=&quot;inline-block about-social cf&quot;&gt;
-            &lt;a aria-hidden=&quot;true&quot; data-icon=&quot;&amp;#xe001;&quot; href=&quot;http://www.behance.net/jawsmartin&quot; class=&quot;icon-behance link header-icon&quot;&gt;&lt;/a&gt;
-            &lt;a aria-hidden=&quot;true&quot; data-icon=&quot;&amp;#xe001;&quot; href=&quot;http://www.dribbble.com/jawsmartin&quot; class=&quot;icon-dribbble link header-icon&quot;&gt;&lt;/a&gt;
-            &lt;a aria-hidden=&quot;true&quot; data-icon=&quot;&amp;#xe001;&quot; href=&quot;http://www.twitter.com/jawsmartin&quot; class=&quot;icon-twitter link header-icon&quot;&gt;&lt;/a&gt;
-            &lt;a aria-hidden=&quot;true&quot; data-icon=&quot;&amp;#xe001;&quot; href=&quot;http://www.instagram.com/jawsmartin&quot; class=&quot;icon-instagram link header-icon&quot;&gt;&lt;/a&gt;
-            &lt;a aria-hidden=&quot;true&quot; data-icon=&quot;&amp;#xe001;&quot; href=&quot;http://www.github.com/jawsmartin&quot; class=&quot;icon-github link header-icon&quot;&gt;&lt;/a&gt;  
-            &lt;a aria-hidden=&quot;true&quot; data-icon=&quot;&amp;#xe001;&quot; href=&quot;http://www.tumblr.com/jawsmartin&quot; class=&quot;icon-tumblr link header-icon&quot;&gt;&lt;/a&gt;          
-          &lt;/div&gt;                 
-        &lt;/div&gt;
-
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!-- Comments
-    ================================================== --&gt;  
-    &lt;aside class=&quot;project-footer block cf&quot;&gt;
-
-      &lt;div class=&quot;comments&quot;&gt;
-        &lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
-          &lt;script type=&quot;text/javascript&quot;&gt;
-              /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-              var disqus_shortname = &#39;jawsmartinblog&#39;; // required: replace example with your forum shortname
-
-              /* * * DON&#39;T EDIT BELOW THIS LINE * * */
-              (function() {
-                  var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
-                  dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
-                  (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
-              })();
-          &lt;/script&gt;
-          &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-      &lt;/div&gt;
-        
-    &lt;/aside&gt;
-
   &lt;/div&gt;
-
-&lt;/div&gt;</content>
+</content>
 		</entry>
 	
 		<entry>
@@ -118,65 +70,46 @@
 			<link href="http://hankquinlan.github.io/blog/2015/02/20/big-step-foward"/>
 			<updated>2015-02-20T00:00:00-06:00</updated>
 			<id>http://hankquinlan.github.io//blog/2015/02/20/big-step-foward</id>
-			<content type="html">&lt;div class=&quot;post cf&quot;&gt;
+			<content type="html">  &lt;div class=&quot;share-fix inline-block float-left&quot;&gt;
+    &lt;img src=&quot;/images/share.png&quot;/&gt;
+  &lt;/div&gt;
 
-  &lt;!-- Project Header
-  ================================================== --&gt;
-  &lt;section class=&quot;project-header&quot;&gt;
+  &lt;div class=&quot;post-right inline-block float-left&quot;&gt;  
 
-    &lt;div class=&quot;project-hero-content cf&quot;&gt;
-      &lt;h1 class=&quot;cs-lead&quot;&gt;Big Step Forward&lt;/h1&gt;
-      &lt;p class=&quot;sub-header&quot;&gt;While seemingly not a large step for most, moving from an Local + FTP setup to Github marks a most substantial step forward for my web development career.&lt;/p&gt;       
-      &lt;div class=&quot;cs-sub-container cf&quot;&gt;            
-        &lt;span class=&quot;cs-sub inline-block float-left&quot;&gt;February 20, 2015&lt;/span&gt;
-        &lt;a href=&quot;tags/case-study&quot; class=&quot;cs-sub inline-block link float-left&quot;&gt;Personal&lt;/a&gt;
-        &lt;span class=&quot;cs-sub inline-block float-left&quot;&gt;0 Comments&lt;/span&gt;                
-      &lt;/div&gt;
-    &lt;/div&gt;        
+    &lt;!-- Project Header
+    ================================================== --&gt;
+    &lt;section class=&quot;project-header&quot;&gt;
 
-    &lt;figure&gt;
-      &lt;img src=&quot;/images/hero-jekyll.jpg&quot;/&gt;
-    &lt;/figure&gt;
+      &lt;div class=&quot;project-hero-content cf&quot;&gt;
+        &lt;h1 class=&quot;cs-lead&quot;&gt;Big Step Forward&lt;/h1&gt;
+        &lt;p class=&quot;sub-header&quot;&gt;While seemingly not a large step for most, moving from an Local + FTP setup to Github marks a most substantial step forward for my web development career.&lt;/p&gt;       
+        &lt;div class=&quot;cs-sub-container cf&quot;&gt;            
+          &lt;span class=&quot;cs-sub inline-block float-left&quot;&gt;February 20, 2015&lt;/span&gt;
+          &lt;a href=&quot;tags/case-study&quot; class=&quot;cs-sub inline-block link float-left&quot;&gt;Personal&lt;/a&gt;
+          &lt;span class=&quot;cs-sub inline-block float-left&quot;&gt;0 Comments&lt;/span&gt;                
+        &lt;/div&gt;
+      &lt;/div&gt;        
 
-  &lt;/section&gt;
+      &lt;figure&gt;
+        &lt;img src=&quot;/images/hero-jekyll.jpg&quot;/&gt;
+      &lt;/figure&gt;
 
+    &lt;/section&gt;
 
-  &lt;!-- Project Main Content
-  ================================================== --&gt; 
-  &lt;main id=&quot;main-content&quot; class=&quot;block cf cs&quot;&gt;
+    &lt;!-- Project Main Content
+    ================================================== --&gt; 
+    &lt;main id=&quot;main-content&quot; class=&quot;block cf cs&quot;&gt;
 
-    &lt;p&gt;&lt;em&gt;I have officially been coding for 2yrs, which in itself, is batshit crazy&lt;/em&gt;. I moved to Chicago after graduating college with a BFA in Applied Media Arts, which is just a fancy catch-all title for a crazy blend of animation, traditional art, art history, and graphic design. I left with the toolset need to be an intern at a tiny print shop in cold, deserted land of Northwestern Pennsylvania. In hopes that the bigger city would present opportunities for bigger jobs, I contacted the suave, charismatic, design juggernaut, Josh Fabian, a fellow Pennsylvanian who had recently made the move out west to Chicago.. Not even a week in did my friend, Josh Fabian, say: &quot;Yeah. Nobody is hiring print designers, man. We need to get you learning how to make websites&lt;/p&gt;
+      &lt;p&gt;&lt;em&gt;I have officially been coding for 2yrs, which in itself, is batshit crazy&lt;/em&gt;. I moved to Chicago after graduating college with a BFA in Applied Media Arts, which is just a fancy catch-all title for a crazy blend of animation, traditional art, art history, and graphic design. I left with the toolset need to be an intern at a tiny print shop in cold, deserted land of Northwestern Pennsylvania. In hopes that the bigger city would present opportunities for bigger jobs, I contacted the suave, charismatic, design juggernaut, Josh Fabian, a fellow Pennsylvanian who had recently made the move out west to Chicago.. Not even a week in did my friend, Josh Fabian, say: &quot;Yeah. Nobody is hiring print designers, man. We need to get you learning how to make websites&lt;/p&gt;
 
-    &lt;p&gt;To thrust Mr. Beckman back into the game, we came up with &lt;a href=&quot;http://www.alleyooop.info&quot; class=&quot;link pink&quot;&gt;Alleyooop&lt;/a&gt;: a customizable newletter of Dribbble shots. You can adjust frequency of the newsletter and the type of shots you want to follow. Currently, we only show the most popular shots (views + likes) from either Animated or nonanimated shots, but hope to allow even more filtration, such as location and by tag.&lt;/p&gt;
+      &lt;p&gt;To thrust Mr. Beckman back into the game, we came up with &lt;a href=&quot;http://www.alleyooop.info&quot; class=&quot;link pink&quot;&gt;Alleyooop&lt;/a&gt;: a customizable newletter of Dribbble shots. You can adjust frequency of the newsletter and the type of shots you want to follow. Currently, we only show the most popular shots (views + likes) from either Animated or nonanimated shots, but hope to allow even more filtration, such as location and by tag.&lt;/p&gt;
 
-    &lt;p&gt;I think the newsletter can be quite handy for not only Beckman, but other people too good or too busy (or too smart) to visit Dribbble regularly. &lt;a href=&quot;http://www.alleyooop.info&quot; class=&quot;link pink&quot;&gt;Give it a try!&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;I think the newsletter can be quite handy for not only Beckman, but other people too good or too busy (or too smart) to visit Dribbble regularly. &lt;a href=&quot;http://www.alleyooop.info&quot; class=&quot;link pink&quot;&gt;Give it a try!&lt;/a&gt;&lt;/p&gt;
 
-  &lt;/main&gt;
+    &lt;/main&gt;
 
-
-  &lt;!-- Case-Study Links
-  ================================================== --&gt;  
-  &lt;aside class=&quot;project-footer cf block&quot;&gt;
-
-    &lt;div class=&quot;comments&quot;&gt;
-      &lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
-        &lt;script type=&quot;text/javascript&quot;&gt;
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = &#39;jawsmartinblog&#39;; // required: replace example with your forum shortname
-
-            /* * * DON&#39;T EDIT BELOW THIS LINE * * */
-            (function() {
-                var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
-                dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
-                (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
-            })();
-        &lt;/script&gt;
-        &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-    &lt;/div&gt;
-      
-  &lt;/aside&gt;
-
-&lt;/div&gt;</content>
+  &lt;/div&gt;
+</content>
 		</entry>
 	
 		<entry>

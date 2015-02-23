@@ -3,17 +3,18 @@
 
 <div class="blog-post-container main grid-container relative cf">
 
-    <div class="grid-container-3 inline-block float-left">
-        {{ content }}
-    </div>
+  <div class="grid-container-3 post inline-block float-left">
+    {{ content }}
+    {% include project-footer.html %}    
+  </div>
 
-    <div class="right-rail inline-block float-left">
-      {% include sidebar-card.html %}
-      {% include blog-post-card.html %}
-    </div>
+  <div class="right-rail inline-block float-left">
+    {% include sidebar-card.html %}
+    {% include blog-post-card.html %}
+  </div>
+
 
 </div>
-
 
 {% include footer.html %}
 
