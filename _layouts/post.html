@@ -1,0 +1,30 @@
+{% include head.html %}   
+{% include header-2.html %}   
+
+<div class="blog-post-container main grid-container relative cf">
+
+  <div class="grid-container-3 post inline-block float-left">
+    {% include project-header.html %}       
+    {{ content }}
+    {% include project-footer.html %}            
+  </div>
+
+  <div class="right-rail inline-block float-left">
+
+    {% if page.tag == "Case-Study" %}
+    {% include card-sidebar.html %}
+    {% include card-blog-post.html %}    
+
+    {% elsif page.tag == "Project" %}
+    {% include card-blog-post.html %}
+
+    {% elsif page.tag == "Personal" %}
+    {% include card-blog-post.html %}
+
+    {% endif %}
+
+  </div>
+
+</div>
+
+{% include footer.html %}

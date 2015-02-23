@@ -1,0 +1,25 @@
+{% include head.html %} 
+{% include header.html %}	
+{% include hero.html %} 
+
+<div class="homepage-container grid-container relative cf">
+
+  <div class="left-rail inline-block float-left">
+    {% include card-about.html %}
+    {% include card-skills.html %}    
+    {% include card-experience.html %}      
+  </div>
+
+	<div class="grid-container-2 inline-block float-left">
+		{{ content }}
+	</div>
+
+	<div class="right-rail inline-block float-left">
+    {% include card-contact.html %}      
+		{% include card-portfolio.html %}
+	</div>
+  
+</div>
+
+{% include footer.html %}
+

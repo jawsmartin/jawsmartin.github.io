@@ -4,7 +4,7 @@
 	<title>Hank Quinlan's Blog</title>
 	<link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://hankquinlan.github.io/blog"/>
-	<updated>2015-02-22T18:48:49-06:00</updated>
+	<updated>2015-02-23T17:16:57-06:00</updated>
 	<id>http://hankquinlan.github.io/blog</id>
 	<author>
 		<name>Hank Quinlan</name>
@@ -17,53 +17,13 @@
 			<link href="http://hankquinlan.github.io/blog/2015/02/20/your-inbox-just-got-dunked-on"/>
 			<updated>2015-02-20T00:00:00-06:00</updated>
 			<id>http://hankquinlan.github.io//blog/2015/02/20/your-inbox-just-got-dunked-on</id>
-			<content type="html">&lt;!-- Share
-================================================== --&gt;
-&lt;div class=&quot;share-fix inline-block float-left&quot;&gt;
-  &lt;img src=&quot;/images/share.png&quot;/&gt;
-&lt;/div&gt;
+			<content type="html">  &lt;p class=&quot;lead-paragraph&quot;&gt;&lt;em&gt;I know, for a fact, I&#39;m addicted to Dribbble&lt;/em&gt;&amp;mdash; I check it before every project for inspiration and several times a day just to see what what is trending. For all intents and purposes, I do not need any other reminder of what is happening there. However, my friend and co-worker, &lt;a href=&quot;http://www.andjosh.com&quot; class=&quot;link pink&quot;&gt;Josh Beckman&lt;/a&gt;, does.&lt;/p&gt;
 
-  &lt;div class=&quot;post-right inline-block float-left&quot;&gt;
+  &lt;p&gt;I sent that ungrateful bastard one of my Dribbble invites over a year ago an he has only posted &lt;a href=&quot;https://dribbble.com/shots/1426532-Soundcloud-Logo-Animation?list=searches&amp;offset=0&quot; class=&quot;link pink&quot;&gt;one shot&lt;/a&gt;. His excuse(s)? &quot;I just don&#39;t have time to get on there... I forget it exists... It&#39;s awful to look at on my small phone...&quot;&lt;/p&gt;      
 
-    &lt;!-- Project Header
-    ================================================== --&gt;
-    &lt;section class=&quot;project-header&quot;&gt;
+  &lt;p&gt;To thrust Mr. Beckman back into the game, we came up with &lt;a href=&quot;http://www.alleyooop.info&quot; class=&quot;link pink&quot;&gt;Alleyooop&lt;/a&gt;: a customizable newletter of Dribbble shots. You can adjust frequency of the newsletter and the type of shots you want to follow. Currently, we only show the most popular shots (views + likes) from either Animated or nonanimated shots, but hope to allow even more filtration, such as location and by tag.&lt;/p&gt;
 
-      &lt;div class=&quot;project-hero-content cf&quot;&gt;
-        &lt;h1 class=&quot;cs-lead&quot;&gt;Your Inbox Just Got Dunked On&lt;/h1&gt;
-        &lt;p class=&quot;sub-header&quot;&gt;Don&#39;t have time to visit Dribbble for the latest and greatest? Alleyooop allows for customized summaries of the week&#39;s best shots.&lt;/p&gt;      
-        &lt;div class=&quot;cs-sub-container cf&quot;&gt;            
-          &lt;span class=&quot;cs-sub inline-block float-left&quot;&gt;February 20, 2015&lt;/span&gt;
-          &lt;div class=&quot;published-container inline-block float-left cf&quot;&gt;
-            &lt;span class=&quot;published&quot;&gt;Published in&lt;/span&gt;
-            &lt;a href=&quot;tags/case-study&quot; class=&quot;cs-sub inline-block link pink&quot;&gt;Project&lt;/a&gt;
-          &lt;/div&gt;
-          &lt;a href=&quot;#&quot; class=&quot;cs-sub inline-block strong float-left link pink comments-sub&quot;&gt;0 Comments&lt;/a&gt;                
-        &lt;/div&gt;
-      &lt;/div&gt;        
-
-      &lt;figure&gt;
-        &lt;img src=&quot;/images/hero-alleyoop.jpg&quot;/&gt;
-      &lt;/figure&gt;
-
-    &lt;/section&gt;
-
-
-    &lt;!-- Project Main Content
-    ================================================== --&gt; 
-    &lt;main id=&quot;main-content&quot; class=&quot;block cf cs&quot;&gt;
-
-      &lt;p class=&quot;lead-paragraph&quot;&gt;&lt;em&gt;I know, for a fact, I&#39;m addicted to Dribbble&lt;/em&gt;&amp;mdash; I check it before every project for inspiration and several times a day just to see what what is trending. For all intents and purposes, I do not need any other reminder of what is happening there. However, my friend and co-worker, &lt;a href=&quot;http://www.andjosh.com&quot; class=&quot;link pink&quot;&gt;Josh Beckman&lt;/a&gt;, does.&lt;/p&gt;
-
-      &lt;p&gt;I sent that ungrateful bastard one of my Dribbble invites over a year ago an he has only posted &lt;a href=&quot;https://dribbble.com/shots/1426532-Soundcloud-Logo-Animation?list=searches&amp;offset=0&quot; class=&quot;link pink&quot;&gt;one shot&lt;/a&gt;. His excuse(s)? &quot;I just don&#39;t have time to get on there... I forget it exists... It&#39;s awful to look at on my small phone...&quot;&lt;/p&gt;      
-
-      &lt;p&gt;To thrust Mr. Beckman back into the game, we came up with &lt;a href=&quot;http://www.alleyooop.info&quot; class=&quot;link pink&quot;&gt;Alleyooop&lt;/a&gt;: a customizable newletter of Dribbble shots. You can adjust frequency of the newsletter and the type of shots you want to follow. Currently, we only show the most popular shots (views + likes) from either Animated or nonanimated shots, but hope to allow even more filtration, such as location and by tag.&lt;/p&gt;
-
-      &lt;p&gt;I think the newsletter can be quite handy for not only Beckman, but other people too good or too busy (or too smart) to visit Dribbble regularly. &lt;a href=&quot;http://www.alleyooop.info&quot; class=&quot;link pink&quot;&gt;Give it a try!&lt;/a&gt;&lt;/p&gt;
-
-    &lt;/main&gt;
-
-  &lt;/div&gt;
+  &lt;p&gt;I think the newsletter can be quite handy for not only Beckman, but other people too good or too busy (or too smart) to visit Dribbble regularly. &lt;a href=&quot;http://www.alleyooop.info&quot; class=&quot;link pink&quot;&gt;Give it a try!&lt;/a&gt;&lt;/p&gt;
 </content>
 		</entry>
 	

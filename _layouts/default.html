@@ -1,24 +1,27 @@
 {% include head.html %} 
-{% include header.html %}	
-{% include hero.html %} 
+{% include header.html %}
+{% include hero.html %}   
 
-<div class="homepage-container grid-container relative cf">
+<div class="page-container main grid-container relative cf">
 
-  <div class="left-rail inline-block float-left">
-    {% include about-card.html %}
-    {% include skills-card.html %}    
-    {% include experience-card.html %}      
+  <div class="grid-container-3 inline-block float-left">
+    {{ content }}
   </div>
 
-	<div class="grid-container-2 inline-block float-left">
-		{{ content }}
-	</div>
+  <div class="right-rail inline-block float-left">
+    {% if page.title == "Josh Martin | Blog" %}
+    {% include card-blog-filter.html %}  
 
-	<div class="right-rail inline-block float-left">
-    {% include contact-card.html %}      
-		{% include portfolio-card.html %}
-	</div>
-  
+    {% elsif page.title == "Josh Martin | About" %}
+    {% include card-blog-post.html %}
+    {% include card-portfolio.html %}    
+
+    {% elsif page.title == "Josh Martin | Portfolio" %}
+    {% include card-blog-filter.html %}
+
+    {% endif %}
+  </div>
+
 </div>
 
 {% include footer.html %}
