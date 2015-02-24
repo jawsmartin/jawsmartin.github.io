@@ -12,14 +12,14 @@
 
       <div class="project-hero-content cf">
         <h1 class="cs-lead">{{ page.title }}</h1>
-        <p class="sub-header">Don't have time to visit Dribbble for the latest and greatest? Alleyooop allows for customized summaries of the week's best shots.</p>      
+        <p class="sub-header">{{ page.deck }}</p>      
         <div class="cs-sub-container cf">            
           <span class="cs-sub inline-block float-left">{{ page.date | date: '%B %d, %Y' }}</span>
           <div class="published-container inline-block float-left cf">
             <span class="published">Published in</span>
             <a href="tags/case-study" class="cs-sub inline-block link pink">{{ page.tag }}</a>
           </div>
-          <a href="#" class="cs-sub inline-block strong float-left link pink comments-sub">{{ page.comments }}</a>                
+            <a href="{{ post.url }}#disqus_thread" class="cs-sub inline-block strong float-left link pink comments-sub">Comments</a>              
         </div>
       </div>        
 
@@ -32,4 +32,4 @@
 
     <!-- Project Main Content
     ================================================== --> 
-    <main id="main-content" class="block cf cs">
+    <main id="post-main-content" class="block cf cs">

@@ -9,7 +9,7 @@ title: Josh Martin | Home
   <div class="selected-work-content cf">
 
     <ul class="homepage posts">
-      {% for post in site.posts %}
+      {% for post in paginator.posts %}
 
         <li class="homepage-hero">
           <a class="cs-lead" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
@@ -19,14 +19,14 @@ title: Josh Martin | Home
               <span class="published">Published in</span>
               <a href="tags/case-study" class="cs-sub inline-block link pink">{{ post.tag }}</a>
             </div>
-            <a href="#" class="cs-sub inline-block strong float-left link pink comments-sub">{{ post.comments }}</a>                
+            <a href="{{ post.url }}#disqus_thread" class="cs-sub inline-block strong float-left link pink comments-sub">Comments</a>                
           </div>
           <a href="{{ post.url }}">
             <figure class="thumbnail-container">
               <img class="thumbnail" src="{{ post.thumbnail }}"/>
             </figure>
           </a>
-          <p class="overview">{{ post.description }}</p> 
+          <p class="overview">{{ post.excerpt | strip_html }}</p> 
           <div class="read-more-container inline-block">
             <a href="{{ post.url }}"class="link read-more">Continue Reading</a>
           </div>
@@ -34,6 +34,22 @@ title: Josh Martin | Home
 
       {% endfor %}
     </ul>
+
+    <!-- Pagination links -->
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="/page{{paginator.previous_page}}" class="previous">Previous</a>
+      {% else %}
+        <span class="previous">Previous</span>
+      {% endif %}
+      <span class="page_number ">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
+      {% if paginator.next_page %}
+        <a href="/page{{paginator.next_page}}" class="next ">Next</a>
+      {% else %}
+        <span class="next ">Next</span>
+      {% endif %}
+    </div>
+
 
   </div>
 </section>

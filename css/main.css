@@ -714,6 +714,16 @@ h4.job {
 ==============================================
 */
 
+#post-main-content p:first-of-type {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+#post-main-content a {
+  color: RGBA(242, 47, 93, 1);
+  text-decoration: none;
+}
+
 /* Blog Posts */
 .homepage-hero {
   margin-bottom: 25px;
@@ -966,11 +976,15 @@ h4.job {
 .project-photo {
   padding-top: 50px;
 }
-.photo-caption {
+
+#post-main-content figure {
+  padding: 15px 0px 25px 0px;
+}
+figcaption {
   font-weight: 300 !important;
   color: #99A0A8;
   font-size: 13px !important;
-  margin-top: 15px;
+  margin-top: 12px;
   line-height: 18px !important;
 }
 
@@ -1185,7 +1199,7 @@ h4.job {
 }
 
 .author {
-  margin-bottom: 75px;
+  margin: 50px 0px 75px 0px;
   background-color: RGBA(213, 222, 226, .2);
   padding: 35px 35px 35px 35px;
   border-radius: 4px;
@@ -1211,12 +1225,6 @@ h4.job {
 .author-copy {
   margin-bottom: 8px;
 }
-
-.lead-paragraph {
-  font-size: 20px;
-  line-height: 28px;
-}
-
 /* Comments
 -----------------------------------------------*/
 .comments {
