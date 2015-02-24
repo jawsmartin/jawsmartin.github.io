@@ -1422,6 +1422,10 @@ h3 {
     margin-left: 0px;
   }
 
+  .homepage-hero {
+    margin-bottom: 4.5%;
+  }
+
   /* Simplifies header */ 
   .yo {
     top: 0px !important;
@@ -1458,6 +1462,7 @@ h3 {
   }
 
   .homepage-container {
+    padding-top: 4.5%;
     padding-bottom: 0px;
   }
 
