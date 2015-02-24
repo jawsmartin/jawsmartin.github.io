@@ -301,32 +301,14 @@ body {
   font-size: 14px;
   line-height: 20px;
 }
-p {
-  line-height: 26px;
-  color: #51636D;
-  margin-bottom: 20px;
-  font-size: 16px;
-}
+
 h1 {
   color: #263d49;
   font-size: 35px;
   line-height: 35px;
   font-weight: 300;
 }
-h2 {
-  color: #F22F5D;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 12px;
-  margin-bottom: 25px;
-}
-h3 {
-  color: #263d49;
-  font-size: 24px;
-  line-height: 29px;
-  font-weight: 300;
-  margin-bottom: 25px
-}
+
 h4 {
   font-size: 16px;
   line-height: 26px;
@@ -445,6 +427,12 @@ header.main-2 .site-container {
   width: 143px;
   display: inline-block;
   float: left;
+}
+
+.secondary-logo {
+  display: none;
+  width: 35px;
+  margin-top: 5px;
 }
 
 .site-name {
@@ -598,6 +586,7 @@ header.main-2 .header-link-active:hover {
 
 input {
   border: none;
+  padding: 0px;
   height: 35px;
   position: relative;
   top: -1px;
@@ -625,7 +614,7 @@ input {
   padding-right: 25px;
 }
 .left-rail .page-header-content p:last-of-type {
-  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 .right-rail {
   box-sizing: border-box;
@@ -641,7 +630,6 @@ input {
   padding-bottom: 30px;
   margin-bottom: 24px;
   padding: 25px 25px 25px 25px;
-  border-radius: 3px;
   background-color: white;
 }
 
@@ -682,8 +670,7 @@ input {
   margin-top: 10px;
 }
 .exp-item {
-  padding-bottom: 3px;
-  margin-bottom: 12px;
+  padding-bottom: 10px;
 }
 h4.job {
   font-size: 14px;
@@ -714,22 +701,13 @@ h4.job {
 ==============================================
 */
 
-#post-main-content p:first-of-type {
-  font-size: 20px;
-  line-height: 28px;
-}
 
-#post-main-content a {
-  color: RGBA(242, 47, 93, 1);
-  text-decoration: none;
-}
 
 /* Blog Posts */
 .homepage-hero {
   margin-bottom: 25px;
   background-color: white;
   padding: 24px 28px 36px 26px;
-  border-radius: 4px;
   transition: all .4s ease;
 }
 
@@ -835,7 +813,7 @@ h4.job {
   line-height: 24px;
   margin-top: 25px;
   color: rgba(115, 133, 142, 1);
-  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 .read-more {
   border-radius: 60px;
@@ -962,7 +940,7 @@ h4.job {
 }
 
 .project-header {
-  margin-bottom: 35px;
+  margin-bottom: 50px;
 }
 
 
@@ -978,7 +956,7 @@ h4.job {
 }
 
 #post-main-content figure {
-  padding: 15px 0px 25px 0px;
+  padding: 40px 0px 25px 0px;
 }
 figcaption {
   font-weight: 300 !important;
@@ -988,44 +966,67 @@ figcaption {
   line-height: 18px !important;
 }
 
-/* Case-Study Section Dividers */
-.cs-sub-section-content {
-  padding: 50px 0px 50px 0px;
-  border-bottom: 1px solid #EAEFF1;
+p {
+  line-height: 26px;
+  color: #51636D;
+  padding-bottom: 20px;
+  font-size: 16px;
 }
-.project-left p:last-child {
-  margin-bottom: 0px;
+
+hr {
+  padding-bottom: 25px;
+  margin-top: 25px;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(213, 222, 226, .5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
-.cs-sub-section p:last-of-type {
-  margin-bottom: 0px;
+
+#post-main-content p:first-of-type {
+  font-size: 20px;
+  line-height: 28px;
 }
-.cs .cs-section .cs-sub-section:first-of-type .cs-sub-section-content {
-  padding-top: 0px;
+
+#post-main-content a {
+  color: RGBA(242, 47, 93, 1);
+  text-decoration: none;
 }
-.cs .cs-section:last-child .cs-sub-section:last-child .cs-sub-section-content {
-  border-bottom: 0px;
-}
-.intro-block .cs-copy:last-child {
-  margin-bottom: 0px;
-}
-.cs-section {
+
+h2 {
+  color: #F22F5D;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 25px;
   position: relative;
 }
+h3 {
+  color: #263d49;
+  font-size: 22px;
+  line-height: 29px;
+  font-weight: 400;
+  margin: 25px 0px 20px 0px;
+}
+
+
+
+
+
 
 
 
 .page-header p {
   display: inline-block;
-  font-family: "Helvetica Neue";
-  margin-bottom: 15px;
+  padding-bottom: 15px;
   font-size: 14px;
   line-height: 20px;
   color: rgba(130, 143, 151, 1);
 }
 .page-header h3 {
+  margin-top: 0px;
   color: #263d49;
   font-size: 19px;
-  line-height: 20px;
+  line-height: 23px;
   font-weight: 400;
   margin-bottom: 15px;
 }
@@ -1035,8 +1036,7 @@ figcaption {
 .blog-filter {
   background-color: white;
   padding: 17px 18px 18px 25px;
-  border: 1px solid #ececec;
-  border-radius: 3px;
+  border: 1px solid #ececec;r
   margin-bottom: 25px;
 }
 .blog-filter-title {
@@ -1106,6 +1106,7 @@ figcaption {
   font-weight: 300;
   margin-top: 8px;
   margin-bottom: 16px;
+  padding-bottom: 0px;
 }
 .project-header .cs-sub-container{
   margin-bottom: 40px;
@@ -1126,7 +1127,6 @@ figcaption {
 .post {
   background-color: white;
   padding: 45px 45px 45px 45px;
-  border-radius: 3px;
 }
 
 .cs {
@@ -1312,7 +1312,11 @@ figcaption {
 }
 
 .page-header-content .latest-work {
-  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.first {
+  padding-top: 15px;
 }
 
 .page-header-content .latest-work:last-of-type {
@@ -1320,6 +1324,7 @@ figcaption {
   border: none;
   padding-bottom: 0px;
 }
+
 
 .latest-work h3 {
   margin-top: 20px;
@@ -1418,12 +1423,59 @@ figcaption {
   }
 
   /* Simplifies header */ 
-  body {
-    margin-top: 48px;
-  }   
-  header.main {
-    height: 46px;
+  .yo {
+    top: 0px !important;
+    width: 100%;
+    z-index: 99999999;
+    height: 44px;
+    background-color: RGBA(255, 255, 255, .95);
+    position: fixed !important;
+    border-bottom: 1px solid rgba(213, 222, 226, .5);
   }
+
+  .site-pic {
+    display: none;
+  }
+
+  .secondary-logo {
+    display: block;
+  }
+
+  .nav-container {
+    top: -20px !important;
+  }
+
+  .header-link {
+    color: inherit !important;
+    margin-left: 10px !important;
+    font-size: 18px !important;
+  }
+
+  .hero-content {
+    margin: 45px auto 0px auto;
+    padding: 75px 0px 75px 0px;
+    max-width: 92%;
+  }
+
+  .homepage-container {
+    padding-bottom: 0px;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    height: 44px;
+    margin-right: 0px;
+    box-sizing: border-box;
+  }
+
+  .button {
+    width: 100%;
+    margin-top: 7px;
+    padding: 14px 0px 14px 0px;
+    display: block;
+  }
+
   .site-container {
     top: 6px;
   }
@@ -1483,10 +1535,3 @@ figcaption {
   }
 }
 
-/* Mobile
------------------------------------------------*/
-@media screen and (max-width: 475px) {
-  .site-name {
-    display: none;
-  }
-}

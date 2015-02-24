@@ -4,7 +4,7 @@
 	<title>Hank Quinlan's Blog</title>
 	<link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://hankquinlan.github.io/blog"/>
-	<updated>2015-02-24T13:50:49-06:00</updated>
+	<updated>2015-02-24T17:26:52-06:00</updated>
 	<id>http://hankquinlan.github.io/blog</id>
 	<author>
 		<name>Hank Quinlan</name>
@@ -35,11 +35,6 @@
 			<content type="html">&lt;p&gt;&lt;em&gt;I have officially been coding for 2yrs, which in itself, is batshit crazy&lt;/em&gt;. I moved to Chicago after graduating college with a BFA in Applied Media Arts, which is just a fancy catch-all title for a crazy blend of animation, traditional art, art history, and graphic design. I left with the toolset need to be an intern at a tiny print shop in cold, deserted land of Northwestern Pennsylvania. In hopes that the bigger city would present opportunities for bigger jobs.&lt;/p&gt;
 
 &lt;p&gt;I contacted the suave, charismatic, design juggernaut, Josh Fabian, a fellow Pennsylvanian who had recently made the move out west to Chicago.. Not even a week in did my friend, Josh Fabian, say: “Yeah. Nobody is hiring print designers, man. We need to get you learning how to make websites&lt;/p&gt;
-
-&lt;figure class=&quot;text-left block cf image&quot;&gt;
-  &lt;img src=&quot;/images/hero-alleyoop.jpg&quot; alt=&quot;&quot; /&gt;
-  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
-&lt;/figure&gt;
 </content>
 		</entry>
 	
@@ -48,275 +43,290 @@
 			<link href="http://hankquinlan.github.io/blog/2015/02/16/the-best-way-to-find-after-school-classes-for-your-kids"/>
 			<updated>2015-02-16T00:00:00-06:00</updated>
 			<id>http://hankquinlan.github.io//blog/2015/02/16/the-best-way-to-find-after-school-classes-for-your-kids</id>
-			<content type="html">&lt;p&gt;&lt;em&gt;In the summer of 2014, I was approached by my former &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39;&gt;Aggrego&lt;/a&gt; co-worker, &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Sal Abassi&lt;/a&gt;&lt;/em&gt;, to help get a personal project off the ground; that project would be Afterskoolz. As a parent, he felt there was an opportunity to create a platform to make finding and planning after-school activiites for his children easier.&lt;/p&gt;
+			<content type="html">&lt;p&gt;&lt;em&gt;In the summer of 2014, I was approached by my former [Aggrego] co-worker, [Sal Abassi]&lt;/em&gt;, to help get a personal project off the ground; that project would be Afterskoolz. As a parent, he felt there was an opportunity to create a platform to make finding and planning after-school activiites for his children easier.&lt;/p&gt;
 
-&lt;p&gt;Sal, alongside fellow parent and Afterskoolz co-founder, &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Mustafa Patni&lt;/a&gt;, laid out a rough draft of all the features they wanted Afterskoolz to have, such as simple search functionality, class registration, teacher-to-parent messaging, and a schedule-overlayed calendar. With their vision laid out, it was my job to bring it to life.&lt;/p&gt;
+&lt;p&gt;Sal, alongside fellow parent and Afterskoolz co-founder, [Mustafa Patni], laid out a rough draft of all the features they wanted Afterskoolz to have, such as simple search functionality, class registration, teacher-to-parent messaging, and a schedule-overlayed calendar. With their vision laid out, it was my job to bring it to life.&lt;/p&gt;
 
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Sal and Mustafa felt a desktop-only platform was best. After three months, I convinced them otherwise.&lt;/figcaption&gt;
-&lt;/figure&gt;  
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;h3&gt;Objectives&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;In the summer of 2014, I was approached by my former &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Aggrego&lt;/a&gt; co-worker, &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Sal Abassi&lt;/a&gt;, to help get a personal project off the ground; that project would be Afterskoolz. As a parent, he felt there was an opportunity to create a platform to make finding and planning after-school activiites for his children easier.&lt;/p&gt;
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
-
-&lt;!-- 2. User-Experience
-================================================== --&gt; 
-&lt;section class=&quot;cs-section&quot;&gt;  
-
-  &lt;h2&gt;2. User-Experience&lt;/h2&gt;
-
-  &lt;!--Planning/Research--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Planning/Research&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Sal and Mustafa staked out their competition well before bringing me onboard and discovered the space for innovation is huge: Not a single business for finding after-school activities showed up in Google Search &amp;mdash; Only definitions for after-school activity, reasons why aftershool activities are fun, and a few government-run organizations.&lt;/p&gt;         
-        &lt;p class=&quot;cs-copy&quot;&gt;It was concluded that the closest competition in after-school class discovery was a San Francisco-based startup, called &lt;a href=&quot;https://www.kidfully.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Kidfully&lt;/a&gt;; it focused on the social aspect of reviewing and sharing after-school activities with fellow parents, a direction similar, but not the same as Afterskoolz.&lt;/p&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz would be less about recommendations and building a social community (i.e Kidfully, &lt;a href=&quot;https://www.yelp.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Yelp&lt;/a&gt;, &lt;a href=&quot;https://www.angieslist.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Angie&#39;s List&lt;/a&gt;), and more about shopping and registering&amp;mdash; making it more similar to traditional shopping sites, such as &lt;a href=&quot;https://www.amazon.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Amazon&lt;/a&gt; or even &lt;a href=&quot;https://www.grubhub.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Grubhub&lt;/a&gt;.&lt;/p&gt; 
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/mood-board.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-  &lt;!-- User Studies --&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;User Studies&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-  &lt;!-- Wireframes --&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Wireframes&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-  &lt;!-- Site Map --&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Site-Map&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed. &lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-  &lt;!--Prototyping--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Prototyping&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed. &lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-&lt;/section&gt;
-
-&lt;!-- 2. User-Interface
+&lt;!-- =============================================
+==================================================  
+User-Experience
+==================================================  
 ================================================== --&gt;
-&lt;section class=&quot;cs-section&quot;&gt;
 
-  &lt;h2&gt;3. User-Interface&lt;/h2&gt;    
-
-  &lt;!--Homepage--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Homepage&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website&#39;s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;             
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of solving for the client&#39;s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It&#39;s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
-        &lt;p class=&quot;cs-copy&quot;&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-  &lt;!--Search Results--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Search Results&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website&#39;s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;             
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of solving for the client&#39;s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It&#39;s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
-        &lt;p class=&quot;cs-copy&quot;&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-  &lt;!--Class Details--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Class Details&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website&#39;s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;             
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of solving for the client&#39;s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It&#39;s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
-        &lt;p class=&quot;cs-copy&quot;&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-  &lt;!--Dashboards--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Dashboards&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website&#39;s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;             
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of solving for the client&#39;s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It&#39;s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
-        &lt;p class=&quot;cs-copy&quot;&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-&lt;/section&gt;
-
-&lt;!-- 3. Details
+&lt;!-- Planning and Research
 ================================================== --&gt;
-&lt;section class=&quot;cs-section&quot;&gt;
 
-  &lt;h2&gt;4. Details&lt;/h2&gt;    
+&lt;h3 id=&quot;planningresearch&quot;&gt;Planning/Research&lt;/h3&gt;
 
-  &lt;!--Logo--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Logo&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;               
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;Sal and Mustafa staked out their competition well before bringing me onboard and discovered the space for innovation is huge: Not a single business for finding after-school activities showed up in Google Search — Only definitions for after-school activity, reasons why aftershool activities are fun, and a few government-run organizations.&lt;/p&gt;
 
-  &lt;!--Style Guide--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Style Guide&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;              
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;It was concluded that the closest competition in after-school class discovery was a San Francisco-based startup, called [Kidfully]; it focused on the social aspect of reviewing and sharing after-school activities with fellow parents, a direction similar, but not the same as Afterskoolz.&lt;/p&gt;
 
-  &lt;!--Business Cards--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Style Guide&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;                
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;Afterskoolz would be less about recommendations and building a social community (i.e Kidfully, [Yelp],[Angie’s List]), and more about shopping and registering— making it more similar to traditional shopping sites, such as [Amazon] or even [Grubhub].&lt;/p&gt;
 
-&lt;/section&gt;
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;!-- 4. Wrap Up
-================================================== --&gt; 
-&lt;section class=&quot;cs-section&quot;&gt;
+&lt;hr /&gt;
 
-  &lt;h2&gt;5. Wrap Up&lt;/h2&gt;    
+&lt;!-- User-Studies
+================================================== --&gt;
 
-  &lt;!--Conclusion--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Conclusion&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The timeframe for this project was aproximately late July, 2014 to Mid November, 2014. We had originally planned for only a non-responsive desktop experience built only search-and-register functionality. Over the course of the four months, the scope gradually increased&amp;mdash; adding responsiveness, as well as a wide array of backend tool for users. By the end of the process, Afterskoolz became a multifunctional platform for not only parents, but teachers and principals.&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;All-in-all, I&#39;m very happy with the direction I created for Sal and Mustafa; I believe we nailed down the fundamentals of their product and have left room for it to grow. As in all the projects, there are specifics I&lt;/p&gt;               
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;h3 id=&quot;user-studies&quot;&gt;User-Studies&lt;/h3&gt;
 
-  &lt;!--Conclusion--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Future&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Over the course of a project, you inherently become better and smarter; you know find your mistakes in the first month and so on. However, it is impossible to move forward if you keep looking back. One of the hardest things you can do is say: &quot;Hey, this isn&#39;t perfect. There&#39;s a lot of things I&#39;d like to change now that I know better, but we&#39;ll cross that bridge later.&quot; The main thing is delivering a solid product so it can be developed and launched. That&#39;s why it&#39;s called an MVP.&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;But, that&#39;s not to say I didn&#39;t put together ideas for Afterskoolz V.2. One of things I wanted to improve was the homepage, overall color variety, navigation, and search funtionality.&lt;/p&gt;               
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of my suggested revisions, additional platform features are in the pipeline as well, such as social networking functionality, widgets, and iOS/Android apps.&lt;/p&gt;           
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators — all with very unique set of needs&lt;/p&gt;
 
+&lt;p&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
 
-&lt;/section&gt;
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- Wireframes
+================================================== --&gt;
+
+&lt;h3 id=&quot;wireframes&quot;&gt;Wireframes&lt;/h3&gt;
+
+&lt;p&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators — all with very unique set of needs&lt;/p&gt;
+
+&lt;p&gt;It was concluded that the closest competition in after-school class discovery was a San Francisco-based startup, called [Kidfully]; it focused on the social aspect of reviewing and sharing after-school activities with fellow parents, a direction similar, but not the same as Afterskoolz.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- Site Map
+================================================== --&gt;
+
+&lt;h3 id=&quot;site-map&quot;&gt;Site Map&lt;/h3&gt;
+
+&lt;p&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators — all with very unique set of needs&lt;/p&gt;
+
+&lt;p&gt;It was concluded that the closest competition in after-school class discovery was a San Francisco-based startup, called [Kidfully]; it focused on the social aspect of reviewing and sharing after-school activities with fellow parents, a direction similar, but not the same as Afterskoolz.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;It was concluded that the closest competition in after-school class discovery was a San Francisco-based startup, called [Kidfully]; it focused on the social aspect of reviewing and sharing after-school activities with fellow parents, a direction similar, but not the same as Afterskoolz.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- Prototyping
+================================================== --&gt;
+
+&lt;h3 id=&quot;prototyping&quot;&gt;Prototyping&lt;/h3&gt;
+
+&lt;p&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators — all with very unique set of needs&lt;/p&gt;
+
+&lt;p&gt;It was concluded that the closest competition in after-school class discovery was a San Francisco-based startup, called [Kidfully]; it focused on the social aspect of reviewing and sharing after-school activities with fellow parents, a direction similar, but not the same as Afterskoolz.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;It was concluded that the closest competition in after-school class discovery was a San Francisco-based startup, called [Kidfully]; it focused on the social aspect of reviewing and sharing after-school activities with fellow parents, a direction similar, but not the same as Afterskoolz.  &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- =============================================
+==================================================  
+User-Experience
+==================================================  
+================================================== --&gt;
+
+&lt;!-- Homepage
+================================================== --&gt;
+
+&lt;h3 id=&quot;homepage&quot;&gt;Homepage&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Search Results
+================================================== --&gt;
+
+&lt;h3 id=&quot;search-results&quot;&gt;Search Results&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Class Details
+================================================== --&gt;
+
+&lt;h3 id=&quot;class-details&quot;&gt;Class Details&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Dashboards
+================================================== --&gt;
+
+&lt;h3 id=&quot;dashboard&quot;&gt;Dashboard&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- =============================================
+==================================================  
+Details
+==================================================  
+================================================== --&gt;
+
+&lt;!-- Logo
+================================================== --&gt;
+
+&lt;h3 id=&quot;logo&quot;&gt;Logo&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Style Guide
+================================================== --&gt;
+
+&lt;h3 id=&quot;style-guide&quot;&gt;Style Guide&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Business Cards
+================================================== --&gt;
+
+&lt;h3 id=&quot;business-cards&quot;&gt;Business Cards&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;!-- =============================================
+==================================================  
+Wrap Up
+==================================================  
+================================================== --&gt;
+
+&lt;!-- Conclusion
+================================================== --&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Future
+================================================== --&gt;
+
+&lt;h3 id=&quot;future&quot;&gt;Future&lt;/h3&gt;
+
+&lt;p&gt;Over the course of a project, you inherently become better and smarter; you know find your mistakes in the first month and so on. However, it is impossible to move forward if you keep looking back. One of the hardest things you can do is say: “Hey, this isn’t perfect. There’s a lot of things I’d like to change now that I know better, but we’ll cross that bridge later.” The main thing is delivering a solid product so it can be developed and launched. That’s why it’s called an MVP.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points. &lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
 </content>
 		</entry>
 	
@@ -325,236 +335,280 @@
 			<link href="http://hankquinlan.github.io/blog/2015/02/15/the-world-revolves-around-the-sun"/>
 			<updated>2015-02-15T00:00:00-06:00</updated>
 			<id>http://hankquinlan.github.io//blog/2015/02/15/the-world-revolves-around-the-sun</id>
-			<content type="html">&lt;p class=&quot;cs-copy&quot;&gt;The last project I did with Aggrego is most certainly the largest, and for me, the most significant in my career thus far. I did not expect to be the lead designer of a prestigious product or brand, such as the Chicago Sun-Times, so soon. But, as luck/fortune would have it, I was given the opportunity to not only redesign it, but extend it&#39;s reach across 70 of the largest cities in the US. We started working on the &quot;Sun-Times Network&quot; late summer 2014 initially.&lt;/p&gt;
+			<content type="html">&lt;p&gt;The last project I did with Aggrego is most certainly the largest, and for me, the most significant in my career thus far. I did not expect to be the lead designer of a prestigious product or brand, such as the Chicago Sun-Times, so soon. But, as luck/fortune would have it, I was given the opportunity to not only redesign it, but extend it’s reach across 70 of the largest cities in the US. We started working on the “Sun-Times Network” late summer 2014 initially.&lt;/p&gt;
 
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
+&lt;p&gt;The last project I did with Aggrego is most certainly the largest, and for me, the most significant in my career thus far. I did not expect to be the lead designer of a prestigious product or brand, such as the Chicago Sun-Times, so soon. But, as luck/fortune would have it, I was given the opportunity to not only redesign it, but extend it’s reach across 70 of the largest cities in the US. We started working on the “Sun-Times Network” late summer 2014 initially.&lt;/p&gt;
 
-&lt;h3&gt;Objectives&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;In the summer of 2014, I was approached by my former &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Aggrego&lt;/a&gt; co-worker, &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Sal Abassi&lt;/a&gt;, to help get a personal project off the ground; that project would be Afterskoolz. As a parent, he felt there was an opportunity to create a platform to make finding and planning after-school activiites for his children easier.&lt;/p&gt;
-&lt;p class=&quot;cs-copy&quot;&gt;Sal, alongside fellow parent and Afterskoolz co-founder, &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Mustafa Patni&lt;/a&gt;, laid out a rough draft of all the features they wanted Afterskoolz to have, such as simple search functionality, class registration, teacher-to-parent messaging, and a schedule-overlayed calendar. With their vision laid out, it was my job to bring it to life.&lt;/p&gt;
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
-
-&lt;h3&gt;Planning/Research&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Sal and Mustafa staked out their competition well before bringing me onboard and discovered the space for innovation is huge: Not a single business for finding after-school activities showed up in Google Search &amp;mdash; Only definitions for after-school activity, reasons why aftershool activities are fun, and a few government-run organizations.&lt;/p&gt;         
-&lt;p class=&quot;cs-copy&quot;&gt;It was concluded that the closest competition in after-school class discovery was a San Francisco-based startup, called &lt;a href=&quot;https://www.kidfully.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Kidfully&lt;/a&gt;; it focused on the social aspect of reviewing and sharing after-school activities with fellow parents, a direction similar, but not the same as Afterskoolz.&lt;/p&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz would be less about recommendations and building a social community (i.e Kidfully, &lt;a href=&quot;https://www.yelp.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Yelp&lt;/a&gt;, &lt;a href=&quot;https://www.angieslist.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Angie&#39;s List&lt;/a&gt;), and more about shopping and registering&amp;mdash; making it more similar to traditional shopping sites, such as &lt;a href=&quot;https://www.amazon.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Amazon&lt;/a&gt; or even &lt;a href=&quot;https://www.grubhub.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Grubhub&lt;/a&gt;.&lt;/p&gt; 
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/mood-board.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
-
-&lt;h3&gt;User Studies&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-&lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt; 
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
-
-&lt;h3&gt;Wireframes&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-&lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
-
-&lt;h3&gt;Site-Map&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-&lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt; 
-
-&lt;h3&gt;Prototyping&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-&lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;  
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
-
-&lt;!-- 2. User-Interface
+&lt;!-- =============================================
+==================================================  
+User-Experience
+==================================================  
 ================================================== --&gt;
-&lt;section class=&quot;cs-section&quot;&gt;
 
-  &lt;h2&gt;3. User-Interface&lt;/h2&gt;    
+&lt;h2 id=&quot;user-experience&quot;&gt;User-Experience&lt;/h2&gt;
 
-  &lt;!--Homepage--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Homepage&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website&#39;s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;             
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of solving for the client&#39;s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It&#39;s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
-        &lt;p class=&quot;cs-copy&quot;&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-  &lt;!--Search Results--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Search Results&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website&#39;s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;             
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of solving for the client&#39;s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It&#39;s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
-        &lt;p class=&quot;cs-copy&quot;&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-  &lt;!--Class Details--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Class Details&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website&#39;s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;             
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of solving for the client&#39;s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It&#39;s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
-        &lt;p class=&quot;cs-copy&quot;&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-  &lt;!--Dashboards--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Dashboards&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website&#39;s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;             
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of solving for the client&#39;s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It&#39;s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
-        &lt;p class=&quot;cs-copy&quot;&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-&lt;/section&gt;
-
-&lt;!-- 3. Details
+&lt;!-- Planning and Research
 ================================================== --&gt;
-&lt;section class=&quot;cs-section&quot;&gt;
 
-  &lt;h2&gt;4. Details&lt;/h2&gt;    
+&lt;h3 id=&quot;planningresearch&quot;&gt;Planning/Research&lt;/h3&gt;
 
-  &lt;!--Logo--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Logo&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;               
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;Sal and Mustafa staked out their competition well before bringing me onboard and discovered the space for innovation is huge: Not a single business for finding after-school activities showed up in Google Search — Only definitions for after-school activity, reasons why aftershool activities are fun, and a few government-run organizations.&lt;/p&gt;
 
-  &lt;!--Style Guide--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Style Guide&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;              
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;It was concluded that the closest competition in after-school class discovery was a San Francisco-based startup, called [Kidfully]; it focused on the social aspect of reviewing and sharing after-school activities with fellow parents, a direction similar, but not the same as Afterskoolz.&lt;/p&gt;
 
-  &lt;!--Business Cards--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Style Guide&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;                
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;Afterskoolz would be less about recommendations and building a social community (i.e Kidfully, [Yelp],[Angie’s List]), and more about shopping and registering— making it more similar to traditional shopping sites, such as [Amazon] or even [Grubhub].&lt;/p&gt;
 
-&lt;/section&gt;
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;!-- 4. Wrap Up
-================================================== --&gt; 
-&lt;section class=&quot;cs-section&quot;&gt;
+&lt;!-- User-Studies
+================================================== --&gt;
 
-  &lt;h2&gt;5. Wrap Up&lt;/h2&gt;    
+&lt;h3 id=&quot;user-studies&quot;&gt;User-Studies&lt;/h3&gt;
 
-  &lt;!--Conclusion--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Conclusion&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The timeframe for this project was aproximately late July, 2014 to Mid November, 2014. We had originally planned for only a non-responsive desktop experience built only search-and-register functionality. Over the course of the four months, the scope gradually increased&amp;mdash; adding responsiveness, as well as a wide array of backend tool for users. By the end of the process, Afterskoolz became a multifunctional platform for not only parents, but teachers and principals.&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;All-in-all, I&#39;m very happy with the direction I created for Sal and Mustafa; I believe we nailed down the fundamentals of their product and have left room for it to grow. As in all the projects, there are specifics I&lt;/p&gt;               
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators — all with very unique set of needs&lt;/p&gt;
 
-  &lt;!--Conclusion--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Future&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Over the course of a project, you inherently become better and smarter; you know find your mistakes in the first month and so on. However, it is impossible to move forward if you keep looking back. One of the hardest things you can do is say: &quot;Hey, this isn&#39;t perfect. There&#39;s a lot of things I&#39;d like to change now that I know better, but we&#39;ll cross that bridge later.&quot; The main thing is delivering a solid product so it can be developed and launched. That&#39;s why it&#39;s called an MVP.&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;But, that&#39;s not to say I didn&#39;t put together ideas for Afterskoolz V.2. One of things I wanted to improve was the homepage, overall color variety, navigation, and search funtionality.&lt;/p&gt;               
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of my suggested revisions, additional platform features are in the pipeline as well, such as social networking functionality, widgets, and iOS/Android apps.&lt;/p&gt;           
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
 
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;/section&gt;</content>
+&lt;!-- Wireframes
+================================================== --&gt;
+
+&lt;h3 id=&quot;wireframes&quot;&gt;Wireframes&lt;/h3&gt;
+
+&lt;p&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators — all with very unique set of needs&lt;/p&gt;
+
+&lt;p&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Site Map
+================================================== --&gt;
+&lt;p&gt;###Site Map&lt;/p&gt;
+
+&lt;p&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators — all with very unique set of needs&lt;/p&gt;
+
+&lt;p&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Prototyping
+================================================== --&gt;
+
+&lt;h3 id=&quot;prototyping&quot;&gt;Prototyping&lt;/h3&gt;
+
+&lt;p&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators — all with very unique set of needs&lt;/p&gt;
+
+&lt;p&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- =============================================
+==================================================  
+User-Experience
+==================================================  
+================================================== --&gt;
+
+&lt;h2 id=&quot;user-interface&quot;&gt;User-Interface&lt;/h2&gt;
+
+&lt;!-- Homepage
+================================================== --&gt;
+
+&lt;h3 id=&quot;homepage&quot;&gt;Homepage&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Search Results
+================================================== --&gt;
+
+&lt;h3 id=&quot;search-results&quot;&gt;Search Results&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Class Details
+================================================== --&gt;
+
+&lt;h3 id=&quot;class-details&quot;&gt;Class Details&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Dashboards
+================================================== --&gt;
+
+&lt;h3 id=&quot;dashboard&quot;&gt;Dashboard&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- =============================================
+==================================================  
+User-Experience
+==================================================  
+================================================== --&gt;
+
+&lt;h2 id=&quot;details&quot;&gt;Details&lt;/h2&gt;
+
+&lt;!-- Logo
+================================================== --&gt;
+
+&lt;h3 id=&quot;logo&quot;&gt;Logo&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Style Guide
+================================================== --&gt;
+
+&lt;h3 id=&quot;style-guide&quot;&gt;Style Guide&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Business Cards
+================================================== --&gt;
+
+&lt;h3 id=&quot;business-cards&quot;&gt;Business Cards&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- =============================================
+==================================================  
+Wrap Up
+==================================================  
+================================================== --&gt;
+
+&lt;h2 id=&quot;wrap-up&quot;&gt;Wrap Up&lt;/h2&gt;
+
+&lt;!-- Conclusion
+================================================== --&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Future
+================================================== --&gt;
+
+&lt;h3 id=&quot;future&quot;&gt;Future&lt;/h3&gt;
+
+&lt;p&gt;Over the course of a project, you inherently become better and smarter; you know find your mistakes in the first month and so on. However, it is impossible to move forward if you keep looking back. One of the hardest things you can do is say: “Hey, this isn’t perfect. There’s a lot of things I’d like to change now that I know better, but we’ll cross that bridge later.” The main thing is delivering a solid product so it can be developed and launched. That’s why it’s called an MVP.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+</content>
 		</entry>
 	
 		<entry>
@@ -562,238 +616,279 @@
 			<link href="http://hankquinlan.github.io/blog/2015/02/14/bringing-the-news-to-the-carribean"/>
 			<updated>2015-02-14T00:00:00-06:00</updated>
 			<id>http://hankquinlan.github.io//blog/2015/02/14/bringing-the-news-to-the-carribean</id>
-			<content type="html">&lt;p&gt;It&#39;s not every day you get to design a product for entire countries like Jamaica and Haiti, so when Aggrego was brought in to design the digital news network, &quot;Loop&quot;, in Spring 2014, I was definitely excited. Digicel, a communications company that handles phones in the Carribean, wanted to capitalize on their significant involment in their customers&#39; lives by creating the ultimate source.&lt;/p&gt;
+			<content type="html">&lt;p&gt;It’s not every day you get to design a product for entire countries like Jamaica and Haiti, so when Aggrego was brought in to design the digital news network, “Loop”, in Spring 2014, I was definitely excited. Digicel, a communications company that handles phones in the Carribean, wanted to capitalize on their significant involment in their customers’ lives by creating the ultimate source.&lt;/p&gt;
 
-&lt;p class=&quot;cs-copy&quot;&gt;Sal, alongside fellow parent and Afterskoolz co-founder, &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Mustafa Patni&lt;/a&gt;, laid out a rough draft of all the features they wanted Afterskoolz to have, such as simple search functionality, class registration, teacher-to-parent messaging, and a schedule-overlayed calendar. With their vision laid out, it was my job to bring it to life.&lt;/p&gt;
+&lt;p&gt;It’s not every day you get to design a product for entire countries like Jamaica and Haiti, so when Aggrego was brought in to design the digital news network, “Loop”, in Spring 2014, I was definitely excited. Digicel, a communications company that handles phones in the Carribean, wanted to capitalize on their significant involment in their customers’ lives by creating the ultimate source.&lt;/p&gt;
 
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;h3&gt;Objectives&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;In the summer of 2014, I was approached by my former &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Aggrego&lt;/a&gt; co-worker, &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Sal Abassi&lt;/a&gt;, to help get a personal project off the ground; that project would be Afterskoolz. As a parent, he felt there was an opportunity to create a platform to make finding and planning after-school activiites for his children easier.&lt;/p&gt;
-&lt;p class=&quot;cs-copy&quot;&gt;Sal, alongside fellow parent and Afterskoolz co-founder, &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Mustafa Patni&lt;/a&gt;, laid out a rough draft of all the features they wanted Afterskoolz to have, such as simple search functionality, class registration, teacher-to-parent messaging, and a schedule-overlayed calendar. With their vision laid out, it was my job to bring it to life.&lt;/p&gt;
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
-
-&lt;h3&gt;Planning/Research&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Sal and Mustafa staked out their competition well before bringing me onboard and discovered the space for innovation is huge: Not a single business for finding after-school activities showed up in Google Search &amp;mdash; Only definitions for after-school activity, reasons why aftershool activities are fun, and a few government-run organizations.&lt;/p&gt;         
-&lt;p class=&quot;cs-copy&quot;&gt;It was concluded that the closest competition in after-school class discovery was a San Francisco-based startup, called &lt;a href=&quot;https://www.kidfully.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Kidfully&lt;/a&gt;; it focused on the social aspect of reviewing and sharing after-school activities with fellow parents, a direction similar, but not the same as Afterskoolz.&lt;/p&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz would be less about recommendations and building a social community (i.e Kidfully, &lt;a href=&quot;https://www.yelp.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Yelp&lt;/a&gt;, &lt;a href=&quot;https://www.angieslist.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Angie&#39;s List&lt;/a&gt;), and more about shopping and registering&amp;mdash; making it more similar to traditional shopping sites, such as &lt;a href=&quot;https://www.amazon.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Amazon&lt;/a&gt; or even &lt;a href=&quot;https://www.grubhub.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Grubhub&lt;/a&gt;.&lt;/p&gt; 
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/mood-board.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
-
-&lt;h3&gt;User Studies&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-&lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt; 
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
-
-&lt;h3&gt;Wireframes&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-&lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
-
-&lt;h3&gt;Site-Map&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-&lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt; 
-
-&lt;h3&gt;Prototyping&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-&lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;  
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
-
-&lt;!-- 2. User-Interface
+&lt;!-- =============================================
+==================================================  
+User-Experience
+==================================================  
 ================================================== --&gt;
-&lt;section class=&quot;cs-section&quot;&gt;
 
-  &lt;h2&gt;3. User-Interface&lt;/h2&gt;    
+&lt;h2 id=&quot;user-experience&quot;&gt;User-Experience&lt;/h2&gt;
 
-  &lt;!--Homepage--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Homepage&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website&#39;s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;             
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of solving for the client&#39;s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It&#39;s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
-        &lt;p class=&quot;cs-copy&quot;&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-  &lt;!--Search Results--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Search Results&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website&#39;s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;             
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of solving for the client&#39;s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It&#39;s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
-        &lt;p class=&quot;cs-copy&quot;&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-  &lt;!--Class Details--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Class Details&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website&#39;s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;             
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of solving for the client&#39;s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It&#39;s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
-        &lt;p class=&quot;cs-copy&quot;&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-  &lt;!--Dashboards--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Dashboards&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website&#39;s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;             
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of solving for the client&#39;s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It&#39;s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
-        &lt;p class=&quot;cs-copy&quot;&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-&lt;/section&gt;
-
-&lt;!-- 3. Details
+&lt;!-- Planning and Research
 ================================================== --&gt;
-&lt;section class=&quot;cs-section&quot;&gt;
 
-  &lt;h2&gt;4. Details&lt;/h2&gt;    
+&lt;h3 id=&quot;planningresearch&quot;&gt;Planning/Research&lt;/h3&gt;
 
-  &lt;!--Logo--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Logo&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;               
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;Sal and Mustafa staked out their competition well before bringing me onboard and discovered the space for innovation is huge: Not a single business for finding after-school activities showed up in Google Search — Only definitions for after-school activity, reasons why aftershool activities are fun, and a few government-run organizations.&lt;/p&gt;
 
-  &lt;!--Style Guide--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Style Guide&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;              
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;It was concluded that the closest competition in after-school class discovery was a San Francisco-based startup, called [Kidfully]; it focused on the social aspect of reviewing and sharing after-school activities with fellow parents, a direction similar, but not the same as Afterskoolz.&lt;/p&gt;
 
-  &lt;!--Business Cards--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Style Guide&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;                
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;Afterskoolz would be less about recommendations and building a social community (i.e Kidfully, [Yelp],[Angie’s List]), and more about shopping and registering— making it more similar to traditional shopping sites, such as [Amazon] or even [Grubhub].&lt;/p&gt;
 
-&lt;/section&gt;
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;!-- 4. Wrap Up
-================================================== --&gt; 
-&lt;section class=&quot;cs-section&quot;&gt;
+&lt;!-- User-Studies
+================================================== --&gt;
 
-  &lt;h2&gt;5. Wrap Up&lt;/h2&gt;    
+&lt;h3 id=&quot;user-studies&quot;&gt;User-Studies&lt;/h3&gt;
 
-  &lt;!--Conclusion--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Conclusion&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The timeframe for this project was aproximately late July, 2014 to Mid November, 2014. We had originally planned for only a non-responsive desktop experience built only search-and-register functionality. Over the course of the four months, the scope gradually increased&amp;mdash; adding responsiveness, as well as a wide array of backend tool for users. By the end of the process, Afterskoolz became a multifunctional platform for not only parents, but teachers and principals.&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;All-in-all, I&#39;m very happy with the direction I created for Sal and Mustafa; I believe we nailed down the fundamentals of their product and have left room for it to grow. As in all the projects, there are specifics I&lt;/p&gt;               
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators — all with very unique set of needs&lt;/p&gt;
 
-  &lt;!--Conclusion--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Future&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Over the course of a project, you inherently become better and smarter; you know find your mistakes in the first month and so on. However, it is impossible to move forward if you keep looking back. One of the hardest things you can do is say: &quot;Hey, this isn&#39;t perfect. There&#39;s a lot of things I&#39;d like to change now that I know better, but we&#39;ll cross that bridge later.&quot; The main thing is delivering a solid product so it can be developed and launched. That&#39;s why it&#39;s called an MVP.&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;But, that&#39;s not to say I didn&#39;t put together ideas for Afterskoolz V.2. One of things I wanted to improve was the homepage, overall color variety, navigation, and search funtionality.&lt;/p&gt;               
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of my suggested revisions, additional platform features are in the pipeline as well, such as social networking functionality, widgets, and iOS/Android apps.&lt;/p&gt;           
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
 
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;/section&gt;
+&lt;!-- Wireframes
+================================================== --&gt;
+
+&lt;h3 id=&quot;wireframes&quot;&gt;Wireframes&lt;/h3&gt;
+
+&lt;p&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators — all with very unique set of needs&lt;/p&gt;
+
+&lt;p&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Site Map
+================================================== --&gt;
+&lt;p&gt;###Site Map&lt;/p&gt;
+
+&lt;p&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators — all with very unique set of needs&lt;/p&gt;
+
+&lt;p&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Prototyping
+================================================== --&gt;
+
+&lt;h3 id=&quot;prototyping&quot;&gt;Prototyping&lt;/h3&gt;
+
+&lt;p&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators — all with very unique set of needs&lt;/p&gt;
+
+&lt;p&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- =============================================
+==================================================  
+User-Experience
+==================================================  
+================================================== --&gt;
+
+&lt;h2 id=&quot;user-interface&quot;&gt;User-Interface&lt;/h2&gt;
+
+&lt;!-- Homepage
+================================================== --&gt;
+
+&lt;h3 id=&quot;homepage&quot;&gt;Homepage&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Search Results
+================================================== --&gt;
+
+&lt;h3 id=&quot;search-results&quot;&gt;Search Results&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Class Details
+================================================== --&gt;
+
+&lt;h3 id=&quot;class-details&quot;&gt;Class Details&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Dashboards
+================================================== --&gt;
+
+&lt;h3 id=&quot;dashboard&quot;&gt;Dashboard&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- =============================================
+==================================================  
+User-Experience
+==================================================  
+================================================== --&gt;
+
+&lt;h2 id=&quot;details&quot;&gt;Details&lt;/h2&gt;
+
+&lt;!-- Logo
+================================================== --&gt;
+
+&lt;h3 id=&quot;logo&quot;&gt;Logo&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Style Guide
+================================================== --&gt;
+
+&lt;h3 id=&quot;style-guide&quot;&gt;Style Guide&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Business Cards
+================================================== --&gt;
+
+&lt;h3 id=&quot;business-cards&quot;&gt;Business Cards&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- =============================================
+==================================================  
+Wrap Up
+==================================================  
+================================================== --&gt;
+
+&lt;h2 id=&quot;wrap-up&quot;&gt;Wrap Up&lt;/h2&gt;
+
+&lt;!-- Conclusion
+================================================== --&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Future
+================================================== --&gt;
+
+&lt;h3 id=&quot;future&quot;&gt;Future&lt;/h3&gt;
+
+&lt;p&gt;Over the course of a project, you inherently become better and smarter; you know find your mistakes in the first month and so on. However, it is impossible to move forward if you keep looking back. One of the hardest things you can do is say: “Hey, this isn’t perfect. There’s a lot of things I’d like to change now that I know better, but we’ll cross that bridge later.” The main thing is delivering a solid product so it can be developed and launched. That’s why it’s called an MVP.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
 </content>
 		</entry>
 	
@@ -802,238 +897,280 @@
 			<link href="http://hankquinlan.github.io/blog/2015/02/13/redesigning-the-pioneer-press"/>
 			<updated>2015-02-13T00:00:00-06:00</updated>
 			<id>http://hankquinlan.github.io//blog/2015/02/13/redesigning-the-pioneer-press</id>
-			<content type="html">&lt;p&gt;One of the first major projects I worked on at Aggrego was the redesign of the Pioneer Press. The Pioneer Press is a collection of 30+ local news websites covering the Chicago suburbs (under the Chicago Sun-Times umbrella) The goal wasn&#39;t simply an aesthetic improvement, but an improvement to the overall product: We made the desktop-only website responsive, added iOS/Android Apps, and created a network to connect them all.&lt;/p&gt;
+			<content type="html">&lt;p&gt;One of the first major projects I worked on at Aggrego was the redesign of the Pioneer Press. The Pioneer Press is a collection of 30+ local news websites covering the Chicago suburbs (under the Chicago Sun-Times umbrella) The goal wasn’t simply an aesthetic improvement, but an improvement to the overall product: We made the desktop-only website responsive, added iOS/Android Apps, and created a network to connect them all.&lt;/p&gt;
 
-&lt;p class=&quot;cs-copy&quot;&gt;Sal, alongside fellow parent and Afterskoolz co-founder, &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Mustafa Patni&lt;/a&gt;, laid out a rough draft of all the features they wanted Afterskoolz to have, such as simple search functionality, class registration, teacher-to-parent messaging, and a schedule-overlayed calendar. With their vision laid out, it was my job to bring it to life.&lt;/p&gt;
+&lt;p&gt;One of the first major projects I worked on at Aggrego was the redesign of the Pioneer Press. The Pioneer Press is a collection of 30+ local news websites covering the Chicago suburbs (under the Chicago Sun-Times umbrella) The goal wasn’t simply an aesthetic improvement, but an improvement to the overall product: We made the desktop-only website responsive, added iOS/Android Apps, and created a network to connect them all.&lt;/p&gt;
 
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;h3&gt;Objectives&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;In the summer of 2014, I was approached by my former &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Aggrego&lt;/a&gt; co-worker, &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Sal Abassi&lt;/a&gt;, to help get a personal project off the ground; that project would be Afterskoolz. As a parent, he felt there was an opportunity to create a platform to make finding and planning after-school activiites for his children easier.&lt;/p&gt;
-&lt;p class=&quot;cs-copy&quot;&gt;Sal, alongside fellow parent and Afterskoolz co-founder, &lt;a href=&#39;https://www.kidfully.com&#39; class=&#39;link&#39; target=&#39;_blank&#39;&gt;Mustafa Patni&lt;/a&gt;, laid out a rough draft of all the features they wanted Afterskoolz to have, such as simple search functionality, class registration, teacher-to-parent messaging, and a schedule-overlayed calendar. With their vision laid out, it was my job to bring it to life.&lt;/p&gt;
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
-
-&lt;h3&gt;Planning/Research&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Sal and Mustafa staked out their competition well before bringing me onboard and discovered the space for innovation is huge: Not a single business for finding after-school activities showed up in Google Search &amp;mdash; Only definitions for after-school activity, reasons why aftershool activities are fun, and a few government-run organizations.&lt;/p&gt;         
-&lt;p class=&quot;cs-copy&quot;&gt;It was concluded that the closest competition in after-school class discovery was a San Francisco-based startup, called &lt;a href=&quot;https://www.kidfully.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Kidfully&lt;/a&gt;; it focused on the social aspect of reviewing and sharing after-school activities with fellow parents, a direction similar, but not the same as Afterskoolz.&lt;/p&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz would be less about recommendations and building a social community (i.e Kidfully, &lt;a href=&quot;https://www.yelp.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Yelp&lt;/a&gt;, &lt;a href=&quot;https://www.angieslist.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Angie&#39;s List&lt;/a&gt;), and more about shopping and registering&amp;mdash; making it more similar to traditional shopping sites, such as &lt;a href=&quot;https://www.amazon.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Amazon&lt;/a&gt; or even &lt;a href=&quot;https://www.grubhub.com&quot; class=&quot;link text-link&quot; target=&quot;_blank&quot;&gt;Grubhub&lt;/a&gt;.&lt;/p&gt; 
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/mood-board.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
-
-&lt;h3&gt;User Studies&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-&lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt; 
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
-
-&lt;h3&gt;Wireframes&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-&lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
-
-&lt;h3&gt;Site-Map&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-&lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt; 
-
-&lt;h3&gt;Prototyping&lt;/h3&gt; 
-&lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-&lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;  
-
-&lt;figure class=&quot;image-block project-photo&quot;&gt;
-  &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/background.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-  &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-&lt;/figure&gt;  
-
-&lt;!-- 2. User-Interface
+&lt;!-- =============================================
+==================================================  
+User-Experience
+==================================================  
 ================================================== --&gt;
-&lt;section class=&quot;cs-section&quot;&gt;
 
-  &lt;h2&gt;3. User-Interface&lt;/h2&gt;    
+&lt;h2 id=&quot;user-experience&quot;&gt;User-Experience&lt;/h2&gt;
 
-  &lt;!--Homepage--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Homepage&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website&#39;s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;             
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of solving for the client&#39;s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It&#39;s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
-        &lt;p class=&quot;cs-copy&quot;&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-  &lt;!--Search Results--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Search Results&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website&#39;s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;             
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of solving for the client&#39;s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It&#39;s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
-        &lt;p class=&quot;cs-copy&quot;&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-  &lt;!--Class Details--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Class Details&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website&#39;s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;             
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of solving for the client&#39;s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It&#39;s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
-        &lt;p class=&quot;cs-copy&quot;&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-  &lt;!--Dashboards--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Dashboards&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website&#39;s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;             
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of solving for the client&#39;s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It&#39;s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
-        &lt;p class=&quot;cs-copy&quot;&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
-
-&lt;/section&gt;
-
-&lt;!-- 3. Details
+&lt;!-- Planning and Research
 ================================================== --&gt;
-&lt;section class=&quot;cs-section&quot;&gt;
 
-  &lt;h2&gt;4. Details&lt;/h2&gt;    
+&lt;h3 id=&quot;planningresearch&quot;&gt;Planning/Research&lt;/h3&gt;
 
-  &lt;!--Logo--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Logo&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;               
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;Sal and Mustafa staked out their competition well before bringing me onboard and discovered the space for innovation is huge: Not a single business for finding after-school activities showed up in Google Search — Only definitions for after-school activity, reasons why aftershool activities are fun, and a few government-run organizations.&lt;/p&gt;
 
-  &lt;!--Style Guide--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Style Guide&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;              
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;It was concluded that the closest competition in after-school class discovery was a San Francisco-based startup, called [Kidfully]; it focused on the social aspect of reviewing and sharing after-school activities with fellow parents, a direction similar, but not the same as Afterskoolz.&lt;/p&gt;
 
-  &lt;!--Business Cards--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Style Guide&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &amp;mdash; all with very unique set of needs:&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;                
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;Afterskoolz would be less about recommendations and building a social community (i.e Kidfully, [Yelp],[Angie’s List]), and more about shopping and registering— making it more similar to traditional shopping sites, such as [Amazon] or even [Grubhub].&lt;/p&gt;
 
-&lt;/section&gt;
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;!-- 4. Wrap Up
-================================================== --&gt; 
-&lt;section class=&quot;cs-section&quot;&gt;
+&lt;!-- User-Studies
+================================================== --&gt;
 
-  &lt;h2&gt;5. Wrap Up&lt;/h2&gt;    
+&lt;h3 id=&quot;user-studies&quot;&gt;User-Studies&lt;/h3&gt;
 
-  &lt;!--Conclusion--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Conclusion&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;The timeframe for this project was aproximately late July, 2014 to Mid November, 2014. We had originally planned for only a non-responsive desktop experience built only search-and-register functionality. Over the course of the four months, the scope gradually increased&amp;mdash; adding responsiveness, as well as a wide array of backend tool for users. By the end of the process, Afterskoolz became a multifunctional platform for not only parents, but teachers and principals.&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;All-in-all, I&#39;m very happy with the direction I created for Sal and Mustafa; I believe we nailed down the fundamentals of their product and have left room for it to grow. As in all the projects, there are specifics I&lt;/p&gt;               
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators — all with very unique set of needs&lt;/p&gt;
 
-  &lt;!--Conclusion--&gt; 
-  &lt;article class=&quot;cs-sub-section&quot;&gt;
-    &lt;div class=&quot;cs-sub-section-content cf&quot;&gt;
-      &lt;div class=&quot;project-left&quot;&gt;
-        &lt;h3&gt;Future&lt;/h3&gt; 
-        &lt;p class=&quot;cs-copy&quot;&gt;Over the course of a project, you inherently become better and smarter; you know find your mistakes in the first month and so on. However, it is impossible to move forward if you keep looking back. One of the hardest things you can do is say: &quot;Hey, this isn&#39;t perfect. There&#39;s a lot of things I&#39;d like to change now that I know better, but we&#39;ll cross that bridge later.&quot; The main thing is delivering a solid product so it can be developed and launched. That&#39;s why it&#39;s called an MVP.&lt;/p&gt;      
-        &lt;p class=&quot;cs-copy&quot;&gt;But, that&#39;s not to say I didn&#39;t put together ideas for Afterskoolz V.2. One of things I wanted to improve was the homepage, overall color variety, navigation, and search funtionality.&lt;/p&gt;               
-      &lt;/div&gt;   
-      &lt;figure class=&quot;image-block project-photo&quot;&gt;
-        &lt;img class=&quot;max-width&quot; src=&quot;images/projects/afterskoolz/conclusion.jpg&quot; alt=&quot;Afterskoolz App and Widget&quot;/&gt; 
-        &lt;figcaption class=&quot;photo-caption&quot;&gt;Future plans for Afterskoolz include social functionality, class widgets and an iOS/Android app.&lt;/figcaption&gt;
-      &lt;/figure&gt;  
-        &lt;p class=&quot;cs-copy&quot;&gt;Outside of my suggested revisions, additional platform features are in the pipeline as well, such as social networking functionality, widgets, and iOS/Android apps.&lt;/p&gt;           
-    &lt;/div&gt;
-  &lt;/article&gt;
+&lt;p&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
 
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;/section&gt;</content>
+&lt;!-- Wireframes
+================================================== --&gt;
+
+&lt;h3 id=&quot;wireframes&quot;&gt;Wireframes&lt;/h3&gt;
+
+&lt;p&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators — all with very unique set of needs&lt;/p&gt;
+
+&lt;p&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Site Map
+================================================== --&gt;
+&lt;p&gt;###Site Map&lt;/p&gt;
+
+&lt;p&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators — all with very unique set of needs&lt;/p&gt;
+
+&lt;p&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Prototyping
+================================================== --&gt;
+
+&lt;h3 id=&quot;prototyping&quot;&gt;Prototyping&lt;/h3&gt;
+
+&lt;p&gt;Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators — all with very unique set of needs&lt;/p&gt;
+
+&lt;p&gt;The needs of the users determined what functionality the product needed. Many new features were added, while some earlier proposed ideas were reinforced, and other axed.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- =============================================
+==================================================  
+User-Experience
+==================================================  
+================================================== --&gt;
+
+&lt;h2 id=&quot;user-interface&quot;&gt;User-Interface&lt;/h2&gt;
+
+&lt;!-- Homepage
+================================================== --&gt;
+
+&lt;h3 id=&quot;homepage&quot;&gt;Homepage&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Search Results
+================================================== --&gt;
+
+&lt;h3 id=&quot;search-results&quot;&gt;Search Results&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Class Details
+================================================== --&gt;
+
+&lt;h3 id=&quot;class-details&quot;&gt;Class Details&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Dashboards
+================================================== --&gt;
+
+&lt;h3 id=&quot;dashboard&quot;&gt;Dashboard&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- =============================================
+==================================================  
+User-Experience
+==================================================  
+================================================== --&gt;
+
+&lt;h2 id=&quot;details&quot;&gt;Details&lt;/h2&gt;
+
+&lt;!-- Logo
+================================================== --&gt;
+
+&lt;h3 id=&quot;logo&quot;&gt;Logo&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Style Guide
+================================================== --&gt;
+
+&lt;h3 id=&quot;style-guide&quot;&gt;Style Guide&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Business Cards
+================================================== --&gt;
+
+&lt;h3 id=&quot;business-cards&quot;&gt;Business Cards&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- =============================================
+==================================================  
+Wrap Up
+==================================================  
+================================================== --&gt;
+
+&lt;h2 id=&quot;wrap-up&quot;&gt;Wrap Up&lt;/h2&gt;
+
+&lt;!-- Conclusion
+================================================== --&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Future
+================================================== --&gt;
+
+&lt;h3 id=&quot;future&quot;&gt;Future&lt;/h3&gt;
+
+&lt;p&gt;Over the course of a project, you inherently become better and smarter; you know find your mistakes in the first month and so on. However, it is impossible to move forward if you keep looking back. One of the hardest things you can do is say: “Hey, this isn’t perfect. There’s a lot of things I’d like to change now that I know better, but we’ll cross that bridge later.” The main thing is delivering a solid product so it can be developed and launched. That’s why it’s called an MVP.&lt;/p&gt;
+
+&lt;p&gt;Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from the client was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.&lt;/p&gt;
+
+&lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
+
+&lt;p&gt;I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.&lt;/p&gt;
+
+&lt;figure class=&quot;text-left block cf image&quot;&gt;
+  &lt;img src=&quot;/images/projects/afterskoolz/homepage.jpg&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
+&lt;/figure&gt;
+</content>
 		</entry>
 	
 
