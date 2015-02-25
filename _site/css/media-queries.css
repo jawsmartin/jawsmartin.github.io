@@ -106,17 +106,17 @@
   }
 
   .post {
-    padding: 25px;
+    padding: 6.5%;
   }
 
   #post-main-content p:first-of-type {
     font-size: 17px;
-    line-height: 26px;
+    line-height: 24px;
   }
 
   p {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 21px;
   }
 
   .cs-lead {
@@ -124,7 +124,12 @@
     line-height: 30px;
   }
 
+  .cs-sub-container {
+    margin-bottom: 19px;
+  }
+
   .overview {
+    margin-top: 19px;
     font-size: 14px;
     line-height: 21px;
   }
@@ -144,6 +149,25 @@
   }
 
   .cs-sub {
+    padding-right: 7px;
+    margin-right: 5px;    
+    font-size: 11px;
+  }
+
+  .project-header .cs-sub-container {
+    margin-bottom: 25px;
+  }
+
+  .comment {
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+
+  .published-container {
+    top: -5px;
+  }
+
+  .published {
     font-size: 11px;
   }
 
@@ -203,7 +227,8 @@
   .header-link-active {
     opacity: 1 !important;
     color: RGBA(242, 47, 93, 1) !important;
-    border-bottom: 2px solid RGBA(242, 47, 93, 1);
+    padding-bottom: 8px !important;
+    border-bottom: 3px solid RGBA(242, 47, 93, 1);
   }
 
   .hero-title {
@@ -213,7 +238,7 @@
 
   .hero-content {
     margin: 45px auto 0px auto;
-    padding: 65px 0px 65px 0px;
+    padding: 65px 0px 125px 0px;
     max-width: 92%;
   }
 
@@ -226,12 +251,21 @@
     padding-bottom: 0px;
   }
 
+  form {
+    width: 100%;
+  }
+
   input {
+    float: none;
     display: block;
     width: 100%;
     height: 44px;
     margin-right: 0px;
     box-sizing: border-box;
+  }
+
+  label {
+    top: 2px;
   }
 
   .button {
@@ -250,7 +284,9 @@
   }
 
   header.main .header-link {
-    padding-bottom: 12px;
+    border-top: none;
+    padding-top: 31px;
+    padding-bottom: 7px;
   }
   header.main-2 .header-link {
     padding-bottom: 9px;
@@ -258,7 +294,7 @@
 
   .header-link {
     margin-left: 5px;
-    font-size: 21px;
+    font-size: 21px !important;
     padding: 10px 15px 10px 15px;
   }
   .nav-label {

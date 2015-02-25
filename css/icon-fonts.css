@@ -29,6 +29,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+label:before {
+  margin-right: 8px;
+  font-family: 'icomoon';
+  font-size: 19px;
+  opacity: .7;
+  position: relative;
+  top: -1px;
+  content: "\e603";
+}
+
 .icon-instagram:before {
   content: "\e601";
 }
