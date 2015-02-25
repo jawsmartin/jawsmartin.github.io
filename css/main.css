@@ -19,6 +19,17 @@ Table of Content
 #General
 ==============================================
 */
+
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: RGBA(130, 143, 151, .1);
+  color: #51636D;
+  font-weight: 400;
+  font-size: 17px;
+}
+
 .grid-container {
   max-width: 1200px;
   width: 92%;
@@ -35,15 +46,6 @@ Table of Content
 .homepage-container {
   padding-top: 25px;
   padding-bottom: 75px;
-}
-
-body {
-  -webkit-font-smoothing: antialiased;
-  background-color: RGBA(130, 143, 151, .1);
-  color: #51636D;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 17px;
 }
 
 /* Typography */
@@ -262,8 +264,6 @@ header.main .header-link-active:hover {
   opacity: 1;
 }
 
-
-
 header.main-2 .header-link:hover {
   transition: all .3s ease;  
   border-bottom: 4px solid #F22F5D;  
@@ -349,6 +349,19 @@ input {
   border-bottom: 1px dotted #ececec;
 }
 
+label {
+  color: white;
+  position: absolute;
+  margin: 9px 0px 0px 15px;
+  font-size: 15px;
+  opacity: .9;
+}
+
+label:before {
+  margin-right: 8px;
+  font-family: 'icomoon';
+  content: "\e920";
+}
 
 
 

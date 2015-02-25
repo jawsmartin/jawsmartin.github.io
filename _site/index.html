@@ -16,9 +16,12 @@
 
   <!-- CSS
   ================================================== -->
+  <link rel="stylesheet" href="/css/reset.css" media="screen">
+  <link rel="stylesheet" href="/css/clearfix.css" media="screen">
   <link rel="stylesheet" href="/css/main.css" media="screen">
+  <link rel="stylesheet" href="/css/icon-fonts.css" media="screen">
+  <link rel="stylesheet" href="/css/media-queries.css" media="screen">
 
-  
   <!-- Favicons
   ================================================== -->
   <link rel="shortcut icon" href="favicon.ico">
@@ -39,7 +42,7 @@
 
   <!-- Load jQuery
   ================================================== -->
-  <script src="js/jquery.min.js"></script>
+
 
 </head>
 
@@ -83,7 +86,7 @@
 	
 <div class="hero">
   <div class="hero-overlay"></div>
-  <div class="hero-content text-center">
+  <div class="hero-content grid-container text-center">
     <span class="hero-title">
       
         Designer, Illustrator, and Front-End Developer
@@ -94,7 +97,8 @@
 
       
         If you are interested in blog updates, grab the <a href="#" class="link white">RSS</a> or sign-up for the newsletter.
-        <form>
+        <form class="relative">
+          <label for="email">Email Address</label>
           <input type="text" name="email">
           <a href="#" class="button link">Subscribe</a>
         </form>
@@ -225,7 +229,7 @@
   </div>
 
 	<div class="grid-container-2 inline-block float-left">
-		<!-- Case-Study Links
+		<!-- Blog Posts
 ================================================== -->  
 <section class="selected-work">
   <div class="selected-work-content cf">

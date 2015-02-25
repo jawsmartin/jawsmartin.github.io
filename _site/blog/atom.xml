@@ -4,7 +4,7 @@
 	<title>Hank Quinlan's Blog</title>
 	<link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://hankquinlan.github.io/blog"/>
-	<updated>2015-02-24T18:37:12-06:00</updated>
+	<updated>2015-02-24T19:28:17-06:00</updated>
 	<id>http://hankquinlan.github.io/blog</id>
 	<author>
 		<name>Hank Quinlan</name>
@@ -51,12 +51,6 @@
   &lt;img src=&quot;/images/projects/afterskoolz/background.jpg&quot; alt=&quot;&quot; /&gt;
   &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
 &lt;/figure&gt;
-
-&lt;!-- =============================================
-==================================================  
-User-Experience
-==================================================  
-================================================== --&gt;
 
 &lt;!-- Planning and Research
 ================================================== --&gt;
@@ -144,12 +138,6 @@ User-Experience
 
 &lt;hr /&gt;
 
-&lt;!-- =============================================
-==================================================  
-User-Experience
-==================================================  
-================================================== --&gt;
-
 &lt;!-- Homepage
 ================================================== --&gt;
 
@@ -222,12 +210,6 @@ User-Experience
   &lt;figcaption align=&quot;bottom&quot;&gt;Alleyoop looks great on your phone&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;!-- =============================================
-==================================================  
-Details
-==================================================  
-================================================== --&gt;
-
 &lt;!-- Logo
 ================================================== --&gt;
 
@@ -283,12 +265,6 @@ Details
 &lt;/figure&gt;
 
 &lt;p&gt;Outside of solving for the client’s main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It’s pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.&lt;/p&gt;
-
-&lt;!-- =============================================
-==================================================  
-Wrap Up
-==================================================  
-================================================== --&gt;
 
 &lt;!-- Conclusion
 ================================================== --&gt;
