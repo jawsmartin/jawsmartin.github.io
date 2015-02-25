@@ -40,10 +40,14 @@ body {
   width: 46%;
 }
 .page-container {
+  margin-top: -90px;
+  z-index: 999;
   padding-top: 25px;
   padding-bottom: 75px;
 }
 .homepage-container {
+  z-index: 999;
+  margin-top: -90px;
   padding-top: 25px;
   padding-bottom: 75px;
 }
@@ -304,7 +308,7 @@ header.main-2 .header-link-active:hover {
 }
 .hero-content {
   z-index: 999;
-  padding: 10% 0px 8% 0px;
+  padding: 140px 0px 155px 0px;
   font-weight: 300;
   position: relative;
 }
@@ -1006,9 +1010,7 @@ h4.job {
   background-color: white;
   padding: 35px 45px 15px 45px;
   margin-bottom: 25px;
-  border: 1px solid #ececec;
   box-sizing: border-box;
-  border-radius: 3px;
 }
 .portfolio-thumbnail {
   display: inline-block;
@@ -1017,7 +1019,6 @@ h4.job {
   box-sizing: border-box;
   margin-right: 3%;
   background-color: white;
-  border: 1px solid #ececec;
   border-radius: 3px;
   float: left;
   padding: 15px;
