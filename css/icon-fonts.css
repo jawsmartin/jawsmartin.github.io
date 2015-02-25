@@ -1,0 +1,126 @@
+/*
+==============================================
+#Icon Fonts
+==============================================
+*/
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot?-vmko0h');
+  src:url('../fonts/icomoon.eot?#iefix-vmko0h') format('embedded-opentype'),
+      url('../fonts/icomoon.woff?-vmko0h') format('woff'),
+      url('../fonts/icomoon.ttf?-vmko0h') format('truetype'),
+      url('../fonts/icomoon.svg?-vmko0h#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+  content: "\e601";
+}
+
+.icon-tumblr:before {
+  content: "\eabb";
+  font-size: 17px;
+}
+
+.icon-twitter:before {
+  content: "\ea91";
+}
+
+
+.icon-home:before {
+  content: "\e902";
+}
+
+.icon-bubble:before {
+  content: "\e96b";
+}
+
+.icon-quill:before {
+  content: "\e907";
+}
+
+.icon-books:before {
+  content: "\e920";
+}
+
+.icon-stack:before {
+  content: "\e92e";
+}
+
+.icon-lifebuoy:before {
+  content: "\e941";
+}
+
+.icon-briefcase:before {
+  content: "\e9ae";
+}
+
+.icon-terminal:before {
+  content: "\ea81";
+}
+
+.icon-dribbble:before {
+  content: "\eaa8";
+}
+
+.icon-github:before {
+  content: "\eab4";
+}
+.icon-behance:before {
+  content: "\e602";
+  font-size: 23px;
+  position: relative;
+  top: 3px; 
+}
+
+.portfolio:before {
+  margin-right: 3px;
+  font-family: 'icomoon';
+  content: "\e9ae";
+  display: inline-block;
+  position: relative;
+  top: 1px;
+}
+
+.blog:before {
+  margin-right: 3px;
+  font-family: 'icomoon';
+  content: "\e920";
+  display: inline-block;
+  position: relative;
+  top: 1px;
+}
+
+.home:before {
+  margin-right: 3px;
+  font-family: 'icomoon';
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  content: "\e902";
+}
+
+.about:before {
+  margin-right: 3px;
+  font-family: 'icomoon';
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  content: "\e907";
+}

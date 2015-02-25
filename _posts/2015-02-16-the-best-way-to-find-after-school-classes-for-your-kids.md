@@ -13,12 +13,6 @@ Sal, alongside fellow parent and Afterskoolz co-founder, [Mustafa Patni], laid o
 
 {% include image.html url="/images/projects/afterskoolz/background.jpg" caption="Alleyoop looks great on your phone" %}  
 
-<!-- =============================================
-==================================================  
-User-Experience
-==================================================  
-================================================== -->
-
 <!-- Planning and Research
 ================================================== -->
 
@@ -90,12 +84,6 @@ It was concluded that the closest competition in after-school class discovery wa
 
 ---
 
-<!-- =============================================
-==================================================  
-User-Experience
-==================================================  
-================================================== --> 
-
 <!-- Homepage
 ================================================== -->
 
@@ -158,12 +146,6 @@ I followed this formula pretty closely and added illustrations to compliment the
 
 {% include image.html url="/images/projects/afterskoolz/homepage.jpg" caption="Alleyoop looks great on your phone" %}    
 
-<!-- =============================================
-==================================================  
-Details
-==================================================  
-================================================== -->
-
 
 <!-- Logo
 ================================================== -->
@@ -211,13 +193,7 @@ I followed this formula pretty closely and added illustrations to compliment the
 {% include image.html url="/images/projects/afterskoolz/homepage.jpg" caption="Alleyoop looks great on your phone" %}   
 
 Outside of solving for the client's main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It's pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.
-
-<!-- =============================================
-==================================================  
-Wrap Up
-==================================================  
-================================================== -->   
-
+ 
 <!-- Conclusion
 ================================================== -->
 
