@@ -582,7 +582,7 @@ label {
 
 .post {
   background-color: white;
-  padding: 45px 45px 45px 45px;
+  padding: 35px 35px 35px 35px;
 }
 
 .cs {
@@ -610,7 +610,7 @@ label {
   padding-bottom: 0px;
 }
 .project-header .cs-sub-container{
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 #main-content {
   margin-bottom: 50px;
@@ -645,7 +645,7 @@ label {
 /* Post Main Content */
 
 .blog-post-container {
-  padding-top: 95px;
+  margin-top: -90px;
   padding-bottom: 75px;
 }
 .project-photo {
@@ -769,7 +769,8 @@ h3 {
 }
 
 .project-header {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #ececec;
 }
 
 .page-header-content {
@@ -1014,7 +1015,26 @@ h4.job {
   margin-top: 4px;
 }
 
+.blog-item {
+  margin-bottom: 20px;
+}
 
+.blog-date {
+  font-size: 13px;
+  opacity: .7;
+}
+
+.blog-title {
+  display: block;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 3px;
+}
+
+.blog-sub-container {
+
+}
 
 
 /*

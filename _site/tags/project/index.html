@@ -96,11 +96,13 @@
 
       
         I want my words to come out of me like lava and sometimes, 140 characters doesn't quite cut it. If you are interested in blog updates, grab the <a href="#" class="link white">RSS</a> or sign-up for the newsletter.
-        <form class="relative">
-          <label for="email">Email Address</label>
-          <input type="text" name="email">
-          <a href="#" class="button link">Subscribe</a>
-        </form>      
+        <div>
+          <form class="relative inline-block">
+            <label for="email"></label>
+            <input type="text" name="email" placeholder="Email Address">
+            <a href="#" class="button link">Subscribe</a>
+          </form>
+        </div>  
       
       
     </p>
@@ -110,30 +112,17 @@
 <div class="page-container main grid-container relative cf">
 
   <div class="grid-container-3 inline-block float-left">
-    <div class="blog-posts">
+    <div class="blog-posts post">
   <ul>
   
 
-    <li class="homepage-hero">
-      <a class="cs-lead" href="/blog/2015/02/21/your-inbox-just-got-dunked-on" title="Your Inbox Just Got Dunked On">Your Inbox Just Got Dunked On</a>
-      <div class="cs-sub-container cf">            
-        <span class="cs-sub inline-block float-left">February 21, 2015</span>
-        <div class="published-container inline-block float-left cf">
-          <span class="published">Published in</span>
-          <a href="tags/case-study" class="cs-sub inline-block link pink">Project</a>
-        </div>
-        <a href="#" class="cs-sub inline-block strong float-left link pink comments-sub"></a>                
-      </div>
-      <a href="/blog/2015/02/21/your-inbox-just-got-dunked-on">
-        <figure class="thumbnail-container">
-          <img class="thumbnail" src="/images/hero-alleyoop.jpg"/>
-        </figure>
-      </a>
-      <p class="overview"></p> 
-      <div class="read-more-container inline-block">
-        <a href="/blog/2015/02/21/your-inbox-just-got-dunked-on"class="link read-more">Continue Reading</a>
+    <li class="blog-item">
+      <a class="blog-title link pink" href="/blog/2015/02/21/your-inbox-just-got-dunked-on" title="Your Inbox Just Got Dunked On">Your Inbox Just Got Dunked On</a>
+      <div class="blog-sub-container cf">            
+        <span class="blog-date inline-block float-left">February 21, 2015</span>
       </div>
     </li>
+
 
   
   </ul>
@@ -146,7 +135,7 @@
 
   <div class="blog-filter">
     <span class="blog-filter-title">Blog</span>
-    <a class="filter-item inline-block" href="/">Everything</a>
+    <a class="filter-item inline-block" href="/blog">Everything</a>
     <a class="filter-item inline-block " href="/tags/personal">Personal</a>   
     <a class="filter-item inline-block " href="/tags/case-study">Case-Study</a>      
     <a class="filter-item inline-block  filter-item-active " href="/tags/project">Project</a>
