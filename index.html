@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Josh Martin | Home
+layout: default
+title: Josh Martin | Blog
 ---
 
 <!-- Blog Posts
@@ -8,28 +8,27 @@ title: Josh Martin | Home
 <section class="selected-work">
   <div class="selected-work-content cf">
 
-    <ul class="homepage posts">
+    <ul class="blog-post-container">
       {% for post in paginator.posts %}
 
-        <li class="homepage-hero">
-          <a class="cs-lead" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-          <div class="cs-sub-container cf">            
-            <span class="cs-sub inline-block float-left">{{ post.date | date: '%B %d, %Y' }}</span>
-            <div class="published-container inline-block float-left cf">
-              <span class="published">Published in</span>
-              <a href="tags/case-study" class="cs-sub inline-block link pink">{{ post.tag }}</a>
-            </div>
-            <a href="{{ post.url }}#disqus_thread" class="comment cs-sub inline-block strong float-left link pink comments-sub">Comments</a>                
-          </div>
-          <a href="{{ post.url }}">
-            <figure class="thumbnail-container">
-              <img class="thumbnail" src="{{ post.thumbnail }}"/>
+        <li class="blog-post">
+
+          <a class="" href="{{ post.url }}">
+            <figure class="block thumbnail-container" style="background-image:url({{ post.thumbnail }});background-attachment:fixed;background-size:cover;background-position:center center">
             </figure>
           </a>
-          <p class="overview">{{ post.excerpt | strip_html }}</p> 
-          <div class="read-more-container inline-block">
-            <a href="{{ post.url }}"class="link read-more">Continue Reading</a>
+
+          <div class="blog-post-details grid-container-2">
+            <a class="cs-lead" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            <div class="cs-sub-container cf">            
+              <span class="cs-sub inline-block float-left">{{ post.date | date: '%B %d, %Y' }}</span>
+            </div>
+            <p class="overview">{{ post.excerpt | strip_html }}</p> 
+            <div class="read-more-container inline-block">
+              <a href="{{ post.url }}"class="link read-more">Continue Reading</a>
+            </div>
           </div>
+
         </li>
 
       {% endfor %}

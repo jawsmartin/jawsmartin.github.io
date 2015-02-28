@@ -16,11 +16,7 @@
 
   <!-- CSS
   ================================================== -->
-  <link rel="stylesheet" href="/css/reset.css" media="screen">
-  <link rel="stylesheet" href="/css/clearfix.css" media="screen">
   <link rel="stylesheet" href="/css/main.css" media="screen">
-  <link rel="stylesheet" href="/css/icon-fonts.css" media="screen">
-  <link rel="stylesheet" href="/css/media-queries.css" media="screen">
 
   <!-- Favicons
   ================================================== -->
@@ -49,79 +45,68 @@
 <body>
 
   <div class="page"> 
-<header class="yo main">
-  <div class="header-content grid-container cf">
+<header class="main">
+  <div class="header-content grid-container relative cf">
+
     <div class="inline-block site-container cf">
       <a href="/" class="link">
-        <img class="site-pic" src="/images/logo-4.png"/>
-        <img class="secondary-logo inline-block float-left" src="/images/logo-6.png"/>
+        <span class="site-name inline-block float-left">Josh Martin</span>
+        <img class="site-logo" src="/images/logo-3.png"/>
       </a>
     </div> 
 
     <!-- Site Navigation -->  
     <nav class="nav-container relative inline-block float-right cf">
-      <a class="link header-link " href="/">
-        <span class="home"></span>
-        <span class="nav-label">Home</span>
-      </a>        
-      <a class="link header-link " href="/portfolio">
-        <span class="portfolio"></span>
-        <span class="nav-label">Portfolio</span>        
-      </a>
-      <a class="link header-link  header-link-active " href="/about">
-        <span class="about"></span>
-        <span class="nav-label">About/CV</span>
-      </a>
-      <a class="link header-link" href="/blog">
-        <span class="blog"></span>
-        <span class="nav-label">Blog</span>
-      </a>       
+
+      <div class="inline-block cf">
+        <a class="link header-link " href="/">
+          <span class="blog"></span>
+          <span class="nav-label">Blog</span>
+        </a>        
+        <a class="link header-link " href="http://www.behance.net/jawsmartin">
+          <span class="portfolio"></span>
+          <span class="nav-label">Portfolio</span>        
+        </a>
+        <a class="link header-link  header-link-active " href="/about">
+          <span class="about"></span>
+          <span class="nav-label">About</span>
+        </a>
+      </div>
+
+      <!-- Social Links --> 
+      <div class="social inline-block cf">
+        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.dribbble.com/jawsmartin" class="icon-dribbble link social-icon"></a>
+        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.twitter.com/jawsmartin" class="icon-twitter link social-icon"></a>
+        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.instagram.com/jawsmartin" class="icon-instagram link social-icon"></a>       
+      </div>  
+
+
     </nav>
+
+
+
 
   </div>
 </header>
 
 
-
-
-<div class="hero">
-  <div class="hero-overlay"></div>
-  <div class="hero-content grid-container text-center">
-    <span class="hero-title">
-      
-        I'm an All-Around Swell Guy from Pittsburgh
-
-         
-    </span>
-    <p class="hero-copy">
-
-      
-        Or at least, I think I am. I will do my best to keep the rest of this page as objective as possible.
-
-      
-      
-    </p>
-  </div>
-</div>   
-
-<div class="page-container main grid-container relative cf">
-
-  <div class="grid-container-3 inline-block float-left">
-    <!-- Intro
+<!-- Intro
 ================================================== -->  
-<section class="post">
+<section class="">
   <div class="intro-content cf">
 
-    <div class="paragraph">
-      <figure class="image-block about-photo">
-        <img class="max-width" src="/images/me.jpg" alt="Afterskoolz App and Widget"/> 
-        <figcaption class="photo-caption">Chicago, 2013. From left: Lauren Nicole, Myself, and Andrew Johnston</figcaption>
-      </figure>        
+    <figure class="image-block about-photo grid-container">
+      <img class="max-width" src="/images/me.jpg" alt="Afterskoolz App and Widget"/> 
+      <figcaption class="photo-caption">Chicago, 2013. From left: Lauren Nicole, Myself, and Andrew Johnston</figcaption>
+    </figure> 
+
+
+    <div class="paragraph grid-container-2">
       <h3>About</h3> 
       <p>I am a Designer, Illustrator, and Front-End Developer from Pittsburgh, Pennsylvania living in Chicago, Illinois. I currently work as an independent product designer for local startups. Previously at <a href="http://en.wikipedia.org/wiki/Wrapports" class="link blue" target="_blank">Wrapports Media</a>. I am very fortunate to do what I love for a living.</p>     
     </div>
 
-    <div class="paragraph">
+    <div class="paragraph grid-container-2">
       <h3>Background</h3> 
       <p class="cs-copy">I didn't start out back then doing what I do now&mdash; it's been a long, winding road bouncing to and from different interests and artistic endeavors.</p>      
       <ul class="inset-container">
@@ -184,13 +169,13 @@
     </div>
 
 
-    <div class="paragraph">
+    <div class="paragraph grid-container-2">
       <h3 class="">Work Inquiries</h3> 
       <p class="profile-copy">While I'm not currently looking for new full-time work, I'm always open to interesting opportunities to work with great people. If you think you have something we can work on together, such as consulations, speaking engagements, or offsite, short-term contract work, don't hesitate to <a href="mailto:jawsmartin@gmail.com" class="link pink">shoot me an email</a>.</p>             
       <p class="profile-copy">Please note that I receive many, many emails, so it may take me a while to get back to you. Expect a response within 1-2 weeks. Also, <em>Please do not contact me via Linkedin as I rarely use the platform.</em></p>       
     </div>
 
-    <div class="paragraph">
+    <div class="paragraph grid-container-2">
       <h3 class="">Connect</h3> 
       <p class="profile-copy">Aren't necessarily looking to work together, but want to connect? I extend the offer of coffee, scones, and some amazing small (or big) talk in <em>downtown Chicago</em>. An email is always appropriate, but a simple <a href="http://www.twitter.com/jawsmartin" class="link pink">tweet</a> works really well.</p>       
     </div>
@@ -198,140 +183,32 @@
   </div>
 </section>
 
-  </div>
 
-  <div class="right-rail inline-block float-left">
-    
-    <div class="page-header page-header-content">
-
-  <div class="r-header cf">
-    <div class="cf">
-      <h3 class="about-title inline-block float-left">Blog</h3>
-    </div>
-    <p class="profile-copy inline-block">You can find my chronological, unabridged portfolio on <a href="http://www.behance.net/jawsmartin" class="link pink">Behance</a> and my latest WIP's on <a href="http://www.dribbble.com/jawsmartin" class="link pink">Dribbble</a>.</p> 
-  </div>
-
-  <ul class="rail-blog homepage posts">
-    
-
-      <li class="homepage-hero cf">
-        <figure class="thumbnail-container">
-          <img class="thumbnail" src="/images/hero-alleyoop.jpg"/>
-        </figure>          
-        <a class="cs-lead" href="/blog/2015/02/21/your-inbox-just-got-dunked-on" title="Your Inbox Just Got Dunked On">Your Inbox Just Got Dunked On</a>
-        <span class="cs-sub inline-block float-left">February 21, 2015</span>
-      </li>
-
-    
-
-      <li class="homepage-hero cf">
-        <figure class="thumbnail-container">
-          <img class="thumbnail" src="/images/hero-jekyll.jpg"/>
-        </figure>          
-        <a class="cs-lead" href="/blog/2015/02/20/big-step-foward" title="Big Step Forward">Big Step Forward</a>
-        <span class="cs-sub inline-block float-left">February 20, 2015</span>
-      </li>
-
-    
-
-      <li class="homepage-hero cf">
-        <figure class="thumbnail-container">
-          <img class="thumbnail" src="/images/hero-afterskoolz-3.jpg"/>
-        </figure>          
-        <a class="cs-lead" href="/blog/2015/02/16/the-best-way-to-find-after-school-classes-for-your-kids" title="The Best Way to Find After-School Activities for Your Kids">The Best Way to Find After-School Activities for Your Kids</a>
-        <span class="cs-sub inline-block float-left">February 16, 2015</span>
-      </li>
-
-    
-
-      <li class="homepage-hero cf">
-        <figure class="thumbnail-container">
-          <img class="thumbnail" src="/images/hero-sun-times.jpg"/>
-        </figure>          
-        <a class="cs-lead" href="/blog/2015/02/15/the-world-revolves-around-the-sun" title="The World Revolves Around the Sun">The World Revolves Around the Sun</a>
-        <span class="cs-sub inline-block float-left">February 15, 2015</span>
-      </li>
-
-    
-
-      <li class="homepage-hero cf">
-        <figure class="thumbnail-container">
-          <img class="thumbnail" src="/images/hero-loop.jpg"/>
-        </figure>          
-        <a class="cs-lead" href="/blog/2015/02/14/bringing-the-news-to-the-carribean" title="Bringing the News to the Carribean">Bringing the News to the Carribean</a>
-        <span class="cs-sub inline-block float-left">February 14, 2015</span>
-      </li>
-
-    
-
-      <li class="homepage-hero cf">
-        <figure class="thumbnail-container">
-          <img class="thumbnail" src="/images/hero-pioneer-press.jpg"/>
-        </figure>          
-        <a class="cs-lead" href="/blog/2015/02/13/redesigning-the-pioneer-press" title="Redesigning the Pioneer Press">Redesigning the Pioneer Press</a>
-        <span class="cs-sub inline-block float-left">February 13, 2015</span>
-      </li>
-
-    
-  </ul>
-
-</div>
-
-    <div class="page-header page-header-content">
-
-  <div class="r-header cf">
-    <div class="cf">
-      <h3 class="about-title inline-block float-left">Portfolio</h3>
-    </div>
-    <p class="profile-copy inline-block">Final snapshots of completed work via <a href="http://www.behance.net/jawsmartin" class="link pink">Behance</a>. If you are interested in lengthy write-ups that allow for more context, check out some of my <a href="/tags/case-study" class="link pink">case-studies</a>. I also occasionally post show-offy stuff on <a href="http://www.dribbble.com/jawsmartin" class="link pink">Dribbble</a>.</p> 
-  </div>
-
-  <div class="latest-work first">
-    <img class="" src="/images/portfolio.png"/> 
-  </div>
-
-  <div class="latest-work">
-    <img class="" src="/images/portfolio-2.png"/> 
-  </div>
-
-  <div class="latest-work">
-    <img class="" src="/images/portfolio-3.png"/> 
-  </div>
-
-  <div class="latest-work">
-    <img class="" src="/images/portfolio-4.png"/> 
-  </div>
-
-</div>    
-
-    
-  </div>
-
-</div>
-
-<!-- Footer
-================================================== -->  
-<footer class="main">
-  <div class="footer-content grid-container cf">
+  <!-- Footer
+  ================================================== -->  
+  <footer class="main">
+    <div class="footer-content grid-container cf">
 
       <!-- Copyright -->    
       <span class="copyright inline-block text-small">&copy; 2015. Designed and developed by Josh Martin. Hosted by <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Github Pages</a>, Built from scratch (in process of moving to Bootstrap), and powered by <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Jeykll</a>. Set in Helvetica Neue. View source on <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Github</a>.</span>
 
-    <div class="cf social inline-block float-right">
-      <!-- Social Links --> 
-      <div class="inline-block social cf">
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.behance.net/jawsmartin" class="icon-behance link footer-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.dribbble.com/jawsmartin" class="icon-dribbble link footer-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.twitter.com/jawsmartin" class="icon-twitter link footer-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.instagram.com/jawsmartin" class="icon-instagram link footer-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.github.com/jawsmartin" class="icon-github link footer-icon"></a>  
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.tumblr.com/jawsmartin" class="icon-tumblr link footer-icon"></a>          
-      </div>       
-    </div>
+      <!-- Author
+      ================================================== -->  
+      <div class="author inline-block float-right cf">
 
-  </div>
-</footer>
- 
+        <figure class="author-pic inline-block float-left">
+          <img src="/images/profile.png"/>
+        </figure>
+
+        <div class="author-details inline-block float-left">
+          <p class="author-copy">I'm a designer, illustrator, and front-end developer. I currently live in downtown Chicago and build web/app products for local startups. Contact me at <a href="mailto:hellojoshmartin@gmail.com" class="link pink">hellojoshmartin@gmail.com</a>.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </footer>
+   
  </div>
 
 

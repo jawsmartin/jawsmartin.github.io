@@ -16,11 +16,7 @@
 
   <!-- CSS
   ================================================== -->
-  <link rel="stylesheet" href="/css/reset.css" media="screen">
-  <link rel="stylesheet" href="/css/clearfix.css" media="screen">
   <link rel="stylesheet" href="/css/main.css" media="screen">
-  <link rel="stylesheet" href="/css/icon-fonts.css" media="screen">
-  <link rel="stylesheet" href="/css/media-queries.css" media="screen">
 
   <!-- Favicons
   ================================================== -->
@@ -49,259 +45,113 @@
 <body>
 
   <div class="page">   
-<header class="yo main">
-  <div class="header-content grid-container cf">
+<header class="main">
+  <div class="header-content grid-container relative cf">
+
     <div class="inline-block site-container cf">
       <a href="/" class="link">
-        <img class="site-pic" src="/images/logo-4.png"/>
-        <img class="secondary-logo inline-block float-left" src="/images/logo-6.png"/>
+        <span class="site-name inline-block float-left">Josh Martin</span>
+        <img class="site-logo" src="/images/logo-3.png"/>
       </a>
     </div> 
 
     <!-- Site Navigation -->  
     <nav class="nav-container relative inline-block float-right cf">
-      <a class="link header-link " href="/">
-        <span class="home"></span>
-        <span class="nav-label">Home</span>
-      </a>        
-      <a class="link header-link " href="/portfolio">
-        <span class="portfolio"></span>
-        <span class="nav-label">Portfolio</span>        
-      </a>
-      <a class="link header-link " href="/about">
-        <span class="about"></span>
-        <span class="nav-label">About/CV</span>
-      </a>
-      <a class="link header-link" href="/blog">
-        <span class="blog"></span>
-        <span class="nav-label">Blog</span>
-      </a>       
+
+      <div class="inline-block cf">
+        <a class="link header-link " href="/">
+          <span class="blog"></span>
+          <span class="nav-label">Blog</span>
+        </a>        
+        <a class="link header-link " href="http://www.behance.net/jawsmartin">
+          <span class="portfolio"></span>
+          <span class="nav-label">Portfolio</span>        
+        </a>
+        <a class="link header-link " href="/about">
+          <span class="about"></span>
+          <span class="nav-label">About</span>
+        </a>
+      </div>
+
+      <!-- Social Links --> 
+      <div class="social inline-block cf">
+        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.dribbble.com/jawsmartin" class="icon-dribbble link social-icon"></a>
+        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.twitter.com/jawsmartin" class="icon-twitter link social-icon"></a>
+        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.instagram.com/jawsmartin" class="icon-instagram link social-icon"></a>       
+      </div>  
+
+
     </nav>
+
+
+
 
   </div>
 </header>
 
 
+<figure class="post-hero thumbnail-container">
+  <figure class="block thumbnail-container" style="background-image:url(/images/hero-alleyoop.jpg);background-attachment:fixed;background-size:cover;background-position:center center">
+  </figure>
+</figure>
 
-
-<div class="hero">
-  <div class="hero-overlay"></div>
-  <div class="hero-content grid-container text-center">
-    <span class="hero-title">
-         
-    </span>
-    <p class="hero-copy">
-
-      
-      
-    </p>
-  </div>
-</div>
-
-
-<div class="blog-post-container main grid-container relative cf">
-
-  <div class="grid-container-3 post inline-block float-left">
-    <!-- Share
+<!-- Project Header
 ================================================== -->
-<div class="share-fix inline-block float-left">
-  <img src="/images/share.png"/>
-</div>
+<section class="grid-container-2 project-header">
 
-  <div class="post-right inline-block float-left">
+  <div class="project-hero-content cf">
+    <h1 class="cs-lead">Your Inbox Just Got Dunked On</h1>
+    <p class="sub-header">Don't have time to visit Dribbble for the latest and greatest? Alleyooop allows for customized summaries of the week's best shots.</p>      
+    <div class="cs-sub-container cf">            
+      <span class="cs-sub inline-block float-left">February 21, 2015</span>          
+    </div>
+  </div>        
 
-    <!-- Project Header
-    ================================================== -->
-    <section class="project-header">
-
-      <div class="project-hero-content cf">
-        <h1 class="cs-lead">Your Inbox Just Got Dunked On</h1>
-        <p class="sub-header">Don't have time to visit Dribbble for the latest and greatest? Alleyooop allows for customized summaries of the week's best shots.</p>      
-        <div class="cs-sub-container cf">            
-          <span class="cs-sub inline-block float-left">February 21, 2015</span>
-          <div class="published-container inline-block float-left cf">
-            <span class="published">Published in</span>
-            <a href="tags/case-study" class="cs-sub inline-block link pink">Project</a>
-          </div>
-            <a href="#disqus_thread" class="cs-sub comment inline-block strong float-left link pink comments-sub">Comments</a>              
-        </div>
-      </div>        
-
-    </section>
+</section>
 
 
-    <!-- Project Main Content
-    ================================================== --> 
-    <main id="post-main-content" class="block cf cs">
-       
-    <p><em>I know, for a fact, I’m addicted to Dribbble</em> — I check it before every project for inspiration and several times a day just to see what what is trending. For all intents and purposes, I do not need any other reminder of what is happening there. However, my friend and co-worker, <a href="http://www.andjosh.com">Josh Beckman</a>, does.</p>
+<!-- Project Main Content
+================================================== --> 
+<main class="post grid-container-2">
+    
+
+<p><em>I know, for a fact, I’m addicted to Dribbble</em> — I check it before every project for inspiration and several times a day just to see what what is trending. For all intents and purposes, I do not need any other reminder of what is happening there. However, my friend and co-worker, <a href="http://www.andjosh.com">Josh Beckman</a>, does.</p>
 
 <p>I sent that ungrateful bastard one of my Dribbble invites over a year ago an he has only posted <a href="https://dribbble.com/shots/1426532-Soundcloud-Logo-Animation?list=searches&amp;offset=0">one shot</a>. His excuse(s)? “I just don’t have time to get on there… I forget it exists… It’s awful to look at on my small phone…” </p>
 
 <p>To thrust Mr. Beckman back into the game, we came up with <a href="http://www.alleyooop.info">Alleyooop</a>: a customizable newletter of Dribbble shots. You can adjust frequency of the newsletter and the type of shots you want to follow. Currently, we only show the most popular shots (views + likes) from either Animated or nonanimated shots, but hope to allow even more filtration, such as location and by tag.</p>
 
 <p>I think the newsletter can be quite handy for not only Beckman, but other people too good or too busy (or too smart) to visit Dribbble regularly. <a href="http://www.alleyooop.info">Give it a try!</a></p>
+         
 
-      </main>
-</div>
-
-
-<!-- Author
-================================================== -->  
-<div class="author block float-left cf">
-  <div class="cf">
-
-    <figure class="author-pic inline-block float-left">
-      <img src="/images/profile.png"/>
-    </figure>
-
-    <div class="author-details inline-block float-left">
-      <span class="author-name">Josh Martin</span>
-      <p class="author-copy">I'm a designer, illustrator, and front-end developer. I currently live in downtown Chicago, Illinois and work as the Creative Director for Threadmeup. Contact me at <a href="mailto:hellojoshmartin@gmail.com" class="link pink">hellojoshmartin@gmail.com</a>.</p>
-      <div class="inline-block about-social cf">
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.behance.net/jawsmartin" class="icon-behance link header-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.dribbble.com/jawsmartin" class="icon-dribbble link header-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.twitter.com/jawsmartin" class="icon-twitter link header-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.instagram.com/jawsmartin" class="icon-instagram link header-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.github.com/jawsmartin" class="icon-github link header-icon"></a>  
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.tumblr.com/jawsmartin" class="icon-tumblr link header-icon"></a>          
-      </div>                 
-    </div>
-
-  </div>
-</div>
-
-<!-- Comments
-================================================== -->  
-<aside class="project-footer block cf">
-
-  <div class="comments">
-    <div id="disqus_thread"></div>
-      <script type="text/javascript">
-          /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-          var disqus_shortname = 'jawsmartinblog'; // required: replace example with your forum shortname
-
-          /* * * DON'T EDIT BELOW THIS LINE * * */
-          (function() {
-              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-          })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </div>
-    
-</aside>            
-  </div>
-
-  <div class="right-rail inline-block float-left">
-
-    
-    <div class="page-header page-header-content">
-
-  <div class="r-header cf">
-    <div class="cf">
-      <h3 class="about-title inline-block float-left">Blog</h3>
-    </div>
-    <p class="profile-copy inline-block">You can find my chronological, unabridged portfolio on <a href="http://www.behance.net/jawsmartin" class="link pink">Behance</a> and my latest WIP's on <a href="http://www.dribbble.com/jawsmartin" class="link pink">Dribbble</a>.</p> 
-  </div>
-
-  <ul class="rail-blog homepage posts">
-    
-
-      <li class="homepage-hero cf">
-        <figure class="thumbnail-container">
-          <img class="thumbnail" src="/images/hero-alleyoop.jpg"/>
-        </figure>          
-        <a class="cs-lead" href="/blog/2015/02/21/your-inbox-just-got-dunked-on" title="Your Inbox Just Got Dunked On">Your Inbox Just Got Dunked On</a>
-        <span class="cs-sub inline-block float-left">February 21, 2015</span>
-      </li>
-
-    
-
-      <li class="homepage-hero cf">
-        <figure class="thumbnail-container">
-          <img class="thumbnail" src="/images/hero-jekyll.jpg"/>
-        </figure>          
-        <a class="cs-lead" href="/blog/2015/02/20/big-step-foward" title="Big Step Forward">Big Step Forward</a>
-        <span class="cs-sub inline-block float-left">February 20, 2015</span>
-      </li>
-
-    
-
-      <li class="homepage-hero cf">
-        <figure class="thumbnail-container">
-          <img class="thumbnail" src="/images/hero-afterskoolz-3.jpg"/>
-        </figure>          
-        <a class="cs-lead" href="/blog/2015/02/16/the-best-way-to-find-after-school-classes-for-your-kids" title="The Best Way to Find After-School Activities for Your Kids">The Best Way to Find After-School Activities for Your Kids</a>
-        <span class="cs-sub inline-block float-left">February 16, 2015</span>
-      </li>
-
-    
-
-      <li class="homepage-hero cf">
-        <figure class="thumbnail-container">
-          <img class="thumbnail" src="/images/hero-sun-times.jpg"/>
-        </figure>          
-        <a class="cs-lead" href="/blog/2015/02/15/the-world-revolves-around-the-sun" title="The World Revolves Around the Sun">The World Revolves Around the Sun</a>
-        <span class="cs-sub inline-block float-left">February 15, 2015</span>
-      </li>
-
-    
-
-      <li class="homepage-hero cf">
-        <figure class="thumbnail-container">
-          <img class="thumbnail" src="/images/hero-loop.jpg"/>
-        </figure>          
-        <a class="cs-lead" href="/blog/2015/02/14/bringing-the-news-to-the-carribean" title="Bringing the News to the Carribean">Bringing the News to the Carribean</a>
-        <span class="cs-sub inline-block float-left">February 14, 2015</span>
-      </li>
-
-    
-
-      <li class="homepage-hero cf">
-        <figure class="thumbnail-container">
-          <img class="thumbnail" src="/images/hero-pioneer-press.jpg"/>
-        </figure>          
-        <a class="cs-lead" href="/blog/2015/02/13/redesigning-the-pioneer-press" title="Redesigning the Pioneer Press">Redesigning the Pioneer Press</a>
-        <span class="cs-sub inline-block float-left">February 13, 2015</span>
-      </li>
-
-    
-  </ul>
-
-</div>
+  </main>
 
 
-    
-
-  </div>
-
-</div>
-
-<!-- Footer
-================================================== -->  
-<footer class="main">
-  <div class="footer-content grid-container cf">
+  <!-- Footer
+  ================================================== -->  
+  <footer class="main">
+    <div class="footer-content grid-container cf">
 
       <!-- Copyright -->    
       <span class="copyright inline-block text-small">&copy; 2015. Designed and developed by Josh Martin. Hosted by <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Github Pages</a>, Built from scratch (in process of moving to Bootstrap), and powered by <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Jeykll</a>. Set in Helvetica Neue. View source on <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Github</a>.</span>
 
-    <div class="cf social inline-block float-right">
-      <!-- Social Links --> 
-      <div class="inline-block social cf">
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.behance.net/jawsmartin" class="icon-behance link footer-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.dribbble.com/jawsmartin" class="icon-dribbble link footer-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.twitter.com/jawsmartin" class="icon-twitter link footer-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.instagram.com/jawsmartin" class="icon-instagram link footer-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.github.com/jawsmartin" class="icon-github link footer-icon"></a>  
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.tumblr.com/jawsmartin" class="icon-tumblr link footer-icon"></a>          
-      </div>       
-    </div>
+      <!-- Author
+      ================================================== -->  
+      <div class="author inline-block float-right cf">
 
-  </div>
-</footer>
- 
+        <figure class="author-pic inline-block float-left">
+          <img src="/images/profile.png"/>
+        </figure>
+
+        <div class="author-details inline-block float-left">
+          <p class="author-copy">I'm a designer, illustrator, and front-end developer. I currently live in downtown Chicago and build web/app products for local startups. Contact me at <a href="mailto:hellojoshmartin@gmail.com" class="link pink">hellojoshmartin@gmail.com</a>.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </footer>
+   
  </div>
 
 

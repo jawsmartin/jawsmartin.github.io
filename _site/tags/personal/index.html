@@ -16,11 +16,7 @@
 
   <!-- CSS
   ================================================== -->
-  <link rel="stylesheet" href="/css/reset.css" media="screen">
-  <link rel="stylesheet" href="/css/clearfix.css" media="screen">
   <link rel="stylesheet" href="/css/main.css" media="screen">
-  <link rel="stylesheet" href="/css/icon-fonts.css" media="screen">
-  <link rel="stylesheet" href="/css/media-queries.css" media="screen">
 
   <!-- Favicons
   ================================================== -->
@@ -49,70 +45,52 @@
 <body>
 
   <div class="page"> 
-<header class="yo main">
-  <div class="header-content grid-container cf">
+<header class="main">
+  <div class="header-content grid-container relative cf">
+
     <div class="inline-block site-container cf">
       <a href="/" class="link">
-        <img class="site-pic" src="/images/logo-4.png"/>
-        <img class="secondary-logo inline-block float-left" src="/images/logo-6.png"/>
+        <span class="site-name inline-block float-left">Josh Martin</span>
+        <img class="site-logo" src="/images/logo-3.png"/>
       </a>
     </div> 
 
     <!-- Site Navigation -->  
     <nav class="nav-container relative inline-block float-right cf">
-      <a class="link header-link " href="/">
-        <span class="home"></span>
-        <span class="nav-label">Home</span>
-      </a>        
-      <a class="link header-link " href="/portfolio">
-        <span class="portfolio"></span>
-        <span class="nav-label">Portfolio</span>        
-      </a>
-      <a class="link header-link " href="/about">
-        <span class="about"></span>
-        <span class="nav-label">About/CV</span>
-      </a>
-      <a class="link header-link header-link-active " href="/blog">
-        <span class="blog"></span>
-        <span class="nav-label">Blog</span>
-      </a>       
+
+      <div class="inline-block cf">
+        <a class="link header-link  header-link-active " href="/">
+          <span class="blog"></span>
+          <span class="nav-label">Blog</span>
+        </a>        
+        <a class="link header-link " href="http://www.behance.net/jawsmartin">
+          <span class="portfolio"></span>
+          <span class="nav-label">Portfolio</span>        
+        </a>
+        <a class="link header-link " href="/about">
+          <span class="about"></span>
+          <span class="nav-label">About</span>
+        </a>
+      </div>
+
+      <!-- Social Links --> 
+      <div class="social inline-block cf">
+        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.dribbble.com/jawsmartin" class="icon-dribbble link social-icon"></a>
+        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.twitter.com/jawsmartin" class="icon-twitter link social-icon"></a>
+        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.instagram.com/jawsmartin" class="icon-instagram link social-icon"></a>       
+      </div>  
+
+
     </nav>
+
+
+
 
   </div>
 </header>
 
 
-
-
-<div class="hero">
-  <div class="hero-overlay"></div>
-  <div class="hero-content grid-container text-center">
-    <span class="hero-title">
-      
-        Case-Studies, Updates, &amp; Interesting Finds
-         
-    </span>
-    <p class="hero-copy">
-
-      
-        I want my words to come out of me like lava and sometimes, 140 characters doesn't quite cut it. If you are interested in blog updates, grab the <a href="#" class="link white">RSS</a> or sign-up for the newsletter.
-        <div>
-          <form class="relative inline-block">
-            <label for="email"></label>
-            <input type="text" name="email" placeholder="Email Address">
-            <a href="#" class="button link">Subscribe</a>
-          </form>
-        </div>  
-      
-      
-    </p>
-  </div>
-</div>   
-
-<div class="page-container main grid-container relative cf">
-
-  <div class="grid-container-3 inline-block float-left">
-    <div class="blog-posts post">
+<div class="blog-posts post">
   <ul>
   
 
@@ -127,52 +105,32 @@
   
   </ul>
 </div>
-  </div>
 
-  <div class="right-rail inline-block float-left">
-    
-    <div class="page-header page-header-content">
-
-  <div class="blog-filter">
-    <span class="blog-filter-title">Blog</span>
-    <a class="filter-item inline-block" href="/blog">Everything</a>
-    <a class="filter-item inline-block  filter-item-active " href="/tags/personal">Personal</a>   
-    <a class="filter-item inline-block " href="/tags/case-study">Case-Study</a>      
-    <a class="filter-item inline-block " href="/tags/project">Project</a>
-    <a aria-hidden="true" data-icon="&#xe001;" href="http://www.tumblr.com/jawsmartin" class="icon-rss float-right link"></a>              
-  </div>
-
-</div>
-  
-
-    
-  </div>
-
-</div>
-
-<!-- Footer
-================================================== -->  
-<footer class="main">
-  <div class="footer-content grid-container cf">
+  <!-- Footer
+  ================================================== -->  
+  <footer class="main">
+    <div class="footer-content grid-container cf">
 
       <!-- Copyright -->    
       <span class="copyright inline-block text-small">&copy; 2015. Designed and developed by Josh Martin. Hosted by <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Github Pages</a>, Built from scratch (in process of moving to Bootstrap), and powered by <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Jeykll</a>. Set in Helvetica Neue. View source on <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Github</a>.</span>
 
-    <div class="cf social inline-block float-right">
-      <!-- Social Links --> 
-      <div class="inline-block social cf">
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.behance.net/jawsmartin" class="icon-behance link footer-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.dribbble.com/jawsmartin" class="icon-dribbble link footer-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.twitter.com/jawsmartin" class="icon-twitter link footer-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.instagram.com/jawsmartin" class="icon-instagram link footer-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.github.com/jawsmartin" class="icon-github link footer-icon"></a>  
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.tumblr.com/jawsmartin" class="icon-tumblr link footer-icon"></a>          
-      </div>       
-    </div>
+      <!-- Author
+      ================================================== -->  
+      <div class="author inline-block float-right cf">
 
-  </div>
-</footer>
- 
+        <figure class="author-pic inline-block float-left">
+          <img src="/images/profile.png"/>
+        </figure>
+
+        <div class="author-details inline-block float-left">
+          <p class="author-copy">I'm a designer, illustrator, and front-end developer. I currently live in downtown Chicago and build web/app products for local startups. Contact me at <a href="mailto:hellojoshmartin@gmail.com" class="link pink">hellojoshmartin@gmail.com</a>.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </footer>
+   
  </div>
 
 

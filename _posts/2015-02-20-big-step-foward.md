@@ -4,7 +4,7 @@ title: Big Step Forward
 deck: While seemingly not a large step for most, moving from an Local + FTP setup to Github marks a most substantial step forward for my web development career
 date: 2015-02-20
 tag: Personal
-thumbnail: /images/hero-jekyll.jpg
+thumbnail: /images/hero-forward.jpg
 ---
 
 *I have officially been coding for 2yrs, which in itself, is batshit crazy*. I moved to Chicago after graduating college with a BFA in Applied Media Arts, which is just a fancy catch-all title for a crazy blend of animation, traditional art, art history, and graphic design. I left with the toolset need to be an intern at a tiny print shop in cold, deserted land of Northwestern Pennsylvania. In hopes that the bigger city would present opportunities for bigger jobs.
