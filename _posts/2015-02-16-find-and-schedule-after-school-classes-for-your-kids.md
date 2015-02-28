@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Best Way to Find After-School Activities for Your Kids
+title: Find and Schedule Activities for Your Kids
 deck: Tired of looking at your kids? You just wish they would get lost? Look no further, parents. We'll take them off your hands.
 date: 2015-02-16
 tag: Case-Study
@@ -13,8 +13,6 @@ Sal, alongside fellow parent and Afterskoolz co-founder, [Mustafa Patni], laid o
 
 {% include image.html url="/images/projects/afterskoolz/background.jpg" caption="Alleyoop looks great on your phone" %}  
 
-<!-- Planning and Research
-================================================== -->
 
 ###Planning/Research
 
@@ -28,9 +26,6 @@ Afterskoolz would be less about recommendations and building a social community 
 
 ---
 
-<!-- User-Studies
-================================================== -->
-
 ###User-Studies
 
 Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &mdash; all with very unique set of needs
@@ -41,9 +36,6 @@ The needs of the users determined what functionality the product needed. Many ne
 
 ---
 
-<!-- Wireframes
-================================================== -->
-
 ### Wireframes
 
 Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &mdash; all with very unique set of needs
@@ -53,9 +45,6 @@ It was concluded that the closest competition in after-school class discovery wa
 {% include image.html url="/images/projects/afterskoolz/background.jpg" caption="Alleyoop looks great on your phone" %}  
 
 ---
-
-<!-- Site Map
-================================================== -->
 
 ###Site Map
 
@@ -69,9 +58,6 @@ It was concluded that the closest competition in after-school class discovery wa
 
 ---
 
-<!-- Prototyping
-================================================== -->
-
 ###Prototyping
 
 Afterskoolz was built with four types of users: Parents, Teachers, Principals, and Adminsitrators &mdash; all with very unique set of needs
@@ -83,9 +69,6 @@ It was concluded that the closest competition in after-school class discovery wa
 It was concluded that the closest competition in after-school class discovery was a San Francisco-based startup, called [Kidfully]; it focused on the social aspect of reviewing and sharing after-school activities with fellow parents, a direction similar, but not the same as Afterskoolz.  
 
 ---
-
-<!-- Homepage
-================================================== -->
 
 ###Homepage
 
@@ -99,9 +82,7 @@ I followed this formula pretty closely and added illustrations to compliment the
 
 {% include image.html url="/images/projects/afterskoolz/homepage.jpg" caption="Alleyoop looks great on your phone" %}  
 
-
-<!-- Search Results
-================================================== -->
+---
 
 ###Search Results
 
@@ -115,9 +96,7 @@ I followed this formula pretty closely and added illustrations to compliment the
 
 {% include image.html url="/images/projects/afterskoolz/homepage.jpg" caption="Alleyoop looks great on your phone" %}  
 
-
-<!-- Class Details
-================================================== -->
+---
 
 ###Class Details
 
@@ -131,8 +110,7 @@ I followed this formula pretty closely and added illustrations to compliment the
 
 {% include image.html url="/images/projects/afterskoolz/homepage.jpg" caption="Alleyoop looks great on your phone" %}
 
-<!-- Dashboards
-================================================== -->
+---
 
 ###Dashboard
 
@@ -146,9 +124,7 @@ I followed this formula pretty closely and added illustrations to compliment the
 
 {% include image.html url="/images/projects/afterskoolz/homepage.jpg" caption="Alleyoop looks great on your phone" %}    
 
-
-<!-- Logo
-================================================== -->
+---
 
 ###Logo
 
@@ -162,8 +138,7 @@ I followed this formula pretty closely and added illustrations to compliment the
 
 {% include image.html url="/images/projects/afterskoolz/homepage.jpg" caption="Alleyoop looks great on your phone" %}   
 
-<!-- Style Guide
-================================================== -->
+---
 
 ###Style Guide
 
@@ -177,8 +152,7 @@ I followed this formula pretty closely and added illustrations to compliment the
 
 {% include image.html url="/images/projects/afterskoolz/homepage.jpg" caption="Alleyoop looks great on your phone" %}   
 
-<!-- Business Cards
-================================================== -->
+---
 
 ###Business Cards
 
@@ -194,8 +168,7 @@ I followed this formula pretty closely and added illustrations to compliment the
 
 Outside of solving for the client's main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It's pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.
  
-<!-- Conclusion
-================================================== -->
+---
 
 ###Conclusion
 
@@ -209,8 +182,7 @@ I followed this formula pretty closely and added illustrations to compliment the
 
 {% include image.html url="/images/projects/afterskoolz/homepage.jpg" caption="Alleyoop looks great on your phone" %}   
 
-<!-- Future
-================================================== -->
+---
 
 ###Future
 

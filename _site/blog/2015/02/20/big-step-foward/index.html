@@ -36,10 +36,6 @@
     ga('send', 'pageview');
   </script> 
 
-  <!-- Load jQuery
-  ================================================== -->
-
-
 </head>
 
 <body>
@@ -90,30 +86,30 @@
 </header>
 
 
-<figure class="post-hero thumbnail-container">
-  <figure class="block thumbnail-container" style="background-image:url(/images/hero-forward.jpg);background-attachment:fixed;background-size:cover;background-position:center center">
-  </figure>
+<!-- Hero
+================================================== --> 
+<figure class="post-hero thumbnail-container relative">
+
+  <img class="block post-hero-image" style="background-image:url(/images/hero-forward.jpg);background-size:cover;background-position:center center;height:407px;"/>
+
+  <div class="hero-content">
+
+    <div class="grid-container text-center cf">
+      <h1 class="hero-lead">Big Step Forward</h1>    
+      <div class="hero-sub-container cf">            
+        <span class="hero-sub inline-block">February 20, 2015</span>          
+      </div>
+    </div>        
+
+  </div>
+
 </figure>
-
-<!-- Project Header
-================================================== -->
-<section class="grid-container-2 project-header">
-
-  <div class="project-hero-content cf">
-    <h1 class="cs-lead">Big Step Forward</h1>
-    <p class="sub-header">While seemingly not a large step for most, moving from an Local + FTP setup to Github marks a most substantial step forward for my web development career</p>      
-    <div class="cs-sub-container cf">            
-      <span class="cs-sub inline-block float-left">February 20, 2015</span>          
-    </div>
-  </div>        
-
-</section>
 
 
 <!-- Project Main Content
 ================================================== --> 
 <main class="post grid-container-2">
-    
+<p class="sub-header">While seemingly not a large step for most, moving from an Local + FTP setup to Github marks a most substantial step forward for my web development career</p>       
 
 <p><em>I have officially been coding for 2yrs, which in itself, is batshit crazy</em>. I moved to Chicago after graduating college with a BFA in Applied Media Arts, which is just a fancy catch-all title for a crazy blend of animation, traditional art, art history, and graphic design. I left with the toolset need to be an intern at a tiny print shop in cold, deserted land of Northwestern Pennsylvania. In hopes that the bigger city would present opportunities for bigger jobs.</p>
 
@@ -128,9 +124,6 @@
   <footer class="main">
     <div class="footer-content grid-container cf">
 
-      <!-- Copyright -->    
-      <span class="copyright inline-block text-small">&copy; 2015. Designed and developed by Josh Martin. Hosted by <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Github Pages</a>, Built from scratch (in process of moving to Bootstrap), and powered by <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Jeykll</a>. Set in Helvetica Neue. View source on <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Github</a>.</span>
-
       <!-- Author
       ================================================== -->  
       <div class="author inline-block float-right cf">
@@ -139,11 +132,22 @@
           <img src="/images/profile.png"/>
         </figure>
 
-        <div class="author-details inline-block float-left">
+        <div class="author-details inline-block float-right">
           <p class="author-copy">I'm a designer, illustrator, and front-end developer. I currently live in downtown Chicago and build web/app products for local startups. Contact me at <a href="mailto:hellojoshmartin@gmail.com" class="link pink">hellojoshmartin@gmail.com</a>.</p>
         </div>
       </div>
 
+      <!-- Copyright -->    
+      <span class=" float-left copyright inline-block text-small">&copy; 2015. Designed and developed by Josh Martin. Hosted by <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Github Pages</a>, Built from scratch (in process of moving to Bootstrap), and powered by <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Jeykll</a>. Set in Helvetica Neue/Georgia. View source on <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Github</a>.</span>
+
+      <!-- Social Links --> 
+      <div class="social inline-block cf">
+        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.dribbble.com/jawsmartin" class="icon-dribbble link social-icon"></a>
+        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.twitter.com/jawsmartin" class="icon-twitter link social-icon"></a>
+        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.instagram.com/jawsmartin" class="icon-instagram link social-icon"></a>       
+      </div>  
+
+      
 
     </div>
   </footer>
