@@ -15,19 +15,19 @@ title: Josh Martin | Blog
         <li class="blog-post">
 
           <a class="thumbnail-image-link block relative" href="{{ post.url }}">
-            <div class="image-overlay"></div>
+            <div class="image-overlay absolute"></div>
             <figure class="block blog-snippet-image thumbnail-container" style="background-image:url({{ post.thumbnail }});background-size:cover;background-position:center center">
             </figure>
           </a>
 
           <div class="blog-post-details grid-container-2">
-            <a class="cs-lead" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            <a class="cs-lead link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
             <div class="cs-sub-container cf">            
               <span class="cs-sub inline-block float-left">{{ post.date | date: '%B %d, %Y' }}</span>
             </div>
             <p class="overview">{{ post.excerpt | strip_html }}</p> 
             <div class="read-more-container inline-block">
-              <a href="{{ post.url }}"class="link read-more">Continue Reading</a>
+              <a href="{{ post.url }}"class="link pink read-more block">Continue Reading</a>
             </div>
           </div>
 
