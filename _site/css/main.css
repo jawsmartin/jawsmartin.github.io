@@ -422,6 +422,7 @@ header .social {
 .post-hero-image {
   top: -5px;
   opacity: .5;
+  width: 100%;
   -webkit-filter: blur(2px);
 }
 .hero-content {
