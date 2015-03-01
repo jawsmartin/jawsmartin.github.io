@@ -1,24 +1,22 @@
-<!-- Hero
+<!-- Post Hero
 ================================================== --> 
-<figure class="post-hero thumbnail-container relative">
+<section class="post-hero thumbnail-container relative">
 
   <img class="block post-hero-image relative block" style="background-image:url({{ page.thumbnail }});background-size:cover;background-position:center center;height:407px;"/>
 
   <div class="hero-content absolute">
-
     <div class="grid-container text-center cf">
       <h1 class="hero-lead white">{{ page.title }}</h1>    
       <div class="hero-sub-container cf">            
         <span class="hero-sub white inline-block">{{ page.date | date: '%B %d, %Y' }}</span>          
       </div>
     </div>        
-
   </div>
 
-</figure>
+</section>
 
 
-<!-- Project Main Content
+<!-- Post Main Content
 ================================================== --> 
 <main class="post grid-container-2">
-<p class="sub-header">{{ page.deck }}</p>   
+  <p class="sub-header">{{ page.deck }}</p>   

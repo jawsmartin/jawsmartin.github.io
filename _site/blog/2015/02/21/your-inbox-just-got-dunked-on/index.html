@@ -44,15 +44,17 @@
 <header class="main">
   <div class="header-content grid-container relative cf">
 
+    <!-- Logo -->  
     <div class="inline-block site-container relative cf">
       <a href="/" class="link">
         <img class="site-logo relative" src="/images/logo.png"/>
       </a>
     </div> 
 
-    <!-- Site Navigation -->  
+    <!-- Navigation -->  
     <nav class="nav-container absolute inline-block float-right cf">
 
+      <!-- Site Navigation -->  
       <div class="inline-block cf">
         <a class="link header-link inline-block " href="/">
           <span class="blog"></span>
@@ -79,40 +81,34 @@
         <a aria-hidden="true" data-icon="&#xe001;" href="http://www.instagram.com/jawsmartin" class="icon-instagram link social-icon"></a>       
       </div>  
 
-
     </nav>
-
-
-
 
   </div>
 </header>
 
 
-<!-- Hero
+<!-- Post Hero
 ================================================== --> 
-<figure class="post-hero thumbnail-container relative">
+<section class="post-hero thumbnail-container relative">
 
   <img class="block post-hero-image relative block" style="background-image:url(/images/hero-alleyoop.jpg);background-size:cover;background-position:center center;height:407px;"/>
 
   <div class="hero-content absolute">
-
     <div class="grid-container text-center cf">
       <h1 class="hero-lead white">Your Inbox Just Got Dunked On</h1>    
       <div class="hero-sub-container cf">            
         <span class="hero-sub white inline-block">February 21, 2015</span>          
       </div>
     </div>        
-
   </div>
 
-</figure>
+</section>
 
 
-<!-- Project Main Content
+<!-- Post Main Content
 ================================================== --> 
 <main class="post grid-container-2">
-<p class="sub-header">Don't have time to visit Dribbble for the latest and greatest? Alleyooop allows for customized summaries of the week's best shots.</p>       
+  <p class="sub-header">Don't have time to visit Dribbble for the latest and greatest? Alleyooop allows for customized summaries of the week's best shots.</p>       
 
 <p><em>I know, for a fact, I’m addicted to Dribbble</em> — I check it before every project for inspiration and several times a day just to see what what is trending. For all intents and purposes, I do not need any other reminder of what is happening there. However, my friend and co-worker, <a href="http://www.andjosh.com">Josh Beckman</a>, does.</p>
 
@@ -126,56 +122,35 @@
   </main>
 
 
-  <!-- Footer
-  ================================================== -->  
-  <footer class="main">
-    <div class="footer-content grid-container cf">
-
-      <!-- Author
+      <!-- Footer
       ================================================== -->  
-      <div class="author inline-block float-right cf">
+      <footer class="main">
+        <div class="footer-content grid-container cf">
 
-        <figure class="author-pic absolute inline-block float-left">
-          <img src="/images/profile.png" width="50px" height="50px"/>
-        </figure>
+          <!-- Author -->  
+          <div class="author inline-block float-right cf">
+            <figure class="author-pic absolute inline-block float-left">
+              <img src="/images/profile.png" width="50px" height="50px"/>
+            </figure>
+            <div class="author-details inline-block float-right">
+              <p class="text-small">I'm a designer, illustrator, and front-end developer. I currently live in downtown Chicago and build web/app products for local startups. Contact me at <a href="mailto:hellojoshmartin@gmail.com" class="link pink">hellojoshmartin@gmail.com</a>.</p>
+            </div>
+          </div>
 
-        <div class="author-details inline-block float-right">
-          <p class="text-small">I'm a designer, illustrator, and front-end developer. I currently live in downtown Chicago and build web/app products for local startups. Contact me at <a href="mailto:hellojoshmartin@gmail.com" class="link pink">hellojoshmartin@gmail.com</a>.</p>
+          <!-- Colophon -->    
+          <span class="float-left copyright inline-block text-small">&copy; 2015. Designed and developed by Josh Martin. Hosted by <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Github Pages</a>, Built from scratch, and powered by <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Jeykll</a>. Set in Helvetica Neue/Georgia. View source on <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Github</a>.</span>
+
+          <!-- Social Links (hidden on desktop) --> 
+          <div class="social inline-block cf">
+            <a aria-hidden="true" data-icon="&#xe001;" href="http://www.dribbble.com/jawsmartin" class="icon-dribbble link social-icon"></a>
+            <a aria-hidden="true" data-icon="&#xe001;" href="http://www.twitter.com/jawsmartin" class="icon-twitter link social-icon"></a>
+            <a aria-hidden="true" data-icon="&#xe001;" href="http://www.instagram.com/jawsmartin" class="icon-instagram link social-icon"></a>       
+          </div>  
+
         </div>
-      </div>
-
-      <!-- Copyright -->    
-      <span class="float-left copyright inline-block text-small">&copy; 2015. Designed and developed by Josh Martin. Hosted by <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Github Pages</a>, Built from scratch, and powered by <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Jeykll</a>. Set in Helvetica Neue/Georgia. View source on <a href="http://www.dribbble.com/jawsmartin" class="link footer-link">Github</a>.</span>
-
-      <!-- Social Links --> 
-      <div class="social inline-block cf">
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.dribbble.com/jawsmartin" class="icon-dribbble link social-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.twitter.com/jawsmartin" class="icon-twitter link social-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.instagram.com/jawsmartin" class="icon-instagram link social-icon"></a>       
-      </div>  
-
-
-
-    </div>
-  </footer>
-   
- </div>
-
-
-  <script type="text/javascript">
-  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-  var disqus_shortname = 'jawsmartinblog'; // required: replace example with your forum shortname
-
-  /* * * DON'T EDIT BELOW THIS LINE * * */
-  (function () {
-  var s = document.createElement('script'); s.async = true;
-  s.type = 'text/javascript';
-  s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-  }());
-  </script>
-
+      </footer>
+         
+    </div> <!-- Closes Page --> 
  
-</body>
-
+  </body>
 </html>
