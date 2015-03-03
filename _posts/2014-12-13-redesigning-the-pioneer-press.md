@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Bringing the News to the Carribean
+title: Redesigning the Pioneer Press
 deck: While seemingly not a large step for most, moving from an Local + FTP setup to Github marks a most substantial step forward for my web development career
-date: 2015-02-14
+date: 2014-12-13
 tag: Case-Study
-thumbnail: /images/hero-loop.jpg
+thumbnail: /images/hero-pioneer-press.jpg
 ---
 
-It's not every day you get to design a product for entire countries like Jamaica and Haiti, so when Aggrego was brought in to design the digital news network, "Loop", in Spring 2014, I was definitely excited. Digicel, a communications company that handles phones in the Carribean, wanted to capitalize on their significant involment in their customers' lives by creating the ultimate source.
+One of the first major projects I worked on at Aggrego was the redesign of the Pioneer Press. The Pioneer Press is a collection of 30+ local news websites covering the Chicago suburbs (under the Chicago Sun-Times umbrella) The goal wasn't simply an aesthetic improvement, but an improvement to the overall product: We made the desktop-only website responsive, added iOS/Android Apps, and created a network to connect them all.
 
-It's not every day you get to design a product for entire countries like Jamaica and Haiti, so when Aggrego was brought in to design the digital news network, "Loop", in Spring 2014, I was definitely excited. Digicel, a communications company that handles phones in the Carribean, wanted to capitalize on their significant involment in their customers' lives by creating the ultimate source.
+One of the first major projects I worked on at Aggrego was the redesign of the Pioneer Press. The Pioneer Press is a collection of 30+ local news websites covering the Chicago suburbs (under the Chicago Sun-Times umbrella) The goal wasn't simply an aesthetic improvement, but an improvement to the overall product: We made the desktop-only website responsive, added iOS/Android Apps, and created a network to connect them all.
 
 {% include image.html url="/images/projects/afterskoolz/background.jpg" caption="Alleyoop looks great on your phone" %}  
 

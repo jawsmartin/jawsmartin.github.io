@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Bringing the News to the Carribean
-deck: While seemingly not a large step for most, moving from an Local + FTP setup to Github marks a most substantial step forward for my web development career
-date: 2015-02-14
+title: Soccer Moms Rejoice
+deck: No more google searches, no more phone calls, and no more paperwork. Afterskoolz is hoping to change the way you find the next perfect class or activitiy for your child.
+date: 2015-02-25
 tag: Case-Study
-thumbnail: /images/hero-loop.jpg
+thumbnail: /images/hero-afterskoolz-3.jpg
 ---
 
-It's not every day you get to design a product for entire countries like Jamaica and Haiti, so when Aggrego was brought in to design the digital news network, "Loop", in Spring 2014, I was definitely excited. Digicel, a communications company that handles phones in the Carribean, wanted to capitalize on their significant involment in their customers' lives by creating the ultimate source.
+*In the summer of 2014, I was approached by my former [Aggrego](http://www.aggrego.com) co-worker, [Sal Abassi](https://angel.co/sal-abbasi)*, to help get his personal project, Afterskoolz, off the ground. It would be a platform to make finding and planning after-school activites for children easier.
 
-It's not every day you get to design a product for entire countries like Jamaica and Haiti, so when Aggrego was brought in to design the digital news network, "Loop", in Spring 2014, I was definitely excited. Digicel, a communications company that handles phones in the Carribean, wanted to capitalize on their significant involment in their customers' lives by creating the ultimate source.
+Sal, alongside fellow parent and Afterskoolz co-founder, [Mustafa Patni](https://angel.co/mustafa-patni), laid out a rough draft of all the features they wanted Afterskoolz to have, such as simple search functionality, class registration, teacher-to-parent messaging, and a schedule-overlayed calendar. With their vision laid out, it was my job to bring it to life&mdash; build the a responsive website UI/UX and develop a brand.
 
-{% include image.html url="/images/projects/afterskoolz/background.jpg" caption="Alleyoop looks great on your phone" %}  
+{% include image.html url="/images/post-soccer-moms-rejoice-early-wireframes.jpg" caption="Early Afterskoolz wireframes" %}  
 
 ###Planning/Research
 
