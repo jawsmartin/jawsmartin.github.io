@@ -249,8 +249,8 @@ header.main .site-container {
   top: 35px;
 }
 .site-logo {
-  width: 141px;
-  top: -6px;
+  width: 115px;
+  top: 0px;
 }
 
 /* Navigation */
@@ -289,9 +289,8 @@ header.main .nav-container {
   opacity: .6;
 }
 span.nav-label {
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 12px;
+  font-weight: 500;
+  font-size: 14px;
 }
 .header-link:hover {
   transition: all .3s ease;  
@@ -637,8 +636,8 @@ footer .social {
     margin-top: 50px;
   }
   .site-logo {
-    width: 115px;
-    top: -26px;
+    width: 103px;
+    top: -23px;
   }
   .header-link {
     padding: 8px 0px 0px 0px;
