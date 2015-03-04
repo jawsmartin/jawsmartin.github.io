@@ -7,7 +7,7 @@ tag: Personal
 thumbnail: /images/hero-forward.jpg
 ---
 
-*I have officially been coding for 2yrs, which in itself, is batshit crazy*. I moved to Chicago after graduating college with a BFA in Applied Media Arts, which is just a fancy catch-all title for a blend of animation, traditional art, art history, and graphic design. I left with the toolset need to be an intern at a tiny print shop in cold, deserted land of Northwestern Pennsylvania. In hopes that the bigger city would present opportunities for bigger jobs.
+*I have officially been coding for 2yrs, which in itself, is batshit crazy*. I moved to Chicago after graduating college with a BFA in Applied Media Arts, which is just a fancy catch-all title for a blend of animation, traditional art, art history, and graphic design. I left with the toolset need to be an intern at a tiny, no-name studio in the cold, deserted land of Northwestern Pennsylvania. 
 
 To make this happen, I contacted the charismatic, talented designer, Josh Fabian, a fellow Pennsylvanian who had recently made the move out west to Chicago. I asked him what would most-likely be defined as my "biggest risk I ever took": "Can you help me land a job in Chicago?" He graciously said yes. Not even a few hours after I drove over the Chicago Skyway for the first time did Josh, say: "Yeah. Nobody is hiring print designers, man. We need to get you learning how to make websites.
 

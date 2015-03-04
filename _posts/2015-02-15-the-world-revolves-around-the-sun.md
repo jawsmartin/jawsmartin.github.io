@@ -7,7 +7,9 @@ tag: Case-Study
 thumbnail: /images/hero-sun-times.jpg
 ---
 
-The last project I did with Aggrego is most certainly the largest, and for me, the most significant in my career thus far. I did not expect to be the lead designer of a prestigious product or brand, such as the Chicago Sun-Times, so soon. But, as luck/fortune would have it, I was given the opportunity to not only redesign it, but extend it's reach across 70 of the largest cities in the US. We started working on the "Sun-Times Network" late summer 2014 initially.
+The last project I did with Aggrego is most certainly the largest, and for me, the most significant in my career thus far. I did not expect to be the lead designer of a prestigious product or brand, such as the Chicago Sun-Times, so soon. But, as luck/fortune would have it, I was given the opportunity to not only redesign it, but extend it's reach across 70 of the largest cities in the US.
+
+We started working on the "Sun-Times Network" late summer 2014 initially.
 
 ###Planning/Research
 
