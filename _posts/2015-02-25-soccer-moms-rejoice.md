@@ -41,6 +41,8 @@ As I started to build the outline for Afterskools, it was very important, from a
 
 {% include image.html url="/images/post-soccer-moms-rejoice-background.jpg" caption="Afterskoolz has three users: Parents, Teachers, and Principals" %}  
 
+---
+
 ###Features and Functionality
 
 Based on these user case-studies, I can figure out which features/functionality is necessary to satisfy each user's needs. While the obvious goal is provide every feature these users would desire, it is imporant to discern what is essential and what isn't. You can always iterate on the product and add feature-after-feature, but you have to make it viable even at it's simplest; this is especially true in creating a product that can be shipped quickly.
