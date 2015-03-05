@@ -249,12 +249,13 @@ header.main  {
 /* Header Left */
 header.main .site-container {
   float: none;
-  top: 35px;
+  top: 34px;
 }
 .site-name {
   color: #263D49;
   font-weight: 800;
   font-size: 20px;
+  opacity: .7;
 }
 
 /* Navigation */
@@ -580,6 +581,10 @@ footer .social {
     font-size: 15px;
   }
 
+  .site-name {
+    font-size: 18px;
+  }
+
   /* Blog Post Snippet */
   .blog-post-details {
     padding: 45px 0px 50px 0px;
@@ -655,10 +660,6 @@ footer .social {
   }
   .page {
     margin-top: 50px;
-  }
-  .site-logo {
-    width: 103px;
-    top: -23px;
   }
   .header-link {
     padding: 13px 0px 11px 0px;
