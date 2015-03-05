@@ -283,7 +283,7 @@ header.main .nav-container {
   content: "\e604";
 }
 .contact:before {
-  content: "\e600"; 
+  content: "\e607";
 }
 .header-link {
   font-size: 15px;
@@ -333,7 +333,7 @@ header .social {
   content: "\eaa8";
 }
 .social-icon {
-  opacity: .6;
+  opacity: .5;
   margin-left: 14px;
   display: inline-block;
 }
