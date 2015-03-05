@@ -13,7 +13,14 @@
 
       <!-- Site Navigation -->  
       <div class="inline-block cf">
-        <a class="link header-link float-left inline-block {% if page.title == 'Josh Martin | Blog' %} header-link-active {% endif %}" href="/">
+        <a class="link header-link float-left inline-block
+
+          {% if page.title == 'Josh Martin | Blog' %}
+            header-link-active
+          {% elsif page.layout == 'post' %}
+            header-link-active
+          {% endif %}
+          " href="/">
           <span class="nav-icon blog"></span>
           <span class="nav-label">Blog</span>
         </a>        

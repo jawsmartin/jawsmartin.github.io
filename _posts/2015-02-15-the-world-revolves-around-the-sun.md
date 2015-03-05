@@ -1,33 +1,37 @@
 ---
 layout: post
 title: The World Revolves Around the Sun
-deck: While seemingly not a large step for most, moving from an Local + FTP setup to Github marks a most substantial step forward for my web development career
+deck: The pivot from strictly local Chicago news to nationwide coverage was finalized when Chicago Sun-Times's parent company sold the Chicago Suburban papers, Pioneer Press, to the Chicago Tribune late 2014.
 date: 2015-02-15
 tag: Case-Study
 thumbnail: /images/hero-sun-times.jpg
 ---
 
-The last project I did with Aggrego is most certainly the largest, and for me, the most significant in my career thus far. I did not expect to be the lead designer of a prestigious product or brand, such as the Chicago Sun-Times, so soon. But, as luck/fortune would have it, I was given the opportunity to not only redesign it, but extend it's reach across 70 of the largest cities in the US.
+The last project I did with Aggrego is most certainly the largest, and for me, the most significant of my career, thus far. I did not expect to be the lead designer of a prestigious product or brand, such as the Chicago Sun-Times, so soon. But, as luck/fortune would have it, I was given the opportunity to not only redesign it, but extend it's reach across 70 of the largest cities in the US as part of the "Sun-Times Network"
 
-We started working on the "Sun-Times Network" late summer 2014 initially.
+It's probably fair to say that STN was about a year in-the-making. At Aggrego, we started positioning ourselves as a business-to-business service, creating large news media networks for Chicago Sun-Times's Pioneer Press, Digicel's Loop, and Communicorp's Today.ie. Our experience with these projects undoubtedly gave us the knowledge and framework needed for creating the Sun-Times Network.
+
+Actual start-time for Sun-Times Network began in late August 2014 in which was originally going to be a simply a one-off extension of the Sun-Times brand into Milwaukee, WI. As we started fleshing out the product it started to be apparent that the process for "Milwaukee Sun-Times" could be duplicated as many times as we wanted.
+
+---
 
 ###Planning/Research
 
-Sal and Mustafa staked out their competition well before bringing me onboard and discovered the space for innovation is huge: Not a single business for finding after-school activities will show up in a Google Search for "After-school activities for kids" &mdash; Only listicles/articles on suggested ideas, a few local businesses, and nationwide, government-created programs. Not a single platform for searching or registering or shopping for activities/classes. Crazy, right?
+Sal and Mustafa explored their possible competition well before bringing me onboard, discovering the space for innovation was huge&mdash; Not a single platform for finding after-school activities will show up in a Google Search for "After-school activities for kids." You will only see listicles/articles on suggested activity ideas, a few local businesses, and unhelpful government-created programs.
 
-Sal and Mustafa concluded that only competition in after-school class discovery was a small San Francisco-based startup, called [Kidfully](http://www.kidfully.com); it focused on the social aspect of reviewing and sharing after-school activities with fellow parents in the SF area; this is a direction similar, but not the same as intended for Afterskoolz.
+Sal and Mustafa concluded that only competition in after-school class discovery was a small San Francisco-based startup, called [Kidfully](http://www.kidfully.com); Kidfully focuses on the social aspect of reviewing and sharing after-school activities with fellow parents in the SF area; this is a direction similar, but not the same for what was in mind for Afterskoolz.
 
 {% include image.html url="/images/post-soccer-moms-rejoice-inspiration.jpg" caption="Kidfully, Wyzant, Treehouse, and Amazon inspired Afterskoolz's design " %}  
 
-Afterskoolz would be less about recommendations and building a social community like sites such as Kidfully and Angie's List), and more about shopping and registering&mdash; making it more similar to traditional shopping sites, such as [Amazon](http://www.amazon.com) or even [Grubhub](http://www.grubhub.com). 
+Afterskoolz would be less about recommendations and building a social community like sites such as Kidfully or Angie's List, and more about shopping and registering&mdash; making it more similar to traditional shopping sites, such as [Amazon](http://www.amazon.com) or even [Grubhub](http://www.grubhub.com). 
 
-As a 24yr old, single, recent college grad, the platform obviously doesn't speak to me and my needs. But, it doesn't take much to understand how such a platform could revolutionize what appears to be a stagnant industry. 
+As a 24yr old, single, recent college grad, the platform obviously doesn't speak to me and my needs, but, it doesn't take much to understand how such a platform could revolutionize what appears to be a stagnant industry. 
 
-Afterskoolz could, potentially, be the go-to destination for parents to browse a large selection of after-school activities and easily, quickly get their children involved; it would completely rid the burden of tradtional paperwork and phone calls, making the process as simple as ever.
+Afterskoolz could, potentially, be the go-to destination for parents to browse a large selection of after-school activities in their city and easily, quickly get their children involved; it would completely rid the burden of tradtional paperwork and phone calls, making the process as simple as ever.
 
-What's even more amazing, is the platform doesn't have to stop at afterschool activities: it could completely replace traditional class registration at every educational level. Take this scenario for example: You just moved to a new city and need to register your child into the new local school. What do you do? You call the school, register an appointment, gather identification materials, and physically go to said school to fill out paperwork.
+What's even more amazing, is the platform doesn't have to stop at after-school activities: it could completely replace traditional class registration at every educational level. Take this scenario for example: You just moved to a new city and need to register your child into the new local school. What do you do? You call the school, schedule an appointment, gather identification materials, and physically go to said school to fill out paperwork...why should anyone have to do that in 2015?
 
-Those are extremely inconvenient, but easily solvable problems. It was an important aspect to keep in mind as I built my blueprint for Afterskoolz: searching and registering is only the beginning on what could be a multifunctional platform.
+While the inital plan for Afterskoolz isn't quite ready to tackle a terriotry like complete school registration, it is an important aspect to keep in mind for the future, especially as I build my blueprint for the website. I must keep everything I design agile and capable of scaling and accomodating new features/functionaility.
 
 ---
 
@@ -39,7 +43,7 @@ As I started to build the outline for Afterskools, it was very important, from a
 
 ###Features and Functionality
 
-Based on these User-Cases, I can figure out which features/functionality is necessary to satisfy each user's needs. While the goal is provide every feature these users would desire, it is imporant to discern what is essential and what isn't. You can always iterate on the product and add feature-after-feature, but you have to make it viable even at it's simplest; this is especially true in creating a product that can be shipped quickly.
+Based on these user case-studies, I can figure out which features/functionality is necessary to satisfy each user's needs. While the obvious goal is provide every feature these users would desire, it is imporant to discern what is essential and what isn't. You can always iterate on the product and add feature-after-feature, but you have to make it viable even at it's simplest; this is especially true in creating a product that can be shipped quickly.
 
 {% include image.html url="/images/post-soccer-moms-rejoice-background.jpg" caption="Brainstorming features and functionalities" %}  
 
@@ -57,7 +61,7 @@ It's easiest to understand the Afterskoolz platform by looking at it from a bird
 
 After determining how the site is organized and what pages are needed, I define the website's front-facing visuals. I establish layout, page content, user-interface elements. I also double-check the site's UX as I work page-to-page. It's pretty easy to change course or make significant revisions at this step.
 
-The goal of the wireframes isn't to focus on the final product; things like color and branding will only cause unnecessary conversation that is best saved for later.
+The goal of wireframes isn't to focus on the final product, but to illustrate, at the most basic level, the functionality or purpose of each page. Elements such color and branding are, no doubt, an important part of any website, but they don't (or shouldn't, at least) affect how a page/website will work. In my experience, at least, adding these superfluous details only causes distraction.
 
 {% include image.html url="/images/post-soccer-moms-rejoice-background.jpg" caption="Basic wireframes convey user-experience and functionality" %}  
 
@@ -67,11 +71,11 @@ The goal of the wireframes isn't to focus on the final product; things like colo
 
 ###Prototyping
 
-Prototyping has dramatically changed how I work with clients. In the past, clients and myself would exchange long, winded emails with static .JPEGs. They would look over my images, without context, and use their best judgement to guess how it would work in real life. Sure, a sitemap or wireframe can alleviate the guess work a bit, but it not quite as intuitive as actually interacting with it.
+Prototyping has dramatically changed how I work with clients. In the past, clients and myself would exchange long, winded emails with static .JPEGs. They would look over my images, without context, and use their best judgement to guess how they would work in real life. Sure, a sitemap or wireframe can alleviate the guess-work a bit, but it not quite as intuitive as actually interacting with it.
 
 {% include image.html url="/images/post-soccer-moms-rejoice-background.jpg" caption="It's easy to spot UX flaws when using prototypes" %}  
 
-Besides being a better way for clients to test their potential product, prototyping is also invaulable for testing your designs on multiple devices. I personally use [Invison](http://www.invisionapp.com) which allows for testing on mobile and tablet, in addition to desktop. It's extremely helpful to make sure everthing I initially design on a laptop, does in fact, look how I want it on other devices.
+Besides being a better way for clients to test their potential product, prototyping is also invaulable for testing my designs on multiple devices. I, personally, use [Invison](http://www.invisionapp.com) which allows for testing on mobile and tablet, in addition to desktop. It's extremely helpful to make sure everthing I initially design on a laptop, does in fact, look how I want it on other devices.
 
 ---
 
@@ -79,11 +83,11 @@ Besides being a better way for clients to test their potential product, prototyp
 
 In addition to my involvement in the web design process, I also worked heaviliy in branding. Sal and Mustafa came to me with the "Afterskoolz" name and some general direction: they wanted it to be "fun and friendly," emphasize color, and, in no way, be confused with a corporate business.
 
-I explored several ideas and eventually chose to base the branding off of a chalkboard motif as it pertains to classrooms and students. I liked the idea of scribbled headlines and doodle-style illustrations. I also felt that the dark blue of a chalkboard would work well with a very colorful color palette.
+I explored several ideas and eventually chose to base the branding off of a chalkboard motif as it pertains to classrooms and students. I liked the idea of scribbled headlines and doodle-style illustrations. I also felt that the dark blue of a chalkboard would work well with a very expansive color palette.
 
 {% include image.html url="/images/post-soccer-moms-rejoice-logo.jpg" caption="The logo was inspired by Toys R' Us, Google, Oreo, and ebay" %}   
 
-For the Afterskoolz logo, I chose a large, slab-serif typeface [Chunkfive](http://www.fontsquirrel.com/fonts/chunkfive) that I felt was playful. I combined it with an another classroom motif, the teacher's apple. I felt a stylized version of it compliment the wordmark well and still be strong on its own.
+For the Afterskoolz logo, I chose a large, slab-serif typeface, [Chunkfive](http://www.fontsquirrel.com/fonts/chunkfive), that I felt was playful. I combined it with an another classroom motif, the teacher's apple. I felt a stylized version of it compliment the wordmark well and could still be strong on its own.
 
 {% include image.html url="/images/post-soccer-moms-rejoice-business-card.jpg" caption="Businesses cards with embossed details" %}   
 
@@ -91,9 +95,9 @@ For the Afterskoolz logo, I chose a large, slab-serif typeface [Chunkfive](http:
 
 ###Style Guide
 
-With the branding in order, I translated it into a style guide for the website. I wanted to establish a consistent visual style for color, illustrations, iconograpy, and UI elements.
+With the branding in order, I translated it into a style guide for the website. I wanted to establish a consistent visual style for color, typography, illustrations, iconograpy, and UI elements.
 
-{% include image.html url="/images/post-soccer-moms-rejoice-background.jpg" caption="Alleyoop looks great on your phone" %}   
+{% include image.html url="/images/post-soccer-moms-rejoice-background.jpg" caption="A detailed style guide is very helpful when handing design off to developers" %}   
 
 ---
 
@@ -103,35 +107,37 @@ The homepage, like in most projects, tends to draw the most input from clients; 
 
 Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website's UI. In designing the Afterskoolz homepage, the main areas of concern from Sal and Mustafa was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.
 
-{% include image.html url="/images/post-soccer-moms-rejoice-homepage.jpg" caption="Alleyoop looks great on your phone" %}  
+{% include image.html url="/images/post-soccer-moms-rejoice-homepage.jpg" caption="The relatively-simple homepage design responds down nicely to tablet and mobile" %}  
 
-Outside of solving for their main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner. It's pretty standard in modern design practices for homepages to be: Hero image, CTA, and product selling points.
+Outside of solving for their main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner&mdash; personable, informal copywriting, delightful animations, spot illustrations, and playful iconography. 
 
-I followed this formula pretty closely and added illustrations to compliment the various sections. By going relatively simple, the homepage responded down to tablet and mobile very nicely.
+As far as layout, it's pretty standard in modern design practices for homepages to be: Hero image, product selling points, website section highlights, and CTA. I followed this formula pretty closely.
 
 ---
 
 ###Search Results
 
-The search-results page, in my opinion, is the most important page of the entire site. You want to coney a large amount of information in a simple, unintimidating way. At the same time, you want to give users the ability to access a large varitey of additional details and search customization if needed.
+The search-results page, in my opinion, is the most important page of the entire site; you want it to coney a large amount of information in a simple, unintimidating way. At the same time, you want to give users the ability to access a large varitey of additional details and search customization if needed.
 
-{% include image.html url="/images/post-soccer-moms-rejoice-homepage.jpg" caption="Alleyoop looks great on your phone" %}  
+{% include image.html url="/images/post-soccer-moms-rejoice-homepage.jpg" caption="Sal and Mustafa stressed the importance of a map and save-class buttons in the page's design" %}  
 
 ---
 
-###Class Details
+###Class Profile
 
-The class details page is divided into 3 sections: details, endorsements, and schedule. Details elaborates on information showed initially in the search results, Endorsements showcases administrator-selected class recommendations (NOT Yelp-style reviews), and schedule displays available sessions for enrollment.
+The class profile page is divided into 3 sections: details, endorsements, and schedule. The Details section elaborates on information showed initially in the search results, the Endorsements section showcases administrator-selected class recommendations (NOT Yelp-style reviews), and the schedule section presents all available sessions for enrollment.
 
-{% include image.html url="/images/post-soccer-moms-rejoice-homepage.jpg" caption="Alleyoop looks great on your phone" %}
+{% include image.html url="/images/post-soccer-moms-rejoice-homepage.jpg" caption="The schedule section overlays a registered user's Google Calendar for easy referencing " %}
 
 ---
 
 ###Dashboard
 
-As I've stated before, Afterskoolz isn't just about discovery and registration&mdash; it has a wide assortment of tools and functionality. Each of the three types of users (4 if you include administrators) has a different set of needs and the dashboard is customized to fit each one. For example, parents need the ability to manage their children's schedules, teachers need to send homework to students, principals need to manage rosters, and
+As I've stated before, Afterskoolz isn't just about discovery and registration&mdash; it has a wide assortment of tools and functionality, each tailored for its three types of users (4 if you include administrators) For example, parents need the ability to manage their children's schedules, teachers need to send homework to students, principals need to manage rosters.
 
-{% include image.html url="/images/post-soccer-moms-rejoice-homepage.jpg" caption="Alleyoop looks great on your phone" %}    
+{% include image.html url="/images/post-soccer-moms-rejoice-homepage.jpg" caption="Users have all of their tools and information readily available in their dashboards" %}    
+
+{% include image.html url="/images/post-soccer-moms-rejoice-homepage.jpg" caption="Messaging is feature available to all users" %}    
  
 ---
 
