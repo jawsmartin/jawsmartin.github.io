@@ -528,7 +528,8 @@ footer .social {
 
   /* Blog Post Snippet */
   .blog-post-details {
-    padding: 45px 0px 50px 0px;
+    padding: 10px 0px 50px 0px;
+    margin-bottom: 60px;
   }
   .thumbnail-container {
     height: 250px;
@@ -551,10 +552,6 @@ footer .social {
   .read-more {
     font-size: 14px;
   }
-  .cs-sub-container {
-    margin-bottom: 19px;
-  }
-
   /* Post Header */
   .post-hero-image {
     height: 350px;
@@ -604,7 +601,7 @@ footer .social {
     margin-right: 0px;
   }
   .page {
-    margin-top: 50px;
+    margin-top: 100px;
   }
   .header-link {
     padding: 13px 0px 11px 0px;
