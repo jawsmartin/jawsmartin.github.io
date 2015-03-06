@@ -144,13 +144,11 @@ body {
 
 /* Typography */
 .text-small {
-  font-size: 12px;
-  font-family: 'Merriweather', serif;
+  font-size: 13px;
+  line-height: 1.4;
   color: #8E9AA0;
 }
-.serif {
-  font-family: 'Merriweather', serif;  
-}
+
 h4 {
   font-size: 16px;
   font-weight: 600;
@@ -382,14 +380,8 @@ header .social {
 .cs-sub-container {
   margin: 0px 0px 22px 0px;
 }
-.cs-sub {
-  color: rgba(115, 133, 142, .6);
-  font-size: 12px;
-  font-style: italic;
-}
 .overview {
   font-size: 15px;
-  color: rgba(115, 133, 142, 1);
   padding-bottom: 0px;
 }
 .read-more {
@@ -436,7 +428,7 @@ header .social {
 .sub-header {
   border-top: 1px solid #ececec;
   border-bottom: 1px solid #ececec;
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 300;
   margin: 60px 0px 55px 0px;
   padding: 50px 0px 50px 0px;
@@ -627,6 +619,7 @@ footer .social {
     line-height: 35px;
   }
   .sub-header {
+    font-size: 18px;
     margin: 35px 0px 29px 0px;
     padding: 27px 0px 25px 0px;
   }
