@@ -1,4 +1,4 @@
-<figure class="text-left block cf image">
+<figure class="{% if page.title == 'Josh Martin | About' %}about-pic{% endif %} text-left block cf image">
   <img src="{{ include.url }}" alt="{{ include.description }}"/>
   <figcaption class="text-small" align="bottom">{{ include.caption }}</figcaption>
 </figure>
