@@ -3,11 +3,11 @@ layout: default
 title: Josh Martin | About
 ---
 
+{% include image.html url="/images/me.jpg" caption="Chicago, 2013. From left: Lauren Nicole, Myself, and Andrew Johnston" %}  
+
 ###About
 
 I am a Designer, Illustrator, and Front-End Developer from Pittsburgh, Pennsylvania living in Chicago, Illinois. I currently work as an independent product designer for local startups.
-
-{% include image.html url="/images/me.jpg" caption="Chicago, 2013. From left: Lauren Nicole, Myself, and Andrew Johnston" %}  
 
 I also manage a variety of [projects](http://www.behance.net.jawsmartin), watch [cheesy horror movies](https://www.youtube.com/watch?v=KjL5u_8BlgY), hang out at [Arcades](https://www.youtube.com/watch?v=LHDOpKYqCGo), and listen to [loud music](https://www.youtube.com/watch?v=iEaml0KMkVQ).
 

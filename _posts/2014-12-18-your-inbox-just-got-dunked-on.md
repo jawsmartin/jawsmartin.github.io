@@ -7,7 +7,7 @@ tag: Project
 thumbnail: /images/hero-alleyoop.jpg
 ---
 
-*I know, for a fact, I'm addicted to Dribbble* &mdash; I check it before every project for inspiration and several times a day just to see what what is trending. For all intents and purposes, I do not need any other reminder of what is happening there. However, my friend and co-worker, [Josh Beckman](http://www.andjosh.com), does.
+I know, for a fact, I'm addicted to Dribbble &mdash; I check it before every project for inspiration and several times a day just to see what what is trending. For all intents and purposes, I do not need any other reminder of what is happening there. However, my friend and co-worker, [Josh Beckman](http://www.andjosh.com), does.
 
 I sent that ungrateful bastard one of my Dribbble invites over a year ago an he has only posted [one shot](https://dribbble.com/shots/1426532-Soundcloud-Logo-Animation?list=searches&amp;offset=0). His excuse(s)? "I just don't have time to get on there... I forget it exists... It's awful to look at on my small phone..." 
     

@@ -7,7 +7,7 @@ tag: Case-Study
 thumbnail: /images/hero-sun-times.jpg
 ---
 
-*The last project I did with Aggrego is most certainly the largest, and for me, the most significant of my career, thus far.* I did not expect to be the lead designer of a prestigious product or brand, such as the Chicago Sun-Times, so soon. But, as luck/fortune would have it, I was given the opportunity to not only redesign it, but extend it's reach across 70 of the largest cities in the US as part of the "Sun-Times Network"
+The last project I did with Aggrego is most certainly the largest, and for me, the most significant of my career, thus far. I did not expect to be the lead designer of a prestigious product or brand, such as the Chicago Sun-Times, so soon. But, as luck/fortune would have it, I was given the opportunity to not only redesign it, but extend it's reach across 70 of the largest cities in the US as part of the "Sun-Times Network"
 
 It's probably fair to say that STN was about a year in-the-making. At Aggrego, we started positioning ourselves as a business-to-business service, creating large news media networks for Chicago Sun-Times's Pioneer Press, Digicel's Loop, and Communicorp's Today.ie. Our experience with these projects undoubtedly gave us the knowledge and framework needed for creating the Sun-Times Network.
 

@@ -7,4 +7,4 @@ tag: Personal
 thumbnail: /images/hero-mistake.jpg
 ---
 
-*It's a little cathartic to reflect on your career with a sense of entitlement.* You take credit when things went well, chalking it up to your grandeous contributions and you denounce all that went poorly to circumstances that were out of your hands. It is a very unhealthy perspective that I, admittedly, struggle with. While not easy in the slightest, I've been making a concerted effort to correct it.
+It's a little cathartic to reflect on your career with a sense of entitlement. You take credit when things went well, chalking it up to your grandeous contributions and you denounce all that went poorly to circumstances that were out of your hands. It is a very unhealthy perspective that I, admittedly, struggle with. While not easy in the slightest, I've been making a concerted effort to correct it.

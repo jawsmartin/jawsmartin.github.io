@@ -129,7 +129,7 @@ body {
   line-height: 1.5;
 }
 .grid-container {
-  max-width: 1000px;
+  max-width: 1200px;
   width: 92%;
   margin: 0 auto;
 }
@@ -139,7 +139,7 @@ body {
   margin: 0 auto;
 }
 .page {
-  margin-top: 175px;
+  margin: 100px 0px 125px 0px;
 }
 
 /* Typography */
@@ -236,18 +236,18 @@ a:hover {
 */
 
 header.main  {
-  height: 99px;
+  height: 85px;
   background-color: RGBA(255, 255, 255, .98);
   position: fixed;
-  border-bottom: 1px solid rgba(213, 222, 226, .5);
+  border-top: 1px solid rgba(213, 222, 226, .5);
   width: 100%;
-  top: 0px;
+  bottom: 0px;
   z-index: 999;
 }
 /* Header Left */
 header.main .site-container {
   float: none;
-  top: 34px;
+  top: 27px;
 }
 .site-name {
   color: #263D49;
@@ -285,9 +285,8 @@ header.main .nav-container {
 .header-link {
   font-size: 15px;
   margin-left: 30px;
-  padding: 38px 0px 36px 0px;
+  padding: 31px 0px 36px 0px;
   transition: all .3s ease;
-  border-bottom: 4px solid rgba(255,255,255,0);  
   color: #9CA6AC;
 }
 span.nav-label {
@@ -295,13 +294,11 @@ span.nav-label {
   font-size: 14px;
 }
 .header-link:hover {
-  transition: all .3s ease;  
-  border-bottom: 4px solid #F22F5D;  
+  transition: all .3s ease;
   color: #F22F5D;
   opacity: 1;
 }
 .header-link-active {
-  border-bottom: 4px solid #F22F5D;
   color: #263d49;
   opacity: 1;
 }
@@ -315,7 +312,7 @@ span.nav-label {
   opacity: 1;
 }
 header .social {
-  top: -44px;
+  top: -39px;
   border-left: 1px solid rgba(213, 222, 226, .7);
   padding-left: 12px;
   margin-left: 18px;
@@ -358,8 +355,8 @@ header .social {
 }
 .cs-lead {
   color: rgba(50, 58, 69, 1);
-  font-size: 35px;
-  font-weight: 300;
+  font-size: 30px;
+  font-weight: 400;
 }
 .post-thumbnail {
   padding-top: 40px;
@@ -469,38 +466,7 @@ h3 {
 }
 
 .about-pic {
-  padding: 30px 0px 50px 0px;
-}
-
-/*
-==============================================
-#Footer
-==============================================
-*/
-
-.footer-content {
-  border-top: 1px solid rgba(213, 222, 226, .5);
-  padding: 25px 0px 100px 0px;
-  margin-top: 100px;
-}
-
-/* Colophon */
-.copyright {
-  max-width: 400px;
-}
-.footer-link {
-  text-decoration: underline;
-}
-
-/* Author */
-.author {
-  max-width: 400px;
-}
-.author-details {
-  margin-left: 70px;
-}
-footer .social {
-  display: none;
+  padding: 0px 0px 30px 0px;
 }
 
 /*
@@ -529,13 +495,10 @@ footer .social {
   /* Blog Post Snippet */
   .blog-post-details {
     padding: 10px 0px 50px 0px;
-    margin-bottom: 60px;
-  }
-  .thumbnail-container {
-    height: 250px;
+    margin-bottom: 50px;
   }
   .cs-lead {
-    font-size: 29px;
+    font-size: 25px;
     line-height: 33px;
     font-weight: 400;
     padding-bottom: 4px;
@@ -553,30 +516,30 @@ footer .social {
     font-size: 14px;
   }
   /* Post Header */
-  .post-hero-image {
-    height: 350px;
-  }
-  .hero-title {
-    font-size: 34px;
-    line-height: 35px;
-  }
-  .hero-content {
-    top: 73px;
-  }
-  .hero-lead {
-    font-size: 30px;
-    line-height: 35px;
-  }
   .sub-header {
     font-size: 18px;
     margin: 35px 0px 29px 0px;
     padding: 27px 0px 25px 0px;
   }
-  .no-hero {
-    padding-top: 50px;
-  }
   .post-thumbnail {
     padding-top: 30px;
+  }
+
+  hr {
+    margin-top: 25px;
+    padding-bottom: 20px;
+  }
+
+  h3 {
+    margin-top: 25px;
+  }
+
+  .about-pic {
+    padding-bottom: 20px;
+  }
+
+  .post figure {
+    padding: 30px 0px 25px 0px;
   }
 
   /* Simplifies header */ 
@@ -595,13 +558,13 @@ footer .social {
   }
   header.main .site-container {
     float: none;
-    top: 13px;
+    top: 15px;
   }  
   .nav-icon {
     margin-right: 0px;
   }
   .page {
-    margin-top: 100px;
+    margin: 50px 0px 100px 0px;
   }
   .header-link {
     padding: 13px 0px 11px 0px;
@@ -616,50 +579,5 @@ footer .social {
   }
   header .social {
     display: none;
-  }
-
-  /* Footer */
-  footer.main {
-    margin-top: 50px;
-  }
-  .footer-content {
-    padding-bottom: 50px;
-  }
-  .footer-content {
-    text-align: center;
-  }
-  .copyright {
-    width: 100%;
-    float: none;
-  }
-  .author {
-    float: none;
-  }
-  .author:after {
-    content: '';
-    display: block;
-    border: 0;
-    border-bottom: 2px solid #d0d2d4;
-    width: 6rem;
-    padding-top: 1.55556rem;
-    margin: -2px auto 3.1rem auto;
-  }
-  .author-details {
-    margin-left: 0px;
-  }
-  .author-pic {
-    float: none;
-    margin-bottom: 15px;
-    width: 60px;
-    position: static;
-  }
-  footer .social {
-    display: block;
-    padding-top: 25px;
-  }
-  .footer-content {
-    margin-top: 50px;
-    padding-top: 65px;
-    padding-bottom: 75px;
   }
 }

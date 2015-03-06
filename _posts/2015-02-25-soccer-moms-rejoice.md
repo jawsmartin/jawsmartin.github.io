@@ -7,7 +7,7 @@ tag: Case-Study
 thumbnail: /images/hero-afterskoolz-3.jpg
 ---
 
-*In the summer of 2014, I was approached by my former [Aggrego](http://www.aggrego.com) co-worker, [Sal Abassi](https://angel.co/sal-abbasi)*, to help get his personal project, Afterskoolz, off the ground. It would be a platform to make finding and planning after-school activites for children easier.
+In the summer of 2014, I was approached by my former [Aggrego](http://www.aggrego.com) co-worker, [Sal Abassi](https://angel.co/sal-abbasi), to help get his personal project, Afterskoolz, off the ground. It would be a platform to make finding and planning after-school activites for children easier.
 
 Sal, alongside fellow parent and Afterskoolz co-founder, [Mustafa Patni](https://angel.co/mustafa-patni), laid out a rough draft of all the features they wanted Afterskoolz to have, such as simple search functionality, class registration, teacher-to-parent messaging, and a schedule-overlayed calendar. With their vision laid out, it was my job to bring it to life through comprehensive UI/UX design and branding.
 
