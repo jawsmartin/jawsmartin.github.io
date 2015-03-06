@@ -139,7 +139,7 @@ body {
   margin: 0 auto;
 }
 .page {
-  margin: 100px 0px 125px 0px;
+  margin: 100px 0px 200px 0px;
 }
 
 /* Typography */
@@ -479,17 +479,17 @@ h3 {
 
   /* General */
   .grid-container-2 {
-    width: 84%;
+    width: 89%;
   }
   .grid-container {
-    width: 84%;
+    width: 89%;
   }
   p {
     font-size: 15px;
   }
 
   .site-name {
-    font-size: 18px;
+    font-size: 21px;
   }
 
   /* Blog Post Snippet */
@@ -558,7 +558,7 @@ h3 {
   }
   header.main .site-container {
     float: none;
-    top: 15px;
+    top: 12px;
   }  
   .nav-icon {
     margin-right: 0px;
@@ -567,9 +567,9 @@ h3 {
     margin: 50px 0px 100px 0px;
   }
   .header-link {
-    padding: 13px 0px 11px 0px;
-    font-size: 19px !important;
-    margin-left: 22px !important;
+    padding: 10px 0px 9px 0px;
+    font-size: 22px !important;
+    margin-left: 24px !important;
   }
   .header-link:hover {
     border-bottom: 3px solid #F22F5D;
@@ -579,5 +579,13 @@ h3 {
   }
   header .social {
     display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header-link {
+    padding: 13px 0px 10px 0px;
+    font-size: 19px !important;
+    margin-left: 20px !important;
   }
 }
