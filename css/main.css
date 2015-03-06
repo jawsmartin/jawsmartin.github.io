@@ -139,7 +139,7 @@ body {
   margin: 0 auto;
 }
 .page {
-  margin-top: 100px;
+  margin-top: 175px;
 }
 
 /* Typography */
@@ -156,7 +156,7 @@ h4 {
   margin-bottom: 4px;
 }
 em {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* Images */
@@ -251,9 +251,8 @@ header.main .site-container {
 }
 .site-name {
   color: #263D49;
-  font-weight: 800;
-  font-size: 20px;
-  opacity: .7;
+  font-weight: 600;
+  font-size: 21px;
 }
 
 /* Navigation */
@@ -343,42 +342,27 @@ header .social {
 
 /*
 ==============================================
-#Blog 
+#Homepage
 ==============================================
 */
 
 /* Blog Post Snippet */
 .blog-post-details {
-  padding: 85px 0px 100px 0px;
+  padding: 30px 0px 70px 0px;
+  border-bottom: 1px solid rgba(213, 222, 226, .5);
+  margin-bottom: 60px;
 }
 .blog-post-container .blog-post:last-of-type .blog-post-details {
   padding-bottom: 0px;
+  border-bottom: none;
 }
 .cs-lead {
   color: rgba(50, 58, 69, 1);
   font-size: 35px;
   font-weight: 300;
 }
-.thumbnail-container {
-  overflow: hidden;
-  height: 400px;
-  width: 100%;
-}
-.image-overlay {
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  transition: all .5s ease;  
-}
-.thumbnail-image-link:hover .image-overlay {
-  transition: all .5s ease;
-  background-color: RGBA(50, 58, 68, .1);
-}
-.thumbnail {
-  transition: all .5s ease;
-}
-.cs-sub-container {
-  margin: 0px 0px 22px 0px;
+.post-thumbnail {
+  padding-top: 40px;
 }
 .overview {
   font-size: 15px;
@@ -387,21 +371,25 @@ header .social {
 .read-more {
   font-size: 15px;
   margin-top: 25px;
-  font-size: 15px;
+}
+.read-more:hover {
+  text-decoration: none !important;
 }
 .read-more:after {
   content: "\2192";
   padding-left: 12px;
   display: inline-block;
+  transition: all .3s ease; 
+}
+.read-more:hover:after {
+  transition: all .3s ease;   
+  padding-left: 16px;
 }
 
-/* #Blog Post
+/* #Internal Pages
 -----------------------------------------------*/
 
 /* Post Header */
-.post-thumbnail {
-  padding-top: 40px;
-}
 .post-hero-image {
   position: fixed;
   opacity: .2;
@@ -435,15 +423,6 @@ header .social {
 }
 
 /* Post Main Content */
-.post {
-  background-color: white;
-}
-.project-photo {
-  padding-top: 50px;
-}
-#post-main-content figure {
-  padding: 40px 0px 25px 0px;
-}
 .post figure {
   padding: 50px 0px 40px 0px;
 }
@@ -464,6 +443,9 @@ p {
 p a {
   text-decoration: none;
 }
+li a {
+  text-decoration: none;
+}
 hr {
   padding-bottom: 28px;
   margin-top: 35px;
@@ -481,46 +463,9 @@ hr {
 }
 h3 {
   color: #263d49;
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 600;
   margin: 35px 0px 20px 0px;
-}
-
-/*
-==============================================
-#About/Contact
-==============================================
-*/
-
-.no-hero {
-  padding-top: 75px;
-}
-.background-container {
-  padding-top: 25px;
-}
-.goal-details {
-  width: 78%;
-}
-.goal-icon-container {
-  width: 17%;
-  margin-right: 5%;
-}
-.bg-item {
-  padding-bottom: 30px;
-}
-.background-container .bg-item:last-child {
-  padding-bottom: 0px;
-}
-.background-container .bg-item:last-child p:last-of-type {
-  padding-bottom: 4px;
-}
-.about .paragraph:first-of-type {
-  border-top: none;
-  padding-top: 0px;
-  margin-top: 0px;
-}
-.about-photo {
-  padding-bottom: 25px;
 }
 
 /*
@@ -598,6 +543,9 @@ footer .social {
     margin-top: 19px;
     font-size: 14px;
     line-height: 21px;
+  }
+  .read-more {
+    font-size: 14px;
   }
   .cs-sub-container {
     margin-bottom: 19px;

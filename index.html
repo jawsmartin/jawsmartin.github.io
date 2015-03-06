@@ -11,21 +11,29 @@ title: Josh Martin | Blog
   <ul class="blog-post-container">
     {% for post in paginator.posts %}
       <li class="blog-post">
-        <a class="thumbnail-image-link block relative" href="{{ post.url }}">
-          <div class="image-overlay absolute"></div>
-          <figure class="block blog-snippet-image thumbnail-container" style="background-image:url({{ post.thumbnail }});background-size:cover;background-position:center center">
-          </figure>
-        </a>
-        <div class="blog-post-details grid-container-2">
+
+        <div>
           <a class="cs-lead link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
           <div class="cs-sub-container cf">            
             <span class="text-small inline-block float-left">{{ post.date | date: '%B %d, %Y' }}</span>
-          </div>
+          </div> 
+        </div>     
+
+        <div class="post-thumbnail">
+          <a class="thumbnail-image-link block relative" href="{{ post.url }}">
+            <figure class="">
+              <img src="{{ post.thumbnail }}"/>    
+            </figure>
+          </a>
+        </div>
+
+        <div class="blog-post-details">
           <p class="overview">{{ post.excerpt | strip_html }}</p> 
           <div class="read-more-container inline-block">
             <a href="{{ post.url }}"class="link pink read-more block">Continue Reading</a>
           </div>
         </div>
+
       </li>
     {% endfor %}
   </ul>
