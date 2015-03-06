@@ -121,7 +121,7 @@ table {
 */
 
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue';
   -webkit-font-smoothing: antialiased;
   color: #51636D;
   font-weight: 400;
@@ -144,7 +144,7 @@ body {
 
 /* Typography */
 .text-small {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.4;
   color: #8E9AA0;
 }
@@ -236,7 +236,7 @@ a:hover {
 */
 
 header.main  {
-  height: 85px;
+  height: 90px;
   background-color: RGBA(255, 255, 255, .98);
   position: fixed;
   border-top: 1px solid rgba(213, 222, 226, .5);
@@ -247,12 +247,12 @@ header.main  {
 /* Header Left */
 header.main .site-container {
   float: none;
-  top: 27px;
+  top: 28px;
 }
 .site-name {
   color: #263D49;
-  font-weight: 600;
-  font-size: 21px;
+  font-weight: 500;
+  font-size: 23px;
 }
 
 /* Navigation */
@@ -285,13 +285,12 @@ header.main .nav-container {
 .header-link {
   font-size: 15px;
   margin-left: 30px;
-  padding: 31px 0px 36px 0px;
+  padding: 34px 0px 34px 0px;
   transition: all .3s ease;
   color: #9CA6AC;
 }
 span.nav-label {
-  font-weight: 500;
-  font-size: 14px;
+  font-size: 15px;
 }
 .header-link:hover {
   transition: all .3s ease;
@@ -304,7 +303,7 @@ span.nav-label {
 }
 
 .header-link-active span.nav-label {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .header-link-active:hover {
@@ -355,14 +354,13 @@ header .social {
 }
 .cs-lead {
   color: rgba(50, 58, 69, 1);
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 33px;
+  font-weight: 300;
 }
 .post-thumbnail {
-  padding-top: 40px;
+  padding-top: 30px;
 }
 .overview {
-  font-size: 15px;
   padding-bottom: 0px;
 }
 .read-more {
@@ -411,12 +409,11 @@ header .social {
   font-style: italic;
 }
 .sub-header {
-  border-top: 1px solid #ececec;
-  border-bottom: 1px solid #ececec;
-  font-size: 21px;
+  font-size: 24px;
   font-weight: 300;
-  margin: 60px 0px 55px 0px;
-  padding: 50px 0px 50px 0px;
+  padding: 46px 0px 40px 0px;
+  line-height: 1.5;
+  color: rgba(50, 58, 69, 1);
 }
 
 /* Post Main Content */
@@ -433,6 +430,7 @@ p {
   color: #51636D;
   padding-bottom: 20px;
   font-size: 16px;
+  line-height: 1.7;
 }
 .post figure + p { 
   padding-top: 20px;
@@ -461,7 +459,7 @@ hr {
 h3 {
   color: #263d49;
   font-size: 19px;
-  font-weight: 600;
+  font-weight: 500;
   margin: 35px 0px 20px 0px;
 }
 
@@ -497,10 +495,12 @@ h3 {
     padding: 10px 0px 50px 0px;
     margin-bottom: 50px;
   }
+  .text-small {
+    font-size: 12px;
+  }
   .cs-lead {
     font-size: 25px;
     line-height: 33px;
-    font-weight: 400;
     padding-bottom: 4px;
     display: block;
   }
@@ -517,7 +517,10 @@ h3 {
   }
   /* Post Header */
   .sub-header {
-    font-size: 18px;
+    font-size: 19px;
+    line-height: 1.4;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;    
     margin: 35px 0px 29px 0px;
     padding: 27px 0px 25px 0px;
   }
