@@ -4,7 +4,6 @@ title: Redesigning the Pioneer Press
 deck: While seemingly not a large step for most, moving from an Local + FTP setup to Github marks a most substantial step forward for my web development career
 date: 2014-12-13
 tag: Case-Study
-thumbnail: /images/hero-pioneer-press.jpg
 ---
 
 One of the first major projects I worked on at Aggrego was the redesign of the Pioneer Press. The Pioneer Press is a collection of 30+ local news websites covering the Chicago suburbs (under the Chicago Sun-Times umbrella) The goal wasn't simply an aesthetic improvement, but a revamp to the entire product: We made the desktop-only website responsive, added iOS/Android Apps, and created a network to connect them all.

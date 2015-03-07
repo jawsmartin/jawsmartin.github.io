@@ -3,12 +3,12 @@
 <section class="post-header grid-container-2">
 
   <div class="cf">
+    <span class="text-small block">{{ page.date | date: '%B %d, %Y' }}</span>    
     <span class="cs-lead block link" href="{{ post.url }}" title="{{ post.title }}">{{ page.title }}</span>
-    <span class="text-small block">{{ page.date | date: '%B %d, %Y' }}</span>
   </div>
 
   <figure class="post-thumbnail">
-    <img src="{{ page.thumbnail }}"/>    
+    <img src="/images/post/{{ page.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ page.title | replace:' ','-' }}/thumbnail.jpg"/>    
   </figure>
 
 </section>

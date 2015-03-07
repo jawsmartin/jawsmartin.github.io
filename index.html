@@ -13,16 +13,16 @@ title: Josh Martin | Blog
       <li class="blog-post">
 
         <div>
-          <a class="cs-lead link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
           <div class="cs-sub-container cf">            
             <span class="text-small inline-block float-left">{{ post.date | date: '%B %d, %Y' }}</span>
-          </div> 
+          </div>           
+          <a class="cs-lead link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
         </div>     
 
         <div class="post-thumbnail">
           <a class="thumbnail-image-link block relative" href="{{ post.url }}">
             <figure class="">
-              <img src="{{ post.thumbnail }}"/>    
+              <img src="/images/post/{{ post.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ post.title | replace:' ','-' }}/thumbnail.jpg"/>    
             </figure>
           </a>
         </div>
