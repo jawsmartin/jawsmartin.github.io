@@ -22,7 +22,7 @@ title: Josh Martin | Blog
         <div class="post-thumbnail">
           <a class="thumbnail-image-link block relative" href="{{ post.url }}">
             <figure class="">
-              <img src="/images/post/{{ post.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ post.title | replace:' ','-' }}/thumbnail.jpg"/>    
+              <img src="/images/post/{{ post.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ post.title | replace:' ','-' | downcase }}/thumbnail.jpg"/>    
             </figure>
           </a>
         </div>
