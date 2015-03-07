@@ -393,7 +393,7 @@ header .social {
 
 /* Post Main Content */
 .post figure {
-  padding: 50px 0px 40px 0px;
+  padding: 0px 0px 20px 0px;
 }
 .post figure + figure { 
   padding-top: 30px;
@@ -530,11 +530,15 @@ strong {
   .post-header .cs-sub {
     font-size: 11px;
   }
+  .post-thumbnail {
+    padding-top: 15px;
+  }
   .overview {
-    margin-top: 19px;
+    margin-top: 10px;
     font-size: 15px;
   }
   .read-more {
+    margin-top: 15px;
     font-size: 15px;
   }
   /* Post Header */
@@ -564,6 +568,11 @@ strong {
     padding: 30px 0px 25px 0px;
   }
 
+  .about-pic {
+    padding: 0px 0px 20px 0px !important;
+  }
+
+
   /* Simplifies header */ 
   .header-link-active {
     color: RGBA(242, 47, 93, 1) !important;
@@ -586,7 +595,7 @@ strong {
     margin-right: 0px;
   }
   .page {
-    margin: 50px 0px 100px 0px;
+    margin: 30px 0px 100px 0px;
   }
   .header-link {
     padding: 10px 0px 9px 0px;

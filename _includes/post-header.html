@@ -8,7 +8,7 @@
   </div>
 
   <figure class="post-thumbnail">
-    <img src="/images/post/{{ page.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ page.title | replace:' ','-' }}/thumbnail.jpg"/>    
+    <img src="/images/post/{{ page.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ page.title | replace:' ','-' | downcase }}/thumbnail.jpg"/>    
   </figure>
 
 </section>

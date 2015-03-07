@@ -28,6 +28,6 @@ Aren't necessarily looking to work together, but want to connect? I extend the o
 - [AngelList](http://www.angel.co/jawsmartin)
 - [Tumblr](http://www.jawsmartin.tumblr.com)
 - [Pinterest](http://www.pinterest.com/jawsmartin)
-- [Github](http://www.githun.com/jawsmartin)
+- [Github](http://www.github.com/jawsmartin)
 - [Twitter](http://www.twitter.com/jawsmartin)
 

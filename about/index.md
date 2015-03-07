@@ -42,7 +42,5 @@ I love to learn and get distracted easily, which is most definitely a blessing a
 **Product Design**
 *You can't work on other people's ideas all day without having a few of your own&mdash; I've been taking my assortment of skills and applying them to side-projects that focus on solving problems I'm passionate about. It's a whole other animal bridging the gap between the customer-facing and business side of a product. I'm learning how to improve customer conversion, A/B test, and monetize on the go.*
 
----
-
 If you are interested in seeing a more detailed look into my background, such as past jobs, and program/design proficiencies, please see my [CV](../joshmartinresume.pdf),[Linkedin](https://www.linkedin.com/in/jawsmartin), or [AngelList](https://angel.co/jawsmartin) profiles.
 
