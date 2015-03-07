@@ -4,7 +4,6 @@ title: Soccer Moms Rejoice
 deck: No more google searches, no more phone calls, and no more paperwork. Afterskoolz is hoping to change the way you find the next perfect class or activitiy for your child.
 date: 2015-02-25
 tag: Case-Study
-thumbnail: /images/hero-afterskoolz.jpg
 ---
 
 In the summer of 2014, I was approached by my former [Aggrego](http://www.aggrego.com) co-worker, [Sal Abassi](https://angel.co/sal-abbasi), to help get his personal project, Afterskoolz, off the ground. It would be a platform to make finding and planning after-school activites for children easier.
