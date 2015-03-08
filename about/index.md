@@ -11,7 +11,9 @@ title: Josh Martin | About
 
 I am a Designer, Illustrator, and Front-End Developer from Pittsburgh, Pennsylvania living in Chicago, Illinois. I currently work as an independent product designer for local startups.
 
-I also manage a variety of [projects](http://www.behance.net.jawsmartin), watch [cheesy horror movies](https://www.youtube.com/watch?v=KjL5u_8BlgY), hang out at [Arcades](https://www.youtube.com/watch?v=LHDOpKYqCGo), and listen to [loud music](https://www.youtube.com/watch?v=iEaml0KMkVQ).
+I work on a variety of side projects, such as [Alleyoop](http://www.alleyooop.info) and [Bbbench](http://www.bbbbench.com), watch movie marathons of cheesy [horror](https://www.youtube.com/watch?v=KjL5u_8BlgY) and [comedy](https://www.youtube.com/watch?v=tPCh8jUHluY) classics, hang out at arcades, play/follow basketball religiously, and listen to a wide range of [amazing music](http://www.last.fm/user/jawsmartin).
+
+You can find personal/professional updates on what I'm up to on [Twitter](http://www.twitter.com/jawsmartin), [Instagram](http://www.instagram.com/jawsmartin), [Github](http://www.github.com/jawsmartin), [Dribbble](http://www.dribbble.com/jawsmartin), and [Facebook](http://www.facebook.com/pokejoshmartin).
 
 ---
 
@@ -42,5 +44,5 @@ I love to learn and get distracted easily, which is most definitely a blessing a
 **Product Design**
 *You can't work on other people's ideas all day without having a few of your own&mdash; I've been taking my assortment of skills and applying them to side-projects that focus on solving problems I'm passionate about. It's a whole other animal bridging the gap between the customer-facing and business side of a product. I'm learning how to improve customer conversion, A/B test, and monetize on the go.*
 
-If you are interested in seeing a more detailed look into my background, such as past jobs, and program/design proficiencies, please see my [CV](../joshmartinresume.pdf),[Linkedin](https://www.linkedin.com/in/jawsmartin), or [AngelList](https://angel.co/jawsmartin) profiles.
+If you are interested in seeing a more detailed look into my background, such as past jobs, and program/design proficiencies, please see my [CV](../joshmartinresume.pdf) or [Linkedin](https://www.linkedin.com/in/jawsmartin) profile.
 
