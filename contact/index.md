@@ -13,5 +13,5 @@ Please note that I receive many, many emails, so it may take me a while to get b
 
 ###Connect
 
-Aren't necessarily looking to work together, but want to connect? I extend the offer of coffee, scones, and some amazing small (or big) talk in **downtown Chicago**. An email is always appropriate, but a simple [tweet](http://www.twitter.com/jawsmartin) works really well.       
+Aren't necessarily looking to work together, but want to connect? I extend the offer of coffee, scones, and some amazing small (or big) talk in **downtown Chicago**. An [email](mailto:hellojoshmartin@gmail.com) is always appropriate, but a simple [tweet](http://www.twitter.com/jawsmartin) works really well.       
 
