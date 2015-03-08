@@ -393,7 +393,7 @@ header .social {
 
 /* Post Main Content */
 .post figure {
-  padding: 0px 0px 20px 0px;
+  padding: 30px 0px 20px 0px;
 }
 .post figure + figure { 
   padding-top: 30px;
@@ -545,20 +545,20 @@ strong {
   /* Post Header */
   .sub-header {
     font-size: 20px;
-    line-height: 1.3;
+    line-height: 1.45;
     border-top: 1px solid #ececec;
     border-bottom: 1px solid #ececec;    
-    margin: 38px 0px 29px 0px;
-    padding: 27px 0px 25px 0px;
+    margin: 34px 0px 29px 0px;
+    padding: 23px 0px 25px 0px;
   }
 
   hr {
-    margin-top: 25px;
-    padding-bottom: 20px;
+    margin-top: 15px;
+    padding-bottom: 10px;
   }
 
   h3 {
-    margin-top: 25px;
+    margin: 25px 0px 15px 0px;
   }
 
   .about-pic {
@@ -566,9 +566,11 @@ strong {
   }
 
   .post figure {
-    padding: 30px 0px 25px 0px;
+    padding: 23px 0px 23px 0px;
   }
-
+  .post figure + figure {
+    padding-top: 23px;
+  }
   .about-pic {
     padding: 0px 0px 20px 0px !important;
   }
@@ -577,7 +579,6 @@ strong {
   /* Simplifies header */ 
   .header-link-active {
     color: RGBA(242, 47, 93, 1) !important;
-    border-bottom: 3px solid RGBA(242, 47, 93, 1);
   }
   .nav-label {
     display: none;
@@ -592,6 +593,10 @@ strong {
     float: none;
     top: 12px;
   }  
+
+  .post ul {
+    margin: 15px 0px 30px 0px;
+  }
   .nav-icon {
     margin-right: 0px;
   }
@@ -612,7 +617,6 @@ strong {
   header .social {
     display: none;
   }
-
   .post ul li p {
     padding-bottom: 0px;
     font-size: 13px;
@@ -627,6 +631,9 @@ strong {
   .post li img {
     width: 20%;
     margin-right: 5%;
+  }
+  strong {
+    font-weight: 500;
   }
 
 }

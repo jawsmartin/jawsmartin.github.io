@@ -10,6 +10,8 @@ The last project I did with Aggrego is most certainly the largest, and for me, t
 
 It's probably fair to say that STN was about a year in-the-making. At Aggrego, we started moving away from in-house projects and more towards business-to-business service. We were managing 30+ news network, Pioneer Press for Chicago Sun-Times's, laid the foundation for Digicel's international news network, Loop, and tested multi-county Ireland news network, Today.ie, for Communicorp's.
 
+{% include image.html name="intro" caption="Aggrego Tech Team working on Sun-Times Network" %}
+
 Actual start-time for Sun-Times Network began in late August 2014 in which was originally going to be a simply a one-off extension of the Sun-Times brand into Milwaukee, WI. As we started fleshing out the product it started to be apparent that the process for "Milwaukee Sun-Times" could be duplicated as many times as we wanted.
 
 ---
@@ -22,7 +24,7 @@ With that being said, my contributions to Sun-Times Network began and ended with
 
 Going in, the main targets for the Sun-Times Network is as follows:
 
-{% include image.html name="mood-board" caption="Kidfully, Wyzant, Treehouse, and Amazon inspired Afterskoolz's design" %}
+{% include image.html name="mood-board" caption="USA Today, New York Post, and Boston.com inspired Sun-Times Network's design" %}
 
 Afterskoolz would be less about recommendations and building a social community like sites such as Kidfully or Angie's List, and more about shopping and registering&mdash; making it more similar to traditional shopping sites, such as [Amazon](http://www.amazon.com) or even [Grubhub](http://www.grubhub.com). 
 

@@ -10,7 +10,9 @@ It's not every day you get to design a product for entire countries like Jamaica
 
 It's not every day you get to design a product for entire countries like Jamaica and Haiti, so when Aggrego was brought in to design the digital news network, "Loop", in Spring 2014, I was definitely excited. Digicel, a communications company that handles phones in the Carribean, wanted to capitalize on their significant involment in their customers' lives by creating the ultimate source.
 
-{% include image.html url="/images/projects/afterskoolz/background.jpg" caption="Alleyoop looks great on your phone" %}  
+{% include image.html name="intro" caption="The Aggrego team traveled to Kingston, Jamaica to work with Digicel in laying the foundation for Loop" %}
+
+It's not every day you get to design a product for entire countries like Jamaica and Haiti, so when Aggrego was brought in to design the digital news network, "Loop", in Spring 2014, I was definitely excited. Digicel, a communications company that handles phones in the Carribean, wanted to capitalize on their significant involment in their customers' lives by creating the ultimate source.
 
 ---
 
@@ -22,7 +24,7 @@ With that being said, my contributions to Sun-Times Network began and ended with
 
 Going in, the main targets for the Sun-Times Network is as follows:
 
-{% include image.html name="mood-board" caption="Kidfully, Wyzant, Treehouse, and Amazon inspired Afterskoolz's design" %}
+{% include image.html name="mood-board" caption="USA Today, US Weekly, and Journal.ie inspired Loop's design" %}
 
 Afterskoolz would be less about recommendations and building a social community like sites such as Kidfully or Angie's List, and more about shopping and registering&mdash; making it more similar to traditional shopping sites, such as [Amazon](http://www.amazon.com) or even [Grubhub](http://www.grubhub.com). 
 

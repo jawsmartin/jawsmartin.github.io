@@ -9,11 +9,13 @@ title: Josh Martin | About
 
 ###About
 
-I am a Designer, Illustrator, and Front-End Developer from Pittsburgh, Pennsylvania living in Chicago, Illinois. I currently work as an independent product designer for local startups.
+I am a Designer, Illustrator, and Front-End Developer from Pittsburgh, Pennsylvania living in Chicago, Illinois. I currently work as an independent product designer for local startups, focusing on web/app UI/UX and branding.
 
-I work on a variety of side projects, such as [Alleyoop](http://www.alleyooop.info) and [Bbbench](http://www.bbbbench.com), watch movie marathons of cheesy [horror](https://www.youtube.com/watch?v=KjL5u_8BlgY) and [comedy](https://www.youtube.com/watch?v=tPCh8jUHluY) classics, hang out at arcades, play/follow basketball religiously, and listen to a wide range of [amazing music](http://www.last.fm/user/jawsmartin).
+In my free time, I work on variety of side projects, such as [Alleyoop](http://www.alleyooop.info) and [Bbbench](http://www.bbbbench.com), watch [cheesy horror](https://www.youtube.com/watch?v=KjL5u_8BlgY) movie marathons, hang out at arcades, paint, play/follow basketball, and listen to a wide range of [amazing music](http://www.last.fm/user/jawsmartin).
 
-You can find personal/professional updates on what I'm up to on [Twitter](http://www.twitter.com/jawsmartin), [Instagram](http://www.instagram.com/jawsmartin), [Github](http://www.github.com/jawsmartin), [Dribbble](http://www.dribbble.com/jawsmartin), and [Facebook](http://www.facebook.com/pokejoshmartin).
+You can find updates on what I'm up to, personally and professionally, on [Twitter](http://www.twitter.com/jawsmartin), [Instagram](http://www.instagram.com/jawsmartin), [Github](http://www.github.com/jawsmartin), [Dribbble](http://www.dribbble.com/jawsmartin), and [Facebook](http://www.facebook.com/pokejoshmartin).
+
+My entire portfolio can be found on [Behance](http://www.behance.net/jawsmartin).
 
 ---
 

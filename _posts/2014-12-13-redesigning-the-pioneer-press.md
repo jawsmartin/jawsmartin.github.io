@@ -10,7 +10,9 @@ One of the first major projects I worked on at Aggrego was the redesign of the P
 
 One of the first major projects I worked on at Aggrego was the redesign of the Pioneer Press. The Pioneer Press is a collection of 30+ local news websites covering the Chicago suburbs (under the Chicago Sun-Times umbrella) The goal wasn't simply an aesthetic improvement, but an improvement to the overall product: We made the desktop-only website responsive, added iOS/Android Apps, and created a network to connect them all.
 
-{% include image.html url="/images/projects/afterskoolz/background.jpg" caption="Alleyoop looks great on your phone" %}  
+{% include image.html name="intro" caption="Pioneer Press is an extension of the Chicago Sun-Times brand covering the Chicago suburbs" %}
+
+It's not every day you get to design a product for entire countries like Jamaica and Haiti, so when Aggrego was brought in to design the digital news network, "Loop", in Spring 2014, I was definitely excited. Digicel, a communications company that handles phones in the Carribean, wanted to capitalize on their significant involment in their customers' lives by creating the ultimate source.
 
 ---
 
@@ -20,9 +22,7 @@ The Sun-Times Network was my first experience working in real corporate environm
 
 With that being said, my contributions to Sun-Times Network began and ended with the direction given to me by this group. As the lead designer of this project, I did my best to propose solutions and ideas, but ultimately, it was my job to carry out their vision.
 
-Going in, the main targets for the Sun-Times Network is as follows:
-
-{% include image.html name="mood-board" caption="Kidfully, Wyzant, Treehouse, and Amazon inspired Afterskoolz's design" %}
+{% include image.html name="mood-board" caption="SB Nation, ESPN, and Greystonesguide.ie inspired the Pioneer Press Redesign" %}
 
 Afterskoolz would be less about recommendations and building a social community like sites such as Kidfully or Angie's List, and more about shopping and registering&mdash; making it more similar to traditional shopping sites, such as [Amazon](http://www.amazon.com) or even [Grubhub](http://www.grubhub.com). 
 

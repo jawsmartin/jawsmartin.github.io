@@ -10,7 +10,7 @@ In the summer of 2014, I was approached by my former [Aggrego](http://www.aggreg
 
 Sal, alongside fellow parent and Afterskoolz co-founder, [Mustafa Patni](https://angel.co/mustafa-patni), laid out a rough draft of all the features they wanted Afterskoolz to have, such as simple search functionality, class registration, teacher-to-parent messaging, and a schedule-overlayed calendar. With their vision laid out, it was my job to bring it to life through comprehensive UI/UX design and branding.
 
-{% include image.html name="planning" caption="Early Afterskoolz wireframes" %}
+{% include image.html name="intro" caption="Early planning and wireframing" %}
 
 ---
 
