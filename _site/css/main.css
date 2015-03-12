@@ -614,12 +614,24 @@ h3 {
 
 @media screen and (max-width: 900px) {
 
+  .post-header {
+  background-attachment: inherit;
+  }
   /* General */
   .grid-container-2 {
     width: 89%;
   }
   .grid-container {
     width: 89%;
+  }
+  header .grid-container {
+    width: 89%;
+  }
+  .site-profile {
+    display: none;
+  }
+  .site-name {
+    margin-left: 0px;
   }
   p {
     font-size: 15px;
@@ -634,7 +646,7 @@ h3 {
     width: 100%;
     display: block;
     float: none;
-    margin-bottom: 20px;
+    margin-top: 20px;
     margin-right: 0px;
   }
 
@@ -669,11 +681,8 @@ h3 {
   /* Post Header */
   .sub-header {
     font-size: 20px;
-    line-height: 1.45;
-    border-top: 1px solid #ececec;
-    border-bottom: 1px solid #ececec;    
-    margin: 34px 0px 29px 0px;
-    padding: 23px 0px 25px 0px;
+    line-height: 1.45;   
+    margin: 50px 0px 0px 0px;
   }
 
   hr {
@@ -701,9 +710,6 @@ h3 {
 
 
   /* Simplifies header */ 
-  .header-link-active {
-    color: RGBA(242, 47, 93, 1) !important;
-  }
   .nav-label {
     display: none;
   }
@@ -726,10 +732,10 @@ h3 {
     height: 55px;
   }
   .page {
-    margin: 30px 0px 100px 0px;
+    margin: 0px 0px 100px 0px;
   }
   .post-header {
-    margin-top: -85px;
+    margin-top: -56px;
   }
   .hero-text {
     bottom: 3%;
