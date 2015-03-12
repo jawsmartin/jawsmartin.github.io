@@ -1,7 +1,14 @@
 {% include head.html %} 
 {% include header.html %}
 
-<main class="{% if page.title == 'Josh Martin | About' %}post{% endif %} grid-container-2">
+<main class="
+  {% if page.title == 'Josh Martin | About' %}
+  grid-container-2 internal
+  {% elsif page.title == 'Josh Martin | Contact' %}
+  grid-container-2 internal
+  {% endif%}
+  grid-container default-main
+">
   {{ content }}
 </main>
 

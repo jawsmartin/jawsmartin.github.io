@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testing Ireland
-deck: It can be comforting to surround yourself and your work with floruishes and excess to display to others your worth or value. It takes supreme confidence to show yourself off to the world with little to nothing to shield you from criticism.
+deck: In what can only be described a rousing effort, we were unable to create the news platform Communicorp wanted to extend their brand across Ireland.
 date: 2014-12-22
 tag: Personal
 thumbnail: /images/hero-simple.jpg

@@ -1,10 +1,13 @@
 ---
 layout: post
 title: Redesigning the Pioneer Press
-deck: While seemingly not a large step for most, moving from an Local + FTP setup to Github marks a most substantial step forward for my web development career
+deck: The project began with ambitious goals to completely revamp the 30-website network, but was, unfortunately, crippled by the fear of straying too far from the path.
 date: 2014-11-22
 tag: Case-Study
+excerpt: One of the first major projects I worked on at Aggrego was the redesign of the Pioneer Press. The Pioneer Press is a collection of 30+ local news websites covering the Chicago suburbs, under the Chicago Sun-Times umbrella. The goal wasn't simply an aesthetic improvement, but a revamp to the entire product. We made the desktop-only website responsive, added iOS/Android Apps, and created a network to connect them all.
 ---
+
+###Background
 
 One of the first major projects I worked on at Aggrego was the redesign of the Pioneer Press. The Pioneer Press is a collection of 30+ local news websites covering the Chicago suburbs (under the Chicago Sun-Times umbrella) The goal wasn't simply an aesthetic improvement, but a revamp to the entire product: We made the desktop-only website responsive, added iOS/Android Apps, and created a network to connect them all.
 
@@ -38,94 +41,99 @@ While the inital plan for Afterskoolz isn't quite ready to tackle a terriotry li
 
 ###User-Studies
 
-As I started to build the outline for Afterskools, it was very important, from a high-level, to understand exactly the type of users who would uses it.
+For reasons stated above, there was only really two users Pioneer Press was catering to: their already eastablished, older audience, and the businesses who want to advertise to them. Functionality and feature-speaking, very little would be changed from the prior design to further accomodate these users. All-in-all, the redesign would be solving aesthetic issue, increase advertising positions, and increase efficiency 
 
-- ![Alt text](/images/icon.png)
-**Parents**
-*Catering to our older, more established audience was not priority. We needed to craft a product that was primarily aimed at younger*
+<ul class="user-studies">
 
-- ![Alt text](/images/icon.png)
-**Teachers**
-*Catering to our older, more established audience was not priority. We needed to craft a product that was primarily aimed at younger*
+  <li class="user cf">
+    <div class="box-left">
+      <img class="user-profile" src="/images/post/woman-7.png"/>
+    </div>
+    <div class="box-right">
+      <h4>1. Established, older audience</h4>
+      <p>the type of users who would uses it and what features/functionalities they require. While the obvious goal is provide every feature these users could ever want, it is imporant to discern what is essential and what isn't.</p>
+      <div>
+        <span class="check">Find classes for their kids</span>
+        <span class="checkmark">Find classes for their kids</span>
+        <span class="check">Find classes for their kids</span>
+      </div>
+    </div>
+  </li>
 
-- ![Alt text](/images/icon.png)
-**Principals**
-*Catering to our older, more established audience was not priority. We needed to craft a product that was primarily aimed at younger*
+  <li class="user cf">
+    <div class="box-left">
+      <img class="user-profile" src="/images/post/man-5.png"/>
+    </div>
+    <div class="box-right">
+      <h4>2. Local Businesses, Advertising</h4>
+      <p>the type of users who would uses it and what features/functionalities they require. While the obvious goal is provide every feature these users could ever want, it is imporant to discern what is essential and what isn't.</p>
+      <div>
+        <span class="check">Find classes for their kids</span>
+        <span class="checkmark">Find classes for their kids</span>
+        <span class="check">Find classes for their kids</span>
+      </div>
+    </div>
+  </li>
 
-- ![Alt text](/images/icon.png)
-**Administrators**
-*Catering to our older, more established audience was not priority. We needed to craft a product that was primarily aimed at younger*
+
+  <li class="user cf">
+    <div class="box-left">
+      <img class="user-profile" src="/images/post/woman-5.png"/>
+    </div>
+    <div class="box-right">
+      <h4>3. Content Managers</h4>
+      <p>the type of users who would uses it and what features/functionalities they require. While the obvious goal is provide every feature these users could ever want, it is imporant to discern what is essential and what isn't.</p>
+      <div>
+        <span class="check">Find classes for their kids</span>
+        <span class="checkmark">Find classes for their kids</span>
+        <span class="check">Find classes for their kids</span>
+      </div>
+    </div>
+  </li>
+
+</ul>
 
 Adding Afterskoolz functionality for children, such as the ability to talk with their classmates and teachers for children was discussed, but shelved for future updates.
 
 ---
 
-###Features and Functionality
-
-Based on these user case-studies, I can figure out which features/functionalities are necessary to satisfy each user's needs. While the obvious goal is provide every feature these users would desire, it is imporant to discern what is essential and what isn't. You can always iterate on the product and add feature-after-feature, but you have to make it viable even at it's simplest; this is especially true in creating a product that can be shipped quickly.
-
-- ![Alt text](/images/icon.png)
-**Search**
-*Catering to our older, more established audience was not priority. We needed to craft a product that was primarily aimed at younger*
-
-- ![Alt text](/images/icon.png)
-**Shopping**
-*Catering to our older, more established audience was not priority. We needed to craft a product that was primarily aimed at younger*
-
-- ![Alt text](/images/icon.png)
-**Discovery**
-*Catering to our older, more established audience was not priority. We needed to craft a product that was primarily aimed at younger*
-
-- ![Alt text](/images/icon.png)
-**Scheduling**
-*Catering to our older, more established audience was not priority. We needed to craft a product that was primarily aimed at younger*
-
-- ![Alt text](/images/icon.png)
-**Messaging**
-*Catering to our older, more established audience was not priority. We needed to craft a product that was primarily aimed at younger*
-
-You can always iterate on the product and add feature-after-feature, but you have to make it viable even at it's simplest; this is especially true in creating a product that can be shipped quickly.
-
----
-
 ###Site Map
 
-It's easiest to understand the Sun-Times platform is by looking at it from a bird's eye view. Each website in the Sun-Times is dedicated to a specific city: Chicago, Milwaukee, New York, etc. that operates completely independent of one-another.
+It's easiest to understand the Afterskoolz platform by looking at it from a bird's eye view; it is extremely multifunctional: It acts as a public-facing discovery tool, a e-commerce platform, a private organization service, a communication interface, and a management aid. All of these functions differ in one way or another from user-to-user. It can get quite confusing if it is not planned and organized properly.
 
-Each Sun-Times network consists of a homepage, an article page template, a dynamic category-front, and weather/traffic widgets. Overall, this is a very basic framework that is easily duplicated across 70 sites.
-
-However, they are all connected through header navigation and a Sun-Times Network homepage, that houses top content from across the entire network.
-
-{% include image.html name="site-map-basic" caption="A blueprint to show exactly how it is all connected" %}
-
-{% include image.html name="site-map-detailed-desktop" caption="A blueprint to show exactly how it is all connected" %}
-
-{% include image.html name="site-map-detailed-mobile" caption="A blueprint to show exactly how it is all connected" %}
+{% include image.html name="site-map-basic" caption="A basic blueprint to show exactly how it is all connected" %}
 
 ---
 
-### Wireframes
+###Wireframes
 
 After determining how the site is organized and what pages are needed, I define the website's front-facing visuals. I establish layout, page content, user-interface elements. I also double-check the site's UX as I work page-to-page. It's pretty easy to change course or make significant revisions at this step.
 
 The goal of wireframes isn't to focus on the final product, but to illustrate, at the most basic level, the functionality or purpose of each page. Elements such color and branding are, no doubt, an important part of any website, but they don't (or shouldn't, at least) affect how a page/website will work. In my experience, at least, adding these superfluous details only causes distraction.
 
-{% include image.html name="wireframe-basic" caption="Basic wireframes convey user-experience and functionality" %}
+{% include image.html name="wireframe-detailed-desktop" caption="High-fidelity wireframes convey proposed design direction for Desktop" %}
 
-{% include image.html name="wireframe-detailed-desktop" caption="High fidelity wireframes convey proposed design direction for Desktop" %}
-
-{% include image.html name="wireframe-detailed-mobile" caption="High fidelity wireframes convey proposed design direction for Mobile" %}
-
+{% include image.html name="wireframe-detailed-mobile" caption="High-fidelity wireframes convey proposed design direction for Mobile" %}
 
 ---
 
-###Prototyping
+###Presentation, Testing, and Prototyping
 
-Prototyping has dramatically changed how I work with clients. In the past, clients and myself would exchange long, winded emails with static .JPEGs. They would look over my images, without context, and use their best judgement to guess how they would work in real life. Sure, a sitemap or wireframe can alleviate the guess-work a bit, but it not quite as intuitive as actually interacting with it.
+With the site map laid out and the wireframes completed, the next step is to finalize the direction before moving to mockups. I do this in two steps: a static prototype and an interactive protootype.
+
+{% include image.html name="site-map-detailed-desktop" caption="Connecting desktop wireframes via sitemap" %}
+
+{% include image.html name="site-map-detailed-mobile" caption="Connecting mobile wireframes via sitemap" %}
+
+The staic prototype is a .PDF of all the high-fidelity wireframes laid out like the sitemap and the interactive prototype is that same static prototype, but tangible and better replicating a real-life product. I need both of these prototypes not only for myself, but for the people that handling my work when I'm not around.
+
+The static mockup puts into words exactly how each page works and what will or should happen when it is interacted with; this is an invaluable reference to developers as the prototype moves from prototype to code. While I think clients can appreciate seeing this, too, in my experience, they tend to get overwhelmed. (The various "if this/then that" scenarios are enough to make most peoples' eyes to gloss over)
+
+Clients, on the other hand, tend to react more positively to actually interacting with the product you are making for them. I find that they can more easily point out things that they like, dislike, or have suggestions for improving this way.
 
 {% include image.html name="prototype" caption="It's easy to spot UX flaws when using prototypes" %}
 
-Besides being a better way for clients to test their potential product, prototyping is also invaulable for testing my designs on multiple devices. I, personally, use [Invison](http://www.invisionapp.com) which allows for testing on mobile and tablet, in addition to desktop. It's extremely helpful to make sure everthing I initially design on a laptop, does in fact, look how I want it on other devices.
+Besides being a better way for clients to test their potential product, interactive prototyping is also invaulable for testing my designs on multiple devices. Platforms such as [Invison](http://www.invisionapp.com) allow you to view your your design on wide-range of mobile and tablet devices in addition to desktop. It's extremely helpful to make sure everthing I initially design on a laptop, does in fact, look how I want it at various sizes.
 
 ---
 
