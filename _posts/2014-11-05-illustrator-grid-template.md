@@ -3,7 +3,7 @@ layout: post
 title: Illustrator Grid Template
 deck: It can be comforting to surround yourself and your work with floruishes and excess to display to others your worth or value. It takes supreme confidence to show yourself off to the world with little to nothing to shield you from criticism.
 date: 2014-11-05
-tag: Personal
+tag: Freebie
 thumbnail: /images/hero-simple.jpg
 ---
 

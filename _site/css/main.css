@@ -135,13 +135,11 @@ body {
   min-height: 100%;
 }
 .grid-container {
-  max-width: 1400px;
   width: 96%;
   margin: 0 auto;
 }
 
 header .grid-container {
-  max-width: 1400px;
   width: 96%;
   margin: 0 auto;
 }
@@ -346,6 +344,7 @@ header .social {
   opacity: 1;
 }
 
+
 /*
 ==============================================
 #Homepage
@@ -362,7 +361,7 @@ header .social {
   float: left;
   position: relative;
   margin-right: 2%;
-  margin-top: 27px;
+  margin-top: 2%;
 }
 
 .blog-post-container .blog-post:nth-child(3n) {
@@ -373,14 +372,14 @@ header .social {
   position: absolute;
   width: 100%;
   transition: all .3s ease;
-  background-color: RGBA(38, 61, 72, .2);
+  background-color: RGBA(38, 61, 72, .3);
   z-index: 1;
   height: 100%;
 }
 .blog-post .thumbnail-details {
   position: absolute;
   z-index: 3;
-  bottom: 10px;
+  bottom: 15px;
   left: 20px;
 }
 .blog-post .gradient {
@@ -407,21 +406,13 @@ header .social {
   display: block;
   font-size: 22px;
   font-weight: 300;
+  line-height: 1.1;
 }
 
 .blog-post .post-date {
   color: white;
-  position: relative;
-  top: 3px;
   display: block;
   font-size: 12px;
-}
-
-.blog-post .post-snippet {
-  color: white;
-  font-size: 14px;
-  padding-bottom: 0px;
-  line-height: 1.4;
 }
 
 .blog-post:hover .link .overlay {
