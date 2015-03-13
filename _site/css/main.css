@@ -711,6 +711,11 @@ h3 {
     margin-left: 0px;
   }
 
+  .post {
+    margin-bottom: 0px;
+    padding-bottom: 75px;
+  }
+
   .internal {
     margin-top: 20px;
     margin-bottom: 125px;
