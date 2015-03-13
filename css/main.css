@@ -601,13 +601,22 @@ h3 {
   }
   /* General */
   .grid-container-2 {
-    width: 89%;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
   }
   header .grid-container {
-    width: 89%;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
   }
   .grid-container {
-    width: 89%;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
   }
   p {
     font-size: 15px;
@@ -661,7 +670,7 @@ h3 {
     padding-top: 23px;
   }
   .about-pic {
-    padding: 0px 0px 20px 0px !important;
+    padding: 0px 0px 0px 0px !important;
   }
   .post ul {
     margin: 15px 0px 30px 0px;
