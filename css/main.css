@@ -1,13 +1,12 @@
-r/*
+/*
 ==============================================
-#Reset (reduce browser inconsistencies)
+#Reset (Reduce browser inconsistencies)
+http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
 ==============================================
 */
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -54,33 +53,19 @@ table {
 
 /*
 ==============================================
-#Clearfix (control floating elements)
+#Clearfix (Contain floating elements)
 ==============================================
 */
-
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
 .cf:before,
 .cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " "; /* 1 */
+  display: table; /* 2 */
 }
 .cf:after {
-    clear: both;
+  clear: both;
 }
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
 .cf {
-    *zoom: 1;
+  *zoom: 1;
 }
 
 /*
@@ -99,7 +84,6 @@ table {
   font-weight: normal;
   font-style: normal;
 }
-
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -108,7 +92,6 @@ table {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -123,7 +106,6 @@ table {
 html {
   height: 100%;
 }
-
 body {
   font-family: 'Helvetica Neue';
   -webkit-font-smoothing: antialiased;
@@ -138,13 +120,8 @@ body {
   width: 96%;
   margin: 0 auto;
 }
-
-header .grid-container {
-  width: 96%;
-  margin: 0 auto;
-}
 .grid-container-2 {
-  width: 92%;
+  width: 96%;
   max-width: 650px;
   margin: 0 auto;
 }
@@ -153,23 +130,17 @@ header .grid-container {
   min-height: 100%;
   margin: 0px 0px 0px 0px;
 }
-
-/* Typography */
-.text-small {
-  font-size: 14px;
-  line-height: 1.4;
-  color: #8E9AA0;
+.internal {
+  margin-top: 2%;
+  margin-bottom: 125px;
 }
-
+.default-main {
+  margin-bottom: 86px;
+}
 em {
   font-style: italic;
   letter-spacing: -.2px;
 }
-strong {
-  font-weight: 500;
-}
-
-/* Images */
 img {
   max-width: 100%;
   display: block;
@@ -214,15 +185,6 @@ img {
   color: inherit;
   cursor: pointer;
 }
-.pink {
-  color: #f22f5d;
-}
-.white {
-  color: white;
-}
-.pink.link:hover {
-  text-decoration: underline;
-}
 p .link {
   color: RGBA(38, 61, 72, 1);
 }
@@ -237,6 +199,12 @@ a {
 }
 a:hover {
   transition: all .2s ease; 
+}
+
+.text-small {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #8E9AA0;
 }
 
 /*
@@ -254,21 +222,6 @@ header.main  {
   bottom: -1px;
   z-index: 999;
 }
-/* Header Left */
-header.main .site-container {
-  float: none;
-  top: 12px;
-}
-.site-name {
-  color: #263D49;
-  font-weight: 500;
-  font-size: 21px;
-  margin-left: 12px;
-}
-.site-profile {
-  height: 32px;
-  width: 32px;
-}
 
 /* Navigation */
 header.main .nav-container {
@@ -276,7 +229,6 @@ header.main .nav-container {
   position: relative;
   top: 15px;
 }
-
 .header-link {
   position: relative;
   top: -3px;
@@ -286,7 +238,6 @@ header.main .nav-container {
   transition: all .3s ease;
   color: #9CA6AC;
 }
-
 .header-link:hover {
   cursor: pointer;
   transition: all .3s ease;
@@ -295,11 +246,6 @@ header.main .nav-container {
 }
 .header-link-active {
   color: #263d49;
-  opacity: 1;
-}
-
-.header-link-active:hover {
-  color: RGBA(38, 61, 72, 1);
   opacity: 1;
 }
 header .social {
@@ -334,18 +280,12 @@ header .social {
   opacity: 1;
 }
 
-
 /*
 ==============================================
-#Homepage
+#Blog
 ==============================================
 */
 
-.default-main {
-  margin-bottom: 86px;
-}
-
-/* Blog Post Snippet */
 .blog-post-container .blog-post {
   width: 32%;
   float: left;
@@ -353,11 +293,9 @@ header .social {
   margin-right: 2%;
   margin-top: 2%;
 }
-
 .blog-post-container .blog-post:nth-child(3n) {
   margin-right: 0px;
 }
-
 .blog-post .overlay {
   position: absolute;
   width: 100%;
@@ -381,7 +319,6 @@ header .social {
   height: 50%;
   bottom: 0px;
 }
-
 .blog-post .gradient {
   background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
@@ -391,7 +328,6 @@ header .social {
   background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
 }
-
 .blog-post .post-title {
   color: white;
   display: block;
@@ -399,25 +335,23 @@ header .social {
   font-weight: 300;
   line-height: 1.1;
 }
-
 .blog-post .post-date {
   color: white;
   display: block;
   font-size: 12px;
 }
-
 .blog-post:hover .link .overlay {
   transition: all .3s ease;
   background-color: RGBA(38, 61, 72, .1);
 }
 
-/* #Internal Pages
------------------------------------------------*/
-.internal {
-  margin-top: 2%;
-  margin-bottom: 125px;
-}
+/*
+==============================================
+#Blog Post
+==============================================
+*/
 
+/* #Post Header */
 .post-header {
   margin-top: -54px;
   position: relative;
@@ -436,7 +370,6 @@ header .social {
   font-size: 35px;
   font-weight: 300;
 }
-
 .hero-text {
   position: absolute;
   line-height: 1.1;
@@ -463,11 +396,7 @@ header .social {
   margin-left: auto;
 }
 
-.post {
-  margin-bottom: 150px;
-}
-
-/* Post Main Content */
+/* #Post Main Content */
 .post figure {
   padding: 30px 0px 20px 0px;
 }
@@ -513,11 +442,11 @@ h3 {
   font-weight: 500;
   margin: 35px 0px 20px 0px;
 }
-
-.about-pic {
-  padding: 0px 0px 15px 0px !important;
+.post {
+  margin-bottom: 150px;
 }
 
+/* User-Studies */
 .user-studies {
   margin: 30px 0px 50px 0px;
   border: 1px solid #ececec;
@@ -530,7 +459,6 @@ h3 {
 .user-studies .user:last-of-type {
   border-bottom: none;
 }
-
 .user-profile {
   width: 100%;
 }
@@ -545,14 +473,12 @@ h3 {
   float: left;
   display: inline-block;  
 }
-
 .box-right h4 {
   font-size: 17px;
   font-weight: 500;
   color: RGBA(50, 58, 69, 1);
   margin: -2px 0px 4px 0px;
 }
-
 .box-right p {
   font-size: 14px;
   padding-bottom: 12px;
@@ -596,17 +522,8 @@ h3 {
 */
 
 @media screen and (max-width: 900px) {
-  .post-header {
-  background-attachment: inherit;
-  }
   /* General */
   .grid-container-2 {
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-  }
-  header .grid-container {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
@@ -622,11 +539,11 @@ h3 {
     font-size: 15px;
     line-height: 1.55;
   }
-
-  .site-name {
-    font-size: 21px;
+  .text-small {
+    font-size: 12px;
   }
 
+  /* Blog */
   .blog-post-container .blog-post {
     width: 100%;
     display: block;
@@ -635,65 +552,47 @@ h3 {
     margin-right: 0px;
   }
 
-  /* Blog Post Snippet */
-  .text-small {
-    font-size: 12px;
-  }
-  .post-header .cs-sub {
-    font-size: 11px;
-  }
-
   /* Post Header */
+  .post-header {
+    background-attachment: inherit;
+  }
   .sub-header {
     font-size: 20px;
     line-height: 1.45;   
     margin: 50px 0px 0px 0px;
   }
-
-  hr {
-    margin-top: 15px;
-    padding-bottom: 10px;
-  }
-
-  h3 {
-    margin: 25px 0px 15px 0px;
-  }
-
-  .about-pic {
-    padding-bottom: 20px;
-  }
-
-  .post figure {
-    padding: 23px 0px 23px 0px;
-  }
-  .post figure + figure {
-    padding-top: 23px;
-  }
-  .about-pic {
-    padding: 0px 0px 0px 0px !important;
-  }
-  .post ul {
-    margin: 15px 0px 30px 0px;
-  }
-
-  /* Simplifies header */ 
-
   .hero-text {
     bottom: 3%;
   }
-  
   .post-title {
     font-size: 40px;
   }
   .post-date {
     font-size: 14px;
   }
+
+  /* Post Main Content */
+  hr {
+    margin-top: 15px;
+    padding-bottom: 10px;
+  }
+  h3 {
+    margin: 25px 0px 15px 0px;
+  }
+  .post figure {
+    padding: 23px 0px 23px 0px;
+  }
+  .post figure + figure {
+    padding-top: 23px;
+  }
+  .post ul {
+    margin: 15px 0px 30px 0px;
+  }
   .post ul li p {
     padding-bottom: 0px;
     font-size: 13px;
     line-height: 1.4;  
   }
-
   .box-right h4 {
     font-size: 15px;
   }
@@ -707,12 +606,10 @@ h3 {
     width: 15%;
     margin-right: 5%;
   }
-  strong {
-    font-weight: 500;
-  }
 }
 
 @media screen and (max-width: 500px) {
+  /* Adjusts Page Length */
   header .grid-container {
     text-align: center;
   }
@@ -720,27 +617,22 @@ h3 {
     padding-left: 4px;
     margin-left: 0px;
   }
-
   .post {
     margin-bottom: 0px;
     padding-bottom: 75px;
   }
-
   .default-main {
     margin-bottom: 0px;
     padding-bottom: 76px;
   }
-
   .internal {
     margin-top: 20px;
     margin-bottom: 125px;
   }
-
   .default-main {
     margin-bottom: 0px;
     padding-bottom: 78px;
   }
-
   .name {
     display: none;
   }

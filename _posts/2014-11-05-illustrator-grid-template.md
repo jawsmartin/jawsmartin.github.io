@@ -7,22 +7,22 @@ tag: Freebie
 thumbnail: /images/hero-simple.jpg
 ---
 
-One of the aspects of design that has not only intrigued me, but has since become a personal professional mantra, is the idea of minimalism. While on the surface, this idea of minimalism is simplicity and liberation from clutter seems like a consensus objective, it's fair to say effort towards it is not very visible: everything in our culture is bloated and in excess. But, I don't think that it is from a lack of trying.
+In my relatively short time as a web designer, I have learned that Photoshop is, by far, the most common program for creating mockups and final deliverables. It's even built into the company vernactular: "Hey Josh, can you photoshop this for me." "Hey Josh, the developers need a .PSD of the final design", etc.
 
-Simplicity, in definition is uncomplicated, or uncompounded&mdash; lacking all that is not absolutely necessary. In such a state, one isn't left with much to protect themselves. You are at your most vulnerable.
+Well, this has always been a problem for me. As someone with an illustrator and traditional graphic design background, I work predominately in Adobe Illustrator. I not only feel extremely comofrtable with it, but I work the fastest with it.
 
-I think because of this vulnerability we try to compensa
+What I don't understand is why more designers don't use it. From the one's I've talked to, most don't even know how to use it, having always worked in Photoshop. While Photoshop does, in fact, have vector shapes, everything in Illustrator is vectors. This is *extremely* useful when editing projects at various sizes and resolutions. 
 
-It's easy to see those that have overcome this anxiety and producded confident, bold work. It stand out.
+Because I'm obviously in the minority as a Illustrator-using Web Designer, I have a very hard time finding high-quality, useful resources for mocking up web projects. Most of what is out there are brushes, patterns, iconography, etc. 
 
-{% include image.html url="/images/post-soccer-moms-rejoice-background.jpg" caption="Afterskoolz has three users: Parents, Teachers, and Principals" %}  
+To remedy this, I make my own resources that I use to start every web-project. One of the most useful I've created is a set of grids. They are built around a 1200px layout. I have put together a variety of sizes as well as elements you can mix-and-match, to create layouts.
 
-I always joke that the more confident you are, the less you care about what others think. It's pretty funny to see industry leaders, have simple HTML one-line websites.
+These grids are the backbone of every webproject I do. As a designer and developer, I know the importance of designing with development in mind. You can't just make something cause you think it looks good. You do not want to be *that guy* who hands a developer a mockup that will require an additional hour of back-and-forth trying to translate your design to a grid-layout.
 
-At the same time, I don't think you can simple duplicate the aethetic or mindset effectively without fully understanding or appreciating it. I think that's why minimalistic, "flat" design is so quickly adopted by web design beginners. They see that professionals are doing it, so they replicate it. This creates a false sense of confience. I liken it to buying a high-turbo car that you buy simple because it looks cool. Not knowing how its supposed to be used.
+If your are an Illustrator-using web designer, I really think you'll find this useful. As far as I know, there's nothing else out there that gives you a framework for your designs like this does.
 
-Reduction, prioritize and remove the superfluous, restraint
+- Desktop, Tablet, Mobile, and everything in between
+- Drag and Drop columns and rows to build your own
+- Percentage grids and fixed-pixel grids
 
-I know it's something I struggle with. This website you are looking at now has been a WIP for the entire two years I've been coding. I go through neverending process of adding a lot of information and design in hopes of convincing visitors I know what I'm doing or to impress them, then I say fuck it, I don't care about them...then taking aways superfluous elements until I am left with the bare minimum...then I get self-concious and add them all back....then I take them away again. I worry, "Do I not have enough animations? I don't have a hero image. I need better photography. I need a professional profile picture. How do I add parallax to my site. What about this feature?" It can get extremely overwhelming. Especially when none of that is the true purpose of the site.
-
-I want to get across to others that I know what I'm doing. It takes extreme confidence and restraint to leave it be and proudly display what you have and who you are.
+Plus, it's only $10. *That's nothing*. I guarantee it will pay for itself after a single project.
