@@ -161,6 +161,14 @@ header .grid-container {
   color: #8E9AA0;
 }
 
+em {
+  font-style: italic;
+  letter-spacing: -.2px;
+}
+strong {
+  font-weight: 500;
+}
+
 /* Images */
 img {
   max-width: 100%;
@@ -243,7 +251,7 @@ header.main  {
   position: fixed;
   border-top: 1px solid rgba(213, 222, 226, .5);
   width: 100%;
-  bottom: 0px;
+  bottom: -1px;
   z-index: 999;
 }
 /* Header Left */
@@ -265,40 +273,20 @@ header.main .site-container {
 /* Navigation */
 header.main .nav-container {
   right: 0px;
-}
-.portfolio-link {
-  right: -3px;
+  position: relative;
+  top: 15px;
 }
 
-.nav-icon {
-  margin-right: 3px;
-  font-family: 'icomoon'; 
-  display: inline-block;
-  position: relative;
-  top: 1px;  
-}
-.portfolio:before {
-  content: "\e605";
-}
-.blog:before {
-  content: "\e606";
-}
-.about:before {
-  content: "\e604";
-}
-.contact:before {
-  content: "\e607";
-}
 .header-link {
+  position: relative;
+  top: -3px;
   font-size: 15px;
-  margin-left: 30px;
-  padding: 16px 0px 34px 0px;
+  font-weight: 500;
+  margin-right: 16px;
   transition: all .3s ease;
   color: #9CA6AC;
 }
-span.nav-label {
-  font-size: 14px;
-}
+
 .header-link:hover {
   cursor: pointer;
   transition: all .3s ease;
@@ -310,19 +298,15 @@ span.nav-label {
   opacity: 1;
 }
 
-.header-link-active span.nav-label {
-  font-weight: 500;
-}
-
 .header-link-active:hover {
   color: RGBA(38, 61, 72, 1);
   opacity: 1;
 }
 header .social {
-  top: -39px;
+  top: -2px;
   border-left: 1px solid rgba(213, 222, 226, .7);
   padding-left: 12px;
-  margin-left: 18px;
+  margin-left: 5px;
 }
 .icon-instagram:before {
   content: "\e601";
@@ -332,6 +316,12 @@ header .social {
 }
 .icon-dribbble:before {
   content: "\eaa8";
+}
+.icon-behance:before {
+  content: "\e602";
+  font-size: 21px;
+  position: relative;
+  top: 3px;
 }
 .social-icon {
   opacity: .5;
@@ -428,7 +418,7 @@ header .social {
 }
 
 .post-header {
-  margin-top: -56px;
+  margin-top: -54px;
   position: relative;
   height: 100%;
   background-repeat: no-repeat;   
@@ -448,8 +438,9 @@ header .social {
 
 .hero-text {
   position: absolute;
+  line-height: 1.1;
   bottom: 8%;
-  left: 6%;
+  left: 5%;
 }
 .sub-header {
   font-size: 23px;
@@ -604,7 +595,6 @@ h3 {
 */
 
 @media screen and (max-width: 900px) {
-
   .post-header {
   background-attachment: inherit;
   }
@@ -612,17 +602,11 @@ h3 {
   .grid-container-2 {
     width: 89%;
   }
-  .grid-container {
-    width: 89%;
-  }
   header .grid-container {
     width: 89%;
   }
-  .site-profile {
-    display: none;
-  }
-  .site-name {
-    margin-left: 0px;
+  .grid-container {
+    width: 89%;
   }
   p {
     font-size: 15px;
@@ -642,33 +626,13 @@ h3 {
   }
 
   /* Blog Post Snippet */
-  .blog-post-details {
-    padding: 10px 0px 40px 0px;
-    margin-bottom: 44px;
-  }
   .text-small {
     font-size: 12px;
-  }
-  .cs-lead {
-    font-size: 27px;
-    line-height: 1.2;
-    padding-bottom: 4px;
-    display: block;
   }
   .post-header .cs-sub {
     font-size: 11px;
   }
-  .post-thumbnail {
-    padding-top: 15px;
-  }
-  .overview {
-    margin-top: 10px;
-    font-size: 15px;
-  }
-  .read-more {
-    margin-top: 15px;
-    font-size: 15px;
-  }
+
   /* Post Header */
   .sub-header {
     font-size: 20px;
@@ -698,35 +662,14 @@ h3 {
   .about-pic {
     padding: 0px 0px 20px 0px !important;
   }
-
-
-  /* Simplifies header */ 
-  .nav-label {
-    display: none;
-  }
-  .header-link span:before {
-    margin-right: 0px;
-  }
-
-  header.main .site-container {
-    float: none;
-    top: 12px;
-  }  
-
   .post ul {
     margin: 15px 0px 30px 0px;
   }
-  .nav-icon {
-    margin-right: 0px;
-  }
-  header.main {
-    height: 55px;
-  }
+
+  /* Simplifies header */ 
+
   .page {
     margin: 0px 0px 100px 0px;
-  }
-  .post-header {
-    margin-top: -56px;
   }
   .hero-text {
     bottom: 3%;
@@ -737,20 +680,6 @@ h3 {
   }
   .post-date {
     font-size: 14px;
-  }
-  .header-link {
-    padding: 10px 0px 9px 0px;
-    font-size: 22px !important;
-    margin-left: 24px !important;
-  }
-  .header-link:hover {
-    border-bottom: 3px solid #F22F5D;
-  }
-  .portfolio-link {
-    right: 0px;
-  }
-  header .social {
-    display: none;
   }
   .post ul li p {
     padding-bottom: 0px;
@@ -774,13 +703,18 @@ h3 {
   strong {
     font-weight: 500;
   }
-
 }
 
-@media screen and (max-width: 320px) {
-  .header-link {
-    padding: 13px 0px 10px 0px;
-    font-size: 19px !important;
-    margin-left: 20px !important;
+@media screen and (max-width: 500px) {
+  header .grid-container {
+    text-align: center;
+  }
+  header .social {
+    padding-left: 4px;
+    margin-left: 0px;
+  }
+
+  .name {
+    display: none;
   }
 }
