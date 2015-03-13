@@ -413,7 +413,7 @@ header .social {
 /* #Internal Pages
 -----------------------------------------------*/
 .internal {
-  margin-top: 75px;
+  margin-top: 2%;
   margin-bottom: 125px;
 }
 
@@ -668,9 +668,6 @@ h3 {
 
   /* Simplifies header */ 
 
-  .page {
-    margin: 0px 0px 100px 0px;
-  }
   .hero-text {
     bottom: 3%;
   }
@@ -712,6 +709,15 @@ h3 {
   header .social {
     padding-left: 4px;
     margin-left: 0px;
+  }
+
+  .internal {
+    margin-top: 20px;
+    margin-bottom: 125px;
+  }
+
+  .default-main {
+    margin-bottom: 76px;
   }
 
   .name {
