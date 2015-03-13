@@ -369,6 +369,7 @@ header .social {
 .blog-post .thumbnail-details {
   position: absolute;
   z-index: 3;
+  margin-right: 20px;
   bottom: 15px;
   left: 20px;
 }
@@ -716,13 +717,19 @@ h3 {
     padding-bottom: 75px;
   }
 
+  .default-main {
+    margin-bottom: 0px;
+    padding-bottom: 76px;
+  }
+
   .internal {
     margin-top: 20px;
     margin-bottom: 125px;
   }
 
   .default-main {
-    margin-bottom: 76px;
+    margin-bottom: 0px;
+    padding-bottom: 78px;
   }
 
   .name {
