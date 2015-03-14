@@ -120,6 +120,7 @@ body {
   width: 96%;
   margin: 0 auto;
 }
+
 .grid-container-2 {
   width: 96%;
   max-width: 650px;
@@ -130,12 +131,12 @@ body {
   min-height: 100%;
   margin: 0px 0px 0px 0px;
 }
-.internal {
-  margin-top: 2%;
-  margin-bottom: 125px;
+.blog-page {
+  margin-bottom: 79px;
 }
-.default-main {
-  margin-bottom: 86px;
+.about-page {
+  margin-top: 25px;
+  margin-bottom: 150px;
 }
 em {
   font-style: italic;
@@ -215,7 +216,7 @@ a:hover {
 
 header.main  {
   height: 55px;
-  background-color: RGBA(255, 255, 255, .98);
+  background-color: RGBA(255, 255, 255, .96);
   position: fixed;
   border-top: 1px solid rgba(213, 222, 226, .5);
   width: 100%;
@@ -223,20 +224,30 @@ header.main  {
   z-index: 999;
 }
 
-/* Navigation */
-header.main .nav-container {
-  right: 0px;
-  position: relative;
-  top: 15px;
+.logo {
+  position: absolute;
+  top: 9px;
 }
+
+.profile-pic {
+  width: 36px;
+}
+
+/* Navigation */
 .header-link {
-  position: relative;
-  top: -3px;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
-  margin-right: 16px;
   transition: all .3s ease;
   color: #9CA6AC;
+  position: relative;
+  top: -1px;
+}
+.site-nav {
+  margin: 0px 0px 0px 35px;
+  padding: 15px 14px 15px 20px;
+}
+.site-nav .header-link:first-of-type {
+  margin-right: 15px;
 }
 .header-link:hover {
   cursor: pointer;
@@ -249,10 +260,9 @@ header.main .nav-container {
   opacity: 1;
 }
 header .social {
-  top: -2px;
-  border-left: 1px solid rgba(213, 222, 226, .7);
-  padding-left: 12px;
-  margin-left: 5px;
+  border-left: 1px solid rgba(213, 222, 226, .5);
+  padding-left: 4px;
+  top: 2px;
 }
 .icon-instagram:before {
   content: "\e601";
@@ -296,7 +306,7 @@ header .social {
 .blog-post-container .blog-post:nth-child(3n) {
   margin-right: 0px;
 }
-.blog-post .overlay {
+.overlay {
   position: absolute;
   width: 100%;
   transition: all .3s ease;
@@ -311,7 +321,7 @@ header .social {
   bottom: 15px;
   left: 20px;
 }
-.blog-post .gradient {
+.gradient {
   position: absolute;
   width: 100%;
   opacity: .4;
@@ -319,7 +329,7 @@ header .social {
   height: 50%;
   bottom: 0px;
 }
-.blog-post .gradient {
+.gradient {
   background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
@@ -371,6 +381,7 @@ header .social {
   font-weight: 300;
 }
 .hero-text {
+  z-index: 3;
   position: absolute;
   line-height: 1.1;
   bottom: 8%;
@@ -535,6 +546,10 @@ h3 {
     padding-right: 20px;
     box-sizing: border-box;
   }
+  .header-content.grid-container {
+    width: 95.5%;
+    margin: 0 auto;
+  }
   p {
     font-size: 15px;
     line-height: 1.55;
@@ -613,25 +628,17 @@ h3 {
   header .grid-container {
     text-align: center;
   }
-  header .social {
-    padding-left: 4px;
+  .logo {
+    display: none;
+  }
+  .site-nav {
     margin-left: 0px;
+    border-left: none;
+    padding-left: 0px;
   }
   .post {
     margin-bottom: 0px;
     padding-bottom: 75px;
-  }
-  .default-main {
-    margin-bottom: 0px;
-    padding-bottom: 76px;
-  }
-  .internal {
-    margin-top: 20px;
-    margin-bottom: 125px;
-  }
-  .default-main {
-    margin-bottom: 0px;
-    padding-bottom: 78px;
   }
   .name {
     display: none;

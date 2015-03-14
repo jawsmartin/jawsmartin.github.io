@@ -4,46 +4,51 @@ title: The World Revolves Around the Sun
 deck: The pivot from strictly local Chicago news to nationwide coverage was finalized when Chicago Sun-Times's parent company sold the Chicago Suburban papers, Pioneer Press, to the Chicago Tribune late 2014.
 date: 2015-02-05
 tag: Case-Study
-excerpt: The last project I did with Aggrego is most certainly the largest, and for me, the most significant of my career, thus far. I did not expect to be the lead designer of a prestigious product or brand, such as the Chicago Sun-Times, so soon. But, as luck/fortune would have it, I was given the opportunity to not only redesign it, but extend it's reach across 70 of the largest cities in the US as part of the "Sun-Times Network"
 ---
 
 ###Background
 
 The last project I did with Aggrego is most certainly the largest, and for me, the most significant of my career, thus far. I did not expect to be the lead designer of a prestigious product or brand, such as the Chicago Sun-Times, so soon. But, as luck/fortune would have it, I was given the opportunity to not only redesign it, but extend it's reach across 70 of the largest cities in the US as part of the "Sun-Times Network"
 
-It's probably fair to say that STN was about a year in-the-making. At Aggrego, we started moving away from in-house projects and more towards business-to-business service. We were managing 30+ news network, Pioneer Press for Chicago Sun-Times's, laid the foundation for Digicel's international news network, Loop, and tested multi-county Ireland news network, Today.ie, for Communicorp's.
+Aggrego, generally, is software development startup that creates and manages news media networks. It employees a extremely talented mix of developers and engineers who build the networks from the ground up, and content creators to fill said networks with highly-monetizable content. 
 
 {% include image.html name="intro" caption="Aggrego Tech Team working on Sun-Times Network" %}
 
-Actual start-time for Sun-Times Network began in late August 2014 in which was originally going to be a simply a one-off extension of the Sun-Times brand into Milwaukee, WI. As we started fleshing out the product it started to be apparent that the process for "Milwaukee Sun-Times" could be duplicated as many times as we wanted.
+During my tenure with the company, we worked on a wide range of inhouse projects, such as Weekaway and Rankommend, but focused primarily on building for others. A few of our client projects include managing Sun-Times Media Group's Chicago suburb news network, Pioneer Press, building Digicel's international news network, Loop, and testing Communicorp's multi-county Ireland news network, Today.ie.
+
+The Sun-Times Network would be another of these client projects.
+
+It was proposed by Sun-Times Media Group's owner, Wrapports, LLC,  as a one-off extention of the Chicago Sun-Times brand into Milwaukee, WI. However, as we started mapping out the product it started to be apparent that the process for "Milwaukee Sun-Times" could be duplicated infinitely, assuming we could create a scalable template.
+
+{% include image.html name="intro" caption="Initial Pitch work for Milwaukee Sun-Times" %}
 
 ---
 
 ###Planning/Research
 
-The Sun-Times Network was my first experience working in real corporate environment. I would spend my entire time on the project working alongside industry leaders such Wrapports chairman, Michael Ferro, Wrapports CEO Timothy Knight, Wrapports EVP of Marketing, Julian Posada, and Aggrego CEO, Tim Landon.
+The Sun-Times Network was my first experience working in real corporate environment. I would spend my entire time on the project working alongside established news industry figures such Wrapports chairman, Michael Ferro, Wrapports CEO Timothy Knight, Wrapports EVP of Marketing, Julian Posada, and Aggrego CEO, Tim Landon.
 
-With that being said, my contributions to Sun-Times Network began and ended with the direction given to me by this group. As the lead designer of this project, I did my best to propose solutions and ideas, but ultimately, it was my job to carry out their vision.
+With that being said, my contributions to planning/researching for Sun-Times Network began and ended with the direction given to me by this group. As the lead designer of this project, I did my best to propose solutions and ideas, but ultimately, it was my job to carry out their vision.
 
-Going in, the main targets for the Sun-Times Network is as follows:
+{% include image.html name="mood-board" caption="The Sun-Times Network wanted to distance itself from it diminishing reputation." %}
+
+Up front, the general conscensus was that the product needed to be "younger", "hipper", "trendier", and a host of other buzz words. More-or-less, they wanted the product to be the exact opposite of the current Chicago Sun-Times. With that being said, comparisions to Twitter and Buzzfeed were tossed around frequently.
 
 {% include image.html name="mood-board" caption="USA Today, New York Post, and Boston.com inspired Sun-Times Network's design" %}
 
-Afterskoolz would be less about recommendations and building a social community like sites such as Kidfully or Angie's List, and more about shopping and registering&mdash; making it more similar to traditional shopping sites, such as [Amazon](http://www.amazon.com) or even [Grubhub](http://www.grubhub.com). 
+Aggregate content
+Built on Social
+Emphasis on apps
 
-As a 24yr old, single, recent college grad, the platform obviously doesn't speak to me and my needs, but, it doesn't take much to understand how such a platform could revolutionize what appears to be a stagnant industry. 
+The gaol was to create a platform that could engaging content that is extremely shareable. 
 
-Afterskoolz could, potentially, be the go-to destination for parents to browse a large selection of after-school activities in their city and easily, quickly get their children involved; it would completely rid the burden of tradtional paperwork and phone calls, making the process as simple as ever.
-
-What's even more amazing, is the platform doesn't have to stop at after-school activities: it could completely replace traditional class registration at every educational level. Take this scenario for example: You just moved to a new city and need to register your child into the new local school. What do you do? You call the school, schedule an appointment, gather identification materials, and physically go to said school to fill out paperwork...why should anyone have to do that in 2015?
-
-While the inital plan for Afterskoolz isn't quite ready to tackle a terriotry like complete school registration, it is an important aspect to keep in mind for the future, especially as I build my blueprint for the website. I must keep everything I design agile and capable of scaling and accomodating new features/functionaility.
+The product
 
 ---
 
 ###User-Studies
 
-As I started to build the outline for Afterskools, it was very important, from a high-level, to understand exactly the type of users who would uses it and what features/functionalities they require. While the obvious goal is provide every feature these users could ever want, it is imporant to discern what is essential and what isn't.
+As I started to build the outline for Sun-Times Network, it was very important, from a high-level, to understand exactly the type of users who would uses it and what features/functionalities they require. While the obvious goal is provide every feature these users could ever want, it is imporant to discern what is essential and what isn't.
 
 <ul class="user-studies">
 
@@ -54,11 +59,15 @@ As I started to build the outline for Afterskools, it was very important, from a
 
     <div class="box-right">
       <h4>1. New, younger audience</h4>
-      <p>the type of users who would uses it and what features/functionalities they require. While the obvious goal is provide every feature these users could ever want, it is imporant to discern what is essential and what isn't.</p>
+      <p>The absolute number-one target audience was 15-24yrs. It was consistently described to the Aggrego team by Wrapports CEO, Michael Ferro: "I want my kids using this and checking it everyday like Twitter" It was imperative to build Sun-Times Network into a platform that looked and operated like the websites they already visit day-to-day.</p>
       <div>
-        <span class="check">Find classes for their kids</span>
-        <span class="checkmark">Find classes for their kids</span>
-        <span class="check">Find classes for their kids</span>
+        <span class="checkmark">Mobile Optimization</span>
+        <span class="checkmark">Dedicated App</span>
+        <span class="check">Social Network Integration</span>
+        <span class="check">Quick, easily-digestable content</span> 
+        <span class="check">Modern design aesthetic</span> 
+        <span class="check">Pop Culture Coverage</span>
+        <span class="check">National Coverage</span>                                
       </div>
     </div>
   </li>
@@ -71,21 +80,58 @@ As I started to build the outline for Afterskools, it was very important, from a
       <h4>2. Established, older audience</h4>
       <p>the type of users who would uses it and what features/functionalities they require. While the obvious goal is provide every feature these users could ever want, it is imporant to discern what is essential and what isn't.</p>
       <div>
-        <span class="check">Find classes for their kids</span>
-        <span class="checkmark">Find classes for their kids</span>
-        <span class="check">Find classes for their kids</span>
+        <span class="check">Brand Recognition</span>
+        <span class="check">Onboarding</span>
+        <span class="check">Website layout familiarity</span>
+        <span class="checkmark">Unique Local Content</span>      
+        <span class="checkmark">National Exposure</span>          
       </div>
     </div>
   </li>
+
+  <li class="user cf">
+    <div class="box-left">
+      <img class="user-profile" src="/images/post/woman-7.png"/>
+    </div>
+
+    <div class="box-right">
+      <h4>3. Content Managers</h4>
+      <p>the type of users who would uses it and what features/functionalities they require. While the obvious goal is provide every feature these users could ever want, it is imporant to discern what is essential and what isn't.</p>
+      <div>
+        <span class="check">Automated layouts</span>
+        <span class="checkmark">Automated aggregation</span>
+        <span class="check">Internal </span>
+      </div>
+    </div>
+  </li>
+
+  <li class="user cf">
+    <div class="box-left">
+      <img class="user-profile" src="/images/post/woman-7.png"/>
+    </div>
+
+    <div class="box-right">
+      <h4>4. Sales/Advertising</h4>
+      <p>the type of users who would uses it and what features/functionalities they require. While the obvious goal is provide every feature these users could ever want, it is imporant to discern what is essential and what isn't.</p>
+      <div>
+        <span class="check">Automated layouts</span>
+        <span class="checkmark">Automated aggregation</span>
+        <span class="check">Internal </span>
+      </div>
+    </div>
+  </li>
+
 </ul>
 
-Adding Afterskoolz functionality for children, such as the ability to talk with their classmates and teachers for children was discussed, but shelved for future updates.
+As I said before, in a project this scale and working with so many high-level voices, my input, for better-or-for-worse was taken with a grain of salt. Personally/Professionally, I would have put more emphasis catering functionaility, features, to Chicago Sun-Times's established user-base to better acclimated them to the new platform.
+
+While that is my opinion, I do not necessarily think out approach to completely pivot in a new direction was a bad decision. Instead of a "hold your hand" approach, we were able to build a platform with having to compromise any of the project's main goals, whch was first-and-foremost, build a dynamic, brand new platform.
 
 ---
 
 ###Site Map
 
-It's easiest to understand the Afterskoolz platform by looking at it from a bird's eye view; it is extremely multifunctional: It acts as a public-facing discovery tool, a e-commerce platform, a private organization service, a communication interface, and a management aid. All of these functions differ in one way or another from user-to-user. It can get quite confusing if it is not planned and organized properly.
+While the overall website architecture is relatively simple, laying it out from a bird's eye view is necessary to ensure I the basic build the correct wireframes.
 
 {% include image.html name="site-map-basic" caption="A basic blueprint to show exactly how it is all connected" %}
 
@@ -105,7 +151,7 @@ The goal of wireframes isn't to focus on the final product, but to illustrate, a
 
 ###Presentation, Testing, and Prototyping
 
-With the site map laid out and the wireframes completed, the next step is to finalize the direction before moving to mockups. I do this in two steps: a static prototype and an interactive protootype.
+With the site map laid out and the wireframes completed, the next step is to finalize the direction before moving to mockups. I do this in two steps: a static prototype and an interactive prototype.
 
 {% include image.html name="site-map-detailed-desktop" caption="Connecting desktop wireframes via sitemap" %}
 
@@ -113,13 +159,13 @@ With the site map laid out and the wireframes completed, the next step is to fin
 
 The staic prototype is a .PDF of all the high-fidelity wireframes laid out like the sitemap and the interactive prototype is that same static prototype, but tangible and better replicating a real-life product. I need both of these prototypes not only for myself, but for the people that handling my work when I'm not around.
 
-The static mockup puts into words exactly how each page works and what will or should happen when it is interacted with; this is an invaluable reference to developers as the prototype moves from prototype to code. While I think clients can appreciate seeing this, too, in my experience, they tend to get overwhelmed. (The various "if this/then that" scenarios are enough to make most peoples' eyes to gloss over)
+The static mockup puts into words exactly how each page works and what will or should happen when it is interacted with; this is an invaluable reference to developers as the prototype moves from prototype to code. While I think non-developers can appreciate seeing this, too, in my experience, they tend to get overwhelmed. (The various "if this/then that" scenarios are enough to make most peoples' eyes to gloss over)
 
-Clients, on the other hand, tend to react more positively to actually interacting with the product you are making for them. I find that they can more easily point out things that they like, dislike, or have suggestions for improving this way.
+Non-developers (CEO's, sales, content managers, etc), on the other hand, tend to react more positively to actually interacting with the product you are making for them. I find that they can more easily point out things that they like, dislike, or have suggestions for improving this way.
 
 {% include image.html name="prototype" caption="It's easy to spot UX flaws when using prototypes" %}
 
-Besides being a better way for clients to test their potential product, interactive prototyping is also invaulable for testing my designs on multiple devices. Platforms such as [Invison](http://www.invisionapp.com) allow you to view your your design on wide-range of mobile and tablet devices in addition to desktop. It's extremely helpful to make sure everthing I initially design on a laptop, does in fact, look how I want it at various sizes.
+Besides being a better way for your team to test the potential product, interactive prototyping is also invaulable for testing my designs on multiple devices. Platforms such as [Invison](http://www.invisionapp.com) allow you to view your your design on wide-range of mobile and tablet devices in addition to desktop. It's extremely helpful to make sure everthing I initially design on a laptop, does in fact, look how I want it at various sizes.
 
 ---
 

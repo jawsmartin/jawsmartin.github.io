@@ -251,4 +251,4 @@ That being said, after about four months of working on Afterskoolz, there is def
 
 While I have a lot of things I'd like to improve about Afterskoolz, I am, overall, very proud of the product I helped build; I believe it has bright future.
 
-At the moment I am writing this case-study, my designs are being handed over to developers with the hope that an Afterskoolz MVP (limited to Chicago-only) will be launched Summer 2015. I have also been working with Sal and Mustafa on possible social networking features, dedicated mobile apps, and API-based widgets.
+At the moment I am writing this case-study, my designs are being handed over to developers with the hope that an Afterskoolz MVP (limited to Chicago-only) will be launched Summer 2015.

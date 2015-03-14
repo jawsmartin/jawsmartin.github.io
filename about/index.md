@@ -11,13 +11,13 @@ title: Josh Martin | About
 
 I am a Designer, Illustrator, and Front-End Developer from Pittsburgh, Pennsylvania living in Chicago, Illinois. I currently work as an independent product designer for local startups, focusing on web/app UI/UX and branding.
 
-In my free time, I work on variety of side projects, such as [Alleyoop](http://www.alleyooop.info) and [Bbbench](http://www.bbbbench.com), watch [cheesy horror](https://www.youtube.com/watch?v=KjL5u_8BlgY) movies, hang out at arcades, paint, play/follow basketball, and listen to a wide range of [amazing music](http://www.last.fm/user/jawsmartin).
+In my free time, I work on variety of side projects that reflect a number of personal interests such as tattoos, basketball, and movies.
 
 You can find updates on what I'm up to, personally and professionally, on [Twitter](http://www.twitter.com/jawsmartin), [Instagram](http://www.instagram.com/jawsmartin) and [Dribbble](http://www.dribbble.com/jawsmartin).
 
 My entire portfolio can be found on [Behance](http://www.behance.net/jawsmartin).
 
-If you are interested in seeing a more detailed look into my background, such as past jobs, and program/design proficiencies, please see my [CV](../joshmartinresume.pdf) or [Linkedin](https://www.linkedin.com/in/jawsmartin) profile.
+If you are interested in seeing a more detailed look into my background, such as past jobs, and program/design proficiencies, please see my [CV](../joshmartinresume.pdf) or [Linkedin](https://www.linkedin.com/in/jawsmartin).
 
 ---
 
