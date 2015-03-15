@@ -34,6 +34,8 @@
     ga('send', 'pageview');
   </script> 
 
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+
 </head>
 
 <body>
@@ -42,46 +44,26 @@
 <header class="main">
   <div class="header-content grid-container relative text-left cf">
 
-    <div class="logo inline-block cf">
-      <a class="link" href="/">
-        <img class="inline-block float-left profile-pic" src="/images/profile.png"/>
-      </a>
-    </div>
-
-    <!-- Navigation -->  
-    <nav class="nav-container block cf">
-
-      <!-- Site Navigation -->  
-      <div class="site-nav inline-block cf">
-        <a class="link header-link inline-block " href="/">Blog</a>                   
-        <a class="link header-link inline-block " href="/about">About <span class="name">Josh Martin</span></a>     
-      </div>
-
-      <!-- Social Links --> 
-      <div class="social relative inline-block cf">
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.dribbble.com/jawsmartin" class="icon-dribbble link social-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.behance.net/jawsmartin" class="icon-behance link social-icon"></a>           
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.twitter.com/jawsmartin" class="icon-twitter link social-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.instagram.com/jawsmartin" class="icon-instagram link social-icon"></a>       
-      </div>  
-
-    </nav>
-
   </div>
 </header>
 
 
-<!-- Post Hero
+<!-- Post Header
 ================================================== --> 
-<section class="post-header" style="background-image:url(/images/post/2015-01-22-your-inbox-just-got-dunked-on/thumbnail.jpg)">
+<section class="post-header grid-container-2">
 
-          <div class="overlay"></div>
-          <div class="gradient"></div> 
-
-  <div class="hero-text cf">
+  <div class="hero-text text-center cf">
     <span class="post-date text-small block">January 22, 2015</span>    
     <span class="post-title cs-lead block link" href="" title="">Your Inbox Just Got Dunked On</span>
   </div>
+
+  <div class="dash"></div>
+
+  <div class="">
+    <p class="sub-header serif">Don't have time to visit Dribbble for the latest and greatest? Alleyooop allows for customized summaries of the week's best shots.</p>   
+  </div>
+
+  <div class="dash"></div>
 
 </section>
 
@@ -89,13 +71,7 @@
 <!-- Post Main Content
 ================================================== --> 
 
-
 <main class="post grid-container-2">
-
-<div class="">
-  <p class="sub-header serif">Don't have time to visit Dribbble for the latest and greatest? Alleyooop allows for customized summaries of the week's best shots.</p>   
-</div>
-<div class="dash"></div>
     
 
 <p>I know, for a fact, I’m addicted to Dribbble — I check it before every project for inspiration and several times a day just to see what what is trending. For all intents and purposes, I do not need any other reminder of what is happening there. However, my friend and co-worker, <a href="http://www.andjosh.com">Josh Beckman</a>, does.</p>
@@ -104,20 +80,61 @@
 
 <p>To thrust Mr. Beckman back into the game, we came up with <a href="http://www.alleyooop.info">Alleyooop</a>: a customizable newletter of Dribbble shots. You can adjust frequency of the newsletter and the type of shots you want to follow. Currently, we only show the most popular shots (views + likes) from either Animated or nonanimated shots, but hope to allow even more filtration, such as location and by tag (the Dribbble API isn’t our favorite thing right now).</p>
 
-<figure class="text-left block cf image">
-  <img src="/images/post/2015-01-22-your-inbox-just-got-dunked-on/.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">You're going to dig the 70's-inspired design </figcaption>
-</figure>
-
 <p>I think the newsletter can be quite handy for not only Beckman, but other people too good or too busy (or too smart) to visit Dribbble regularly. <a href="http://www.alleyooop.info">Give it a try!</a></p>
 
          
 
   </main>
 
+  <div class="cta-container text-center">
 
+    <a href="#" class="cta">More Posts</a>
+
+    <!-- Blog Post Snippets  -->  
+    <ul class="more-posts blog-post-container cf">
+      
+    </ul>
+
+  </div>
+
+      <footer class="">
+        <div class="footer-content grid-container-2">
+
+          <div class="text-center profile-container cf">
+            <img class="logo inline-block profile-pic" src="/images/profile.png"/>
+          </div>
+
+
+          <div class="footer-item about">
+            <h3>I am Josh Martin</h3>
+            <p>I am a Designer, Illustrator, and Front-End Developer from Pittsburgh, Pennsylvania living in Chicago, Illinois. I currently work as an independent product designer for local startups, focusing on web/app UI/UX and branding.</p>
+
+            <p>In my free time, I work on variety of side projects that reflect a number of personal interests such as tattoos, basketball, and movies.</p>
+
+            <p>You can find updates on what I'm up to, personally and professionally, on <a href="#" class="">Twitter</a>, <a href="#" class="">Dribbble</a> and <a href="#" class="">Instagram</a>.</p>
+
+            <p>My entire portfolio can be found on <a href="#" class="">Behance</a></p>
+
+            <p>If you are interested in seeing a more detailed look into my background, such as past jobs, and program/design proficiencies, please see my <a href="#" class="">CV</a> or <a href="#" class="">Linkedin</a>.</p>
+
+            <p>You can reach me at <a href="#" class="">hellojoshmartin@gmail.com</a></p>
+
+          </div>  
+
+          <div class="footer-item copyright">
+            <p>&copy;2015. Designed and developed by Josh Martin. Hosted by <a href="http://www.dribbble.com/jawsmartin" class=" footer-link">Github Pages</a>, Built from scratch, and powered by <a href="http://www.dribbble.com/jawsmartin" class=" footer-link">Jeykll</a>. Set in Helvetica Neue. Payment through <a href="http://www.dribbble.com/jawsmartin" class=" footer-link">Gumroad</a>. Custom Iconography. View source on <a href="http://www.dribbble.com/jawsmartin" class="footer-link">Github</a></p>
+          </div>
+
+        </div>
+      </footer>
          
     </div> <!-- Closes Page --> 
  
+<script>
+$("cta").click(function(){
+    $("more-posts").toggle();
+});
+</script>
+
   </body>
 </html>

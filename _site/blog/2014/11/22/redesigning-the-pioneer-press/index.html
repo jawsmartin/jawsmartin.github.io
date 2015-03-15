@@ -34,6 +34,8 @@
     ga('send', 'pageview');
   </script> 
 
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+
 </head>
 
 <body>
@@ -42,46 +44,26 @@
 <header class="main">
   <div class="header-content grid-container relative text-left cf">
 
-    <div class="logo inline-block cf">
-      <a class="link" href="/">
-        <img class="inline-block float-left profile-pic" src="/images/profile.png"/>
-      </a>
-    </div>
-
-    <!-- Navigation -->  
-    <nav class="nav-container block cf">
-
-      <!-- Site Navigation -->  
-      <div class="site-nav inline-block cf">
-        <a class="link header-link inline-block " href="/">Blog</a>                   
-        <a class="link header-link inline-block " href="/about">About <span class="name">Josh Martin</span></a>     
-      </div>
-
-      <!-- Social Links --> 
-      <div class="social relative inline-block cf">
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.dribbble.com/jawsmartin" class="icon-dribbble link social-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.behance.net/jawsmartin" class="icon-behance link social-icon"></a>           
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.twitter.com/jawsmartin" class="icon-twitter link social-icon"></a>
-        <a aria-hidden="true" data-icon="&#xe001;" href="http://www.instagram.com/jawsmartin" class="icon-instagram link social-icon"></a>       
-      </div>  
-
-    </nav>
-
   </div>
 </header>
 
 
-<!-- Post Hero
+<!-- Post Header
 ================================================== --> 
-<section class="post-header" style="background-image:url(/images/post/2014-11-22-redesigning-the-pioneer-press/thumbnail.jpg)">
+<section class="post-header grid-container-2">
 
-          <div class="overlay"></div>
-          <div class="gradient"></div> 
-
-  <div class="hero-text cf">
+  <div class="hero-text text-center cf">
     <span class="post-date text-small block">November 22, 2014</span>    
     <span class="post-title cs-lead block link" href="" title="">Redesigning the Pioneer Press</span>
   </div>
+
+  <div class="dash"></div>
+
+  <div class="">
+    <p class="sub-header serif">The project began with ambitious goals to completely revamp the 30-website network, but was, unfortunately, crippled by the fear of straying too far from the path.</p>   
+  </div>
+
+  <div class="dash"></div>
 
 </section>
 
@@ -89,13 +71,7 @@
 <!-- Post Main Content
 ================================================== --> 
 
-
 <main class="post grid-container-2">
-
-<div class="">
-  <p class="sub-header serif">The project began with ambitious goals to completely revamp the 30-website network, but was, unfortunately, crippled by the fear of straying too far from the path.</p>   
-</div>
-<div class="dash"></div>
     
 
 <h3 id="background">Background</h3>
@@ -122,9 +98,11 @@
 
 <hr />
 
-<h3 id="planningresearch">Planning/Research</h3>
+<h3 id="stepping-up">Stepping Up</h3>
 
-<p>When the Aggrego team was briefed for the project, the aspirations were quite large. </p>
+<p>When I was brought into Aggrego, it was initially as a UI Designer. I was going to be working alongside another UI designer and front-end developer, Bruce Aukerman. Together, we were going to work on all Aggrego web/mobile projects. However, after Bruce quit a few weeks after, I was left as the single designer.</p>
+
+<p>This was extremely new to me. Previously, my only other experience in web design was working with Creative Leads, or doing my own, relatively novice, indpendent work. The proposition of leading a project only weeks into a job was a little nerve-wrecking, but mostly exciting.</p>
 
 <p>With that being said, my contributions to Sun-Times Network began and ended with the direction given to me by this group. As the lead designer of this project, I did my best to propose solutions and ideas, but ultimately, it was my job to carry out their vision.</p>
 
@@ -145,280 +123,83 @@
 
 <hr />
 
-<h3 id="user-studies">User-Studies</h3>
+<h3 id="the-mytown-project-cometh-and-goeth">The MyTown Project Cometh and Goeth</h3>
 
-<p>For reasons stated above, there was only really two users Pioneer Press was catering to: their already eastablished, older audience, and the businesses who want to advertise to them. Functionality and feature-speaking, very little would be changed from the prior design to further accomodate these users. All-in-all, the redesign would be solving aesthetic issue, increase advertising positions, and increase efficiency </p>
+<p>After launching the newly redesigned Pioneer Press Site, we stepped away from it, momentarilary, to focus on building Loop and Today.ie, but revisited it a few months later. When we started back up with Pioneer Press, the objective was to add dedicated iOS and Android Apps.</p>
 
-<ul class="user-studies">
+<p>The question that was asked was “Why can’t we do this formula in other suburbs around major cities?” The inspiration came at the combination of Trib Local and Patch</p>
 
-  <li class="user cf">
-    <div class="box-left">
-      <img class="user-profile" src="/images/post/woman-7.png" />
-    </div>
-    <div class="box-right">
-      <h4>1. Established, older audience</h4>
-      <p>the type of users who would uses it and what features/functionalities they require. While the obvious goal is provide every feature these users could ever want, it is imporant to discern what is essential and what isn't.</p>
-      <div>
-        <span class="check">Find classes for their kids</span>
-        <span class="checkmark">Find classes for their kids</span>
-        <span class="check">Find classes for their kids</span>
-      </div>
-    </div>
-  </li>
+<figure class="text-left block cf image">
+  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/intro.jpg" alt="" />
+  <figcaption class="text-small" align="bottom">MyTown iOS App</figcaption>
+</figure>
+<figure class="text-left block cf image">
+  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/intro.jpg" alt="" />
+  <figcaption class="text-small" align="bottom">MyTown Android App</figcaption>
+</figure>
 
-  <li class="user cf">
-    <div class="box-left">
-      <img class="user-profile" src="/images/post/man-5.png" />
-    </div>
-    <div class="box-right">
-      <h4>2. Local Businesses, Advertising</h4>
-      <p>the type of users who would uses it and what features/functionalities they require. While the obvious goal is provide every feature these users could ever want, it is imporant to discern what is essential and what isn't.</p>
-      <div>
-        <span class="check">Find classes for their kids</span>
-        <span class="checkmark">Find classes for their kids</span>
-        <span class="check">Find classes for their kids</span>
-      </div>
-    </div>
-  </li>
-
-
-  <li class="user cf">
-    <div class="box-left">
-      <img class="user-profile" src="/images/post/woman-5.png" />
-    </div>
-    <div class="box-right">
-      <h4>3. Content Managers</h4>
-      <p>the type of users who would uses it and what features/functionalities they require. While the obvious goal is provide every feature these users could ever want, it is imporant to discern what is essential and what isn't.</p>
-      <div>
-        <span class="check">Find classes for their kids</span>
-        <span class="checkmark">Find classes for their kids</span>
-        <span class="check">Find classes for their kids</span>
-      </div>
-    </div>
-  </li>
-
-</ul>
-
-<p>Adding Afterskoolz functionality for children, such as the ability to talk with their classmates and teachers for children was discussed, but shelved for future updates.</p>
+<p>The excitement </p>
 
 <hr />
 
-<h3 id="site-map">Site Map</h3>
+<h3 id="on-to-bigger-and-better-things">On to bigger and better things</h3>
 
-<p>It’s easiest to understand the Afterskoolz platform by looking at it from a bird’s eye view; it is extremely multifunctional: It acts as a public-facing discovery tool, a e-commerce platform, a private organization service, a communication interface, and a management aid. All of these functions differ in one way or another from user-to-user. It can get quite confusing if it is not planned and organized properly.</p>
+<p>The excitement for MyTown variations of the Pioneer Press was short-lived however.
+After launching the newly redesigned Pioneer Press Site, we stepped away from it, momentarilary, to focus on building Loop and Today.ie, but revisited it a few months later. When we started back up with Pioneer Press, the objective was to add dedicated iOS and Android Apps.</p>
 
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/site-map-basic.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">A basic blueprint to show exactly how it is all connected</figcaption>
-</figure>
-
-<hr />
-
-<h3 id="wireframes">Wireframes</h3>
-
-<p>After determining how the site is organized and what pages are needed, I define the website’s front-facing visuals. I establish layout, page content, user-interface elements. I also double-check the site’s UX as I work page-to-page. It’s pretty easy to change course or make significant revisions at this step.</p>
-
-<p>The goal of wireframes isn’t to focus on the final product, but to illustrate, at the most basic level, the functionality or purpose of each page. Elements such color and branding are, no doubt, an important part of any website, but they don’t (or shouldn’t, at least) affect how a page/website will work. In my experience, at least, adding these superfluous details only causes distraction.</p>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/wireframe-detailed-desktop.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">High-fidelity wireframes convey proposed design direction for Desktop</figcaption>
-</figure>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/wireframe-detailed-mobile.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">High-fidelity wireframes convey proposed design direction for Mobile</figcaption>
-</figure>
-
-<hr />
-
-<h3 id="presentation-testing-and-prototyping">Presentation, Testing, and Prototyping</h3>
-
-<p>With the site map laid out and the wireframes completed, the next step is to finalize the direction before moving to mockups. I do this in two steps: a static prototype and an interactive protootype.</p>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/site-map-detailed-desktop.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">Connecting desktop wireframes via sitemap</figcaption>
-</figure>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/site-map-detailed-mobile.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">Connecting mobile wireframes via sitemap</figcaption>
-</figure>
-
-<p>The staic prototype is a .PDF of all the high-fidelity wireframes laid out like the sitemap and the interactive prototype is that same static prototype, but tangible and better replicating a real-life product. I need both of these prototypes not only for myself, but for the people that handling my work when I’m not around.</p>
-
-<p>The static mockup puts into words exactly how each page works and what will or should happen when it is interacted with; this is an invaluable reference to developers as the prototype moves from prototype to code. While I think clients can appreciate seeing this, too, in my experience, they tend to get overwhelmed. (The various “if this/then that” scenarios are enough to make most peoples’ eyes to gloss over)</p>
-
-<p>Clients, on the other hand, tend to react more positively to actually interacting with the product you are making for them. I find that they can more easily point out things that they like, dislike, or have suggestions for improving this way.</p>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/prototype.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">It's easy to spot UX flaws when using prototypes</figcaption>
-</figure>
-
-<p>Besides being a better way for clients to test their potential product, interactive prototyping is also invaulable for testing my designs on multiple devices. Platforms such as <a href="http://www.invisionapp.com">Invison</a> allow you to view your your design on wide-range of mobile and tablet devices in addition to desktop. It’s extremely helpful to make sure everthing I initially design on a laptop, does in fact, look how I want it at various sizes.</p>
-
-<hr />
-
-<h3 id="branding-and-logo">Branding and Logo</h3>
-
-<p>Branding Sun-Times was entirely my own endevor. Surprisingly, very little direction was given in branding the new Sun-Times. I distictly rememeber Aggrego CEO, Tim Landon telling me “Just do something the complete opposite of the current Sun-Times. The only restriction is you can’t use red. Michael Ferro hates red.”</p>
-
-<p>So with that being said, I explored a few idea and eventuall settled on a dark color scheme. The idea was that it could both convey a sense of seriousness, and boldness. It also allowed for an expansive color pallette. I was looking for something that would be appropriate for serious and pop culture stories.</p>
-
-<p>I explored several ideas and eventually chose to base the branding off of a chalkboard motif as it pertains to classrooms and students. I liked the idea of scribbled headlines and doodle-style illustrations. I also felt that the dark blue of a chalkboard would work well with a very expansive color palette.</p>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/logo.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">The logo was inspired by Toys R' Us, Google, Oreo, and ebay</figcaption>
-</figure>
-
-<p>For the Afterskoolz logo, I chose a large, slab-serif typeface, <a href="http://www.fontsquirrel.com/fonts/chunkfive">Chunkfive</a>, that I felt was playful. I combined it with an another classroom motif, the teacher’s apple. I felt a stylized version of it compliment the wordmark well and could still be strong on its own.</p>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/facebook.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">Businesses cards with embossed details</figcaption>
-</figure>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/twitter.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">Businesses cards with embossed details</figcaption>
-</figure>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/advertising.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">Businesses cards with embossed details</figcaption>
-</figure>
-
-<hr />
-
-<h3 id="style-guide">Style Guide</h3>
-
-<p>With the branding in order, I translated it into a style guide for the website. I wanted to establish a consistent visual style for color, typography, illustrations, iconograpy, and UI elements.</p>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/style-guide.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">A detailed style guide is very helpful when handing design off to developers</figcaption>
-</figure>
-
-<hr />
-
-<h3 id="homepage">Homepage</h3>
-
-<p>The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.</p>
-
-<p>Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website’s UI. In designing the Afterskoolz homepage, the main areas of concern from Sal and Mustafa was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.</p>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/homepage.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">The relatively-simple homepage design responds down nicely to tablet and mobile</figcaption>
-</figure>
-
-<p>Outside of solving for their main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner— personable, informal copywriting, delightful animations, spot illustrations, and playful iconography. </p>
-
-<p>As far as layout, it’s pretty standard in modern design practices for homepages to be: Hero image, product selling points, website section highlights, and CTA. I followed this formula pretty closely.</p>
-
-<hr />
-
-<h3 id="article-page">Article Page</h3>
-
-<p>The search-results page, in my opinion, is the most important page of the entire site; you want it to coney a large amount of information in a simple, unintimidating way. At the same time, you want to give users the ability to access a large varitey of additional details and search customization if needed.</p>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/article.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">Sal and Mustafa stressed the importance of a map and save-class buttons in the page's design</figcaption>
-</figure>
-
-<hr />
-
-<h3 id="category-front">Category Front</h3>
-
-<p>The class profile page is divided into 3 sections: details, endorsements, and schedule. The Details section elaborates on information showed initially in the search results, the Endorsements section showcases administrator-selected class recommendations (NOT Yelp-style reviews), and the schedule section presents all available sessions for enrollment.</p>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/category-front.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">The schedule section overlays a registered user's Google Calendar for easy referencing</figcaption>
-</figure>
-
-<hr />
-
-<h3 id="ios-mobile-app">iOS Mobile App</h3>
-
-<p>As I’ve stated before, Afterskoolz isn’t just about discovery and registration— it has a wide assortment of tools and functionality, each tailored for its three types of users (4 if you include administrators) For example, parents need the ability to manage their children’s schedules, teachers need to send homework to students, principals need to manage rosters.</p>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/ios.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">Users have all of their tools and information readily available in their dashboards</figcaption>
-</figure>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/ios.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">Users have all of their tools and information readily available in their dashboards</figcaption>
-</figure>
-
-<hr />
-
-<h3 id="android-app">Android App</h3>
-
-<p>As I’ve stated before, Afterskoolz isn’t just about discovery and registration— it has a wide assortment of tools and functionality, each tailored for its three types of users (4 if you include administrators) For example, parents need the ability to manage their children’s schedules, teachers need to send homework to students, principals need to manage rosters.</p>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/ios.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">Users have all of their tools and information readily available in their dashboards</figcaption>
-</figure>
-
-<hr />
-
-<h3 id="conclusion">Conclusion</h3>
-
-<p>Over the course of a project, you inherently become better and smarter; you tend to find your mistakes from the first month and the second month and so on. However, it is impossible to move forward if you keep looking back. One of the hardest things to do is say: “Hey, this isn’t perfect. There’s a lot of things I’d like to change now that I know better, but we’ll cross that bridge later.” The main thing is delivering a solid product so it can be developed and launched. That’s why it’s called an MVP.</p>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/split.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">Users have all of their tools and information readily available in their dashboards</figcaption>
-</figure>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/map.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">Users have all of their tools and information readily available in their dashboards</figcaption>
-</figure>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/tiles.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">Users have all of their tools and information readily available in their dashboards</figcaption>
-</figure>
-
-<p>That being said, after about four months of working on Afterskoolz, there is definitely areas I would like to revist and improve. Specifically, I’d like to improve main/sub navigation, redesign search results page, expand branding color palette, and add stronger illustrations.</p>
-
-<p>We worked on the Sun-Times Network nonstop from the time project was started until the MVP was launched at 6pm on October 31st. The project, for-better-or-for-worse, was defined as an MVP. As a small tech team of about 6 people, we were rushing to complete the project by the chosen deadline. As such, there were bugs aplenty. Our ad servers were working incorrectly, embedded videos broke layouts, responsiveness was broken on mobile, and the list goes on.</p>
-
-<p>That being said, as a collective, we were extremely happy the product was finally live and we wasted no time iterating the necessary fixes and working to improve the platform</p>
-
-<p>I decided to move on from Aggrego following the completion of Sun-Times Network V.2. While I was extremely happy with what I accomplished, I learned that the digital news media game wasn’t for me. I didn’t take pleasure in the type of content we were producing, or the advertisements we were covering our website in. I also learned that the corporate environment wasn’t for me.</p>
-
-<p>In my final two weeks with Aggrego, I prepped the gameplan for Sun-Times V.3, focusing on improving the article page and homepage.</p>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/homepage.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">Users have all of their tools and information readily available in their dashboards</figcaption>
-</figure>
-
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-11-22-redesigning-the-pioneer-press/article.jpg" alt="" />
-  <figcaption class="text-small" align="bottom">Users have all of their tools and information readily available in their dashboards</figcaption>
-</figure>
-
-<p>I decided to move on from Aggrego following the completion of Sun-Times Network V.2. While I was extremely happy with what I accomplished, I learned that the digital news media game wasn’t for me. I didn’t take pleasure in the type of content we were producing, or the advertisements we were covering our website in. I also learned that the corporate environment wasn’t for me.</p>
-
-<p>As of January, 2015, the proposed changes were not implemented.</p>
          
 
   </main>
 
+  <div class="cta-container text-center">
 
+    <a href="#" class="cta">More Posts</a>
+
+    <!-- Blog Post Snippets  -->  
+    <ul class="more-posts blog-post-container cf">
+      
+    </ul>
+
+  </div>
+
+      <footer class="">
+        <div class="footer-content grid-container-2">
+
+          <div class="text-center profile-container cf">
+            <img class="logo inline-block profile-pic" src="/images/profile.png"/>
+          </div>
+
+
+          <div class="footer-item about">
+            <h3>I am Josh Martin</h3>
+            <p>I am a Designer, Illustrator, and Front-End Developer from Pittsburgh, Pennsylvania living in Chicago, Illinois. I currently work as an independent product designer for local startups, focusing on web/app UI/UX and branding.</p>
+
+            <p>In my free time, I work on variety of side projects that reflect a number of personal interests such as tattoos, basketball, and movies.</p>
+
+            <p>You can find updates on what I'm up to, personally and professionally, on <a href="#" class="">Twitter</a>, <a href="#" class="">Dribbble</a> and <a href="#" class="">Instagram</a>.</p>
+
+            <p>My entire portfolio can be found on <a href="#" class="">Behance</a></p>
+
+            <p>If you are interested in seeing a more detailed look into my background, such as past jobs, and program/design proficiencies, please see my <a href="#" class="">CV</a> or <a href="#" class="">Linkedin</a>.</p>
+
+            <p>You can reach me at <a href="#" class="">hellojoshmartin@gmail.com</a></p>
+
+          </div>  
+
+          <div class="footer-item copyright">
+            <p>&copy;2015. Designed and developed by Josh Martin. Hosted by <a href="http://www.dribbble.com/jawsmartin" class=" footer-link">Github Pages</a>, Built from scratch, and powered by <a href="http://www.dribbble.com/jawsmartin" class=" footer-link">Jeykll</a>. Set in Helvetica Neue. Payment through <a href="http://www.dribbble.com/jawsmartin" class=" footer-link">Gumroad</a>. Custom Iconography. View source on <a href="http://www.dribbble.com/jawsmartin" class="footer-link">Github</a></p>
+          </div>
+
+        </div>
+      </footer>
          
     </div> <!-- Closes Page --> 
  
+<script>
+$("cta").click(function(){
+    $("more-posts").toggle();
+});
+</script>
+
   </body>
 </html>

@@ -24,7 +24,7 @@ It was proposed by Sun-Times Media Group's owner, Wrapports, LLC,  as a one-off 
 
 ---
 
-###Planning/Research
+###Board Meetings on Board Meetings on Board Meetings
 
 The Sun-Times Network was my first experience working in real corporate environment. I would spend my entire time on the project working alongside established news industry figures such Wrapports chairman, Michael Ferro, Wrapports CEO Timothy Knight, Wrapports EVP of Marketing, Julian Posada, and Aggrego CEO, Tim Landon.
 
@@ -42,225 +42,69 @@ Emphasis on apps
 
 The gaol was to create a platform that could engaging content that is extremely shareable. 
 
-The product
-
----
-
-###User-Studies
-
-As I started to build the outline for Sun-Times Network, it was very important, from a high-level, to understand exactly the type of users who would uses it and what features/functionalities they require. While the obvious goal is provide every feature these users could ever want, it is imporant to discern what is essential and what isn't.
-
-<ul class="user-studies">
-
-  <li class="user cf">
-    <div class="box-left">
-      <img class="user-profile" src="/images/post/woman-5.png"/>
-    </div>
-
-    <div class="box-right">
-      <h4>1. New, younger audience</h4>
-      <p>The absolute number-one target audience was 15-24yrs. It was consistently described to the Aggrego team by Wrapports CEO, Michael Ferro: "I want my kids using this and checking it everyday like Twitter" It was imperative to build Sun-Times Network into a platform that looked and operated like the websites they already visit day-to-day.</p>
-      <div>
-        <span class="checkmark">Mobile Optimization</span>
-        <span class="checkmark">Dedicated App</span>
-        <span class="check">Social Network Integration</span>
-        <span class="check">Quick, easily-digestable content</span> 
-        <span class="check">Modern design aesthetic</span> 
-        <span class="check">Pop Culture Coverage</span>
-        <span class="check">National Coverage</span>                                
-      </div>
-    </div>
-  </li>
-  <li class="user cf">
-    <div class="box-left">
-      <img class="user-profile" src="/images/post/woman-7.png"/>
-    </div>
-
-    <div class="box-right">
-      <h4>2. Established, older audience</h4>
-      <p>the type of users who would uses it and what features/functionalities they require. While the obvious goal is provide every feature these users could ever want, it is imporant to discern what is essential and what isn't.</p>
-      <div>
-        <span class="check">Brand Recognition</span>
-        <span class="check">Onboarding</span>
-        <span class="check">Website layout familiarity</span>
-        <span class="checkmark">Unique Local Content</span>      
-        <span class="checkmark">National Exposure</span>          
-      </div>
-    </div>
-  </li>
-
-  <li class="user cf">
-    <div class="box-left">
-      <img class="user-profile" src="/images/post/woman-7.png"/>
-    </div>
-
-    <div class="box-right">
-      <h4>3. Content Managers</h4>
-      <p>the type of users who would uses it and what features/functionalities they require. While the obvious goal is provide every feature these users could ever want, it is imporant to discern what is essential and what isn't.</p>
-      <div>
-        <span class="check">Automated layouts</span>
-        <span class="checkmark">Automated aggregation</span>
-        <span class="check">Internal </span>
-      </div>
-    </div>
-  </li>
-
-  <li class="user cf">
-    <div class="box-left">
-      <img class="user-profile" src="/images/post/woman-7.png"/>
-    </div>
-
-    <div class="box-right">
-      <h4>4. Sales/Advertising</h4>
-      <p>the type of users who would uses it and what features/functionalities they require. While the obvious goal is provide every feature these users could ever want, it is imporant to discern what is essential and what isn't.</p>
-      <div>
-        <span class="check">Automated layouts</span>
-        <span class="checkmark">Automated aggregation</span>
-        <span class="check">Internal </span>
-      </div>
-    </div>
-  </li>
-
-</ul>
-
 As I said before, in a project this scale and working with so many high-level voices, my input, for better-or-for-worse was taken with a grain of salt. Personally/Professionally, I would have put more emphasis catering functionaility, features, to Chicago Sun-Times's established user-base to better acclimated them to the new platform.
 
-While that is my opinion, I do not necessarily think out approach to completely pivot in a new direction was a bad decision. Instead of a "hold your hand" approach, we were able to build a platform with having to compromise any of the project's main goals, whch was first-and-foremost, build a dynamic, brand new platform.
+While that is my opinion, I do not necessarily think out approach to completely pivot in a new direction was a bad decision. Instead of a "hold your hand" approach, we were able to build a platform with having to compromise any of the project's main goals, whch was first-and-foremost, build a dynamic, brand new platform
 
 ---
 
-###Site Map
-
-While the overall website architecture is relatively simple, laying it out from a bird's eye view is necessary to ensure I the basic build the correct wireframes.
-
-{% include image.html name="site-map-basic" caption="A basic blueprint to show exactly how it is all connected" %}
-
----
-
-###Wireframes
-
-After determining how the site is organized and what pages are needed, I define the website's front-facing visuals. I establish layout, page content, user-interface elements. I also double-check the site's UX as I work page-to-page. It's pretty easy to change course or make significant revisions at this step.
-
-The goal of wireframes isn't to focus on the final product, but to illustrate, at the most basic level, the functionality or purpose of each page. Elements such color and branding are, no doubt, an important part of any website, but they don't (or shouldn't, at least) affect how a page/website will work. In my experience, at least, adding these superfluous details only causes distraction.
-
-{% include image.html name="wireframe-detailed-desktop" caption="High-fidelity wireframes convey proposed design direction for Desktop" %}
-
-{% include image.html name="wireframe-detailed-mobile" caption="High-fidelity wireframes convey proposed design direction for Mobile" %}
-
----
-
-###Presentation, Testing, and Prototyping
-
-With the site map laid out and the wireframes completed, the next step is to finalize the direction before moving to mockups. I do this in two steps: a static prototype and an interactive prototype.
-
-{% include image.html name="site-map-detailed-desktop" caption="Connecting desktop wireframes via sitemap" %}
-
-{% include image.html name="site-map-detailed-mobile" caption="Connecting mobile wireframes via sitemap" %}
-
-The staic prototype is a .PDF of all the high-fidelity wireframes laid out like the sitemap and the interactive prototype is that same static prototype, but tangible and better replicating a real-life product. I need both of these prototypes not only for myself, but for the people that handling my work when I'm not around.
-
-The static mockup puts into words exactly how each page works and what will or should happen when it is interacted with; this is an invaluable reference to developers as the prototype moves from prototype to code. While I think non-developers can appreciate seeing this, too, in my experience, they tend to get overwhelmed. (The various "if this/then that" scenarios are enough to make most peoples' eyes to gloss over)
-
-Non-developers (CEO's, sales, content managers, etc), on the other hand, tend to react more positively to actually interacting with the product you are making for them. I find that they can more easily point out things that they like, dislike, or have suggestions for improving this way.
-
-{% include image.html name="prototype" caption="It's easy to spot UX flaws when using prototypes" %}
-
-Besides being a better way for your team to test the potential product, interactive prototyping is also invaulable for testing my designs on multiple devices. Platforms such as [Invison](http://www.invisionapp.com) allow you to view your your design on wide-range of mobile and tablet devices in addition to desktop. It's extremely helpful to make sure everthing I initially design on a laptop, does in fact, look how I want it at various sizes.
-
----
-
-###Branding and Logo
+###We Need a Logo for This Thing (and you got 4 hours)
 
 Branding Sun-Times was entirely my own endevor. Surprisingly, very little direction was given in branding the new Sun-Times. I distictly rememeber Aggrego CEO, Tim Landon telling me "Just do something the complete opposite of the current Sun-Times. The only restriction is you can't use red. Michael Ferro hates red."
 
 So with that being said, I explored a few idea and eventuall settled on a dark color scheme. The idea was that it could both convey a sense of seriousness, and boldness. It also allowed for an expansive color pallette. I was looking for something that would be appropriate for serious and pop culture stories.
 
-I explored several ideas and eventually chose to base the branding off of a chalkboard motif as it pertains to classrooms and students. I liked the idea of scribbled headlines and doodle-style illustrations. I also felt that the dark blue of a chalkboard would work well with a very expansive color palette.
+{% include image.html name="mood-board" caption="USA Today, New York Post, and Boston.com inspired Sun-Times Network's design" %}
 
-{% include image.html name="logo" caption="The logo was inspired by Toys R' Us, Google, Oreo, and ebay" %}
+{% include image.html name="mood-board" caption="USA Today, New York Post, and Boston.com inspired Sun-Times Network's design" %}
 
-For the Afterskoolz logo, I chose a large, slab-serif typeface, [Chunkfive](http://www.fontsquirrel.com/fonts/chunkfive), that I felt was playful. I combined it with an another classroom motif, the teacher's apple. I felt a stylized version of it compliment the wordmark well and could still be strong on its own.
-
-{% include image.html name="facebook" caption="Businesses cards with embossed details" %}
-
-{% include image.html name="twitter" caption="Businesses cards with embossed details" %}
-
-{% include image.html name="advertising" caption="Businesses cards with embossed details" %}
+So with that being said, I explored a few idea and eventuall settled on a dark color scheme. The idea was that it could both convey a sense of seriousness, and boldness. It also allowed for an expansive color pallette. I was looking for something that would be appropriate for serious and pop culture stories.
 
 ---
 
-###Style Guide
+###Two-Month Sprint, Launching MVP
 
-With the branding in order, I translated it into a style guide for the website. I wanted to establish a consistent visual style for color, typography, illustrations, iconograpy, and UI elements.
+Branding Sun-Times was entirely my own endevor. Surprisingly, very little direction was given in branding the new Sun-Times. I distictly rememeber Aggrego CEO, Tim Landon telling me "Just do something the complete opposite of the current Sun-Times. The only restriction is you can't use red. Michael Ferro hates red."
 
-{% include image.html name="style-guide" caption="A detailed style guide is very helpful when handing design off to developers" %}   
+So with that being said, I explored a few idea and eventuall settled on a dark color scheme. The idea was that it could both convey a sense of seriousness, and boldness. It also allowed for an expansive color pallette. I was looking for something that would be appropriate for serious and pop culture stories.
 
----
+{% include image.html name="mood-board" caption="USA Today, New York Post, and Boston.com inspired Sun-Times Network's design" %}
 
-###Homepage
+{% include image.html name="mood-board" caption="USA Today, New York Post, and Boston.com inspired Sun-Times Network's design" %}
 
-The homepage, like in most projects, tends to draw the most input from clients; they usually have a pretty clear vision for how they want to present their product and the atmosphere they want to create for prospective visitors.
+{% include image.html name="mood-board" caption="USA Today, New York Post, and Boston.com inspired Sun-Times Network's design" %}
 
-Because of this, the back-and-forth between myself and the client tends to take far longer than any other aspect of the website's UI. In designing the Afterskoolz homepage, the main areas of concern from Sal and Mustafa was picking a powerful (yet friendly) hero image, a very direct search CTA, and a fun way to list the available classes.
-
-{% include image.html name="homepage" caption="The relatively-simple homepage design responds down nicely to tablet and mobile" %}  
-
-Outside of solving for their main concerns, I wanted to make sure the homepage got the Afterskoolz branding across in a tasteful, subtle manner&mdash; personable, informal copywriting, delightful animations, spot illustrations, and playful iconography. 
-
-As far as layout, it's pretty standard in modern design practices for homepages to be: Hero image, product selling points, website section highlights, and CTA. I followed this formula pretty closely.
+So with that being said, I explored a few idea and eventuall settled on a dark color scheme. The idea was that it could both convey a sense of seriousness, and boldness. It also allowed for an expansive color pallette. I was looking for something that would be appropriate for serious and pop culture stories.
 
 ---
 
-###Article Page
+###Sun-Times 2.0
 
-The search-results page, in my opinion, is the most important page of the entire site; you want it to coney a large amount of information in a simple, unintimidating way. At the same time, you want to give users the ability to access a large varitey of additional details and search customization if needed.
+Branding Sun-Times was entirely my own endevor. Surprisingly, very little direction was given in branding the new Sun-Times. I distictly rememeber Aggrego CEO, Tim Landon telling me "Just do something the complete opposite of the current Sun-Times. The only restriction is you can't use red. Michael Ferro hates red."
 
-{% include image.html name="article" caption="Sal and Mustafa stressed the importance of a map and save-class buttons in the page's design" %}   
+So with that being said, I explored a few idea and eventuall settled on a dark color scheme. The idea was that it could both convey a sense of seriousness, and boldness. It also allowed for an expansive color pallette. I was looking for something that would be appropriate for serious and pop culture stories.
 
----
+{% include image.html name="mood-board" caption="USA Today, New York Post, and Boston.com inspired Sun-Times Network's design" %}
 
-###Category Front
+{% include image.html name="mood-board" caption="USA Today, New York Post, and Boston.com inspired Sun-Times Network's design" %}
 
-The class profile page is divided into 3 sections: details, endorsements, and schedule. The Details section elaborates on information showed initially in the search results, the Endorsements section showcases administrator-selected class recommendations (NOT Yelp-style reviews), and the schedule section presents all available sessions for enrollment.
+{% include image.html name="mood-board" caption="USA Today, New York Post, and Boston.com inspired Sun-Times Network's design" %}
 
-{% include image.html name="category-front" caption="The schedule section overlays a registered user's Google Calendar for easy referencing" %}   
-
----
-
-###iOS Mobile App
-
-As I've stated before, Afterskoolz isn't just about discovery and registration&mdash; it has a wide assortment of tools and functionality, each tailored for its three types of users (4 if you include administrators) For example, parents need the ability to manage their children's schedules, teachers need to send homework to students, principals need to manage rosters.
-
-{% include image.html name="ios" caption="Users have all of their tools and information readily available in their dashboards" %}        
-
-{% include image.html name="ios" caption="Users have all of their tools and information readily available in their dashboards" %}  
+So with that being said, I explored a few idea and eventuall settled on a dark color scheme. The idea was that it could both convey a sense of seriousness, and boldness. It also allowed for an expansive color pallette. I was looking for something that would be appropriate for serious and pop culture stories.
 
 ---
 
-###Android App
+###You Won't Believe What Happens Next!
 
-As I've stated before, Afterskoolz isn't just about discovery and registration&mdash; it has a wide assortment of tools and functionality, each tailored for its three types of users (4 if you include administrators) For example, parents need the ability to manage their children's schedules, teachers need to send homework to students, principals need to manage rosters.
+When I first joined Aggrego, the company identified itself as a startup. The general atmosphere was exciting as we seemed to be moving project-to-project.
 
-{% include image.html name="ios" caption="Users have all of their tools and information readily available in their dashboards" %}        
+However, as we progressed with the Sun-Times Network, it became increasingly apparent what the priorities were and it was to create an amazing, game-changing product. While I've learned the monetization is iand pleasing those who have the money is extremely important, I didn't feel comfortable producing a product I would never use myself.
 
----
+{% include image.html name="homepage" caption="Users have all of their tools and information readily available in their dashboards" %}   
 
-###Conclusion
+The entire project became "How many pageviews?" and "Where can we stick a banner ad?". This was literally the only things talked about. Product Design was an extremely low-priority as my contributions became more about "Photoshopping" graphics and ideas that product managers and sales couldn't do themselves. The level of innovation was as low as you could imagine. It became "copy what they did over there and put our logo on it"
 
-Over the course of a project, you inherently become better and smarter; you tend to find your mistakes from the first month and the second month and so on. However, it is impossible to move forward if you keep looking back. One of the hardest things to do is say: "Hey, this isn't perfect. There's a lot of things I'd like to change now that I know better, but we'll cross that bridge later." The main thing is delivering a solid product so it can be developed and launched. That's why it's called an MVP.
-
-
-{% include image.html name="split" caption="Users have all of their tools and information readily available in their dashboards" %}        
-
-{% include image.html name="map" caption="Users have all of their tools and information readily available in their dashboards" %}    
-
-{% include image.html name="tiles" caption="Users have all of their tools and information readily available in their dashboards" %}     
-
-That being said, after about four months of working on Afterskoolz, there is definitely areas I would like to revist and improve. Specifically, I'd like to improve main/sub navigation, redesign search results page, expand branding color palette, and add stronger illustrations.
-
-We worked on the Sun-Times Network nonstop from the time project was started until the MVP was launched at 6pm on October 31st. The project, for-better-or-for-worse, was defined as an MVP. As a small tech team of about 6 people, we were rushing to complete the project by the chosen deadline. As such, there were bugs aplenty. Our ad servers were working incorrectly, embedded videos broke layouts, responsiveness was broken on mobile, and the list goes on.
-
-That being said, as a collective, we were extremely happy the product was finally live and we wasted no time iterating the necessary fixes and working to improve the platform
+While I obviously upset with the direction Sun-Times took, that is not to say I wasn't proud of my contributions and the wonderful people I worked with in the trenches. We built an amazing product very, very quickly.
 
 I decided to move on from Aggrego following the completion of Sun-Times Network V.2. While I was extremely happy with what I accomplished, I learned that the digital news media game wasn't for me. I didn't take pleasure in the type of content we were producing, or the advertisements we were covering our website in. I also learned that the corporate environment wasn't for me.
 

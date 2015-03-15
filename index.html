@@ -3,6 +3,10 @@ layout: default
 title: Josh Martin | Blog
 ---
 
+<div class="blog-header text-center">
+  <a href="#" class="about-link inline-block">About</a>
+</div>
+
 <!-- Blog
 ================================================== -->  
 <main>
@@ -13,17 +17,10 @@ title: Josh Martin | Blog
       <li class="blog-post">
         <a class="link" href="{{ post.url }}">
 
-          <div class="overlay"></div>
-          <div class="gradient"></div> 
-
           <div class="thumbnail-details">          
             <span class="post-date text-small">{{ post.date | date: '%B %d, %Y' }}</span>
             <span class="post-title link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</span>
           </div>     
-
-          <div class="thumbnail-image">
-            <img src="/images/post/{{ post.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ post.title | replace:' ','-' | downcase }}/thumbnail.jpg"/>    
-          </div>
           
         </a>
       </li>

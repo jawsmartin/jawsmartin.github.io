@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Illustrator Grid Template
-deck: It can be comforting to surround yourself and your work with floruishes and excess to display to others your worth or value. It takes supreme confidence to show yourself off to the world with little to nothing to shield you from criticism.
+deck: Coming from a background in Illustration and print design, I'm very familiar with Adobe Illustrator, not Adobe Photoshop, and as such, find myself as an odd duck in the web design field. 
 date: 2014-11-05
 tag: Freebie
 thumbnail: /images/hero-simple.jpg
@@ -25,4 +25,14 @@ If your are an Illustrator-using web designer, I really think you'll find this u
 - Drag and Drop columns and rows to build your own
 - Percentage grids and fixed-pixel grids
 
-Plus, it's only $10. *That's nothing*. I guarantee it will pay for itself after a single project.
+---
+
+<div class="text-center">
+  <a class="button inline-block cf" href="#">
+    <span class="inline-block float-left">Buy Grid for $6</span>
+  </a>
+</div>
+
+
+
+
