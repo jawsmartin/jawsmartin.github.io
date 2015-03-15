@@ -555,5 +555,10 @@ footer h3 {
   }
   .footer-content {
     padding-bottom: 50px;
+    padding-top: 35px;
+    margin-top: 50px;
+  }
+  .copyright {
+    margin-top: 23px;
   }
 }
