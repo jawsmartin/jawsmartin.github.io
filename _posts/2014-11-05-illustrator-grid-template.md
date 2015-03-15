@@ -25,14 +25,5 @@ If your are an Illustrator-using web designer, I really think you'll find this u
 - Drag and Drop columns and rows to build your own
 - Percentage grids and fixed-pixel grids
 
----
-
-<div class="text-center">
-  <a class="button inline-block cf" href="#">
-    <span class="inline-block float-left">Buy Grid for $6</span>
-  </a>
-</div>
-
-
 
 
