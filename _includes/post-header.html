@@ -2,6 +2,11 @@
 ================================================== --> 
 <section class="post-header grid-container-2">
 
+<figure class="thumbnail-container text-center">
+  <img class="inline-block" src="/images/post/{{ page.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ page.title | replace:' ','-' | downcase }}/thumbnail.png"/>
+</figure>   
+
+
   <div class="hero-text text-center cf">
     <span class="post-date text-small block">{{ page.date | date: '%B %d, %Y' }}</span>    
     <span class="post-title block" href="{{ post.url }}" title="{{ post.title }}">{{ page.title }}</span>

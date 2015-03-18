@@ -2,7 +2,6 @@
 layout: default
 title: Josh Martin | Blog
 ---
-
 <!-- Blog
 ================================================== -->  
 <main>
@@ -13,9 +12,12 @@ title: Josh Martin | Blog
       <li class="blog-post">
         <a class="link" href="{{ post.url }}">
 
-          <div class="thumbnail-details cf">          
+          <div class="thumbnail-details cf">     
+            <figure class="float-left thumbnail-container">
+              <img class="thumbnail" src="/images/post/{{ post.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ post.title | replace:' ','-' | downcase }}/thumbnail.png"/>    
+            </figure> 
             <span class="post-date text-small">{{ post.date | date: '%B %d, %Y' }}</span>
-            <span class="post-title link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</span>
+            <span class="post-title float-left link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</span>
           </div>     
           
         </a>

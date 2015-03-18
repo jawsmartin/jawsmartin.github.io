@@ -11,11 +11,11 @@ One of the aspects of design that has not only intrigued me, but has since becom
 
 Simplicity, in definition is uncomplicated, or uncompounded&mdash; lacking all that is not absolutely necessary. In such a state, one isn't left with much to protect themselves. You are at your most vulnerable.
 
-I think because of this vulnerability we try to compensa
+I think because of this vulnerability we try to compensa It's easy to see those that have overcome this anxiety and producded confident, bold work. It stand out. I always joke that the more confident you are, the less you care about what others think. It's pretty funny to see industry leaders, have simple HTML one-line websites.
 
-It's easy to see those that have overcome this anxiety and producded confident, bold work. It stand out.
+At the same time, I don't think you can simple duplicate the aethetic or mindset effectively without fully understanding or appreciating it. I think that's why minimalistic, "flat" design is so quickly adopted by web design beginners. They see that professionals are doing it, so they replicate it. This creates a false sense of confience. I liken it to buying a high-turbo car that you buy simple because it looks cool. Not knowing how its supposed to be used.
 
-{% include image.html url="/images/post-soccer-moms-rejoice-background.jpg" caption="Afterskoolz has three users: Parents, Teachers, and Principals" %}  
+{% include image.html name="thumbnail" caption="Previous website layout for the Pioneer Press Websites" %}
 
 I always joke that the more confident you are, the less you care about what others think. It's pretty funny to see industry leaders, have simple HTML one-line websites.
 
