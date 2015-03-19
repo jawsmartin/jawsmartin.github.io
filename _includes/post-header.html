@@ -1,10 +1,15 @@
-<!-- Post Header
+<!-- Post Main Content
+================================================== --> 
+
+<main class="post">
+
+  <!-- Post Header
 ================================================== --> 
 <section class="post-header grid-container-2">
 
-<figure class="thumbnail-container text-center">
-  <img class="inline-block" src="/images/post/{{ page.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ page.title | replace:' ','-' | downcase }}/thumbnail.png"/>
-</figure>   
+  <figure class="thumbnail-container text-center">
+    <img class="inline-block" src="/images/post/{{ page.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ page.title | replace:' ','-' | downcase }}/thumbnail.png"/>
+  </figure>   
 
 
   <div class="hero-text text-center cf">
@@ -21,9 +26,3 @@
   <div class="dash"></div>
 
 </section>
-
-
-<!-- Post Main Content
-================================================== --> 
-
-<main class="post grid-container-2">
