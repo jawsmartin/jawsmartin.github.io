@@ -1,22 +1,2 @@
+    </div>
   </main>
-  <div class="cta-container text-center">
-
-    <a href="/" class="cta">More Posts</a>
-
-    <!-- Blog Post Snippets  -->  
-    <ul class="more-posts blog-post-container cf">
-      {% for post in paginator.posts %}
-        <li class="blog-post">
-          <a class="link" href="{{ post.url }}">
-
-            <div class="thumbnail-details">          
-              <span class="post-date text-small">{{ post.date | date: '%B %d, %Y' }}</span>
-              <span class="post-title link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</span>
-            </div>     
-            
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-
-  </div>

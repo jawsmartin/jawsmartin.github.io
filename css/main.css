@@ -108,9 +108,6 @@ header.main {
   margin-top: 50px;
   margin-bottom: 35px;
 }
-html {
-  background-color: RGBA(244, 247, 249, 1);
-}
 
 body {
   font-family: 'Helvetica Neue';
@@ -269,7 +266,8 @@ a:hover {
 }
 
 .post-header .thumbnail-container {
-  padding: 50px 0px;
+  padding: 0px 0px 50px 0px;
+  margin-right: 0px;
 }
 
 .blog-post-container .blog-post {
@@ -290,7 +288,7 @@ header h3 {
 .footer-h3 {
   margin-bottom: 0px;
   padding-bottom: 0px;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .thumbnail-container {
@@ -304,10 +302,10 @@ header h3 {
 
 .blog-post .post-title {
   display: inline-block;
-  font-size: 19px;
+  font-size: 18px;
   float: left;
   position: relative;
-  top: 5px;
+  top: 0px;
   font-weight: 400;
   line-height: 1.1;
 }
@@ -317,7 +315,7 @@ header h3 {
   font-size: 12px;
   float: right;
   position: relative;
-  top: 8px;
+  top: 3px;
   opacity: .6;
 }
 
@@ -336,7 +334,7 @@ header h3 {
 */
 
 .hero-text {
-  padding-bottom: 50px;
+  padding-bottom: 35px;
 }
 .cta-container {
   padding-top: 75px;
@@ -360,8 +358,7 @@ header h3 {
 .sub-header {
   font-size: 19px;
   font-weight: 300;
-  padding: 0px 0px 30px 0px;
-  margin: 0px 0px 3px 0px;
+  padding: 20px 0px 25px 0px;
   line-height: 1.6;
   color: rgba(50, 58, 69, 1);
   FONT-FAMILY: "georgia";
@@ -374,9 +371,17 @@ header h3 {
   padding-top: 1.55556rem;
   margin-top: -2px;
   margin-right: auto;
-  margin-bottom: 3.11111rem;
   margin-left: auto;
 }
+.dash-2 {
+  border: 0;
+  border-bottom: 3px solid rgba(213, 222, 226, .5);
+  width: 6rem;
+  margin-right: auto;
+  margin-bottom: 55px;
+  margin-left: auto;
+}
+
 
 /* #Post Main Content */
 .post figure {
@@ -494,14 +499,38 @@ h3 {
   top: 0px;
 }
 
-.wrapper-2 {
-  background-color: white;
+.wrapper-3 {
+  max-width: 1050px;
   width: 90%;
   margin: 0 auto;
-  padding: 75px 75px 75px 75px;
-  max-width: 750px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+.profile-pic {
+  width: 80px;
+}
+
+aside.about {
+  position: fixed;
+  width: 335px;
+  padding-right: 35px;
   box-sizing:border-box;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  top: 0px;
+  padding-top: 75px;
+  height: 100%;
+  border-right: 1px solid #ececec;
+}
+
+main.content {
+  margin-left: 335px;
+}
+
+.inner-content {
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing:border-box;
+  padding: 0px 35px;
 }
 
 /*
@@ -510,7 +539,7 @@ h3 {
 ==============================================
 */
 footer p {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.5;
   padding-bottom: 15px;
 }
@@ -520,7 +549,7 @@ footer h3 {
   text-align: center;
 }
 footer .about {
-  padding: 45px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
 }
 
 footer .about p:last-of-type {
@@ -530,16 +559,22 @@ footer .about p:last-of-type {
 .copyright {
   border-top: 1px solid #ececec;
   padding: 15px 0px 0px 0px;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 .copyright p {
   opacity: .6;
-  line-height: 1.5;
+  line-height: 1.4;
   font-size: 12px;
 }
 .footer-content {
   margin-top: 75px;
   margin-bottom: 100px;
+}
+
+.about-toggle {
+  float: right;
+  display: inline-block;
+  display: none;
 }
 
 /*
@@ -583,8 +618,7 @@ footer .about p:last-of-type {
   /* Post Header */
   .sub-header {
     font-size: 20px;
-    line-height: 1.45;   
-    margin: 50px 0px 0px 0px;
+    line-height: 1.45;
   }
   .hero-text {
     bottom: 3%;
@@ -691,4 +725,62 @@ footer .about p:last-of-type {
   .copyright {
     margin-top: 0px;
   }
+
+  aside.about {
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    padding: 0px;
+    left: 0px;
+    border-right: none;
+    border-bottom: 1px solid #ececec;
+    height: 55px;
+    width: 100%;
+  }
+
+  header.title {
+    float: left;
+  }
+
+  .about-toggle {
+    display: inline-block;
+    position: relative;
+    top: 15px;
+  }
+
+  .footer-item {
+    display: none;
+  }
+
+  .footer-inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .footer-h3 {
+    padding-top: 0px;
+    display: inline-block;
+    margin-left: 9px;
+    position: relative;
+    top: -1px;
+  }
+
+  main.content {
+    margin-left: 0px;
+  }
+
+  .wrapper-3 {
+    margin-top: 100px;
+  }
+
+  .inner-content {
+    padding: 0px;
+  }
+
+  .profile-pic {
+    width: 35px;
+    position: relative;
+    top: 9px;
+  }
+
 }

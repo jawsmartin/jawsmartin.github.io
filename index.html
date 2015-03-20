@@ -5,11 +5,6 @@ title: Josh Martin | Blog
 <!-- Blog
 ================================================== -->  
 <main>
-
-  <header class="text-center">
-    <h3>All Posts</h3>
-  </header>
-
   <!-- Blog Post Snippets  -->  
   <ul class="blog-post-container cf">
     {% for post in paginator.posts %}
@@ -17,9 +12,6 @@ title: Josh Martin | Blog
         <a class="link" href="{{ post.url }}">
 
           <div class="thumbnail-details cf">     
-            <figure class="float-left thumbnail-container">
-              <img class="thumbnail" src="/images/post/{{ post.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ post.title | replace:' ','-' | downcase }}/thumbnail.png"/>    
-            </figure> 
             <span class="post-date text-small">{{ post.date | date: '%B %d, %Y' }}</span>
             <span class="post-title float-left link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</span>
           </div>     

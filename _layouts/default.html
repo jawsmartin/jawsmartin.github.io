@@ -1,9 +1,17 @@
 {% include head.html %} 
 {% include header.html %}
 
-<main class="wrapper-2">
-  {{ content }}
-</main>
+<div class="wrapper-3">
 
-{% include footer.html %}
+  <main class="content">
+    <div class="inner-content">
+      {{ content }}
+    </div>
+  </main>
+
+  <aside class="about">
+    {% include footer.html %}
+  </aside>
+
+</div>
 
