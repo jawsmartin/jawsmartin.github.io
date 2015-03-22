@@ -312,11 +312,19 @@ header h3 {
   line-height: 1.5;
 }
 
+.blog-post .post-link {
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+}
+
 .blog-post-container .blog-post:hover .post-title {
   color: RGBA(37, 147, 232, 1);
 }
 .blog-post-container .blog-post:hover .post-date {
   opacity: .4;
+  color: #51636D;
 }
 
 /*
@@ -666,7 +674,7 @@ footer .about p:last-of-type {
 
 @media screen and (max-width: 900px) {
   .blog-post-container .blog-post {
-    margin-top: 25px;
+    margin-top: 40px;
     padding-top: 40px;
   }
   .hero-text {
