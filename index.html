@@ -5,19 +5,50 @@ title: Josh Martin | Blog
 <!-- Blog
 ================================================== -->  
 <main>
+  <div class="blog-header">
+    <h3>This is a blog. There are many like it, but this one is mine.</h3>
+    <p>The content of which will give you insight into the work I do, as well as explore material that is personally and/or professionally significant to me. If you are simply looking for visuals, you can find snapshots of my work in the following places:</p>
+    <div>
+      <a class="button" href="http://www.behance.com">
+        <span>Unabridged Portfolio on</span>
+        <img class="behance" src="/images/behance.png"/>
+      </a>
+      <a class="button" href="http://www.behance.com">
+        <span>UI/UX on</span>
+        <img class="dribbble" src="/images/dribbble.png"/>
+      </a>
+      <a class="button" href="http://www.behance.com">
+        <span>Sketches/Drawing on</span>
+        <img class="tumblr" src="/images/tumblr.png"/>
+      </a>            
+    </div>
+  </div>
   <!-- Blog Post Snippets  -->  
   <ul class="blog-post-container cf">
     {% for post in paginator.posts %}
+
       <li class="blog-post">
         <a class="link" href="{{ post.url }}">
 
-          <div class="thumbnail-details cf">     
-            <span class="post-date text-small">{{ post.date | date: '%B %d, %Y' }}</span>
-            <span class="post-title float-left link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</span>
+          <div class="thumbnail-details cf">   
+
+            <figure class="thumbnail-container inline-block float-left">
+              <img class="thumbnail" src="/images/post/{{ post.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ post.title | replace:' ','-' | downcase }}/thumbnail.jpg"/>    
+            </figure> 
+
+            <div class="thumbnail-content inline-block float-left">
+              <div>
+                <span class="post-title link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</span>
+                <span class="post-date text-small">{{ post.date | date: '%B %d, %Y' }}</span>
+              </div>
+              <p class="excerpt">{{ post.excerpt | strip_html }}</p>
+            </div>
+
           </div>     
           
         </a>
       </li>
+
     {% endfor %}
   </ul>
 

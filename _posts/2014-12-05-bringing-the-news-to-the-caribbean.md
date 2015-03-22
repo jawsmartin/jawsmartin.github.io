@@ -7,8 +7,6 @@ tag: Case-Study
 
 ---
 
-###Background
-
 It's not every day you get to design a product for entire countries like Jamaica and Haiti, so when Aggrego was brought in to design the digital news network, "Loop", in Spring 2014, I was definitely excited. Digicel, a communications company that handles phones in the Carribean, wanted to capitalize on their significant involment in their customers' lives by creating the ultimate source.
 
 It's not every day you get to design a product for entire countries like Jamaica and Haiti, so when Aggrego was brought in to design the digital news network, "Loop", in Spring 2014, I was definitely excited. Digicel, a communications company that handles phones in the Carribean, wanted to capitalize on their significant involment in their customers' lives by creating the ultimate source.

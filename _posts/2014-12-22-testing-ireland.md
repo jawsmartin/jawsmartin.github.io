@@ -7,8 +7,6 @@ tag: Personal
 thumbnail: /images/hero-simple.jpg
 ---
 
-###Background
-
 After the success Aggrego had with the completeion of the international news network, Loop, we were contracted once again to build for Dennis O'Brein, a platform called Today.ie.
 
 Today.ie would be an extension of the Today.fm brand

@@ -6,8 +6,6 @@ date: 2014-11-22
 tag: Case-Study
 ---
 
-###Background
-
 One of the first major projects I worked on at Aggrego was the redesign of the Pioneer Press, which is a collection of local newspapers and websites covering the Chicago suburbs. It is owned by the Sun-Times Media Group (which is owned by Wrapports) and operated by Aggrego.
 
 For the redesign, we needed to create a new homepage and article template that could be duplicated across all 30+ websites of the Pioneer Press. Generally speaking, the goals of the redesign were building a responsive layout and changing content management systems.

@@ -6,8 +6,6 @@ date: 2015-02-05
 tag: Case-Study
 ---
 
-###Background
-
 The last project I did with Aggrego is most certainly the largest, and for me, the most significant of my career, thus far. I did not expect to be the lead designer of a prestigious product or brand, such as the Chicago Sun-Times, so soon. But, as luck/fortune would have it, I was given the opportunity to not only redesign it, but extend it's reach across 70 of the largest cities in the US as part of the "Sun-Times Network"
 
 Aggrego, generally, is software development startup that creates and manages news media networks. It employees a extremely talented mix of developers and engineers who build the networks from the ground up, and content creators to fill said networks with highly-monetizable content. 

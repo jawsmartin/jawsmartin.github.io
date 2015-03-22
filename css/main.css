@@ -108,7 +108,6 @@ header.main {
   margin-top: 50px;
   margin-bottom: 35px;
 }
-
 body {
   font-family: 'Helvetica Neue';
   -webkit-font-smoothing: antialiased;
@@ -117,35 +116,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
-.wrapper {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 750px;
-}
-
-.wrapper img {
-  max-width: 425px;
-  width: 100%;
-}
-.pencil {
-  display: none;
-}
-.page {
-
-}
-.blog-page {
-  padding-bottom: 79px;
-}
-.about-page {
-  margin-top: 25px;
-  padding-bottom: 150px;
-}
 em {
   font-style: italic;
   letter-spacing: -.2px;
 }
 img {
   max-width: 100%;
+  width: 100%;
   display: block;
   height: auto;
 }
@@ -211,42 +188,6 @@ a:hover {
   color: #8E9AA0;
 }
 
-.pencil:hover {
-  top: 5%;
-  transition: all .3s ease; 
-}
-
-.pencil {
-  transition: all .3s ease; 
-}
-
-/*
-==============================================
-#Header
-==============================================
-*/
-
-.profile-container {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  opacity: .7;
-  position: fixed;
-  background-color: white;
-  display: inline-block;
-  bottom: 15px;
-  left: 15px;
-  BORDER: 1PX SOLID #ECECEC;
-  border-radius: 60px;
-  padding: 15px 7px 15px 7px;
-  font-size: 13px;
-  z-index: 9999;
-}
-.logo {
-  width: 60px;
-  margin-bottom: 5px;
-  background-color: white;
-  position: relative;
-  border-radius: 60px;
-}
 
 /*
 ==============================================
@@ -255,14 +196,58 @@ a:hover {
 */
 
 .blog-header {
-  padding-top: 75px;
-  padding-bottom: 50px;
+  background-color: RGBA(150, 161, 167, .1);
+  padding: 40px;
+  margin-bottom: 50px;
+  border-radius: 4px;
 }
 
-.pencil {
-  position: fixed;
-  left: 10%;
-  top: 6%;
+.blog-header h3 {
+  margin-top: 0px;
+  display: block;
+  margin-bottom: 14px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.blog-header p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.button {
+  border: 1px solid RGBA(150, 161, 167, .3);
+  box-sizing:border-box;
+  border-radius: 2px;
+  padding: 0px 20px 0px 20px;
+  height: 40px;
+  text-decoration: none;
+  color: RGBA(61, 81, 88, 1);
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.button:hover {
+  border: 1px solid RGBA(150, 161, 167, .45);
+}
+
+.button span {
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.button img {
+  position: relative;
+  top: 1px;
+  width: 60px;
+  display: inline-block;
+}
+
+.tumblr {
+  width: 55px !important;
 }
 
 .post-header .thumbnail-container {
@@ -271,9 +256,9 @@ a:hover {
 }
 
 .blog-post-container .blog-post {
-  margin-top: 22px;
+  margin-top: 37px;
   border-top: 1px solid RGBA(150, 161, 167, .2);
-  padding-top: 22px;
+  padding-top: 37px;
 }
 
 .blog-post-container .blog-post:first-of-type {
@@ -286,43 +271,42 @@ header h3 {
 }
 
 .footer-h3 {
-  margin-bottom: 0px;
+  margin-bottom: 22px;
   padding-bottom: 0px;
   padding-top: 20px;
 }
 
 .thumbnail-container {
-  margin-right: 20px;
-  position: relative;
+   width: 22%;
 }
-
-.thumbnail {
-  width: 60px;
+.thumbnail-content {
+  width: 71%;
+  margin-left: 4%;
 }
-
 .blog-post .post-title {
-  display: inline-block;
+  color: #263d49;
   font-size: 18px;
-  float: left;
-  position: relative;
-  top: 0px;
   font-weight: 400;
+  margin-right: 5px;
   line-height: 1.1;
 }
 .blog-post .post-date {
   color: inherit;
-  display: inline-block;
   font-size: 12px;
-  float: right;
   position: relative;
-  top: 3px;
+  top: -1px;
   opacity: .6;
+}
+.blog-post .excerpt {
+  font-size: 14px;
+  padding-bottom: 0px;
+  margin-top: 5px;
+  line-height: 1.5;
 }
 
 .blog-post-container .blog-post:hover .post-title {
   opacity: .5;
 }
-
 .blog-post-container .blog-post:hover .post-date {
   opacity: .4;
 }
@@ -332,6 +316,16 @@ header h3 {
 #Blog Post
 ==============================================
 */
+
+.post-header figure {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.post-header figure img {
+  max-width: 400px;
+  display: inline-block;
+}
 
 .hero-text {
   padding-bottom: 35px;
@@ -499,43 +493,41 @@ h3 {
   top: 0px;
 }
 
-.wrapper-3 {
-  max-width: 1050px;
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 75px;
-  margin-bottom: 50px;
-}
-
 .profile-pic {
   width: 80px;
 }
 
 aside.about {
   position: fixed;
-  width: 335px;
-  padding-right: 35px;
+  width: 410px;
+  padding: 50px 55px 0px 55px;
   box-sizing:border-box;
   top: 0px;
-  padding-top: 75px;
   height: 100%;
   border-right: 1px solid #ececec;
 }
 
 main.content {
-  margin-left: 335px;
+  margin-left: 410px;
 }
 
 .inner-content {
   max-width: 100%;
   margin: 0 auto;
   box-sizing:border-box;
-  padding: 0px 35px;
+  padding: 50px 10% 75px 10%;
+}
+
+.post-inner {
+  max-width: 850px;
+  margin: 0 auto;
+  box-sizing:border-box;
+  padding: 50px 10% 75px 10%;
 }
 
 /*
 ==============================================
-#Footer
+#About
 ==============================================
 */
 footer p {
@@ -592,18 +584,6 @@ footer .about p:last-of-type {
   margin-top: 25px;
   margin-bottom: 25px;
 }
-
-.thumbnail {
-  width: 50px;
-}
-
-  .wrapper-2 {
-    padding: 35px 25px 30px 25px;
-    margin: 0px 15px;
-    width: auto;
-    box-sizing:border-box;
-  }
-
   .post-header .thumbnail-container {
     padding: 0px 0px 35px 0px;
     margin: 0px;
@@ -669,8 +649,8 @@ footer .about p:last-of-type {
 
 @media screen and (max-width: 900px) {
   .blog-post-container .blog-post {
-    margin-top: 16px;
-    padding-top: 16px;
+    margin-top: 25px;
+    padding-top: 40px;
   }
   .hero-text {
     padding-bottom: 25px;
@@ -680,27 +660,9 @@ footer .about p:last-of-type {
     padding-top: 50px;
     padding-bottom: 10px;
   }
-  .blog-post .post-title {
-    display: block;
-    font-size: 15px;
-    font-weight: 500;
-    float: none;
-  }
   header h3 {
   margin: 0px;
   padding: 20px 0px 48px 0px;
-}
-  .blog-post .post-date {
-    display: block;
-    font-size: 11px;
-    float: none;
-    top: 0px;
-    margin-top: 3px;
-    opacity: .6;
-  }
-  .thumbnail-details.cf {
-  max-height: 36px;
-  overflow: hidden;
 }
   footer .about {
     padding: 25px 0px 35px 0px;
@@ -713,15 +675,7 @@ footer .about p:last-of-type {
     margin-top: 50px;
     margin-bottom: 15px;
   }
-  .blog-post .post-title {
-    top: -4px;
-  }
-  .thumbnail-container {
-    margin-bottom: 14px;
-    margin-top: 7px;
-    margin-right: 10px;
-    margin-left: -8px;
-  }
+
   .copyright {
     margin-top: 0px;
   }
@@ -770,11 +724,25 @@ footer .about p:last-of-type {
   }
 
   .wrapper-3 {
-    margin-top: 100px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 85px;
+  }
+
+  .blog-header {
+    padding: 30px;
+    margin-bottom: 35px;
+  }
+
+  .button {
+    text-align: center;
+    padding: 0px;
+    width: 100%;
   }
 
   .inner-content {
     padding: 0px;
+    padding-bottom: 75px;
   }
 
   .profile-pic {
@@ -783,4 +751,31 @@ footer .about p:last-of-type {
     top: 9px;
   }
 
+  .copyright {
+    position: absolute;
+    bottom: 0px;
+  }
+
 }
+
+@media screen and (max-width: 500px) {
+  .thumbnail-container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .thumbnail-container img {
+    width: 150px;
+  }
+  .thumbnail-content {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .blog-post .post-title {
+    display: block;
+  }
+
+
+
+  }
