@@ -173,7 +173,8 @@ p .link:hover {
   text-decoration: underline;
 }
 a {
-  color: rgba(38, 61, 72, 1);
+  color: RGBA(37, 147, 232, 1);
+  text-decoration: none;
 }
 a {
   transition: all .2s ease; 
@@ -240,7 +241,9 @@ a:hover {
 
 .button span {
   margin-top: 10px;
+  color: RGBA(37, 147, 232, 1);
   display: inline-block;
+  font-weight: 500;
   font-size: 13px;
 }
 
@@ -310,7 +313,7 @@ header h3 {
 }
 
 .blog-post-container .blog-post:hover .post-title {
-  opacity: .5;
+  color: RGBA(37, 147, 232, 1);
 }
 .blog-post-container .blog-post:hover .post-date {
   opacity: .4;
@@ -401,9 +404,7 @@ p {
 .post figure + p { 
   padding-top: 20px;
 }
-p a {
-  color: #263D49;
-}
+
 li a {
   text-decoration: none;
 }
@@ -562,6 +563,10 @@ footer .about p:last-of-type {
   opacity: .6;
   line-height: 1.4;
   font-size: 12px;
+}
+.copyright a {
+  color: inherit;
+  text-decoration: underline;
 }
 .footer-content {
   margin-top: 75px;
