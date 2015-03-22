@@ -195,9 +195,14 @@ a:hover {
 ==============================================
 */
 
+.wrapper-3 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .blog-header {
   background-color: RGBA(150, 161, 167, .1);
-  padding: 40px;
+  padding: 34px 34px 31px 34px;
   margin-bottom: 50px;
   border-radius: 4px;
 }
@@ -220,7 +225,7 @@ a:hover {
   border: 1px solid RGBA(150, 161, 167, .3);
   box-sizing:border-box;
   border-radius: 2px;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 15px 0px 15px;
   height: 40px;
   text-decoration: none;
   color: RGBA(61, 81, 88, 1);
@@ -515,7 +520,7 @@ main.content {
   max-width: 100%;
   margin: 0 auto;
   box-sizing:border-box;
-  padding: 50px 10% 75px 10%;
+  padding: 50px 8% 75px 8%;
 }
 
 .post-inner {
@@ -596,18 +601,25 @@ footer .about p:last-of-type {
   }
 
   /* Post Header */
+  .post-header figure img {
+    max-width: 250px;
+  }
   .sub-header {
-    font-size: 20px;
+    font-size: 17px;
     line-height: 1.45;
   }
   .hero-text {
     bottom: 3%;
   }
-  .post-title {
-    font-size: 40px;
+  .post-header .post-title {
+    font-size: 30px;
   }
-  .post-date {
-    font-size: 14px;
+  .post-header .post-date {
+    font-size: 12px;
+  }
+
+  .dash-2 {
+    margin-bottom: 48px;
   }
 
   /* Post Main Content */
@@ -762,10 +774,12 @@ footer .about p:last-of-type {
   .thumbnail-container {
     width: 100%;
     margin-bottom: 10px;
+    text-align: center;
   }
 
   .thumbnail-container img {
-    width: 150px;
+    width: 250px;
+    display: inline-block;
   }
   .thumbnail-content {
     width: 100%;
@@ -774,8 +788,6 @@ footer .about p:last-of-type {
 
   .blog-post .post-title {
     display: block;
+    font-size: 20px;
   }
-
-
-
-  }
+}
