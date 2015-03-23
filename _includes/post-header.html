@@ -3,8 +3,8 @@
 ================================================== --> 
 <section class="post-header grid-container-2">
 
-  <figure class="">
-    <img class="thumbnail" src="/images/post/{{ page.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ page.title | replace:' ','-' | downcase }}/thumbnail.jpg"/>    
+  <figure class="text-center">
+    <img class="thumbnail inline-block" src="/images/post/{{ page.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ page.title | replace:' ','-' | downcase }}/thumbnail.jpg"/>    
   </figure>     
 
   <div class="hero-text text-center cf">
@@ -12,13 +12,13 @@
     <span class="post-title block" href="{{ post.url }}" title="{{ post.title }}">{{ page.title }}</span>
   </div>
 
-  <div class="dash"></div>
+  <div class="dash dash-top"></div>
 
-  <div class="">
-    <p class="sub-header serif">{{ page.deck }}</p>   
+  <div class="text-center">
+    <p class="sub-header">{{ page.deck }}</p>   
   </div>
 
-  <div class="dash-2"></div>
+  <div class="dash dash-bottom"></div>
 
 </section>
 
