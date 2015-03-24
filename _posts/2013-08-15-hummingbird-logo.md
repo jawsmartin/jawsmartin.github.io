@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hummingbird Branding
+title: Hummingbird Logo
 deck: The project began with ambitious goals to completely revamp the 30-website network, but was, unfortunately, crippled by the fear of straying too far from the path.
 date: 2013-08-15
 category: Portfolio
