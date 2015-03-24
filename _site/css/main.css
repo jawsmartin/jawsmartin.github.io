@@ -214,6 +214,12 @@ footer .about {
 footer .about p:last-of-type {
   padding-bottom: 0px;
 }
+.store {
+  display: none;
+}
+.side {
+  display: none;
+}
 .copyright {
   border-top: 1px solid #ececec;
   padding: 15px 0px 0px 0px;
@@ -273,10 +279,11 @@ footer .about p:last-of-type {
 }
 .thumbnail-container {
    width: 24%;
+   display: none;
 }
 .thumbnail-content {
-  width: 71%;
-  margin-left: 5%;
+  width: 100%;
+  margin-left: 0%;
 }
 .blog-post .post-title {
   color: #263d49;
@@ -310,9 +317,12 @@ footer .about p:last-of-type {
 #Blog Post
 ==============================================
 */
-
+.post-header {
+  margin-top: 50px;
+}
 .post-header figure {
   margin-bottom: 35px;
+  display: none;
 }
 .post-header figure img {
   max-width: 400px;
