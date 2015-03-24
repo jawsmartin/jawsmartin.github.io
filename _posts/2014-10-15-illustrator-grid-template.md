@@ -2,7 +2,8 @@
 layout: post
 title: Illustrator Grid Template
 deck: Coming from a background in Illustration and print design, I'm very familiar with Adobe Illustrator, not Adobe Photoshop, and as such, find myself as an odd duck in the web design field. 
-date: 2014-10-01
+date: 2014-10-15
+category: Shop
 ---
 
 In my relatively short time as a web designer, I have learned that Photoshop is, by far, the most common program for creating mockups and final deliverables. It's even built into the company vernactular: "Hey Josh, can you photoshop this for me." "Hey Josh, the developers need a .PSD of the final design", etc.

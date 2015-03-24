@@ -2,7 +2,8 @@
 layout: post
 title: The World Revolves Around the Sun
 deck: The pivot from strictly local Chicago news to nationwide coverage was finalized when Chicago Sun-Times's parent company sold the Chicago Suburban papers, Pioneer Press, to the Chicago Tribune late 2014.
-date: 2014-12-01
+date: 2014-12-15
+category: Portfolio
 ---
 
 The last project I did with Aggrego is most certainly the largest, and for me, the most significant of my career, thus far. I did not expect to be the lead designer of a prestigious product or brand, such as the Chicago Sun-Times, so soon. But, as luck/fortune would have it, I was given the opportunity to not only redesign it, but extend it's reach across 70 of the largest cities in the US as part of the "Sun-Times Network"
