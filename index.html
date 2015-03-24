@@ -13,7 +13,7 @@ title: Josh Martin | Blog
   </div>
   <!-- Blog Post Snippets  -->  
   <ul class="blog-post-container cf">
-    {% for post in paginator.posts %}
+    {% for post in site.posts %}
 
       <li class="blog-post">
         <a class="link" href="{{ post.url }}">
@@ -21,7 +21,7 @@ title: Josh Martin | Blog
           <div class="thumbnail-details cf">   
 
             <figure class="thumbnail-container inline-block float-left">
-              <img class="thumbnail" src="/images/post/{{ post.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ post.title | replace:' ','-' | downcase }}/thumbnail.jpg"/>    
+              <img class="thumbnail" src="/images/post/{{ post.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ post.title | replace:' ','-' | remove: '&#8217;' | downcase }}/thumbnail.jpg"/>    
             </figure> 
 
             <div class="thumbnail-content inline-block float-left">
