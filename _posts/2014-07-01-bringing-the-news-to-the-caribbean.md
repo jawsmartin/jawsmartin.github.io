@@ -2,7 +2,7 @@
 layout: post
 title: Bringing the News to the Caribbean
 deck: We were brought in to create a game-changing news network, but eventually cast aside in favor of inhouse design and development teams.
-date: 2014-07-00
+date: 2014-07-01
 category: Portfolio
 ---
 

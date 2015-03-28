@@ -2,7 +2,7 @@
 layout: post
 title: Transitioning to Front-End Developer
 deck: While seemingly not a large step for most, moving from an Local + FTP setup to Github marks a most substantial step forward for my web development career
-date: 2015-02-00
+date: 2015-02-01
 category: Personal
 ---
 

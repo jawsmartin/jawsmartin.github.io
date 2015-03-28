@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Lights Turned Off
+title: My First Real Job
 deck: The project began with ambitious goals to completely revamp the 30-website network, but was, unfortunately, crippled by the fear of straying too far from the path.
-date: 2013-07-00
+date: 2013-04-01
 category: Personal
 ---
 

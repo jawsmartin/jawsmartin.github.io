@@ -2,7 +2,7 @@
 layout: post
 title: Testing Ireland
 deck: In what can only be described a rousing effort, we were unable to create the news platform Communicorp wanted to extend their brand across Ireland.
-date: 2014-08-00
+date: 2014-08-01
 category: Portfolio
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Illustrator Grid Template
 deck: Coming from a background in Illustration and print design, I'm very familiar with Adobe Illustrator, not Adobe Photoshop, and as such, find myself as an odd duck in the web design field. 
-date: 2014-10-00
+date: 2014-10-01
 category: Shop
 ---
 

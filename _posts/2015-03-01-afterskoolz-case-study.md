@@ -2,7 +2,7 @@
 layout: post
 title: Afterskoolz Case-Study
 deck: No more google searches, no more phone calls, and no more paperwork. Afterskoolz is hoping to change the way you find the next perfect class or activitiy for your child.
-date: 2015-03-00
+date: 2015-03-01
 category: Portfolio
 ---
 

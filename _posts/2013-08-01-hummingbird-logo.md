@@ -2,7 +2,7 @@
 layout: post
 title: Hummingbird Logo
 deck: Hummingbird is a passionate online community who share, rate, review, and talk about anime. It was started in late 2012 by the talented entrepeneur and self-declared anime-nerd, Josh Fabian.
-date: 2013-08-00
+date: 2013-08-01
 category: Portfolio
 ---
 

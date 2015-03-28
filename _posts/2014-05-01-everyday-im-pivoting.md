@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Redesigning the Pioneer Press
+title: Everyday I'm Pivoting
 deck: The project began with ambitious goals to completely revamp the 30-website network, but was, unfortunately, crippled by the fear of straying too far from the path.
-date: 2013-12-00
+date: 2014-05-01
 category: Portfolio
 ---
 

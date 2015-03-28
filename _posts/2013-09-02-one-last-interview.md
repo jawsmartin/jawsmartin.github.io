@@ -1,8 +1,8 @@
 ---
 layout: post
-title: My First Real Job
+title: One Last Interview
 deck: The project began with ambitious goals to completely revamp the 30-website network, but was, unfortunately, crippled by the fear of straying too far from the path.
-date: 2013-04-00
+date: 2013-09-02
 category: Personal
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Your Inbox Just Got Dunked On
 deck: Don't have time to visit Dribbble for the latest and greatest? Alleyooop allows for customized summaries of the week's best shots.
-date: 2014-11-00
+date: 2014-11-01
 category: Project
 ---
 

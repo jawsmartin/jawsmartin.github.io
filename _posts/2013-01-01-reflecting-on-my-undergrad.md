@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Moving to Chicago
+title: Reflecting On My Undergrad
 deck: I spent the last four years finding a passion and gaining the tools needed to start my professional career. The mix of traditional art and design has me feeling confident in my future.
-date: 2013-02-00
+date: 2013-01-01
 category: Personal
 ---
 

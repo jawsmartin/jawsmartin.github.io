@@ -2,7 +2,7 @@
 layout: post
 title: Having the Option to Quit
 deck: The pivot from strictly local Chicago news to nationwide coverage was finalized when Chicago Sun-Times's parent company sold the Chicago Suburban papers, Pioneer Press, to the Chicago Tribune late 2014.
-date: 2014-12-01
+date: 2014-12-02
 category: Portfolio
 ---
 

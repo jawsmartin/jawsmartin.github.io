@@ -1,8 +1,8 @@
 ---
 layout: post
-title: One Last Interview
+title: Lights Turned Off
 deck: The project began with ambitious goals to completely revamp the 30-website network, but was, unfortunately, crippled by the fear of straying too far from the path.
-date: 2013-09-01
+date: 2013-07-01
 category: Personal
 ---
 

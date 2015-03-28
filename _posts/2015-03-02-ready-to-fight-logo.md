@@ -2,7 +2,7 @@
 layout: post
 title: Ready To Fight Logo
 deck: It can be comforting to surround yourself and your work with floruishes and excess to display to others your worth or value. It takes supreme confidence to show yourself off to the world with little to nothing to shield you from criticism.
-date: 2015-03-01
+date: 2015-03-02
 category: Portfolio
 ---
 

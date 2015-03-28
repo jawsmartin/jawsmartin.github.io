@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Learning to Freelance
+title: Learning to Code
 deck: The project began with ambitious goals to completely revamp the 30-website network, but was, unfortunately, crippled by the fear of straying too far from the path.
-date: 2013-09-00
+date: 2013-02-02
 category: Personal
 ---
 
