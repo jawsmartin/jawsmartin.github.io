@@ -2,7 +2,7 @@
 layout: post
 title: Correcting Early Career Mistakes
 deck: The root of all my missteps as a designer starting his professional career is an unfortunate combination of immaturity, impatience, and a lack of confidence&mdash;traits I'd imagine most young professionals, admittedly, face time-to-time.
-date: 2015-01-15
+date: 2015-01-00
 category: Personal
 ---
 

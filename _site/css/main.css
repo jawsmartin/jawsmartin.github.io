@@ -167,6 +167,12 @@ main.content {
   float: right;
 }
 
+.text-small {
+  font-family: 'georgia';
+  font-size: 12px;
+  opacity: .8;
+}
+
 /* Links */
 a {
   color: RGBA(37, 147, 232, 1);
@@ -185,6 +191,7 @@ a:hover {
 .profile-pic {
   width: 100%;
   margin-bottom: 15px;
+  background-color: white;
 }
 aside.about {
   position: fixed;
@@ -235,7 +242,7 @@ footer .about p:last-of-type {
 */
 
 .blog-header {
-  background-color: RGBA(150, 161, 167, .06);
+  background-color: RGBA(243, 245, 251, .65);
   padding: 31px 34px 32px 34px;
   margin-bottom: 55px;
   border-radius: 4px;
@@ -618,6 +625,10 @@ h3 {
   .thumbnail-content {
     width: 100%;
     margin-left: 0px;
+  }
+  .profile-pic {
+    padding: 4px;
+    width: 50px;
   }
   .blog-post .post-title {
     display: block;

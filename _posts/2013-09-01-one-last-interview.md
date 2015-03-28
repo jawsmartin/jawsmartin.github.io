@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Learning to Freelance
+title: One Last Interview
 deck: The project began with ambitious goals to completely revamp the 30-website network, but was, unfortunately, crippled by the fear of straying too far from the path.
-date: 2013-09-15
+date: 2013-09-01
 category: Personal
 ---
 

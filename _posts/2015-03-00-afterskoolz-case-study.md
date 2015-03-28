@@ -2,7 +2,7 @@
 layout: post
 title: Afterskoolz Case-Study
 deck: No more google searches, no more phone calls, and no more paperwork. Afterskoolz is hoping to change the way you find the next perfect class or activitiy for your child.
-date: 2015-03-15
+date: 2015-03-00
 category: Portfolio
 ---
 
@@ -22,7 +22,7 @@ Sal and Mustafa concluded that only competition in after-school class discovery 
 
 {% include image.html name="google" caption="No discovery platform will show up in Google Search" %}
 
-Afterskoolz would be less about recommendations and building a social community like sites such as Kidfully or Angie's List, and more about shopping and registering&mdash; making it more similar to traditional shopping sites, such as [Amazon](http://www.amazon.com) or even [Grubhub](http://www.grubhub.com). 
+Afterskoolz would be less about recommendations and building a social community like sites such as Kidfully or Angie's List, and more about shopping for classes and registering for them&mdash; making it more similar to traditional shopping sites, such as [Amazon](http://www.amazon.com) or even [Grubhub](http://www.grubhub.com). 
 
 As a 24yr old, single, recent college grad, the platform obviously doesn't speak to me and my needs, but, it doesn't take much to understand how such a platform could revolutionize what appears to be a stagnant industry. 
 
@@ -129,7 +129,7 @@ As I started to build the outline for Afterskools, it was very important, from a
   </li>
 </ul>
 
-Adding Afterskoolz functionality for children, such as the ability to talk with their classmates and teachers for children was discussed, but shelved in favor of focusing on other users. The idea of social-networking capabilities is obviously worthwhile and, I'd imagine, will added sooner, rather than later.
+Adding Afterskoolz functionality for children, such as the ability to talk with their classmates and teachers for children was discussed, but shelved in favor of focusing on other users. The idea of social-networking capabilities is obviously worthwhile and, I'd imagine, will be added sooner, rather than later.
 
 ---
 
@@ -155,7 +155,7 @@ The goal of wireframes isn't to focus on the final product, but to illustrate, a
 
 ###Presentation, Testing, and Prototyping
 
-With the site map laid out and the wireframes completed, the next step is to finalize the direction before moving to mockups. I do this in two steps: a static prototype and an interactive protootype.
+With the site map laid out and the wireframes completed, the next step is to finalize the direction before moving to mockups. I do this in two steps: a static prototype and an interactive prototype.
 
 {% include image.html name="site-map-detailed-desktop" caption="Connecting desktop wireframes via sitemap" %}
 
@@ -211,7 +211,7 @@ As far as layout, it's pretty standard in modern design practices for homepages 
 
 ###Search Results
 
-The search-results page, in my opinion, is the most important page of the entire site; you want it to coney a large amount of information in a simple, unintimidating way. At the same time, you want to give users the ability to access a large varitey of additional details and search customization if needed.
+The search-results page, in my opinion, is the most important page of the entire site; you want it to convey a large amount of information in a simple, unintimidating way. At the same time, you want to give users the ability to access a large varitey of additional details and search customization if needed.
 
 {% include image.html name="search-results" caption="Sal and Mustafa stressed the importance of a map and save-class buttons in the page's design" %}   
 
@@ -227,25 +227,27 @@ The class profile page is divided into 3 sections: details, endorsements, and sc
 
 ###Dashboard
 
-As I've stated before, Afterskoolz isn't just about discovery and registration&mdash; it has a wide assortment of tools and functionality, each tailored for its three types of users (4 if you include administrators) For example, parents need the ability to manage their children's schedules, teachers need to send homework to students, principals need to manage rosters.
+As I've stated before, Afterskoolz isn't just about discovery and registration&mdash; it has a wide assortment of tools and functionality, each tailored for its four types of users. For example, parents need the ability to manage their children's schedules, teachers need to send homework to students, principals need to manage rosters, and administrators need to collect/view school data.
 
 {% include image.html name="dashboard" caption="Users have all of their tools and information readily available in their dashboards" %}   
 
 {% include image.html name="messaging" caption="Messaging is feature available to all users" %}      
  
+###Development
+
 ---
 
 ###Conclusion
 
-Over the course of a project, you inherently become better and smarter; you tend to find your mistakes from the first month and the second month and so on. However, it is impossible to move forward if you keep looking back. One of the hardest things to do is say: "Hey, this isn't perfect. There's a lot of things I'd like to change now that I know better, but we'll cross that bridge later." The main thing is delivering a solid product so it can be developed and launched. That's why it's called an MVP.
+Over the course of a project, you inherently become better and smarter; you tend to find your mistakes from the first month and the second month and so on. However, it is impossible to move forward if you keep looking back. One of the hardest things to do is say: "Hey, this isn't perfect. There's a lot of things I'd like to change now that I know better, but we'll cross that bridge later." The main thing is delivering a solid product so it can be developed and launched quickly.
 
 That being said, after about four months of working on Afterskoolz, there is definitely areas I would like to revist and improve. Specifically, I'd like to improve main/sub navigation, redesign search results page, expand branding color palette, and add stronger illustrations.
 
-{% include image.html name="homepage-future" caption="Messaging is feature available to all users" %}   
+{% include image.html name="homepage-future" caption="Messaging is feature available to all users" %} 
 
 {% include image.html name="search-results-future" caption="Messaging is feature available to all users" %}   
 {% include image.html name="email-future" caption="Messaging is feature available to all users" %}  
 
 While I have a lot of things I'd like to improve about Afterskoolz, I am, overall, very proud of the product I helped build; I believe it has bright future.
 
-At the moment I am writing this case-study, my designs are being handed over to developers with the hope that an Afterskoolz MVP (limited to Chicago-only) will be launched Summer 2015.
+*At the moment I am writing this case-study, my work is being handed over to developers with the hope that an Afterskoolz MVP (limited to Chicago-only) will be launched Summer 2015.*

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Learning to Code
+title: My First Real Job
 deck: The project began with ambitious goals to completely revamp the 30-website network, but was, unfortunately, crippled by the fear of straying too far from the path.
-date: 2013-02-15
+date: 2013-04-00
 category: Personal
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Lights Turned Off
+title: Learning to Freelance
 deck: The project began with ambitious goals to completely revamp the 30-website network, but was, unfortunately, crippled by the fear of straying too far from the path.
-date: 2013-06-15
+date: 2013-09-00
 category: Personal
 ---
 

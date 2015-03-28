@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Bbbenched
+title: Redesigning the Pioneer Press
 deck: The project began with ambitious goals to completely revamp the 30-website network, but was, unfortunately, crippled by the fear of straying too far from the path.
-date: 2014-03-15
-category: Project
+date: 2013-12-00
+category: Portfolio
 ---
 
 One of the first major projects I worked on at Aggrego was the redesign of the Pioneer Press, which is a collection of local newspapers and websites covering the Chicago suburbs. It is owned by the Sun-Times Media Group (which is owned by Wrapports) and operated by Aggrego.

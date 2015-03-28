@@ -2,21 +2,21 @@
 layout: post
 title: The World Revolves Around the Sun
 deck: The pivot from strictly local Chicago news to nationwide coverage was finalized when Chicago Sun-Times's parent company sold the Chicago Suburban papers, Pioneer Press, to the Chicago Tribune late 2014.
-date: 2014-12-15
+date: 2014-12-00
 category: Portfolio
 ---
 
 The last project I did with Aggrego is most certainly the largest, and for me, the most significant of my career, thus far. I did not expect to be the lead designer of a prestigious product or brand, such as the Chicago Sun-Times, so soon. But, as luck/fortune would have it, I was given the opportunity to not only redesign it, but extend it's reach across 70 of the largest cities in the US as part of the "Sun-Times Network"
 
-Aggrego, generally, is software development startup that creates and manages news media networks. It employees a extremely talented mix of developers and engineers who build the networks from the ground up, and content creators to fill said networks with highly-monetizable content. 
+Aggrego, the company I was technically employed by for this project, is generally a software development startup that creates and manages news media networks. It employees a extremely talented mix of developers and engineers who build the networks from the ground up, and content creators who fill said networks with highly-monetizable content. 
 
 {% include image.html name="intro" caption="Aggrego Tech Team working on Sun-Times Network" %}
 
-During my tenure with the company, we worked on a wide range of inhouse projects, such as Weekaway and Rankommend, but focused primarily on building for others. A few of our client projects include managing Sun-Times Media Group's Chicago suburb news network, Pioneer Press, building Digicel's international news network, Loop, and testing Communicorp's multi-county Ireland news network, Today.ie.
+During my tenure with Aggrego, we worked on a wide range of inhouse projects, such as Weekaway and Rankommend, but focused primarily on building for others. A few of our client projects include managing Sun-Times Media Group's Chicago suburb news network, Pioneer Press, building Digicel's international news network, Loop, and testing Communicorp's multi-county Ireland news network, Today.ie.
 
-The Sun-Times Network would be another of these client projects.
+The **Sun-Times Network** would be another of these client projects.
 
-It was proposed by Sun-Times Media Group's owner, Wrapports, LLC,  as a one-off extention of the Chicago Sun-Times brand into Milwaukee, WI. However, as we started mapping out the product it started to be apparent that the process for "Milwaukee Sun-Times" could be duplicated infinitely, assuming we could create a scalable template.
+It was proposed by Sun-Times Media Group's owner, Wrapports, LLC, as a one-off extention of the Chicago Sun-Times brand into Milwaukee, WI. However, as we started mapping out the product it started to be apparent that the process for "Milwaukee Sun-Times" could be duplicated infinitely, assuming we could create a scalable template.
 
 {% include image.html name="intro" caption="Initial Pitch work for Milwaukee Sun-Times" %}
 
@@ -24,13 +24,13 @@ It was proposed by Sun-Times Media Group's owner, Wrapports, LLC,  as a one-off 
 
 ###Board Meetings on Board Meetings on Board Meetings
 
-The Sun-Times Network was my first experience working in real corporate environment. I would spend my entire time on the project working alongside established news industry figures such Wrapports chairman, Michael Ferro, Wrapports CEO Timothy Knight, Wrapports EVP of Marketing, Julian Posada, and Aggrego CEO, Tim Landon.
+The Sun-Times Network was my first experience working in real corporate environment. I would spend my entire time on the project working alongside many established news industry figures such Wrapports chairman, Michael Ferro, Wrapports CEO Timothy Knight, Wrapports EVP of Marketing, Julian Posada, and Aggrego CEO, Tim Landon.
 
-With that being said, my contributions to planning/researching for Sun-Times Network began and ended with the direction given to me by this group. As the lead designer of this project, I did my best to propose solutions and ideas, but ultimately, it was my job to carry out their vision.
+With that being said, my contributions to planning/researching for Sun-Times Network began and ended with the direction given to me by this group. As the lead designer of this project, I proposed solutions and ideas, but ultimately, it was my job to carry out their vision.
 
 {% include image.html name="mood-board" caption="The Sun-Times Network wanted to distance itself from it diminishing reputation." %}
 
-Up front, the general conscensus was that the product needed to be "younger", "hipper", "trendier", and a host of other buzz words. More-or-less, they wanted the product to be the exact opposite of the current Chicago Sun-Times. With that being said, comparisions to Twitter and Buzzfeed were tossed around frequently.
+Up front, the general conscensus was that the product needed to be "younger", "hipper", "trendier", and a host of other buzz words. More-or-less, they wanted the product to be the **exact opposite** of the current Chicago Sun-Times. With that being said, comparisions to Twitter and Buzzfeed were tossed around frequently.
 
 {% include image.html name="mood-board" caption="USA Today, New York Post, and Boston.com inspired Sun-Times Network's design" %}
 
