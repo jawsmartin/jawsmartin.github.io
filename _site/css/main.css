@@ -122,7 +122,7 @@ img {
   height: auto;
 }
 main.content {
-  margin-left: 275px;
+  margin-left: 250px;
 }
 .inner-content {
   max-width: 100%;
@@ -141,7 +141,7 @@ main.content {
 
 aside.about {
   position: fixed;
-  width: 275px;
+  width: 250px;
   padding: 50px 0px 0px 0px;
   box-sizing:border-box;
   top: 0px;
