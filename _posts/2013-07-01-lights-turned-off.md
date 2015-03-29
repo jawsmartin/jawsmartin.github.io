@@ -4,7 +4,10 @@ title: Lights Turned Off
 deck: The project began with ambitious goals to completely revamp the 30-website network, but was, unfortunately, crippled by the fear of straying too far from the path.
 date: 2013-07-01
 category: Personal
+excerpt: It's wonderful how it turned out for them, but when Power2Switch was bought out by Choose Energy in late 2013, I was already a few months removed from a few of the most unhappy months of my life. I was unemployed, in debt, and fighting to keep a roof over my head.
 ---
+
+*NOTE: This post is dated Jul 2013, but was written in Mar 2015. I wish I had wrote about this part of my life as it actually happened, but I didn't think to. This blog, while sometimes spur of the moment, is more or less, an honest timeline of my life personally and professionally. When I finally decided to taking writing seriously, I wanted to make sure it was thorough and not just hacked together. With that in mind, I've been going back and highlighting important moments, like this one, to build a more complete narrative.* 
 
 One of the first major projects I worked on at Aggrego was the redesign of the Pioneer Press, which is a collection of local newspapers and websites covering the Chicago suburbs. It is owned by the Sun-Times Media Group (which is owned by Wrapports) and operated by Aggrego.
 

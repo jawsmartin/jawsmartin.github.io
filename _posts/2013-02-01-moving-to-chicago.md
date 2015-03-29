@@ -1,36 +1,23 @@
 ---
 layout: post
 title: Moving to Chicago
-deck: I spent the last four years finding a passion and gaining the tools needed to start my professional career. The mix of traditional art and design has me feeling confident in my future.
+deck: I was quite literally homeless, having been sleeping on my friend Darren's couch the two months after graduating. I saved up what money I could to afford the move, about $700. I told myself if I couldn't land a job by Summer, I'd go back to school for my Masters.
 date: 2013-02-01
 category: Personal
+excerpt: Looking back, this was, by far, the biggest risk I have, or will have ever, taken, personally or professionally. I still don't know what conviced me to do it, but I am thankful each and every day that I did.
 ---
 
-I went to college at Edinboro University of Pennsylvania, a liberal arts college in northwestern Pennsylania that is highly regarded for its teaching and arts programs.
+*NOTE: This post is dated Feb 2013, but was written in Mar 2015. I wish I had wrote about this part of my life as it actually happened, but I didn't think to. Fortunately, this moment in time is as clear as day for me some two years later. This blog, while sometimes spur of the moment, is more or less, an honest timeline of my life personally and professionally. When I finally decided to taking writing seriously, I wanted to make sure it was thorough and not just hacked together. With that in mind, I've been going back and highlighting important moments like this one to build a more complete narrative.*  
 
-I admittedly half-assed my way there. Unlike most, seemingly, I was quite unsure what I was going to do after High School. I  *knew* I had to go college, but where and for what was never apparent. I knew I liked art. I've been drawing since I knew how to hold a pencil. I've been the "artsy" kid in every class I ever had. 
+Looking back, this was, by far, the biggest risk I have, or will have ever, taken. I still don't know what 
 
-But, as the adage goes, you can't make money as an artist. I treated it as a hobby for the most part think I had no future in it. My senior year of High School, I took every generic business class I could find: accounting, marketing, public speaking, business essentials... I figured 
+Having just graduated almost 3 months ago, it's now officially make or break. I contact my friend, Josh Fabian. 
 
-A few of my favorite projects from my undergrad.
+I'll remember the phone call until the day I die. I was walking out of Pogue Center, a social/activity hub of sorts at Edinboro University. I just got done picking up my mail from the 3rd floor. I called Josh as I was leaving with what I will always suspect for him was the most random phone call ever.
 
-{% include image.html name="intro" caption="MyTown Branding" %}  
-{% include image.html name="intro" caption="MyTown Site Map" %}
-{% include image.html name="intro" caption="MyTown Wireframe" %}
-{% include image.html name="intro" caption="MyTown Prototype" %}
-{% include image.html name="intro" caption="MyTown iOS App" %}
-{% include image.html name="intro" caption="MyTown Android App" %}
+I very nervously asked "Hey man. This is going to sound really random, but I was wondering if you could house me for a bit while I look for work? I figure Chicago would give me more opportunities. I think with a little bit help I could land something."
 
----
+For whatever reason, he said yes. I'll never know why he said it, but I will be forever grateful.
 
-###On to bigger and better things
-
-The excitement for MyTown variations of the Pioneer Press was short-lived however.
-After launching the newly redesigned Pioneer Press Site, we stepped away from it, momentarilary, to focus on building Loop and Today.ie, but revisited it a few months later. When we started back up with Pioneer Press, the objective was to add dedicated iOS and Android Apps.
-
-After launching the newly redesigned Pioneer Press Site, we stepped away from it, momentarilary, to focus on building Loop and Today.ie, but revisited it a few months later. When we started back up with Pioneer Press, the objective was to add dedicated iOS and Android Apps.
-
-{% include image.html name="intro" caption="Sun-Time Network" %}
-
-After launching the newly redesigned Pioneer Press Site, we stepped away from it, momentarilary, to focus on building Loop and Today.ie, but revisited it a few months later. When we started back up with Pioneer Press, the objective was to add dedicated iOS and Android Apps.
+Let's see if I can make it happen. I've been working between Subways and Resident Life and Housing for almost 6 years. If it doesn't work.
 

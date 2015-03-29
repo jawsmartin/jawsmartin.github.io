@@ -122,17 +122,30 @@ img {
   height: auto;
 }
 main.content {
-  margin-left: 410px;
+  margin-left: 250px;
 }
 .inner-content {
   max-width: 100%;
   margin: 0 auto;
   box-sizing:border-box;
-  padding: 50px 55px 75px 55px;
+  padding: 50px 0px 75px 40px;
 }
 .wrapper-3 {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
+}
+
+.default {
+  padding: 0px 50px 0px 50px; 
+}
+
+aside.about {
+  position: fixed;
+  width: 250px;
+  padding: 50px 0px 0px 0px;
+  box-sizing:border-box;
+  top: 0px;
+  height: 100%;
 }
 
 /*
@@ -190,17 +203,14 @@ a:hover {
 */
 .profile-pic {
   width: 100%;
-  margin-bottom: 15px;
   background-color: white;
 }
-aside.about {
-  position: fixed;
-  width: 410px;
-  padding: 50px 55px 0px 55px;
-  box-sizing:border-box;
-  top: 0px;
-  height: 100%;
-  border-right: 1px solid #ececec;
+.name {
+  font-size: 24px;
+  display: block;
+  font-weight: 500;
+  margin: 10px 0px 10px 0px;
+  color: #263d49;
 }
 footer p {
   font-size: 13px;
@@ -242,9 +252,9 @@ footer .about p:last-of-type {
 */
 
 .blog-header {
-  background-color: RGBA(243, 245, 251, .65);
+  border: 1px solid #ececec;
   padding: 31px 34px 32px 34px;
-  margin-bottom: 55px;
+  margin-bottom: 40px;
   border-radius: 4px;
 }
 .dribbble {
@@ -263,19 +273,23 @@ footer .about p:last-of-type {
   padding-bottom: 0px;
 }
 .blog-post-container .blog-post {
-  margin-top: 37px;
+  margin-top: 30px;
   border-top: 1px solid RGBA(150, 161, 167, .2);
-  padding-top: 37px;
+  padding-top: 40px;
 }
 .blog-post-container .blog-post:first-of-type {
   margin-top: 0px;
+  padding: 0px;
+  border: none;
 }
 .thumbnail-container {
-   width: 30%;
+   width: 27%;
 }
 .thumbnail-content {
-  width: 65%;
+  width: 68%;
   margin-left: 5%;
+  position: relative;
+  top: -4px;
 }
 .blog-post .post-title {
   color: #263d49;
@@ -613,6 +627,11 @@ h3 {
     width: 15%;
     margin-right: 5%;
   }
+    .name {
+    font-size: 20px;
+    display: inline-block;
+    margin: 12px 0px 10px 12px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -625,10 +644,6 @@ h3 {
   .thumbnail-content {
     width: 100%;
     margin-left: 0px;
-  }
-  .profile-pic {
-    padding: 4px;
-    width: 50px;
   }
   .blog-post .post-title {
     display: block;

@@ -4,7 +4,10 @@ title: My First Real Job
 deck: The project began with ambitious goals to completely revamp the 30-website network, but was, unfortunately, crippled by the fear of straying too far from the path.
 date: 2013-04-01
 category: Personal
+excerpt: Prior to getting a job at Power2Switch, I had only ever worked for minimum wage, which, between 2006-2012, sat firmly between $6.25-$7.25. I never got a raise, asked for raise, or expected a raise. I just clocked in, worked my 40hrs, hoped for overttime, and clocked out. So, when I sheepishly asked for $15/hr for my first web design and development job...and got it, I was a little more than estatic.
 ---
+
+*NOTE: This post is dated Apr 2013, but was written in Mar 2015. I wish I had wrote about this part of my life as it actually happened, but I didn't think to. This blog, while sometimes spur of the moment, is more or less, an honest timeline of my life personally and professionally. When I finally decided to taking writing seriously, I wanted to make sure it was thorough and not just hacked together. With that in mind, I've been going back and highlighting important moments, like this one, to build a more complete narrative.* 
 
 One of the first major projects I worked on at Aggrego was the redesign of the Pioneer Press, which is a collection of local newspapers and websites covering the Chicago suburbs. It is owned by the Sun-Times Media Group (which is owned by Wrapports) and operated by Aggrego.
 

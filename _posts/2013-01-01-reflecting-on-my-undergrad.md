@@ -1,10 +1,13 @@
 ---
 layout: post
 title: Reflecting On My Undergrad
-deck: I spent the last four years finding a passion and gaining the tools needed to start my professional career. The mix of traditional art and design has me feeling confident in my future.
+deck: It's amazing seeing the progress I made as an artist from my freshman year in 2008, to the the time graduated in 2012. All around, I learned everything I would ever need to in order to be successful.
 date: 2013-01-01
 category: Personal
+excerpt: It's amazing seeing the progress I made as an artist from my freshman year in 2008, to the the time graduated in 2012. All around, I learned everything I would ever need to in order to be successful.
 ---
+
+*NOTE: This post is dated Jan 2013, but was written in Mar 2015. I wish I had wrote about this part of my life as it actually happened, but I didn't think to. This blog, while sometimes spur of the moment, is more or less, an honest timeline of my life personally and professionally. When I finally decided to taking writing seriously, I wanted to make sure it was thorough and not just hacked together. With that in mind, I've been going back and highlighting important moments, like this one, to build a more complete narrative.* 
 
 I went to college at Edinboro University of Pennsylvania, a liberal arts college in northwestern Pennsylania that is highly regarded for its teaching and arts programs.
 
