@@ -122,28 +122,30 @@ img {
   height: auto;
 }
 main.content {
-  margin-left: 350px;
+  margin-left: 275px;
 }
 .inner-content {
   max-width: 100%;
   margin: 0 auto;
   box-sizing:border-box;
-  padding: 50px 50px 75px 50px;
+  padding: 50px 0px 75px 40px;
 }
 .wrapper-3 {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
+.default {
+  padding: 0px 50px;
+}
 
 aside.about {
   position: fixed;
-  width: 350px;
-  padding: 50px 50px 0px 50px;
+  width: 275px;
+  padding: 50px 0px 0px 0px;
   box-sizing:border-box;
   top: 0px;
   height: 100%;
-  border-right: 1px solid #ececec;
 }
 
 /*
@@ -201,8 +203,14 @@ a:hover {
 */
 .profile-pic {
   width: 100%;
-  margin-bottom: 15px;
   background-color: white;
+}
+.name {
+  color: #263d49;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 15px 0px 15px 0px;
+  display: block;
 }
 footer p {
   font-size: 13px;
@@ -244,9 +252,9 @@ footer .about p:last-of-type {
 */
 
 .blog-header {
-  background-color: RGBA(243, 245, 251, .55);
+  border: 1px solid #ececec;
   padding: 31px 34px 32px 34px;
-  margin-bottom: 55px;
+  margin-bottom: 40px;
   border-radius: 4px;
 }
 .dribbble {
@@ -270,6 +278,8 @@ footer .about p:last-of-type {
   padding-top: 37px;
 }
 .blog-post-container .blog-post:first-of-type {
+  padding: 0px;
+  border: none;
   margin-top: 0px;
 }
 .thumbnail-container {
@@ -615,6 +625,11 @@ h3 {
     width: 15%;
     margin-right: 5%;
   }
+  .name {
+    font-size: 20px;
+    display: inline-block;
+    margin: 12px 0px 0px 12px;
+  }  
 }
 
 @media screen and (max-width: 500px) {
@@ -627,10 +642,6 @@ h3 {
   .thumbnail-content {
     width: 100%;
     margin-left: 0px;
-  }
-  .profile-pic {
-    padding: 4px;
-    width: 50px;
   }
   .blog-post .post-title {
     display: block;

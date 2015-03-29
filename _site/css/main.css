@@ -122,7 +122,7 @@ img {
   height: auto;
 }
 main.content {
-  margin-left: 250px;
+  margin-left: 275px;
 }
 .inner-content {
   max-width: 100%;
@@ -136,12 +136,12 @@ main.content {
 }
 
 .default {
-  padding: 0px 50px 0px 50px; 
+  padding: 0px 50px;
 }
 
 aside.about {
   position: fixed;
-  width: 250px;
+  width: 275px;
   padding: 50px 0px 0px 0px;
   box-sizing:border-box;
   top: 0px;
@@ -206,11 +206,11 @@ a:hover {
   background-color: white;
 }
 .name {
-  font-size: 24px;
-  display: block;
-  font-weight: 500;
-  margin: 10px 0px 10px 0px;
   color: #263d49;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 15px 0px 15px 0px;
+  display: block;
 }
 footer p {
   font-size: 13px;
@@ -273,14 +273,14 @@ footer .about p:last-of-type {
   padding-bottom: 0px;
 }
 .blog-post-container .blog-post {
-  margin-top: 30px;
+  margin-top: 37px;
   border-top: 1px solid RGBA(150, 161, 167, .2);
-  padding-top: 40px;
+  padding-top: 37px;
 }
 .blog-post-container .blog-post:first-of-type {
-  margin-top: 0px;
   padding: 0px;
   border: none;
+  margin-top: 0px;
 }
 .thumbnail-container {
    width: 27%;
@@ -288,8 +288,6 @@ footer .about p:last-of-type {
 .thumbnail-content {
   width: 68%;
   margin-left: 5%;
-  position: relative;
-  top: -4px;
 }
 .blog-post .post-title {
   color: #263d49;
@@ -627,11 +625,11 @@ h3 {
     width: 15%;
     margin-right: 5%;
   }
-    .name {
+  .name {
     font-size: 20px;
     display: inline-block;
-    margin: 12px 0px 10px 12px;
-  }
+    margin: 12px 0px 0px 12px;
+  }  
 }
 
 @media screen and (max-width: 500px) {
