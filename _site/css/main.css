@@ -273,7 +273,7 @@ footer .about p:last-of-type {
   padding-bottom: 0px;
 }
 .blog-post-container .blog-post {
-  margin-top: 37px;
+  margin-top: 30px;
   border-top: 1px solid RGBA(150, 161, 167, .2);
   padding-top: 37px;
 }
@@ -287,6 +287,8 @@ footer .about p:last-of-type {
 }
 .thumbnail-content {
   width: 68%;
+  position: relative;
+  top: -4px;
   margin-left: 5%;
 }
 .blog-post .post-title {
@@ -512,7 +514,7 @@ h3 {
     margin-left: 0px;
   }
   .inner-content {
-    padding: 80px 0px 0px 0px;
+    padding: 80px 0px 50px 0px;
   }
   .blog-header {
     margin-bottom: 28px;
