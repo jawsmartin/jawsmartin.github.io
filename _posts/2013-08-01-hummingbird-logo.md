@@ -18,11 +18,11 @@ For direction, Josh pointed me to Jord Riekwel's [Hummingbird](https://dribbble.
 
 I would characterize the desired icon as clean and minimal with sharp details; it is definitely strong enough to stand on its own, as well as be recognizable at any size. It's relatively similar in style to what Josh had, but with a more simplified outline.
 
-My job more-or-less, was to find a middle-ground between the too.
+My job more-or-less, was to find a middle-ground between the two.
 
 While Josh asked for an icon leaning closer in design to Riekwel's, I wanted to make sure the direction I took was still unique, and most importantly different enough that the two marks could exist without stepping on each others' wings.
 
-When I started exploring ideas for the logo, I knew from the start that I wanted it to be bold and strong as, it alone, would need to be a symbol for the entire community.
+When I started exploring ideas for the logo, I knew from the start that I wanted it to be bold and strong as, it alone, would need to be a symbol for an entire community.
 
 I experimented with lots of curves and sharp angles, cutting away at the overlapping sections where the tail and tail meet the body.
 
@@ -34,7 +34,7 @@ After presenting a number of options, we ended up going with my second favorite 
 
 I took the general shape of Jord's and accentuated the wings and feathers with details similar to what Josh originally had, as well as elongating and contorting it's body to suggest movement.
 
-I also put an emphasis to making the curves and angles exaggerated to give it the stronger look I was aiming for. I made its beak thick and exaggerated for better readability at smaller sizes.
+I also put an emphasis on making the curves and angles exaggerated to give it the stronger look I was aiming for. I made its beak thick and exaggerated for better readability at smaller sizes.
 
 {% include image.html name="hummingbird-final" caption="Finalized Hummingbird logo" %}
 

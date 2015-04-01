@@ -58,34 +58,43 @@
       <footer class="">
         <div class="footer-inner wrapper-3">
 
-        <header class="title">
-          <a href="/">
-            <img class="profile-pic inline-block" src="/images/profile-2.jpg"/>
-          </a>
-          <span class="name">Josh Martin</span>          
-        </header>
+          <header class="title">
+            <a href="/">
+              <img class="profile-pic inline-block" src="/images/profile-2.jpg"/>
+            </a>
+            <span class="name">Josh Martin</span>          
+          </header>
+          <div class="about-toggle inline-block float-right">
+            <span id="showmenu">About</span>
+          </div>
 
-        <div class="about-toggle inline-block float-right">
-          <a href="#">About</a>
-        </div>
+          <div class="mobile-about">
+            <div class="footer-item footer-about">
+              <p>I am a Designer, Illustrator, &amp; Front-End Developer from Pittsburgh living in downtown Chicago. I currently work independently, focusing on web/app UI/UX and creative direction for startups.</p>
+              <p>
+                Skills/Experience: Coming Soon<br>
+                Contact: <a href="mailto:hellojoshmartin@gmail.com" class="">hellojoshmartin@gmail.com</a><br>
+                Follow: <a href="http://www.dribbble.com/joshmartindesigns" class="">Dribbble</a>, <a href="http://www.twitter.com/jawsmartin" class="">Twitter</a>, <a href="http://www.instagram.com/jawsmartin" class="">Instagram</a><br>
+                Shop: Coming Soon<br>
+                Projects: Coming Soon
+              </p>
+            </div>  
+            <div class="footer-item copyright">
+              <p class="inline-block">&copy;2015. Designed &amp; developed by Josh Martin. View colophon/source on <a href="https://github.com/jawsmartin/jawsmartin.github.io">Github</a>.</p>
+            </div>             
+          </div>
 
-        <div class="footer-item footer-about">
-          <p>I am a Designer, Illustrator, &amp; Front-End Developer from Pittsburgh living in downtown Chicago. I currently work independently, focusing on web/app UI/UX and creative direction for startups.</p>
-          <p>
-            Skills/Experience: Coming Soon<br>
-            Contact: <a href="mailto:hellojoshmartin@gmail.com" class="">hellojoshmartin@gmail.com</a><br>
-            Follow: <a href="http://www.dribbble.com/joshmartindesigns" class="">Dribbble</a>, <a href="http://www.twitter.com/jawsmartin" class="">Twitter</a>, <a href="http://www.instagram.com/jawsmartin" class="">Instagram</a><br>
-            Shop: Coming Soon<br>
-            Projects: Coming Soon
-          </p>
-        </div>  
-
-        <div class="footer-item copyright">
-          <p class="inline-block">&copy;2015. Designed &amp; developed by Josh Martin. View colophon/source on <a href="https://github.com/jawsmartin/jawsmartin.github.io">Github</a>.</p>
-        </div>  
         </div>
       </footer>
  
+<script>
+$(document).ready(function() {
+    $('#showmenu').click(function() {
+      $('.mobile-about').slideToggle("fast");
+    });
+});
+</script>
+
   </body>
 </html>
   </aside>

@@ -553,6 +553,28 @@ h3 {
     box-sizing: border-box;
   }
   .footer-item {
+    padding: 0px 25px;
+    box-sizing: border-box;
+  }  
+  .copyright {
+    margin-top: 11px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+  }
+  .copyright p {
+    padding-bottom: 0px;
+  }
+  #showmenu {
+    color: RGBA(37, 147, 232, 1);
+    cursor: pointer;
+  }
+  .mobile-about {
+    background-color: white;
+    position: fixed;
+    padding-top: 25px;
+    top: 55px;
+    border-bottom: 1px solid #ececec;
+    left: 0px;
     display: none;
   }
   aside.about {
