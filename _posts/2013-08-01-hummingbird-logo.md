@@ -6,7 +6,7 @@ date: 2013-08-01
 category: Portfolio
 ---
 
-My very talented friend, [Josh Fabian](https://twitter.com/joshfabian), founder of Hummingbird, asked me to refresh its logo to coincide with a large website redesign. He felt his current version had a jagged silhouette and too fine of details that didn't work at a small scale. A new logo was needed to reflect the new direction of the website and the bright future Hummingbird was working towards.
+My very talented friend and founder or Hummingbird, [Josh Fabian](https://twitter.com/joshfabian), asked me to refresh its logo to coincide with a large website redesign. He felt his current version had a jagged silhouette and too fine of details that didn't work at a small scale. A new logo was needed to reflect the website's new direction and the bright future Hummingbird was working towards.
 
 {% include image.html name="hummingbird-old" caption="Hummingbird's current logo" %}
 
