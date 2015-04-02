@@ -14,7 +14,7 @@ To thrust Mr. Beckman back into the game, we worked together to make [Alleyooop]
 
 {% include image.html name="email-mock" caption="Looks great on your phone" %}
 
-Currently, we only show the most popular shots (views + likes) from either Animated or nonanimated shots, but hope to allow even more filtration, such as location and by tag, but are currently limited by Dribbble's API.
+Currently, we only show the most popular shots (views + likes) from either Animated or nonanimated shots, but hope to allow even more filtration, such as location and by tag. We are currently wrestling with Dribbble's API.
 
 I think the newsletter can be quite handy for not only Beckman, but other people too good or too busy (or too smart) to visit Dribbble regularly.
 
