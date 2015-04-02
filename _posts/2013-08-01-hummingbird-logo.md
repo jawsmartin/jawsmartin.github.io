@@ -18,7 +18,7 @@ For direction, Josh pointed me to Jord Riekwel's [Hummingbird](https://dribbble.
 
 I would characterize the desired icon as clean and minimal with sharp details; it is definitely strong enough to stand on its own, as well as be recognizable at any size. It's relatively similar in style to what Josh had, but with a more simplified outline.
 
-My job more-or-less, was to find a middle-ground between the two.
+*My job more-or-less, was to find a middle-ground between the two.*
 
 While Josh asked for an icon leaning closer in design to Riekwel's, I wanted to make sure the direction I took was still unique, and most importantly different enough that the two marks could exist without stepping on each others' wings.
 

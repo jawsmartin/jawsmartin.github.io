@@ -560,6 +560,10 @@ h3 {
     margin-top: 11px;
     padding-top: 13px;
     padding-bottom: 10px;
+    border: none;
+  }
+  .copyright-content {
+    border-top: 1px solid #ececec;
   }
   .copyright p {
     padding-bottom: 0px;
