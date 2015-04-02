@@ -62,7 +62,7 @@
             <a href="/">
               <img class="profile-pic inline-block" src="/images/profile-2.jpg"/>
             </a>
-            <span class="name">Josh Martin</span>          
+            <a href="/" class="name">Josh Martin</a>          
           </header>
           <div class="about-toggle inline-block float-right">
             <span id="showmenu">About</span>
@@ -87,13 +87,16 @@
         </div>
       </footer>
  
-<script>
-$(document).ready(function() {
-    $('#showmenu').click(function() {
-      $('.mobile-about').slideToggle("fast");
+    <script>
+    $(document).ready(function() {
+
+        $('#showmenu').click(function() {
+          $('.mobile-about').slideToggle("fast");
+          $('#showmenu').toggleClass("blue");
+        });
+
     });
-});
-</script>
+    </script>
 
   </body>
 </html>
