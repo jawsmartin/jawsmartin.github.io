@@ -1,16 +1,19 @@
 {% include head.html %} 
 
-<div class="default wrapper-3">
+  {% include header.html %} 
 
-  <main class="content">
-    <div class="inner-content">
-      {{ content }}
+    <div class="wrapper relative">
+
+      <main class="main-content">
+        <div class="inner-main-content">
+          {{ content }}
+        </div>
+      </main>
+
+      <aside class="sidebar">
+        {% include sidebar.html %} 
+      </aside>
+
     </div>
-  </main>
 
-  <aside class="about">
-    {% include about.html %}
-  </aside>
-
-</div>
-
+  {% include footer.html %} 

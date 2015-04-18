@@ -1,25 +1,29 @@
 {% include head.html %}   
    
-<div class="default wrapper-3">
+  {% include header.html %}  
 
-  <main class="content">
-    <div class="inner-content">
-      <div class="cat-container text-center">
-        <span class="cat">Filed under <span class="blue">{{ page.category }}</span></span>
-      </div>
+<div class="wrapper relative">
+
+  <main class="main-content">
+    <div class="inner-main-content">
 
       <!-- Post Header
       ================================================== --> 
-      <section class="post-header">   
-        <div class="hero-text text-center cf">
+      <section class="post-header">  
+
+        <div class="hero-text cf">
           <span class="post-date text-small block">{{ page.date | date: '%B %Y' }}</span>    
           <span class="post-title block" href="{{ post.url }}" title="{{ post.title }}">{{ page.title }}</span>
         </div>
-        <div class="dash dash-top"></div>
-        <div class="text-center">
+
+        <figure class="thumbnail-container inline-block">
+          <img class="thumbnail" src="/images/post/{{ page.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ page.title | replace:' ','-' | remove: ' ' | downcase }}/thumbnail.jpg"/>    
+        </figure> 
+
+        <div class="text-center block">
           <p class="sub-header">{{ page.deck }}</p>   
         </div>
-        <div class="dash dash-bottom"></div>
+
       </section>
 
       <!-- Post Main Content
@@ -28,13 +32,14 @@
         {{ content }}   
       </section>
 
+
     </div>
   </main>
 
-  <aside class="about">
-    {% include about.html %}
-  </aside>
+      <aside class="sidebar">
+        {% include sidebar.html %} 
+      </aside>
 
 </div>
 
-
+  {% include footer.html %}  

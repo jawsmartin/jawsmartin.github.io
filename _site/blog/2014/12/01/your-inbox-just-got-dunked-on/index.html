@@ -7,7 +7,7 @@
   ================================================== -->   
   <meta charset="UTF-8"> 
   <title> Your Inbox Just Got Dunked On </title>
-  <meta name="description" content="My name is Josh Martin. I'm a professional Designer, Illustrator, and Front-End Developer working in Chicago, IL. I'm currently focusing on UI/UX and branding.">
+  <meta name="description" content="My name is Josh Martin. I'm a professional Designer, Illustrator, and Front-End Developer from Pittsburgh Pennsylvania working in Chicago, Illinois. I'm currently focusing on UI/UX and creative direction.">
   <meta name="author" content="">
 
   <!-- Mobile Specific Metas
@@ -20,7 +20,7 @@
 
   <!-- Icons/Favicons
   ================================================== -->
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180.png">
 
   <!-- Google Analytics
@@ -41,26 +41,66 @@
 <body>
    
    
-<div class="default wrapper-3">
+    <header class="main">
+    <div class="cf header-wrapper">
 
-  <main class="content">
-    <div class="inner-content">
-      <div class="cat-container text-center">
-        <span class="cat">Filed under <span class="blue">Project</span></span>
-      </div>
+        <div class="float-left site">
+          <a class="name" href="/">Hello!</a>
+        </div>
+
+        <div class="social block float-right cf">
+
+
+          <div class="inline-block follow cf">
+            <div class="inline-block float-left iconn">
+              <span class="twitter"></span>
+            </div>
+            <div class="inline-block social-text float-left">
+              <a class="nav-link" title="Twitter" href="http://www.twitter.com/jawsmartin">Follow me on Twitter</a>
+              <span class="details block">to connect and chat</span>
+            </div>
+          </div>
+            
+          <div class="inline-block follow cf">
+            <div class="inline-block float-left iconn">
+              <span class="dribbble"></span>
+            </div>
+            <div class="inline-block social-text float-left">
+              <a class="nav-link" title="Twitter" href="http://www.dribbble.com/jawsmartin">Follow me on Dribbble</a>
+              <span class="details block">to see my latest work</span>
+            </div>
+          </div>
+          
+
+        </div>
+
+    </div>
+  </header>
+ 
+   
+
+<div class="wrapper relative">
+
+  <main class="main-content">
+    <div class="inner-main-content">
 
       <!-- Post Header
       ================================================== --> 
-      <section class="post-header">   
-        <div class="hero-text text-center cf">
+      <section class="post-header">  
+
+        <div class="hero-text cf">
           <span class="post-date text-small block">December 2014</span>    
           <span class="post-title block" href="" title="">Your Inbox Just Got Dunked On</span>
         </div>
-        <div class="dash dash-top"></div>
-        <div class="text-center">
+
+        <figure class="thumbnail-container inline-block">
+          <img class="thumbnail" src="/images/post/2014-12-01-your-inbox-just-got-dunked-on/thumbnail.jpg"/>    
+        </figure> 
+
+        <div class="text-center block">
           <p class="sub-header">Don't have time to visit Dribbble for the latest and greatest? Alleyooop allows for customized summaries of the week's best shots.</p>   
         </div>
-        <div class="dash dash-bottom"></div>
+
       </section>
 
       <!-- Post Main Content
@@ -72,12 +112,7 @@
 
 <p>To thrust Mr. Beckman back into the game, we worked together to make <a href="http://www.alleyooop.info">Alleyooop</a>, a customizable newletter of Dribbble shots. You can adjust frequency of the newsletter and the type of shots you want to follow.</p>
 
-<figure class="text-left block cf image">
-  <img src="/images/post/2014-12-01-your-inbox-just-got-dunked-on/email-mock.jpg" alt="Looks great on your phone" />
-  <figcaption class="text-small" align="bottom">Looks great on your phone</figcaption>
-</figure>
-
-<p>Currently, we only show the most popular shots (views + likes) from either Animated or nonanimated shots, but hope to allow even more filtration, such as location and by tag, but are currently limited by Dribbble’s API.</p>
+<p>Currently, we only show the most popular shots (views + likes) from either Animated or nonanimated shots, but hope to allow even more filtration, such as location and by tag. We are currently wrestling with Dribbble’s API.</p>
 
 <p>I think the newsletter can be quite handy for not only Beckman, but other people too good or too busy (or too smart) to visit Dribbble regularly.</p>
 
@@ -86,60 +121,96 @@
    
       </section>
 
+
     </div>
   </main>
 
-  <aside class="about">
-    
-      <footer class="">
-        <div class="footer-inner wrapper-3">
+      <aside class="sidebar">
+        <!-- About -->  
+<section>
+  <h3 class="about">About</h3>
+  <!-- Profile Picture -->  
+  <figure class="profile-pic">
+    <img src="/images/profile.jpg"/>
+    <figcaption class="cap">Fairly decent human, slightly smug</figcaption>
+  </figure>
+  <p>Currently, Sitter and Lead Blueberry Scone Eater at <a href="https://www.google.com/maps/place/Starbucks/@41.983784,-87.657847,15z/data=!4m2!3m1!1s0x0:0xa6f1b43a41d87a32?sa=X&ei=bPIuVZ3DFceisAWUgoGoDQ&ved=0CIsBEPwSMAs">@Starbucks</a>.</p>
+  <p>Likes learning, solving problems, not texting back, efficient design, and quoting Wayne's World.</p>
+  <p>Has won no awards.</p>  
+</section>
 
-          <header class="title">
-            <a href="/">
-              <img class="profile-pic inline-block" src="/images/profile-2.jpg"/>
-            </a>
-            <a href="/" class="name">Josh Martin</a>          
-          </header>
-          <div class="about-toggle inline-block float-right">
-            <span id="showmenu">About</span>
-          </div>
+<!-- Projects -->  
+<section>
+  <h3 class="projects">Projects</h3>
+  <ul class="project-list">
+    <li class="exp-item">
+      <h4 class="job">Brood</h4>
+      <span class="job-title">A tattoo discovery platform</span>
+      <a href="#" class="project-link blue">www.brooddiscovery.com (Not Live)</a>
+    </li> 
+    <li class="exp-item">
+      <h4 class="job">Squawk</h4>
+      <span class="job-title">A movie review platform</span>
+      <a href="#" class="project-link blue">www.squawkreviews.com (Not Live)</a>
+    </li> 
+    <li class="exp-item">
+      <h4 class="job">Bbbench</h4>
+      <span class="job-title">A bookmarking tool for Dribbble players</span>
+      <a href="http://www.bbbench.com" class="project-link blue">www.bbbbench.com</a>
+    </li> 
+    <li class="exp-item">
+      <h4 class="job">Alleyooop</h4>
+      <span class="job-title">A recap of Dribbble's best shots</span>
+      <a href="http://www.alleyooop.info" class="project-link blue">www.alleyoop.com</a>
+    </li>             
+  </ul>  
+</section>  
 
-          <div class="mobile-about">
-            <div class="footer-item footer-about">
-              <p>I am a Designer, Illustrator, &amp; Front-End Developer from Pittsburgh living in downtown Chicago. I currently work independently, focusing on web/app UI/UX and creative direction for startups.</p>
-              <p>
-                Skills/Experience: <a href="/joshmartincv.pdf">View CV</a><br>
-                Contact: <a href="mailto:hellojoshmartin@gmail.com" class="">hellojoshmartin@gmail.com</a><br>
-                Follow: <a href="http://www.dribbble.com/joshmartindesigns" class="">Dribbble</a>, <a href="http://www.twitter.com/jawsmartin" class="">Twitter</a>, <a href="http://www.instagram.com/jawsmartin" class="">Instagram</a><br>
-                Shop: Coming Soon<br>
-                Projects: <a href="http://www.alleyooop.info">Alleyooop</a>
-              </p>
-            </div>  
-            <div class="footer-item copyright">
-              <div class="copyright-content">
-                <p class="inline-block">&copy;2015. Designed &amp; developed by Josh Martin. View colophon/source on <a href="https://github.com/jawsmartin/jawsmartin.github.io">Github</a>.</p>
-              </div>
-            </div>             
-          </div>
+<!-- Experience -->  
+<section>
+  <h3 class="experience">Experience</h3>
+  <ul class="experience-list">
+    <li class="exp-item">
+      <h4>Product Designer</h4>
+      <span>• Independent - Chicago, IL</span>
+      <span>• Dec 2014- Present</span>
+      <span>• Web UI/UX, Creative Direction</span>
+    </li>
+    <li class="exp-item">
+      <h4>Lead Web Designer</h4>
+      <span>• Chicago Sun-Times - Chicago, IL</span>
+      <span>• Sep 2013 - Dec 2014</span>
+      <span>• Web/App UI/UX, Branding</span>
+    </li>
+    <li class="exp-item">
+      <h4>Front-End Developer, Intern</h4>
+      <span>• Power2Switch - Chicago, IL</span>
+      <span>• Apr 2013- Jun 2013</span>
+      <span>• Web Development, Illustration</span>
+    </li>
+  </ul>
+  <a class="cv" href="/joshmartincv.pdf">Download CV</a>
+</section>
 
-        </div>
-      </footer>
- 
-    <script>
-    $(document).ready(function() {
-
-        $('#showmenu').click(function() {
-          $('.mobile-about').slideToggle("fast");
-          $('#showmenu').toggleClass("blue");
-        });
-
-    });
-    </script>
-
-  </body>
-</html>
-  </aside>
+<!-- Contact -->  
+<section>
+  <h3 class="contact">Contact</h3>
+  <a href="mailto:hellojoshmartin@gmail.com">hellojoshmartin@gmail.com</a>
+</section> 
+      </aside>
 
 </div>
 
+  
 
+      <footer class="main cf">
+        <div class="cf footer-wrapper">
+
+          <p class="copyright inline-block">© 2015 Josh Martin. All Rights Reserved. View colophon and source on <a class="" title="Twitter" href="https://github.com/jawsmartin/jawsmartin.github.io">Github</a></p>
+          <a href="http://hellojoshmartin.com/feed.xml" class="float-right rss">RSS</a>
+          
+        </div>
+      </footer> 
+
+  </body>
+</html>  

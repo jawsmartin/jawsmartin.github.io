@@ -44,7 +44,9 @@ As I started to build the outline for Afterskools, it was very important, from a
 
   <li class="user cf">
     <div class="box-left">
-      <img class="user-profile" src="/images/post/woman-3.png"/>
+      <div class="user-profile">
+        {% include image.html name="woman-3" %}
+      </div>
     </div>
 
     <div class="box-right">
@@ -67,7 +69,9 @@ As I started to build the outline for Afterskools, it was very important, from a
   </li>
   <li class="user cf">
     <div class="box-left">
-      <img class="user-profile" src="/images/post/woman-2.png"/>
+      <div class="user-profile">
+        {% include image.html name="woman-3" %}
+      </div>
     </div>
 
     <div class="box-right">
@@ -87,7 +91,9 @@ As I started to build the outline for Afterskools, it was very important, from a
   </li>
   <li class="user cf">
     <div class="box-left">
-      <img class="user-profile" src="/images/post/man-2.png"/>
+      <div class="user-profile">
+        {% include image.html name="woman-3" %}
+      </div>
     </div>
 
     <div class="box-right">
@@ -109,7 +115,9 @@ As I started to build the outline for Afterskools, it was very important, from a
   </li>
   <li class="user cf">
     <div class="box-left">
-      <img class="user-profile" src="/images/post/man-1.png"/>
+      <div class="user-profile">
+        {% include image.html name="woman-3" %}
+      </div>
     </div>
 
     <div class="box-right">

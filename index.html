@@ -2,46 +2,39 @@
 layout: default
 title: Josh Martin | Blog
 ---
-<!-- Blog
-================================================== -->  
-<main>
-  <div class="blog-header">
-    <h3 class="block">This is a blog. There are many like it, but this one is mine.</h3>
-    <p>The content of which will give you insight into the work I do, as well as explore material that is personally and/or professionally significant to me. If you are simply looking for visuals, you can find snapshots of my work on <a href="http://www.dribbble.com/joshmartindesigns" class="">
-      <img class="dribbble relative inline-block" src="/images/dribbble.png"/>
-    </a>.</p>
-  </div>
-  <!-- Blog Post Snippets  -->  
-  <ul class="blog-post-container cf">
-    {% for post in site.posts %}
 
-      <li class="blog-post">
-        <a class="link" href="{{ post.url }}">
+<span class="choose">Choose Category</span>
+<div class="tag-container">
+  <span class="tag-item active">Portfolio (6)</span>
+  <span class="tag-item">Shop (0)</span>
+  <span class="tag-item">Personal (0)</span>
+  <span class="tag-item">Resources (0)</span>
+  <span class="tag-item">Finds (0)</span>
+</div>
 
-          <div class="thumbnail-details cf">   
+<!-- Blog Post Snippets  -->  
+<ul class="blog-post-container cf">
+  {% for post in site.posts %}
 
-            <figure class="thumbnail-container inline-block float-left">
-              <img class="thumbnail" src="/images/post/{{ post.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ post.title | replace:' ','-' | remove: ' ' | downcase }}/thumbnail.jpg"/>    
-            </figure> 
+    <li class="blog-post cf">
 
-            <div class="thumbnail-content inline-block float-left">
-              <div>
-                <span class="post-title link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</span>
-                <span class="post-date relative">{{ post.date | date: '%B %Y' }}</span>
-                <div class="cat-container">
-                  <span class="cat">Filed under <span class="blue">{{ post.category }}</span></span>
-                </div>
-              </div>
-              <p class="excerpt">{{ post.excerpt | strip_html }}</p>
-              <a class="post-link block" href="{{ post.url }}">Continue Reading &rarr;</a>
-            </div>
+        <figure class="thumbnail-container inline-block float-left">
+          <a class="link" href="{{ post.url }}"> 
+            <img class="thumbnail" src="/images/post/{{ post.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ post.title | replace:' ','-' | remove: ' ' | downcase }}/thumbnail.jpg"/>
+          </a>    
+        </figure> 
 
-          </div>     
-          
-        </a>
-      </li>
+        <div class="thumbnail-content inline-block float-left">
+          <div class="cf">
+            <span class="post-date float-leftrelative">{{ post.date | date: '%B %Y' }} • Posted in</span>
+            <a href="" class="posted float-left inline-block">Portfolio</a>
+          </div>
+          <a href="{{ post.url }}" class="post-title link block" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>         
+          <p class="excerpt">{{ post.excerpt | strip_html }}</p>
+          <a class="post-link block" href="{{ post.url }}">Continue Reading <span class="arrow">&rarr;</span></a>
+        </div>   
+      
+    </li>
 
-    {% endfor %}
-  </ul>
-
-</main>
+  {% endfor %}
+</ul>

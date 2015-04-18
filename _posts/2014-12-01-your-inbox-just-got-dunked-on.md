@@ -12,8 +12,6 @@ I sent that ungrateful bastard one of my Dribbble invites over a year ago an he 
    
 To thrust Mr. Beckman back into the game, we worked together to make [Alleyooop](http://www.alleyooop.info), a customizable newletter of Dribbble shots. You can adjust frequency of the newsletter and the type of shots you want to follow.
 
-{% include image.html name="email-mock" caption="Looks great on your phone" %}
-
 Currently, we only show the most popular shots (views + likes) from either Animated or nonanimated shots, but hope to allow even more filtration, such as location and by tag. We are currently wrestling with Dribbble's API.
 
 I think the newsletter can be quite handy for not only Beckman, but other people too good or too busy (or too smart) to visit Dribbble regularly.

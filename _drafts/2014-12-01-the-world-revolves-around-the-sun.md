@@ -6,7 +6,7 @@ date: 2014-12-01
 category: Portfolio
 ---
 
-The last project I did with Aggrego is most certainly the largest, and for me, the most significant of my career, thus far. I did not expect to be the lead designer of a prestigious product or brand, such as the Chicago Sun-Times, so soon. But, as luck/fortune would have it, I was given the opportunity to not only redesign it, but extend it's reach across 70 of the largest cities in the US as part of the "Sun-Times Network"
+The last project I did with Aggrego is most certainly the largest, and for me, up until that momement, the most significant of my career. I was given the opportunity to redesign the Chicago Sun-Times and extend the brand across websites and apps in 70 of the largest cities in the US as part of the "Sun-Times Network."
 
 Aggrego, the company I was technically employed by for this project, is generally a software development startup that creates and manages news media networks. It employees a extremely talented mix of developers and engineers who build the networks from the ground up, and content creators who fill said networks with highly-monetizable content. 
 
