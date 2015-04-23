@@ -1,0 +1,28 @@
+<span class="choose">Choose Category</span>
+<div class="tag-container">
+  <a href="/" class="tag-item
+    {% if page.tag == 'Portfolio' %}
+    active
+    {% endif %}"
+  >Portfolio (6)</a>
+  <a href="/tags/shop" class="tag-item
+    {% if page.tag == 'Shop' %}
+    active
+    {% endif %}"
+  >Shop (0)</a>
+  <a href="/tags/personal" class="tag-item
+    {% if page.tag == 'Personal' %}
+    active
+    {% endif %}"
+  >Personal (0)</a>
+  <a href="/tags/resources" class="tag-item
+    {% if page.tag == 'Resources' %}
+    active
+    {% endif %}"
+  >Resources (0)</a>
+  <a href="/tags/finds" class="tag-item
+    {% if page.tag == 'Finds' %}
+    active
+    {% endif %}"
+  >Finds (0)</a>
+</div>

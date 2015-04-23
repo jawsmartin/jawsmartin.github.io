@@ -3,7 +3,7 @@ layout: post
 title: Redesigning Power2Switch
 deck: Power2Switch was my first real job after college, and more importantly, my first job in web design and development.
 date: 2013-04-01
-category: Personal
+tag: Portfolio
 ---
 
 I had just [graduated college](https://www.dropbox.com/s/himlrsgz671oocb/graduate.jpg?dl=0) and moved to Chicago in hopes that the big city could provide big job opportunities. After discovering my traditional graphic design and animation degree wasn't quite lining up well-paying suitors, I started teaching myself web design and development.
@@ -22,7 +22,7 @@ Of the many projects I worked on, the redesign of the company's website was, by 
 
 Before we even formally began on the project, I enthusiastically started working on my own. I presented a coded, responsive redesign of Power2Switch's then-current homepage and pitched my ideas for improving their online product.
 
-{% include image.html name="initial-2" caption="Initial direction for homepage redesign" %}
+{% include image.html name="initial" caption="Initial direction for homepage redesign" %}
 
 The design was OK (at best), but clearly showed how limited my experience in web was&mdash; it was bloated, formulaic, completely disregarded branding, and didn't adequately inform new users how Power2Switch worked. 
 

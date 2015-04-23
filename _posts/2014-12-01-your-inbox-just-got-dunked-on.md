@@ -3,7 +3,7 @@ layout: post
 title: Your Inbox Just Got Dunked On
 deck: Don't have time to visit Dribbble for the latest and greatest? Alleyooop allows for customized summaries of the week's best shots.
 date: 2014-12-01
-category: Project
+tag: Portfolio
 ---
 
 I know, for a fact, I'm addicted to Dribbble &mdash; I check it before every project for inspiration and several times a day just to see what what is trending. For all intents and purposes, I do not need any other reminder of what is happening there. However, my friend and co-worker, [Josh Beckman](http://www.andjosh.com), does.

@@ -3,7 +3,7 @@ layout: post
 title: Hummingbird Logo
 deck: Hummingbird is an online community, launched in 2012 as a platform for anime fans to track the shows they have watched, as well as get recommendation for new ones. It has since grown into vibrant social network and marketplace.
 date: 2013-08-01
-category: Portfolio
+tag: Portfolio
 ---
 
 My very talented friend and founder or Hummingbird, [Josh Fabian](https://twitter.com/joshfabian), asked me to refresh its logo to coincide with a large website redesign. He felt his current version had a jagged silhouette and too fine of details that didn't work at a small scale. A new logo was needed to reflect the website's new direction and the bright future Hummingbird was working towards.

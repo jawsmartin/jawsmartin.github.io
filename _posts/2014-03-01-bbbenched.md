@@ -3,7 +3,7 @@ layout: post
 title: Bbbenched
 deck: Bbbench would be a tool for organizing your the artists you follow on Dribbble to more easily reference them and their work later.
 date: 2014-03-01
-category: Project
+tag: Portfolio
 ---
 
 Dribbble is my choice of social media for sharing my work. I love that it focuses on spontaneity and WIP, not necessarily polished, completed projects (see [Behance](http://blog.dribbble.com/2012/04/27/pro2.html)). With that being said, the platform is built for just that&mdash;quick uploads, small thumbnails, simple portfolios, etc.
