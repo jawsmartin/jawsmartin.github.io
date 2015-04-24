@@ -4,7 +4,7 @@
     {% if page.tag == 'Portfolio' %}
     active
     {% endif %}"
-  >Portfolio (4)</a>
+  >Portfolio (6)</a>
   <a href="/tags/shop" class="tag-item
     {% if page.tag == 'Shop' %}
     active
@@ -24,5 +24,10 @@
     {% if page.tag == 'Finds' %}
     active
     {% endif %}"
-  >Finds (0)</a>
+  >Finds (2)</a>
 </div>
+
+        <div class="cf">
+          <span class="post-date float-leftrelative">{{ post.date | date: '%B %Y' }} • Posted in</span>
+          <a href="" class="posted float-left inline-block">Portfolio</a>
+        </div>

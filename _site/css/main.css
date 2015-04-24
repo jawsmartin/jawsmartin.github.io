@@ -442,6 +442,13 @@ footer p {
   margin-right: 10px;
 }
 
+.about-page h3:before  {
+  font-family: 'icomoon';
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
 .contact:before {
   content: "\e96b";
 }

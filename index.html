@@ -4,8 +4,6 @@ title: Josh Martin | Portfolio
 tag: Portfolio
 ---
 
-{% include nav.html %} 
-
 <ul class="blog-post-container cf">
 {% for post in site.tags[page.tag] %}
 
@@ -19,8 +17,7 @@ tag: Portfolio
 
       <div class="thumbnail-content inline-block float-left">
         <div class="cf">
-          <span class="post-date float-leftrelative">{{ post.date | date: '%B %Y' }} • Posted in</span>
-          <a href="" class="posted float-left inline-block">Portfolio</a>
+          <span class="post-date float-leftrelative">{{ post.date | date: '%B %Y' }}</span>
         </div>
         <a href="{{ post.url }}" class="post-title link block" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>         
         <p class="excerpt">{{ post.excerpt | strip_html }}</p>
