@@ -62,8 +62,107 @@ table {
   *zoom: 1;
 }
 
-/* #Icon Fonts
+/* #Helper Classes
 ============================================== */
+/* Positioning */
+.inline-block {
+  display: inline-block;
+}
+.block {
+  display: block;
+}
+.text-center {
+  text-align: center;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.float-left {
+  float: left;
+}
+
+/* #General
+==============================================*/
+body {
+  font-family: 'Helvetica Neue';
+  -webkit-font-smoothing: antialiased;
+  color: #606c78;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f5f8fa;
+}
+.wrapper {
+  margin: 50px auto 8px auto;
+  max-width: 335px;
+}
+
+/* #Hero
+============================================== */
+.me {
+  background-color: white;
+  width: 55px;
+  padding: 2px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px rgba(0,0,0,.5);
+}
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  height: auto;
+}
+.profile-container {
+  position: absolute;
+  z-index: 2;
+  bottom: -17px;
+  left: 41%;
+}
+.hero-image {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+/* #Copy
+============================================== */
+h1 {
+  font-size: 21px;
+  font-weight: 500;
+  color: #263d49;
+}
+p {
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 12px;
+}
+.card p:first-of-type {
+  margin-top: 13px;
+}
+.card  {
+  padding: 29px 38px 25px 38px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: white;
+}
+em {
+  font-weight: 500;
+}
+a {
+  color: RGBA(37, 147, 232, 1);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* #Social Nav
+============================================== */
+/* #Icon Fonts (for Social Media Logos)*/
 @font-face {
   font-family: 'icomoon';
   src:url('../fonts/icomoon.eot?-vmko0h');
@@ -87,319 +186,126 @@ table {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* #General
-==============================================*/
-body {
-  font-family: 'Helvetica Neue';
-  -webkit-font-smoothing: antialiased;
-  color: #606c78;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  background-color: #f5f8fa!important;
-}
-
-em {
-  font-weight: 500;
-}
-.post a:hover {
-  text-decoration: underline;
-}
-
-img {
-  max-width: 100%;
-  width: 100%;
-  display: block;
-  height: auto;
-}
-.wrapper {
-  margin: 0 auto;
-  max-width: 310px;
-  width: 90%;
-}
-
-h1 {
-  font-size: 21px;
-  font-weight: 500;
-  color: #263d49;
-}
-.me {
-  background-color: white;
-  width: 55px;
-  padding: 2px;
-  border-radius: 50%;
-    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
-}
-
-figure {
-  position: absolute;
-  bottom: -17px;
-  display: inline-block;
-  left: 41%;
-}
-
-.main {
-  margin: 18% 0px 10px 0px;
-}
-
-.hero-image {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-p {
-  margin-bottom: 12px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 25px;
-  margin-top: 12px;
-}
-
-.card p:first-of-type {
-  margin-top: 13px;
-}
-
-.card  {
-  border-radius: 5px;
-  overflow: hidden;
-  border: 1px solid #ececec;
-  border-radius: 3px;
-  background-color: white;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  width: 310px;
-}
-
-.social-name {
-  display: block;
-  font-size: 14px;
-}
-
-.social-description {
-  display: block;
-  margin-top: 5px;
-  font-size: 12px;
-  color: RGBA(115, 130, 138, 1) !important;
-}
-
-.top {
-  padding: 29px 30px 25px 30px;
-}
-
 nav {
-  position: relative;
-  display: block;
-  background-color: #1a1a1a;
+  top: -1px;
+  z-index: 1;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  width: 334px;
   overflow: hidden;
-
 }
-
 .social-link {
-  position: relative;
-  display: inline-block;
-  width: 20%;
-  float: left;
+  width: 16.66%;
   height: 50px;
-  background-color: #ececec;
   box-sizing: border-box;
 }
-
-.social-link:hover {
-  opacity: .9;
-}
-
-.find {
-  font-size: 10px;
-  text-transform: uppercase;
-  font-weight: 600;
-  display: inline-block;
-  text-align: center;
-  margin-bottom: 24px;
-}
-
-nav .social-link:last-of-type {
-  border-right: none;
-}
-
 .dribbble {
   background-color: #E84F89;
 }
-
 .linkedin {
   background-color: #1884BA;
 }
-
 .behance {
   background-color: #1790FB;
 }
-
 .twitter {
   background-color: #59ADEC;
 }
-
 .instagram {
  background-color: #447194;
 }
-
-.email {
- background-color: #D64A38;
+.facebook {
+ background-color: #405E9B;
 }
-
-
-.instagram:before {
+.social-link:before {
   font-family: 'icomoon';
   display: inline-block;
-  color: white;
-  content: "\e601";
+  color: white; 
   position: absolute;
-  left: 35%;
+}
+.instagram:before {
+  content: "\e601";
+  left: 34%;
   top: 21%;
   font-size: 20px;  
 }
-
 .behance:before {
-  font-family: 'icomoon';
-  display: inline-block;
-  color: white;
   content: "\e602";
-  position: absolute;
-  left: 30%;
-  top: 17%;
+  left: 28%;
+  top: 19%;
   font-size: 24px;   
 }
-
 .twitter:before {
-  font-family: 'icomoon';
-  display: inline-block;
-  color: white;
   content: "\ea91";
-  position: absolute;
-  left: 33%;
-  top: 17%;
-  font-size: 22px;   
+  left: 30%;
+  top: 19%;
+  font-size: 22px;  
+  border-bottom-left-radius: 5px; 
 }
-
 .dribbble:before {
-  font-family: 'icomoon';
-  display: inline-block;
-  color: white;  
   content: "\eaa6";
-  position: absolute;
-  left: 33%;
+  left: 31%;
   top: 18%;
   font-size: 21px;  
 }
-
 .linkedin:before {
-  font-family: 'icomoon';
-  display: inline-block;
-  color: white;  
   content: "\eac9";
-  position: absolute;
   left: 32%;
   top: 16%;
   font-size: 22px;   
 }
+.facebook:before {
+  content: "\e600";
+  left: 30%;
+  top: 20%;
+  font-size: 21px;   
+  border-bottom-right-radius: 5px;
+}
+.social-link.twitter:hover {
+  background-color: #549ED4;
+}
+.social-link.facebook:hover {
+  background-color: #3C578B;
+}
+.social-link.linkedin:hover {
+  background-color: #1F79A7;
+}
+.social-link.instagram:hover {
+  background-color: #406785;
+}
+.social-link.behance:hover {
+  background-color: #2185E0;
+}
+.social-link.dribbble:hover {
+  background-color: #D2487D;
+}
 
+/* #Footer
+============================================== */
 footer {
   margin-bottom: 50px;
 }
-
 footer a {
   color: inherit;
   text-decoration: underline;
 }
-
 .copyright {
   font-size: 11px;
   opacity: .7;
 }
 
-.social-link.twitter:hover {
-  opacity: 1;
-  background-color: #549ED4;
-}
-
-.social-link.linkedin:hover {
-  opacity: 1;
-  background-color: #1D76A3;
-}
-
-
-
-/* #Helper Classes
+/* #Media Queries
 ============================================== */
-/* Positioning */
-.inline-block {
-  display: inline-block;
-}
-.block {
-  display: block;
-}
-.text-center {
-  text-align: center;
-}
-.text-left {
-  text-align: left;
-}
-.relative {
-  position: relative;
-}
-.absolute {
-  position: absolute;
-}
-.float-left {
-  float: left;
-}
-.float-right {
-  float: right;
-}
-
-/* Links */
-a {
-  color: RGBA(37, 147, 232, 1);
-  text-decoration: none;
-  transition: all .2s ease; 
-}
-a:hover {
-  transition: all .2s ease; 
-}
-
-.hide {
-  display: none;
-}
-strong {
-  font-weight: bold;
-}
-.blue {
-  color: #2D95E5;
-}
-
-.gradient {
-  z-index: 9;
-  opacity: .3;
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 5px;
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
-
-}
-
-p a:hover {
-  text-decoration: underline;
-}
-
-
-
-@media screen and (max-width: 950px) {
-
+@media screen and (max-width: 450px) {
+  .wrapper {
+    max-width: 100%;
+    margin: 0px auto 0px auto;
+    padding: 20px 20px 8px 20px;
+    box-sizing:border-box;
+    width: 100%;
+  }
+  nav {
+    max-width: 100%;
+    width: 100%;
+  }
 }
