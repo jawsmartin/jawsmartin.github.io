@@ -304,6 +304,9 @@ footer a {
     box-sizing:border-box;
     width: 100%;
   }
+  .card {
+    padding: 29px 24px 20px 24px;
+  }
   nav {
     max-width: 100%;
     width: 100%;
