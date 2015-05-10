@@ -318,7 +318,7 @@ height: 100px;
   right: 0px;
   width: 32%;
   min-width: 450px;
-  padding: 70px 60px 0px 60px;
+  padding: 60px 60px 0px 60px;
   box-sizing: border-box;
 }
 
@@ -348,7 +348,7 @@ height: 100px;
 }
 
 .hero-title {
-  font-size: 45px;
+  font-size: 39px;
   color: #263d49;
   line-height: 1;
   font-weight: 400;
