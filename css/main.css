@@ -140,7 +140,7 @@ p {
  p {
   margin-bottom: 12px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   color: RGBA(112, 123, 132, 1);
   line-height: 29px;
   margin-top: 20px;
@@ -255,8 +255,8 @@ nav .social-link:last-of-type {
 .tumblr:before {
   content: "\eabb";
   left: 26%;
-  top: 25%;
-  font-size: 19px;   
+  top: 27%;
+  font-size: 18px;   
 }
 
 .lastfm:before {
@@ -268,9 +268,8 @@ nav .social-link:last-of-type {
 
 .deck {
   color: #263d49;
-  font-size: 20px;
-  font-family: 'Georgia';
-  line-height: 1.5;
+  font-size: 17px;
+  line-height: 1.6;
   margin-bottom: 23px;
 }
 
@@ -280,6 +279,10 @@ nav .social-link:last-of-type {
   z-index: 9;
   left: 0px;
   bottom: 0px;
+}
+
+nav {
+  padding-bottom: 8px;
 }
 
 .go {
@@ -350,25 +353,11 @@ height: 100px;
 .hero-title {
   font-size: 31px;
   color: #263d49;
-  line-height: 1.2;
-  font-weight: 500;
+  line-height: 1.4;
+  font-weight: 300;
   margin-bottom: 25px;
 }
-.hero-sub {
-  font-size: 11px;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #263d49;
-  margin-bottom: 30px;  
-}
 
-.hero-date {
-  font-size: 12px;
-  opacity: .5;
-  font-weight: 400;
-  color: #263d49;
-  margin-bottom: 25px;  
-}
 .hero-copy{
   font-size: 15px;
   margin-bottom: 15px;
@@ -489,14 +478,14 @@ footer a {
 
 @media screen and (max-width: 450px) {
   .hero-title {
-    font-size: 22px;
+    font-size: 27px;
     padding-top: 15px;
     margin-bottom: 19px;
     line-height: 1.4;
   }
 
   .deck {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
   }
 
