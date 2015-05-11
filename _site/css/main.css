@@ -323,7 +323,7 @@ height: 100px;
   position: absolute;
   right: 0px;
   width: 475px;
-  padding: 75px 55px 0px 55px;
+  padding: 67px 55px 0px 55px;
   box-sizing: border-box;
 }
 
@@ -467,7 +467,7 @@ footer a {
   }
   .hero {
     background-position: 71% center;
-    height: 325px;
+    height: 400px;
   }
   .go {
     bottom: 11px;
