@@ -484,7 +484,7 @@ footer a {
   }
   .hero {
     background-position: 71% center;
-    height: 350px;
+    height: 450px;
   }
   .go {
     bottom: 11px;
@@ -498,6 +498,11 @@ footer a {
     margin-bottom: 19px;
     line-height: 1.4;
   }
+
+  .hero {
+    background-position: 71% center;
+    height: 350px;
+  }  
 
   .button {
     margin-top: 35px;
