@@ -95,11 +95,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
-.wrapper {
-  margin: 50px auto 8px auto;
-  max-width: 335px;
-}
-
 /* #Hero
 ============================================== */
 .me {
@@ -158,9 +153,11 @@ p {
 }
 em {
   font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 a {
-  color: RGBA(37, 147, 232, 1);
+  color: rgba(38, 198, 218, 1);
   text-decoration: none;
 }
 a:hover {
@@ -197,7 +194,7 @@ nav {
 
 }
 .social-link {
-  height: 50px;
+  height: 38px;
   width: 25px;
   margin: 0px 15px 0px 0px;
   box-sizing: border-box;
@@ -271,7 +268,7 @@ nav .social-link:last-of-type {
   color: #263d49;
   font-size: 17px;
   line-height: 1.6;
-  margin-bottom: 23px;
+  margin-bottom: 36px;
 }
 
 .hero-text {
@@ -283,9 +280,13 @@ nav .social-link:last-of-type {
 }
 
 nav {
-  padding-bottom: 8px;
+  padding-bottom: 22px;
   position: relative;
   left: -3px;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  padding-top: 11px;
+  margin-bottom: 30px;  
 }
 
 .go {
@@ -293,7 +294,7 @@ nav {
   bottom: 25px;
   z-index: 99999999;
   position: absolute;
-  left: 20px;
+  right: 20px;
   bottom: 15px;
   font-size: 11px;
   opacity: .75;
@@ -313,29 +314,27 @@ height: 100px;
 
 .gradient-2 {
   display: none;
-background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-
-width: 450px;
-height: 100px;
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+width: 484px;
+height: 60px;
+opacity: .15;
 position: fixed;
-z-index: 99;
-bottom: 55px;
+z-index: 99999;
+bottom: 51px;
 left: 50px;
-height: 50px;
 }
 
 
 .right {
-  width: 58.7%;
+  width: 61.7%;
   top: 50px;
   right: 50px;
-  z-index: 999;
   position: fixed;
   margin-left: 489px;
 }
@@ -345,11 +344,22 @@ height: 50px;
   position: fixed;
   left: 50px;
   top: 50px;
-  width: 489px;
+  box-sizing: border-box;
+  height: 86.5vh;
+  width: 474px;
+  overflow-x: hidden;
+}
+
+.left-inner {
+  background-color: white;
   padding: 55px 60px 0px 60px;
   box-sizing: border-box;
   height: 86.5vh;
-  overflow-y: scroll 
+  overflow-y: scroll;
+  width: 489px;
+  overflow-x: hidden;
+  left: 0px;
+  position: relative;
 }
 
 .hero {
@@ -369,7 +379,7 @@ height: 50px;
 }
 
 .hero {
-  height: 86.5vh;
+  height: 86.53vh;
   position: relative;
   width: 100%;
 }
@@ -397,6 +407,7 @@ height: 50px;
 
 .sub {
   font-size: 15px;
+  color: rgba(38, 198, 218, 1);
   margin-bottom: 0px;
   margin-top: 0px;
 }
@@ -429,19 +440,19 @@ p a:hover {
 }
 
 .button {
-  color: RGBA(37, 147, 232, 1);
+  color: rgba(38, 198, 218, 1);
   margin-top: 50px;
   font-size: 15px;
   display: inline-block;
   border-radius: 60px;
   padding: 15px 45px 15px 45px;
-  border: 1px solid RGBA(37, 147, 232, 1);
+  border: 1px solid rgba(38, 198, 218, 1);
 }
 
 .button:hover {
   text-decoration: none;
   color: white;
-  background-color: RGBA(37, 147, 232, 1);;
+  background-color: rgba(38, 198, 218, 1);
 }
 
 
@@ -460,41 +471,42 @@ footer a {
   opacity: .7;
 }
 
-/* #Media Queries
-============================================== */
-@media screen and (max-width: 1100px) {
-.hero {
-  background-position: 100% center;
-}
 
 /* #Media Queries
 ============================================== */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .right {
-    width: 50%;
-    padding: 60px 40px 0px 40px;
+    width: 100%;
     min-width: inherit;
   }
   .hero {
-    background-position: 71% center;
+    background-position: center;
   }
   .left {
-    width: 50%;
+    width: 100%;
+    position: inherit;
+    left: inherit;
+    right: inherit;
+    top: inherit;
+    height: auto;
+    overflow-x: inherit;
+  }
+  .left-inner {
+    overflow-y: inherit;
+    height: inherit;
+    width: 100%;
   }
 
-}
-
-/* #Media Queries
-============================================== */
-@media screen and (max-width: 668px) {
   .right {
     width: 100%;
-    padding: 25px 25px 0px 25px;
+    padding: 0px;
     margin-left: 0px;
+    top: 0px;
+    right: 0px;
+    position: inherit;
   }
   .hero-title {
     font-size: 40px;
-    padding-top: 15px;
   }
   .hero {
     background-position: 71% center;
@@ -503,23 +515,67 @@ footer a {
   .go {
     bottom: 11px;
   }
-  .left {
-    width: 100%;
-    position: inherit;
+
+  .wrapper {
+    padding: 50px;
+    box-sizing:border-box;
   }
 
 }
 
 @media screen and (max-width: 450px) {
   .hero-title {
-    font-size: 27px;
-    padding-top: 15px;
+    font-size: 24px;
     margin-bottom: 19px;
     line-height: 1.4;
   }
 
+  .button {
+    margin-top: 38px;
+  }
+
+  .left-inner {
+    padding: 35px 25px 0px 25px;
+  }
+
+  .social-link {
+    width: 21px;
+  }
+
+  footer {
+    margin: 50px 0px 25px 0px;
+  }
+
+  .behance:before {
+    left: 6%;
+  }
+
+  .tumblr:before {
+    left: 22%;
+    top: 28%;
+  }
+
+  .wrapper {
+    padding: 25px;
+    box-sizing:border-box;
+  }  
+
+  .lastfm:before {
+    left: 29%;
+  }
+
+  .go {
+    left: 25px;
+    right: inherit;
+  }
+
+  .instagram:before {
+    left: 44%;
+  }
+
   .deck {
-    font-size: 16px;
+    font-size: 15px;
+    margin-bottom: 34px;
     line-height: 1.6;
   }
 
