@@ -190,85 +190,82 @@ a:hover {
   -moz-osx-font-smoothing: grayscale;
 }
 
-nav {
 
-}
 .social-link {
   height: 38px;
-  width: 25px;
-  margin: 0px 15px 0px 0px;
+  width: 38px;
+  margin: 0px 0px 0px 16px;
   box-sizing: border-box;
 }
 
-.social-link:hover {
-  opacity: .7;
-}
-
-nav .social-link:last-of-type {
-  margin-right: 0px;
-}
 .social-link:before {
   font-family: 'icomoon';
   display: inline-block;
   position: absolute;
+  border: 2px solid rgba(255,255,255,.5);
+  padding: 7px 11px 6px 11px;
+  font-size: 14px;
+  color: white;
+  border-radius: 50%;
+  transition: .2s ease-in;
 }
+
+.social-link:hover.social-link:before {
+ border: 2px solid rgba(255,255,255,1); 
+ transition: .2s ease-in;
+}
+
 .instagram:before {
-  content: "\e601";
-  left: 38%;
-  top: 28%;
-  font-size: 19px;  
+  content: "\e601"; 
 }
 .behance:before {
-  content: "\e602";
-  left: 18%;
-  top: 19%;
-  font-size: 26px;   
+  content: "\e602"; 
 }
 .twitter:before {
   content: "\ea91";
-  left: 30%;
-  top: 23%;
-  font-size: 21px;  
-  border-bottom-left-radius: 5px; 
 }
 .dribbble:before {
   content: "\eaa6";
-  left: 31%;
-  top: 23%;
-  font-size: 20px;  
 }
 .linkedin:before {
-  content: "\eac9";
-  left: 40%;
-  top: 17%;
-  font-size: 22px;   
+  content: "\eac9";  
 }
 .facebook:before {
-  content: "\e600";
-  left: 17%;
-  top: 25%;
-  font-size: 19px;   
+  content: "\e600";  
 }
 
 .tumblr:before {
-  content: "\eabb";
-  left: 26%;
-  top: 27%;
-  font-size: 18px;   
+  content: "\eabb";  
 }
-
 .lastfm:before {
   content: "\eaca";
-  left: 36%;
-  top: 20%;
-  font-size: 25px;   
+}
+.mail:before {
+  content: "\e604"; 
 }
 
-.deck {
+.deck-container {
+  padding-top: 10px;
+  margin-bottom: 23px;
+}
+
+.deck-left {
+  position: relative;
+  top: 2px;
+  border-radius: 50%;
+  width: 13%;
+  max-width: 47px;
+}
+
+.deck-right {
+  margin: 0px;
+  width: 82%;
   color: #263d49;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 1.6;
-  margin-bottom: 30px;
+  padding-left: 5%;
+  max-width: 306px;
+  box-sizing:border-box;
 }
 
 .hero-text {
@@ -278,26 +275,11 @@ nav .social-link:last-of-type {
   left: 0px;
   bottom: 0px;
 }
-
 nav {
-  padding-bottom: 22px;
-  position: relative;
-  left: -3px;
-  border-top: 1px solid #ececec;
-  border-bottom: 1px solid #ececec;
-  padding-top: 11px;
-  margin-bottom: 30px;  
-}
-
-.go {
-  color: white;
-  bottom: 25px;
-  z-index: 99999999;
-  position: absolute;
-  right: 20px;
-  bottom: 15px;
-  font-size: 11px;
-  opacity: .75;
+  right: 35px;
+  bottom: 28px;
+  position: fixed;
+  z-index: 9999;
 }
 
 .gradient {
@@ -309,7 +291,7 @@ background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /
 background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
 width: 100%;
-height: 100px;
+height: 145px;
 }
 
 .gradient-2 {
@@ -348,6 +330,7 @@ left: 50px;
   box-sizing: border-box;
   width: 474px;
   z-index: 9999;
+  box-shadow: 0px 0px 6px rgba(0,0,0,.3);
 }
 
 .hero {
@@ -371,7 +354,7 @@ left: 50px;
   color: #263d49;
   line-height: 1.4;
   font-weight: 300;
-  margin-bottom: 25px;
+  padding-bottom: 28px;
 }
 
 .hero-copy{
@@ -404,10 +387,9 @@ hr {
 
 figcaption {
   padding-top: 10px;
-  font-size: 12px;
+  font-size: 11px;
   color: RGBA(96, 108, 119, 1);
   opacity: .7;
-  font-style: italic;
 }
 
 a:hover {
@@ -439,9 +421,14 @@ p a:hover {
 /* #Footer
 ============================================== */
 footer {
-  margin: 70px 0px 50px 0px;
+  margin: 40px 0px 50px 0px;
 }
 footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+footer a:hover {
   color: inherit;
   text-decoration: underline;
 }
@@ -450,10 +437,16 @@ footer a {
   opacity: .7;
 }
 
+.select {
+  display: block;
+  padding-top: 25px;
+  font-weight: 500;
+}
+
 
 /* #Media Queries
 ============================================== */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1100px) {
   .right {
     width: 100%;
     min-width: inherit;
@@ -484,24 +477,38 @@ footer a {
   }
   .hero {
     background-position: 71% center;
-    height: 450px;
+    height: 550px;
   }
-  .go {
-    bottom: 11px;
+  nav {
+    left: 40px;
+    top: 481px;
+    right: inherit;
+    position: absolute;
   }
+
+    .social-link {
+    margin: 0px 0px 12px 16px;
+  }
+
 
 }
 
 @media screen and (max-width: 450px) {
   .hero-title {
     font-size: 24px;
-    margin-bottom: 19px;
     line-height: 1.4;
   }
 
   .hero {
     background-position: 71% center;
-    height: 350px;
+    height: 400px;
+  }  
+
+  nav {
+    left: 13px;
+    top: 287px;
+    right: inherit;
+    position: absolute;
   }  
 
   .button {
@@ -509,46 +516,27 @@ footer a {
   }
 
   .left {
-    padding: 35px 40px 0px 40px;
+    padding: 32px 30px 0px 30px;
   }
 
-  .social-link {
-    width: 21px;
-  }
 
   footer {
     margin: 50px 0px 25px 0px;
   }
 
-  .behance:before {
-    left: 6%;
-  }
-
-  .tumblr:before {
-    left: 22%;
-    top: 28%;
-  }
-
-  .lastfm:before {
-    left: 29%;
-  }
-
-  .go {
-    display: none;
-  }
-
   .gradient {
-    display: none;
-  }
-
-  .instagram:before {
-    left: 44%;
+    height: 200px;
   }
 
   .deck {
     font-size: 15px;
-    margin-bottom: 34px;
+    margin-bottom: 10px;
     line-height: 1.6;
+  }
+
+  .deck-container {
+    padding-top: 10px;
+    margin-bottom: 9px;
   }
 
   hr {
