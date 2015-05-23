@@ -252,17 +252,18 @@ a:hover {
 .deck-left {
   position: relative;
   top: 2px;
-  border-radius: 50%;
-  width: 13%;
+  border-radius: 15%;
+  width: 11%;
   max-width: 47px;
 }
 
 .deck-right {
   margin: 0px;
   width: 84%;
-  color: #263d49;
-  font-size: 15px;
+  color: #7C8A91;
+  font-size: 13px;
   line-height: 1.6;
+  font-style: italic;
   padding-left: 5%;
   max-width: 306px;
   box-sizing:border-box;
