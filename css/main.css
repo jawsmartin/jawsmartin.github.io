@@ -442,6 +442,8 @@ footer a:hover {
   display: block;
   padding-top: 25px;
   font-weight: 500;
+  color: #263d49;
+  opacity: .8;
 }
 
 
