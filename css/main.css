@@ -249,23 +249,13 @@ a:hover {
   margin-bottom: 23px;
 }
 
-.deck-left {
-  position: relative;
-  top: 2px;
-  border-radius: 15%;
-  width: 11%;
-  max-width: 47px;
-}
-
 .deck-right {
   margin: 0px;
   width: 84%;
   color: #7C8A91;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.6;
   font-style: italic;
-  padding-left: 5%;
-  max-width: 306px;
   box-sizing:border-box;
 }
 
@@ -334,7 +324,7 @@ left: 50px;
 }
 
 .hero {
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/neon2.jpg");
   background-position: center;
   background-size: cover;
   height: 500px;
@@ -354,7 +344,7 @@ left: 50px;
   color: #263d49;
   line-height: 1.4;
   font-weight: 300;
-  padding-bottom: 28px;
+  padding-bottom: 4px;
 }
 
 .hero-copy{
