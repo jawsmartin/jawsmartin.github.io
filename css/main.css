@@ -355,8 +355,7 @@ left: 50px;
 .thumbnail {
   padding-top: 22px;
   padding-bottom: 22px;
-  max-height: 150px;
-  overflow: hidden;
+  text-decoration: none;
 }
 
 .sub {
@@ -377,11 +376,20 @@ hr {
   margin-left: auto;
 }
 
+.thumbnail a {
+  text-decoration: none;
+}
+
 figcaption {
   padding-top: 10px;
   font-size: 11px;
   color: RGBA(96, 108, 119, 1);
   opacity: .7;
+  text-decoration: none !important;
+}
+
+.thumbnail .container {
+
 }
 
 a:hover {
