@@ -353,8 +353,10 @@ left: 50px;
 }
 
 .thumbnail {
-  padding-top: 30px;
-  padding-bottom: 19px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  max-height: 150px;
+  overflow: hidden;
 }
 
 .sub {
@@ -506,12 +508,12 @@ footer a:hover {
 
   .hero {
     background-position: 71% center;
-    height: 400px;
+    height: 250px;
   }  
 
   nav {
     left: 13px;
-    top: 287px;
+    top: 135px;
     right: inherit;
     position: absolute;
   }  
@@ -543,6 +545,10 @@ footer a:hover {
     padding-top: 10px;
     margin-bottom: 9px;
   }
+
+  .me-container {
+  margin-bottom: 30px;
+}
 
   hr {
     padding-top: 2em;
