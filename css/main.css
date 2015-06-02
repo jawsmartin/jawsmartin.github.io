@@ -128,7 +128,7 @@ h1 {
 p {
   margin-bottom: 12px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 25px;
   margin-top: 12px;
 }
@@ -508,7 +508,7 @@ footer a:hover {
 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .hero-title {
     font-size: 27px;
     line-height: 1.4;
