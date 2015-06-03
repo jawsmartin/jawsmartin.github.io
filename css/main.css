@@ -125,18 +125,11 @@ h1 {
   color: #263d49;
   padding-bottom: 15px;
 }
-p {
-  margin-bottom: 12px;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 25px;
-  margin-top: 12px;
-}
 
  p {
   margin-bottom: 12px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   color: rgba(112, 123, 132, 1);
   line-height: 29px;
   margin-top: 20px;
@@ -494,12 +487,10 @@ footer a:hover {
     background-position: 71% center;
     height: 550px;
   }
+  
   nav {
-    left: 40px;
-    top: 481px;
-    right: inherit;
-    position: absolute;
-  }
+    display: none;
+  }  
 
     .social-link {
     margin: 0px 0px 12px 16px;
@@ -517,10 +508,6 @@ footer a:hover {
   .hero {
     background-position: 71% center;
     height: 250px;
-  }  
-
-  nav {
-    display: none;
   }  
 
   .button {
