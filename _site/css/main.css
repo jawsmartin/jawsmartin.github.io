@@ -96,7 +96,7 @@ body {
 }
 
 .wrapper {
-  max-width: 600px;
+  max-width: 620px;
   padding: 35px 35px 0px 35px;
   box-sizing: border-box;
   width: 100%;
@@ -263,7 +263,7 @@ a:hover {
 ============================================== */
 @media screen and (max-width: 750px) {
   .wrapper {
-    padding: 25px;
+    padding: 15px;
   }
 }
 
