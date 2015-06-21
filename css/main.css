@@ -111,7 +111,7 @@ img {
 }
 
 .me-container {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 
@@ -133,15 +133,6 @@ h1 {
   margin-top: 20px;
 }
 
-.card p:first-of-type {
-  margin-top: 13px;
-}
-.card  {
-  padding-bottom: 25px;
-  box-sizing: border-box;
-  overflow: hidden;
-  background-color: white;
-}
 em {
   font-weight: 500;
   font-size: 14px;
@@ -151,88 +142,16 @@ a {
   color: #263d49;
 }
 
-.name {
-  font-size: 32px;
-  display: inline-block;
-  color: #263d49;
-  padding-top: 100px;
-  padding-bottom: 0px;
-}
-
-.date {
+.select {
   display: block;
-  opacity: .8;
-  font-size: 15px;
-  padding-bottom: 45px;
-}
-
-
-.deck-container {
-  padding-top: 4px;
-  margin-bottom: 23px;
-}
-
-.deck-right {
-  margin: 0px;
-  color: #7C8A91;
-  font-size: 15px;
-  line-height: 1.6;
-  font-style: italic;
-  box-sizing:border-box;
-}
-
-.projects {
-  padding-top: 23px;
-}
-.projects a {
-  padding-bottom: 12px;
-  display: block;
-}
-
-.hero {
-  background-image: url("../images/neon2.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 500px;
-  padding: 0 20px 30px 20px;
-  box-sizing: border-box;
-  position: fixed;
-  text-align: center;
-  padding: 0 50px 30px 50px;
-  height: 100vh;
-  position: relative;
-  width: 100%;
-}
-
-
-.hero-title {
-  font-size: 34px;
-  color: #263d49;
-  line-height: 1.2;
+  padding-top: 45px;
   font-weight: 500;
-  padding-bottom: 30px;
+  color: #263d49;
+  font-size: 18px;
   font-family: 'Helvetica Neue';
 }
 
 
-hr {
-  border: 0;
-  border-bottom: 3px solid rgba(61,70,77,0.1);
-  width: 4rem;
-  padding-top: 2.8em;
-  margin-top: -2px;
-  margin-right: auto;
-  margin-bottom: 3rem;
-  margin-left: auto;
-}
-
-figcaption {
-  padding-top: 10px;
-  font-size: 11px;
-  color: RGBA(96, 108, 119, 1);
-  opacity: .7;
-  text-decoration: none !important;
-}
 
 /* #Footer
 ============================================== */
@@ -245,34 +164,12 @@ footer a {
 }
 
 .copyright {
-  font-size: 12px;
+  font-size: 14px;
   opacity: .7;
-}
-
-.select {
-  display: block;
-  padding-top: 25px;
-  font-weight: 500;
-  color: #263d49;
-  font-size: 18px;
-  font-family: 'Helvetica Neue';
-}
-
-.pp {
-  display: block;
-  padding-top: 40px;
-}
-
-a:hover {
-  cursor: pointer;
-  padding: 
 }
 
 /* #Media Queries
 ============================================== */
-@media screen and (max-width: 750px) {
-  .wrapper {
-    padding: 15px;
-  }
+@media screen and (max-width: 768px) {
 }
 
