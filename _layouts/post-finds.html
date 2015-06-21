@@ -1,0 +1,35 @@
+{% include head.html %}   
+   
+{% include header.html %}  
+
+<div class="wrapper relative cf">
+
+  <main class="main-content">
+    <div class="inner-main-content">
+
+      <!-- Post Header
+      ================================================== --> 
+      <section class="post-header">  
+        <div class="bread-container">
+          <a class="bread" href="/tags/finds">Finds</a>
+          <span class="bread arrow">/</span>
+          <a class="bread" href="#">{{ page.title }} ({{ page.date | date: '%B %Y' }})</a>
+        </div>
+      </section>
+
+      <!-- Post Main Content
+      ================================================== --> 
+      <section class="post find-list">
+        {{ content }}   
+      </section>
+
+    </div>
+  </main>
+
+  <aside class="sidebar">
+    {% include sidebar.html %} 
+  </aside>
+
+</div>
+
+{% include footer.html %}  

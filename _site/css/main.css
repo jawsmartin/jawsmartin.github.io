@@ -91,21 +91,23 @@ body {
   -webkit-font-smoothing: antialiased;
   color: #606c78;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
 .wrapper {
-  max-width: 620px;
-  padding: 35px 35px 0px 35px;
-  box-sizing: border-box;
+  max-width: 550px;
   width: 100%;
+  padding: 15px;
+  box-sizing:border-box;
+  padding-top: 50px;
   margin: 0 auto;
 }
 
-.me {
-  display: block;
+img {
   width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 .me-container {
@@ -125,11 +127,10 @@ h1 {
  p {
   margin-bottom: 12px;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 18px;
   color: rgba(112, 123, 132, 1);
-  line-height: 33px;
+  line-height: 1.8;
   margin-top: 20px;
-  font-family: 'Georgia';
 }
 
 .card p:first-of-type {
@@ -150,6 +151,20 @@ a {
   color: #263d49;
 }
 
+.name {
+  font-size: 32px;
+  display: inline-block;
+  color: #263d49;
+  padding-top: 100px;
+  padding-bottom: 0px;
+}
+
+.date {
+  display: block;
+  opacity: .8;
+  font-size: 15px;
+  padding-bottom: 45px;
+}
 
 
 .deck-container {
@@ -165,19 +180,12 @@ a {
   font-style: italic;
   box-sizing:border-box;
 }
-nav {
-  left: 35px;
-  bottom: 28px;
-  position: fixed;
-  z-index: 9999;
-}
 
 .projects {
   padding-top: 23px;
 }
 .projects a {
   padding-bottom: 12px;
-  font-family: 'Georgia';
   display: block;
 }
 
@@ -237,7 +245,7 @@ footer a {
 }
 
 .copyright {
-  font-size: 11px;
+  font-size: 12px;
   opacity: .7;
 }
 
@@ -257,6 +265,7 @@ footer a {
 
 a:hover {
   cursor: pointer;
+  padding: 
 }
 
 /* #Media Queries
