@@ -1,8 +1,6 @@
-/*
-#Reset (Reduce browser inconsistencies)
+/* Reset (Reduce browser inconsistencies)
 http://meyerweb.com/eric/tools/css/reset/ 
-v2.0 | 20110126
-License: none (public domain)
+v2.0 | 20110126 | License: none (public domain)
 ============================================== */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -48,131 +46,66 @@ table {
   border-spacing: 0;
 }
 
-/* #Clearfix (Contain floating elements)
-============================================== */
-.cf:before,
-.cf:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
-}
-.cf:after {
-  clear: both;
-}
-.cf {
-  *zoom: 1;
-}
-
-/* #Helper Classes
-============================================== */
-/* Positioning */
-.inline-block {
-  display: inline-block;
-}
-.block {
-  display: block;
-}
-.text-center {
-  text-align: center;
-}
-.relative {
-  position: relative;
-}
-.absolute {
-  position: absolute;
-}
-.float-left {
-  float: left;
-}
-
 /* #General
 ==============================================*/
 body {
   font-family: 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
-  color: #606c78;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-.wrapper {
-  max-width: 550px;
-  width: 100%;
-  padding: 15px;
-  box-sizing:border-box;
-  padding-top: 50px;
-  margin: 0 auto;
-}
-
-img {
-  width: 100%;
-  display: block;
-  max-width: 100%;
-}
-
-.me-container {
-  margin-bottom: 15px;
-}
-
-
-/* #Copy
-============================================== */
-h1 {
-  font-size: 21px;
-  font-weight: 500;
-  color: #263d49;
-  padding-bottom: 15px;
-}
-
- p {
-  margin-bottom: 12px;
-  font-weight: 400;
-  font-size: 18px;
   color: rgba(112, 123, 132, 1);
-  line-height: 1.8;
-  margin-top: 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+.me-container {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background: url(../images/test.jpg);
+  width: 71%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  border: 35px solid white;
+  box-sizing: border-box;
+}
+.column {
+  display: inline-block;
+  margin-left: 71%;
+}
+.column-inner {
+  padding: 15px 35px 85px 0px;
+  max-width: 310px;
 }
 
-em {
-  font-weight: 500;
-  font-size: 14px;
-  text-transform: uppercase;
+/* Typography
+============================================== */
+p {
+  margin-bottom: 15px;
+  line-height: 1.8;
 }
 a {
   color: #263d49;
 }
-
-.select {
-  display: block;
-  padding-top: 45px;
-  font-weight: 500;
+h1 {
   color: #263d49;
-  font-size: 18px;
-  font-family: 'Helvetica Neue';
+  padding: 25px 0px 17px 0px;
+  font-weight: 500;
+  font-size: 17px;
 }
 
-
-
-/* #Footer
-============================================== */
-footer {
-  margin: 40px 0px 50px 0px;
-}
-footer a {
-  color: inherit;
-  text-decoration: underline;
-}
-
-.copyright {
-  font-size: 14px;
-  opacity: .7;
-}
-
-/* #Media Queries
+/* Media Queries
 ============================================== */
 @media screen and (max-width: 750px) {
-  .wrapper {
-    padding-top: 15px;
+  .me-container {
+    width: 100%;
+    position: static;
+    height: 450px;
+    border-bottom: 20px solid white;
+  }
+  .column {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .column-inner {
+    padding: 0px 30px 40px 30px;
   }
 }
-
