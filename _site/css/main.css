@@ -51,61 +51,59 @@ table {
 body {
   font-family: 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
-  color: rgba(112, 123, 132, 1);
+  color: RGBA(92, 123, 144, .8);
   font-weight: 400;
-  font-size: 13px;
+  font-size: 15px;
+  text-align: center;
 }
-.me-container {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  background: url(../images/test.jpg);
-  width: 71%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  border: 35px solid white;
-  box-sizing: border-box;
+
+header figure img {
+  height: 130px;
+  width: auto;
 }
-.column {
+
+header {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+footer {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.main {
   display: inline-block;
-  margin-left: 71%;
+  max-width: 400px;
 }
-.column-inner {
-  padding: 25px 35px 85px 0px;
-  max-width: 310px;
-}
+
 
 /* Typography
 ============================================== */
 p {
-  margin-bottom: 15px;
-  line-height: 1.8;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  text-align: left;
 }
 a {
-  color: #263d49;
+  text-decoration: underline;
+  color: RGBA(92, 123, 144, 1);
 }
 h1 {
-  color: #263d49;
-  padding: 25px 0px 17px 0px;
+  color: #000;
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-left: -2px;
+  display: inline-block;
+}
+h2 {
+  padding-bottom: 9px;
   font-weight: 500;
-  font-size: 17px;
 }
 
 /* Media Queries
 ============================================== */
 @media screen and (max-width: 750px) {
-  .me-container {
-    width: 100%;
-    position: static;
-    height: 450px;
-    border-bottom: 20px solid white;
-  }
-  .column {
-    width: 100%;
-    margin-left: 0px;
-  }
-  .column-inner {
-    padding: 0px 30px 40px 30px;
-  }
+
 }
