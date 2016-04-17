@@ -87,6 +87,7 @@ body {
 p {
   margin-bottom: 15px;
   line-height: 1.8;
+  word-break: keep-all;
 }
 a {
   color: #263d49;
@@ -96,6 +97,13 @@ h1 {
   padding: 25px 0px 17px 0px;
   font-weight: 500;
   font-size: 17px;
+}
+p.previously {
+  opacity: .8;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 20px;
+  padding-top: 12px;
 }
 
 /* Media Queries
