@@ -420,11 +420,13 @@ footer.footer-main span {
   } 
   /* Adjusts alignment/sizing on .selected-work toggle to match changes made with .container-fluid */   
   .selected-work-toggle span.title {
-    font-size: 13px;
+    font-size: 14px;
+    top: 1px;
     left: 25px;
   }
   .selected-work-toggle a.view-all {
-    font-size: 13px;
+    font-size: 14px;
+    top: 1px;
     right: 25px;
   }  
   /* Adjusts spacing/sizing within header.header-main */
