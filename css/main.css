@@ -296,7 +296,7 @@ header.header-main {
   font-size: 17px;
 }
 .introduction a {
-  background-color: #f8ec32;
+  text-decoration: underline;
 }
 
 /* Selected Work Toggle
@@ -373,8 +373,8 @@ header.header-main {
 /* Footer
 ============================================== */
 footer.footer-main {
-  padding-bottom: 75px;
-  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-top: 70px;
 }
 
 footer.footer-main span {
