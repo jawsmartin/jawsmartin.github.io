@@ -225,7 +225,7 @@ a:hover {
 ============================================== */
 header.header-main {
   padding-top: 75px;
-  padding-bottom: 100px;
+  padding-bottom: 65px;
 }
 
 .logo {
@@ -287,17 +287,17 @@ header.header-main {
 /* About Me
 ============================================== */
 .about-me {
-  padding-bottom: 125px;
+  padding-bottom: 100px;
 }
 .introduction {
   max-width: 650px;
 }
 .introduction h1 {
-  font-size: 26px;
+  font-size: 28px;
   color: black;
-  margin-bottom: 18px;
-  line-height: 37px;
-  font-weight: 600;
+  margin-bottom: 28px;
+  line-height: 40px;
+  font-weight: 400;
 }
 .introduction p {
   line-height: 30px;
@@ -305,28 +305,6 @@ header.header-main {
 }
 .introduction a {
   text-decoration: underline;
-}
-
-/* Selected Work Toggle
-============================================== */
-.selected-work-toggle {
-  position: relative;
-  text-align: center;
-}
-.selected-work-toggle span.title {
-  color: black;
-  font-weight: 600;
-  font-size: 17px;
-  display: inline-block;
-  position: absolute;
-  left: 75px;    
-}
-
-.portfolio {
-  color: black;
-  font-weight: 400;
-  font-size: 17px;
-  float: right;
 }
 
 
@@ -352,7 +330,6 @@ footer.footer-main {
   padding-bottom: 80px;
   padding-top: 70px;
 }
-
 footer.footer-main span {
   font-size: 13px;
 }
@@ -376,8 +353,8 @@ footer.footer-main span {
   } 
   /* Adjusts spacing/sizing within header.header-main */
   header.header-main {
-    padding-top: 60px;
-    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 40px;
   }
   .logo {
     width: 170px;
@@ -398,13 +375,13 @@ footer.footer-main span {
 
   /* Adjusting spacing and fonts within .about-me */
   .about-me {
-    padding-bottom: 75px;
+    padding-bottom: 60px;
   }
   .introduction h1 {
-    font-size: 19px;
+    font-size: 21px;
     color: black;
-    margin-bottom: 19px;
-    line-height: 27px;
+    margin-bottom: 23px;
+    line-height: 28px;
   }
   .introduction p {
     font-size: 15px;
@@ -421,14 +398,13 @@ footer.footer-main span {
 
   /* Adjusts spacing/sizing within footer.footer-main */ 
   footer.footer-main {
-    padding-top: 35px;
-    padding-bottom: 50px;
+    padding-top: 45px;
+    padding-bottom: 65px;
   }
   footer.footer-main span{
     font-size: 12px;
     line-height: 16px;
   }
-
 }
 
 @media screen and (max-width: 350px) {
