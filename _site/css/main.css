@@ -386,7 +386,7 @@ footer.footer-main span {
   }  
   .social-icons {
     position: relative;
-    top: 2px;
+    top: 5px;
   }
   .social-icons .social-icon {
     height: 25px;
@@ -421,7 +421,7 @@ footer.footer-main span {
 
   /* Adjusts spacing/sizing within footer.footer-main */ 
   footer.footer-main {
-    padding-top: 25px;
+    padding-top: 35px;
     padding-bottom: 50px;
   }
   footer.footer-main span{
