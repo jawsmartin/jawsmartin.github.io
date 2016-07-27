@@ -206,6 +206,8 @@ body.main-body {
 }
 
 img {
+  display: block;
+  width: 100%;
   max-width: 100%;
 }
 
@@ -216,7 +218,6 @@ a {
   transition: all 500ms ease;  
 }
 a:hover {
-  opacity: .7;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;  
 }
@@ -231,7 +232,9 @@ header.header-main {
 .logo {
   float: left;
   display: inline-block;
-  width: 190px;
+  width: 60px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .social-icons {
@@ -307,6 +310,9 @@ header.header-main {
   text-decoration: underline;
 }
 
+.introduction a:hover {
+  opacity: .6;
+}
 
 /* Selected Work
 ============================================== */
@@ -320,9 +326,23 @@ header.header-main {
   display: inline-block;
   float: left;
   padding: 12px;
+  overflow: hidden;
   box-sizing:border-box;
 }
 
+.selected-work-thumbnails .col-md-3 figure {
+  overflow: hidden;
+}
+
+.selected-work-thumbnails .col-md-3 img {
+  transition: all .4s ease-in-out;
+  display: block;
+}
+
+.selected-work-thumbnails .col-md-3:hover img {
+  transform: scale(1.1);
+  transition: all .4s ease-in-out;
+}
 
 /* Footer
 ============================================== */
@@ -330,8 +350,20 @@ footer.footer-main {
   padding-bottom: 80px;
   padding-top: 70px;
 }
-footer.footer-main span {
+footer.footer-main p {
   font-size: 13px;
+  display: inline-block;
+  float: left;
+}
+
+footer.footer-main a {
+  text-decoration: underline;
+}
+
+footer.footer-main .words{
+  float: right;
+  width: 15px;
+  opacity: .6;
 }
 
 
