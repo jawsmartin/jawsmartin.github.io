@@ -350,10 +350,13 @@ header.header-main {
 
 .blog-posts ul li {
   margin-bottom: 13px;
+  transition: all .2s ease-in-out; 
+}
+
+.blog-posts ul li .inner {
   position: relative;
   background-color: RGBA(206, 210, 213, .1);
   padding: 20px;
-  transition: all .2s ease-in-out; 
 }
 
 .blog-posts ul li:hover {
@@ -362,7 +365,7 @@ header.header-main {
   cursor: pointer;
 }
 
-.blog-posts ul li .timestamp {
+.blog-posts ul li .post-timestamp {
   color: rgba(112, 123, 132, 1);
   font-size: 13px;
   display: inline-block;
@@ -371,7 +374,7 @@ header.header-main {
   top: 23px;
 }
 
-.blog-posts ul li a {
+.blog-posts ul li .post-title {
   margin-left: 132px;
   font-size: 17px;
 }
@@ -481,21 +484,19 @@ footer.footer-main .words{
   }
   .blog-posts ul li {
     margin-bottom: 13px;
-    position: relative;
     overflow: hidden;
-    background-color: RGBA(206, 210, 213, .1);
-    padding: 16px;
   }
-  .blog-posts ul li .timestamp {
+
+  .blog-posts ul li .post-timestamp {
     font-size: 12px;
     display: inline-block;
     position: absolute;
-    left: 16px;
+    left: 19px;
     top: 17px;
   }
-  .blog-posts ul li a {
+  .blog-posts ul li .post-title {
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 18px;
     display: block;
     margin-left: 0px;
   }

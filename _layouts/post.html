@@ -1,29 +1,8 @@
 {% include head.html %}   
-{% include nav.html %}    
-
-<div class="wrapper cf">
+{% include header.html %}    
 
   <main class="main-content">
-    <div class="inner-main-content">
-
-      <!-- Post Header
-      ================================================== --> 
-      <section class="post-header">       
-
-        <div class="hero-text cf">
-          <span class="post-date text-small block">{{ page.date | date: '%B %Y' }}</span>    
-          <span class="post-title block" href="{{ post.url }}" title="{{ post.title }}">{{ page.title }}</span>
-        </div>
-
-        <figure class="thumbnail-container inline-block">
-          <img class="thumbnail" src="/images/post/{{ page.date | date: '%Y-%m-%d' | replace:'/','-' }}-{{ page.title | replace:' ','-' | remove: ' ' | downcase }}/thumbnail.jpg"/>    
-        </figure> 
-
-        <div class="text-center block">
-          <p class="sub-header">{{ page.deck }}</p>   
-        </div>
-
-      </section>
+    <div class="container-fluid">
 
       <!-- Post Main Content
       ================================================== --> 
@@ -35,6 +14,5 @@
     </div>
   </main>
 
-</div>
 
   {% include footer.html %}  
