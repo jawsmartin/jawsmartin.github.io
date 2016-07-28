@@ -194,7 +194,7 @@ body.main-body {
   -webkit-font-smoothing: antialiased;
   color: rgba(112, 123, 132, 1);
   font-weight: 400;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .container-fluid {
@@ -293,7 +293,7 @@ header.header-main {
   padding-bottom: 100px;
 }
 .introduction {
-  max-width: 650px;
+  max-width: 675px;
 }
 .introduction h1 {
   font-size: 28px;
@@ -344,6 +344,38 @@ header.header-main {
   transition: all .4s ease-in-out;
 }
 
+.blog-posts ul {
+  margin-top: 50px;
+}
+
+.blog-posts ul li {
+  margin-bottom: 13px;
+  position: relative;
+  background-color: RGBA(206, 210, 213, .1);
+  padding: 20px;
+  transition: all .2s ease-in-out; 
+}
+
+.blog-posts ul li:hover {
+  background-color: RGBA(206, 210, 213, .15);
+  transition: all .4s ease-in-out; 
+  cursor: pointer;
+}
+
+.blog-posts ul li .timestamp {
+  color: rgba(112, 123, 132, 1);
+  font-size: 13px;
+  display: inline-block;
+  position: absolute;
+  left: 22px;
+  top: 23px;
+}
+
+.blog-posts ul li a {
+  margin-left: 132px;
+  font-size: 17px;
+}
+
 /* Footer
 ============================================== */
 footer.footer-main {
@@ -386,23 +418,21 @@ footer.footer-main .words{
   /* Adjusts spacing/sizing within header.header-main */
   header.header-main {
     padding-top: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
   }
   .logo {
-    width: 170px;
-    position: relative;
-    left: -2px;
+    width: 40px;
   }  
   .social-icons {
     position: relative;
     top: 5px;
   }
   .social-icons .social-icon {
-    height: 25px;
+    height: 30px;
     opacity: 1;
     display: inline-block;
-    width: 25px;
-    margin-left: 4px;
+    width: 30px;
+    margin-left: 6px;
   }
 
   /* Adjusting spacing and fonts within .about-me */
@@ -410,10 +440,10 @@ footer.footer-main .words{
     padding-bottom: 60px;
   }
   .introduction h1 {
-    font-size: 21px;
+    font-size: 25px;
     color: black;
     margin-bottom: 23px;
-    line-height: 28px;
+    line-height: 33px;
   }
   .introduction p {
     font-size: 15px;
@@ -430,28 +460,52 @@ footer.footer-main .words{
 
   /* Adjusts spacing/sizing within footer.footer-main */ 
   footer.footer-main {
-    padding-top: 45px;
-    padding-bottom: 65px;
+    padding-top: 30px;
+    padding-bottom: 45px;
   }
-  footer.footer-main span{
+  footer.footer-main p {
     font-size: 12px;
     line-height: 16px;
   }
+  footer.footer-main .words {
+    float: left;
+    width: 15px;
+    opacity: .6;
+    display: inline-block;
+    margin-top: 40px;
+  }  
+
+  /* Adjusts spacing/sizing within .blog-posts */ 
+  .blog-posts header a {
+    font-size: 15px;
+  }
+  .blog-posts ul li {
+    margin-bottom: 13px;
+    position: relative;
+    overflow: hidden;
+    background-color: RGBA(206, 210, 213, .1);
+    padding: 16px;
+  }
+  .blog-posts ul li .timestamp {
+    font-size: 12px;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    top: 17px;
+  }
+  .blog-posts ul li a {
+    font-size: 15px;
+    margin-top: 20px;
+    display: block;
+    margin-left: 0px;
+  }
+
 }
 
 @media screen and (max-width: 350px) {
-  .logo {
-    width: 140px;
-  }
+  /* 100% full-width project thumbnails */   
   .selected-work-thumbnails .col-md-3 {
     width: 100%;
-  }
-  .social-icons .social-icon {
-    height: 22px;
-    opacity: 1;
-    display: inline-block;
-    width: 28px;
-    margin-left: 3px;
   }
 }
 
