@@ -365,7 +365,11 @@ header.header-main {
 .blog-posts ul li .inner {
   position: relative;
   background-color: RGBA(206, 210, 213, .1);
-  padding: 20px;
+  padding: 20px 20px 19px 20px;
+}
+
+.blog-posts ul li .inner:hover {
+  cursor: pointer;
 }
 
 .blog-posts ul li:hover {
@@ -543,12 +547,12 @@ footer.footer-main .words{
     font-size: 12px;
     display: inline-block;
     position: absolute;
-    left: 19px;
-    top: 17px;
+    left: 20px;
+    top: 20px;
   }
   .blog-posts ul li .post-title {
     font-size: 15px;
-    margin-top: 16px;
+    margin-top: 18px;
     display: block;
     margin-left: 0px;
   }
