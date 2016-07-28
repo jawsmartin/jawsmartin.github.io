@@ -266,6 +266,10 @@ header.header-main {
   background: url(/imgs/linkedin_icon.png);
   background-size: cover;  
 }
+.social-icons .social-icon.snapchat-icon {
+  background: url(/imgs/snapchat_icon.png);
+  background-size: cover;  
+}
 .social-icons .social-icon.instagram-icon:hover {
   background: url(/imgs/instagram_icon_hover.png);
   background-size: cover; 
@@ -283,6 +287,11 @@ header.header-main {
 }
 .social-icons .social-icon.linkedin-icon:hover {
   background-image: url(/imgs/linkedin_icon_hover.png);
+  background-size: cover;  
+  background-color: black;
+}
+.social-icons .social-icon.snapchat-icon:hover {
+  background-image: url(/imgs/snapchat_icon_hover.png);
   background-size: cover;  
   background-color: black;
 }
