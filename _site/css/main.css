@@ -193,16 +193,15 @@ body.main-body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   color: rgba(112, 123, 132, 1);
+  background-color: rgba(112, 123, 132, .05);
   font-weight: 400;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .container-fluid {
   margin: 0 auto;
   position: relative;
-  padding-left: 75px;
-  padding-right: 75px;  
-  max-width: 1200px;
+  max-width: 550px;
 }
 
 img {
@@ -212,7 +211,7 @@ img {
 }
 
 a {
-  color: black;
+  color: #5694f1;
   text-decoration: none;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;  
@@ -225,102 +224,36 @@ a:hover {
 /* Header
 ============================================== */
 header.header-main {
-  padding-top: 75px;
-  padding-bottom: 65px;
+  padding-top: 65px;
+  padding-bottom: 50px;
 }
 
 .logo {
   float: left;
   display: inline-block;
-  width: 60px;
+  width: 55px;
   border-radius: 50%;
   overflow: hidden;
-}
-
-.social-icons {
-  float: right;
-}
-.social-icons .social-icon {
-  height: 28px;
-  opacity: 1;
-  display: inline-block;
-  width: 28px;
-  margin-left: 5px;
-}
-.social-icons .social-icon:hover {
-  cursor: pointer;
-}
-.social-icons .social-icon.instagram-icon {
-  background: url(/imgs/instagram_icon.png);
-  background-size: cover;
-}
-.social-icons .social-icon.dribbble-icon {
-  background: url(/imgs/dribbble_icon.png);
-  background-size: cover;  
-}
-.social-icons .social-icon.twitter-icon {
-  background: url(/imgs/twitter_icon.png);
-  background-size: cover;  
-}
-.social-icons .social-icon.linkedin-icon {
-  background: url(/imgs/linkedin_icon.png);
-  background-size: cover;  
-}
-.social-icons .social-icon.snapchat-icon {
-  background: url(/imgs/snapchat_icon.png);
-  background-size: cover;  
-}
-.social-icons .social-icon.instagram-icon:hover {
-  background: url(/imgs/instagram_icon_hover.png);
-  background-size: cover; 
-  background-color: black; 
-}
-.social-icons .social-icon.dribbble-icon:hover {
-  background: url(/imgs/dribbble_icon_hover.png);
-  background-size: cover; 
-  background-color: black; 
-}
-.social-icons .social-icon.twitter-icon:hover {
-  background-image: url(/imgs/twitter_icon_hover.png);
-  background-size: cover;  
-  background-color: black;
-}
-.social-icons .social-icon.linkedin-icon:hover {
-  background-image: url(/imgs/linkedin_icon_hover.png);
-  background-size: cover;  
-  background-color: black;
-}
-.social-icons .social-icon.snapchat-icon:hover {
-  background-image: url(/imgs/snapchat_icon_hover.png);
-  background-size: cover;  
-  background-color: black;
 }
 
 /* About Me
 ============================================== */
 .about-me {
-  padding-bottom: 100px;
+  padding-bottom: 65px;
 }
 .introduction {
   max-width: 675px;
 }
 .introduction h1 {
-  font-size: 28px;
+  font-size: 24px;
   color: black;
   margin-bottom: 28px;
-  line-height: 40px;
+  line-height: 37px;
   font-weight: 400;
 }
 .introduction p {
   line-height: 30px;
-  font-size: 17px;
-}
-.introduction a {
-  text-decoration: underline;
-}
-
-.introduction a:hover {
-  opacity: .6;
+  font-size: 16px;
 }
 
 /* Selected Work
@@ -358,13 +291,13 @@ header.header-main {
 }
 
 .blog-posts ul li {
-  margin-bottom: 13px;
+  position: relative;
+  left: -20px;
   transition: all .2s ease-in-out; 
 }
 
 .blog-posts ul li .inner {
   position: relative;
-  background-color: RGBA(206, 210, 213, .1);
   padding: 20px 20px 19px 20px;
 }
 
@@ -373,14 +306,15 @@ header.header-main {
 }
 
 .blog-posts ul li:hover {
-  background-color: RGBA(206, 210, 213, .15);
+  background-color: rgba(112, 123, 132, .05);
   transition: all .4s ease-in-out; 
   cursor: pointer;
 }
 
 .blog-posts ul li .post-timestamp {
   color: rgba(112, 123, 132, 1);
-  font-size: 13px;
+  font-size: 12px;
+  opacity: .8;
   display: inline-block;
   position: absolute;
   left: 22px;
@@ -388,28 +322,30 @@ header.header-main {
 }
 
 .blog-posts ul li .post-title {
-  margin-left: 132px;
-  font-size: 17px;
+  margin-left: 115px;
+  font-size: 16px;
+}
+
+header.post-list {
+  margin-top: 25px;
 }
 
 .post header {
+  margin-top: 25px;
   margin-bottom: 75px;
 }
 
 .post header .post-title {
   font-weight: 400;
   color: black;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 35px;
   margin-bottom: 10px;
+  margin-top: 65px;
 }
 
 .post header .post-timestamp {
   font-size: 13px;
-}
-
-.container-fluid-tight {
-  max-width: 650px;
 }
 
 .post-content {
@@ -425,36 +361,41 @@ header.header-main {
   margin-bottom: 0px;
 }
 
-.post footer {
-  margin-bottom: 65px;
-}
-
 .post footer a {
   margin-bottom: 15px;
   display: block;
+}
+
+.tt {
+  padding-top: 50px;
+  line-height: 30px;
 }
 
 
 /* Footer
 ============================================== */
 footer.footer-main {
-  padding-bottom: 80px;
-  padding-top: 70px;
+  padding-bottom: 100px;
+  padding-top: 80px;
 }
 footer.footer-main p {
-  font-size: 13px;
+  opacity: .7;
+  font-size: 12px;
   display: inline-block;
   float: left;
 }
 
 footer.footer-main a {
   text-decoration: underline;
+  color: rgba(112, 123, 132, 1);
 }
 
 footer.footer-main .words{
   float: right;
-  width: 15px;
-  opacity: .6;
+  width: 12px;
+  position: relative;
+  top: -1px;
+  opacity: .5;
 }
 
 
@@ -477,40 +418,33 @@ footer.footer-main .words{
   /* Adjusts spacing/sizing within header.header-main */
   header.header-main {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
   }
   .logo {
     width: 40px;
   }  
-  .social-icons {
-    position: relative;
-    top: 5px;
-  }
-  .social-icons .social-icon {
-    height: 30px;
-    opacity: 1;
-    display: inline-block;
-    width: 30px;
-    margin-left: 6px;
-  }
-
   /* Adjusting spacing and fonts within .about-me */
   .about-me {
-    padding-bottom: 60px;
+    padding-bottom: 50px;
   }
   .introduction h1 {
-    font-size: 25px;
+    font-size: 21px;
     color: black;
     margin-bottom: 23px;
-    line-height: 33px;
+    line-height: 30px;
   }
   .introduction p {
     font-size: 15px;
     line-height: 25px;
   }
+  .tt {
+    font-size: 15px;
+    padding-top: 40px;
+    line-height: 25px;
+  }
   /* .selected-work thumbnails increased to 50% width from 33.333% */
   .selected-work-thumbnails .col-md-3 {
-    width: 50%;
+    width: 100%;
     display: inline-block;
     float: left;
     padding: 12px;
@@ -519,7 +453,7 @@ footer.footer-main .words{
 
   /* Adjusts spacing/sizing within footer.footer-main */ 
   footer.footer-main {
-    padding-top: 30px;
+    padding-top: 45px;
     padding-bottom: 45px;
   }
   footer.footer-main p {
