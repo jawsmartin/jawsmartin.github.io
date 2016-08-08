@@ -71,6 +71,7 @@ body.soapbox-body {
   font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   color: rgba(112, 123, 132, 1);
+  background-color: rgba(112, 123, 132, .05);
   font-weight: 400;
   font-size: 15px;
   line-height: 1.05;
@@ -78,7 +79,7 @@ body.soapbox-body {
 
 .container-fluid {
  	margin: 0 auto;
-  max-width: 1300px;
+  max-width: 550px;
   padding-left: 45px;
   padding-right: 45px;
 }
@@ -136,13 +137,6 @@ a.hire-us{
 
 /* #What is Soapbox?
 ==============================================*/
-.no-what .inner {
-  background: url(/imgs/nononsense/about.jpg);
-  background-size: cover;
-  width: 100%;
-  position: relative;
-  height: 500px;
-}
 
 .no-what .inner header {
   position: absolute;
@@ -201,7 +195,6 @@ a.hire-us{
   display: block;
   padding-top: 150px;
   padding-bottom: 150px;
-  text-align: center;
 }
 .section-header h2 {
   color: #000000;
@@ -217,8 +210,8 @@ a.hire-us{
 }
 
 .no-team ul {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .no-team li {
@@ -226,7 +219,7 @@ a.hire-us{
   float: left;
   width: 25%;
   box-sizing: border-box;
-  padding: 15px;
+  padding: 10px;
   overflow: hidden;
 }
 

@@ -5,10 +5,40 @@
   <div class="container-fluid clearfix">
 
     <figure class="logo">
-      <a href="/">
-        <img src="https://pbs.twimg.com/profile_images/698166890066096129/b8TJGmKO.jpg"/>
-      </a>
+      {% if page.section == "about" %}
+        <a href="/">
+          <img src="/imgs/about_header_icon.png"/>
+        </a>
+      {% elsif page.section == "words" %}
+        <a href="/words">
+          <img src="/imgs/words_header_icon.png"/>
+        </a>    
+      {% elsif page.section == "nononsense" %}
+        <a href="/nononsense">
+          <img src="/imgs/nononsense_header_icon.png"/>
+        </a>          
+      {% endif %} 
     </figure>
 
+    <nav class="nav navbar-nav">
+      {% if page.section == "about" %}
+        <a class="active" href="/">About</a>
+      {% else %}
+        <a href="/">About</a>
+      {% endif %}
+
+      {% if page.section == "words" %}
+        <a class="active" href="/words">Words</a>
+      {% else %}
+        <a href="/words">Words</a>
+      {% endif %}
+
+      {% if page.section == "nononsense" %}
+        <a class="active" href="/nononsense">no.nonsense</a>
+      {% else %}
+        <a href="/nononsense">no.nonsense</a>
+      {% endif %}
+    </nav>
+
   </div>
-</header>
+</header>   
