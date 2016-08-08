@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Startups Don't Need Designers
+section: words
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pretium id nulla ac commodo. Vestibulum tincidunt, enim non tristique interdum, turpis lacus hendrerit turpis, nec euismod ante enim a mi. Fusce sit amet odio aliquet, interdum magna vitae, fringilla diam. Cras cursus erat nec condimentum varius.

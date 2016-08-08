@@ -383,7 +383,7 @@ header.header-main nav a.active {
 }
 
 .blog-posts ul {
-  margin-top: 65px;
+  margin-top: 35px;
 }
 
 .blog-posts ul li {
@@ -420,10 +420,6 @@ header.header-main nav a.active {
 .blog-posts ul li .post-title {
   margin-left: 115px;
   font-size: 16px;
-}
-
-header.post-list {
-  margin-top: 25px;
 }
 
 header.post-list h1{
@@ -484,6 +480,7 @@ footer.footer-main {
 }
 footer.footer-main p {
   opacity: .7;
+  line-height: 25px;
   font-size: 12px;
   display: inline-block;
   float: left;
@@ -510,44 +507,15 @@ footer.footer-main .words:hover{
 /* Media Queries
 ============================================== */
 @media screen and (max-width: 1000px) {
-  /* Decreases padding on main wrapping container, .container-fluid (from 75px) */
+  /* Decreases padding on main wrapping container */
   .container-fluid {
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
 @media screen and (max-width: 750px) {
-  /* Decreases padding on main wrapping container, .container-fluid (from 45px) */  
-  .container-fluid {
-    padding-left: 25px;
-    padding-right: 25px;
-  } 
-  /* Adjusts spacing/sizing within header.header-main */
-  header.header-main {
-    padding-top: 50px;
-    padding-bottom: 40px;
-  }
-  /* Adjusting spacing and fonts within .about-me */
-  .about-me {
-    padding-bottom: 50px;
-  }
-  .introduction h1 {
-    font-size: 21px;
-    color: black;
-    margin-bottom: 23px;
-    line-height: 30px;
-  }
-  .introduction p {
-    font-size: 15px;
-    line-height: 25px;
-  }
-  .tt {
-    font-size: 15px;
-    padding-top: 35px;
-    line-height: 25px;
-  }
-  /* .selected-work thumbnails increased to 50% width from 33.333% */
+  /* .selected-work thumbnails increased to 100% width from 33.333% */
   .selected-work-thumbnails .col-md-3 {
     width: 100%;
     display: inline-block;
@@ -556,27 +524,15 @@ footer.footer-main .words:hover{
     box-sizing:border-box;
   }  
 
-  /* Adjusts spacing/sizing within footer.footer-main */ 
-  footer.footer-main {
-    padding-top: 45px;
-    padding-bottom: 45px;
-  }
-  footer.footer-main p {
-    font-size: 12px;
-    line-height: 16px;
-  }
+  /* Stacks footer elements */ 
   footer.footer-main .words {
     float: left;
-    width: 15px;
     opacity: .6;
     display: inline-block;
     margin-top: 40px;
   }  
 
   /* Adjusts spacing/sizing within .blog-posts */ 
-  .blog-posts header a {
-    font-size: 15px;
-  }
   header.post-list {
     margin-top: 10px;
   }
@@ -585,7 +541,6 @@ footer.footer-main .words:hover{
     padding: 15px 20px 15px 0px;
   }
   .blog-posts ul li .post-timestamp {
-    font-size: 12px;
     display: inline-block;
     position: absolute;
     left: 0px;
@@ -598,7 +553,6 @@ footer.footer-main .words:hover{
     margin-top: 40px;
   }
   .blog-posts ul li .post-title {
-    font-size: 15px;
     margin-top: 18px;
     display: block;
     margin-left: 0px;
@@ -634,7 +588,17 @@ footer.footer-main .words:hover{
   .post footer a {
     font-size: 15px;
   }
-
+  .project-icon {
+    position: absolute;
+    left: 50px;
+    width: 50px;
+  }
+  .no-projects li header {
+    margin-left: 75px;
+  }
+  .no-projects li footer {
+    margin-left: 75px;
+  }
 }
 
 @media screen and (max-width: 350px) {
