@@ -463,14 +463,15 @@ footer.footer-main p {
   float: left;
 }
 footer.footer-main a {
+  display: inline-block;
   text-decoration: underline;
   color: rgba(112, 123, 132, 1);
 }
-footer.footer-main .words{
+footer.footer-main .no-stamp {
   float: right;
   width: 20px;
   position: relative;
-  top: 10px;
+  top: 8px;
   opacity: .4;
 }
 footer.footer-main .words:hover{
