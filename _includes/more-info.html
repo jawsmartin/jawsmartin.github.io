@@ -8,7 +8,16 @@
 
       <div class="col-md-12">     
 
-        <h2>More Info</h2>
+	      {% if page.section == "about" %}
+	        <h2>More Info</h2>
+	      {% else %}
+	        <h2>About</h2>
+	      {% endif %}
+
+	      {% if page.section == "about" %}
+	      {% else %}
+	        <p>My name is Josh Martin and and I'm a Chicago Designer focused on Branding and UI/UX. <a href="/" class="link">Learn more</a>.</p>
+	      {% endif %}
 
         <p>A detailed list of my work experience, endorsements, and proficiencies can be seen on my <a href="http://www.linkedin.com/in/jawsmartin" class="link">Linkedin</a> and <a href="joshmartinresume.pdf" class="link">Resume</a>.</p>
 

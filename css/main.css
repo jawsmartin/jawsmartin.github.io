@@ -251,7 +251,7 @@ header.header-main {
   padding-bottom: 85px;
 }
 header.header-main .container-fluid {
-  max-width: 850px;
+  max-width: 750px;
   padding-bottom: 50px;
   border-bottom: 1px solid #ececec;
 }
@@ -259,13 +259,13 @@ header.header-main .container-fluid {
   float: left;
   opacity: .7;
   position: relative;
-  top: 9px;
+  top: 8px;
 }
 .float-right {
   float: right;
   opacity: .7;
   position: relative;
-  top: 9px;  
+  top: 8px;  
 }
 header.header-main img {
   display: inline-block;
@@ -431,7 +431,8 @@ header.post-list h1{
 .project-icon {
   position: absolute;
   left: 0px;
-  width: 66px;
+  margin-top: -41px;
+  width: 68px;
 }
 .no-projects li {
   display: block;
