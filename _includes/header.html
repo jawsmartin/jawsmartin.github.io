@@ -4,39 +4,33 @@
 <header class="header-main fade-down">
   <div class="container-fluid clearfix">
 
-    <figure class="logo">
-      {% if page.section == "about" %}
-        <a href="/">
-          <img src="/imgs/about_header_icon.png"/>
-        </a>
-      {% elsif page.section == "words" %}
-        <a href="/words">
-          <img src="/imgs/words_header_icon.png"/>
-        </a>    
-      {% elsif page.section == "nononsense" %}
-        <a href="/nononsense">
-          <img src="/imgs/nononsense_header_icon.png"/>
-        </a>          
-      {% endif %} 
-    </figure>
-
     <nav class="nav navbar-nav">
       {% if page.section == "about" %}
-        <a class="active" href="/">About</a>
+        <a class="active n-m-l float-left" href="/">About</a>
       {% else %}
-        <a href="/">About</a>
+        <a class="float-left n-m-l" href="/">About</a>
       {% endif %}
 
-      {% if page.section == "words" %}
-        <a class="active" href="/words">Words</a>
+      {% if page.section == "portfolio" %}
+        <a class="active float-left" href="/">Portfolio</a>
       {% else %}
-        <a href="/words">Words</a>
+        <a class="float-left" href="http://www.dribbble.com/jawsmartin">Portfolio</a>
+      {% endif %}
+
+      <a href="/" class="wordmark"> 
+        <img src="/imgs/wordmark.png"/>
+      </a>
+
+      {% if page.section == "words" %}
+        <a class="active float-right n-m-r" href="/words">Words</a>
+      {% else %}
+        <a class="float-right n-m-r" href="/words">Words</a>
       {% endif %}
 
       {% if page.section == "nononsense" %}
-        <a class="active" href="/nononsense">no.nonsense</a>
+        <a class="active float-right" href="/nononsense">no.nonsense</a>
       {% else %}
-        <a href="/nononsense">no.nonsense</a>
+        <a class="float-right" href="/nononsense">no.nonsense</a>
       {% endif %}
     </nav>
 

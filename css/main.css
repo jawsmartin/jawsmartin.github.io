@@ -192,16 +192,16 @@ table {
 body.main-body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
-  color: rgba(112, 123, 132, 1);
+  color: rgba(112, 123, 132, .9);
   background-color: rgba(112, 123, 132, .05);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .container-fluid {
   margin: 0 auto;
   position: relative;
-  max-width: 550px;
+  max-width: 500px;
 }
 
 img {
@@ -211,7 +211,7 @@ img {
 }
 
 a {
-  color: #5694f1;
+  color: #333;
   text-decoration: none;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;  
@@ -222,7 +222,17 @@ a:hover {
 }
 
 p {
-  line-height: 30px;
+  line-height: 31px;
+  padding-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+  font-size: 20px;
+  padding-top: 62px;
+  padding-bottom: 30px;
+  margin-top: 25px;
+  border-top: 1px solid #ececec;
 }
 
 .font-largest {
@@ -236,43 +246,59 @@ p {
 /* Header
 ============================================== */
 header.header-main {
-  padding-top: 65px;
-  padding-bottom: 65px;
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 85px;
 }
-
-.logo {
+header.header-main .container-fluid {
+  max-width: 850px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ececec;
+}
+.float-left {
   float: left;
-  display: inline-block;
-  width: 45px;
-  overflow: hidden;
-}
-
-/* Nav */
-header.header-main nav {
-  float: right;
-  position: relative;
-  top: 14px;
-}
-header.header-main nav a {
-  font-size: 14px;
-  color: rgba(112, 123, 132, 1);
   opacity: .7;
+  position: relative;
+  top: 9px;
+}
+.float-right {
+  float: right;
+  opacity: .7;
+  position: relative;
+  top: 6px;  
+}
+header.header-main img {
+  display: inline-block;
+  max-width: 125px;
+}
+/* Nav */
+header.header-main nav a {
+  font-size: 13px;
+  color: rgba(112, 123, 132, 1);
+  margin-right: 20px;
   margin-left: 20px;
 }
+header.header-main nav a.n-m-l {
+  margin-left: 0px;
+}
+header.header-main nav a.n-m-r {
+  margin-right: 0px;
+}
 header.header-main nav a.active {
-  color: #5694f1;
+  color: black;
   opacity: 1;
 }
 
 /* Hero
 ============================================== */
 section.hero {
-  margin-bottom: 35px;
+  text-align: center;
+  margin-bottom: 75px;
 }
 section.hero h1 {
   font-size: 24px;
   color: black;
-  line-height: 37px;
+  line-height: 35px;
   font-weight: 400;
 }
 
@@ -281,6 +307,20 @@ section.hero h1 {
 /* Introduction */
 .introduction {
   padding-bottom: 55px;
+}
+i {
+  font-style: italic;
+}
+
+figure {
+  margin-top: -25px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+figcaption {
+  margin-top: 12px;
+  font-size: 11px;
+  opacity: .7;
 }
 /* Selected Work */
 .selected-work ul {
@@ -310,8 +350,11 @@ section.hero h1 {
 
 /* Words
 ============================================== */
+.blog-posts {
+  margin-top: -50px;
+}
 .blog-posts ul {
-  margin-top: -20px;
+  padding-bottom: 30px;
 }
 .blog-posts ul li {
   position: relative;
@@ -342,47 +385,35 @@ section.hero h1 {
 }
 .blog-posts ul li .post-title {
   margin-left: 115px;
-  font-size: 16px;
+  font-size: 15px;
 }
 header.post-list h1{
-  font-size: 24px;
-  color: black;
+  font-size: 22px;
+  color: #333;
   margin-bottom: 28px;
   line-height: 37px;
   font-weight: 400;
 }
 .post header {
-  margin-top: 25px;
-  margin-bottom: 65px;
+  text-align: center;
+  margin-bottom: 75px;
 }
 .post header .post-title {
   font-weight: 400;
-  color: black;
+  color: #333;
   font-size: 24px;
   line-height: 35px;
   margin-bottom: 10px;
-  margin-top: 65px;
 }
 .post header .post-timestamp {
   font-size: 13px;
-}
-.post-content {
-  margin-bottom: 75px;
-}
-.post-content p {
-  line-height: 30px;
-  margin-bottom: 25px;
-}
+} 
 .post-content p:last-of-type {
   margin-bottom: 0px;
 }
-.post footer a {
-  margin-bottom: 15px;
-  display: block;
-}
-.tt {
-  padding-top: 40px;
-  line-height: 30px;
+.post footer {
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 /* no.nonsense
@@ -399,19 +430,24 @@ header.post-list h1{
 }
 .project-icon {
   position: absolute;
-  left: 25px;
-  width: 69px;
+  left: 0px;
+  width: 66px;
 }
 .no-projects li {
   display: block;
-  background-color: rgba(0,0,0,.02);
-  margin-bottom: 25px;
+  margin-bottom: 15px;
+}
+.no-projects ul {
+  padding-bottom: 30px;
+}
+.no-projects {
+  margin-top: -50px;
 }
 .no-projects li .inner {
   padding: 25px;
 }
 .no-projects li header {
-  margin-left: 100px;
+  margin-left: 80px;
 }
 .no-projects li header h1 {
   color: black;
@@ -420,7 +456,7 @@ header.post-list h1{
   display: block;
 }
 .no-projects li footer {
-  margin-left: 100px;
+  margin-left: 80px;
   padding-top: 10px;
 }
 .no-projects li footer span {
@@ -442,30 +478,35 @@ header.post-list h1{
   opacity: .7;
 }
 .ty {
-  padding-top: 40px;
   line-height: 30px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 /* Footer
 ============================================== */
+footer.footer-main {
+  background-color: rgba(0,0,0,.03);
+}
 footer.footer-main .container-fluid {
-  border-top: 1px dotted #dcdcdc;
-  padding-top: 25px;
-  margin-top: 75px;
-  margin-bottom: 100px;
+  padding-top: 75px;
+  text-align: center;
+  padding-bottom: 60px;
+  margin-top: 100px;
+}
+footer.footer-main img {
+  width: 40px;
+  display: inline-block;
 }
 footer.footer-main p {
   opacity: .7;
-  line-height: 21px;
-  font-size: 12px;
+  line-height: 19px;
+  font-size: 11px;
+  max-width: 274px;
   display: inline-block;
-  float: left;
 }
-footer.footer-main a {
-  display: inline-block;
-  text-decoration: underline;
-  color: rgba(112, 123, 132, 1);
+footer.footer-main a.twitter {
+  display: block;
+  padding-bottom: 25px;
 }
 footer.footer-main .no-stamp {
   float: right;
@@ -507,14 +548,13 @@ footer.footer-main .words:hover{
     margin-top: 20px;
   }  
 
-  header.header-main {
-    padding-top: 45px;
-    padding-bottom: 45px;
-  }
 
   footer.footer-main .container-fluid {
-    margin-top: 50px;
-    margin-bottom: 75px;
+    margin-bottom: 55px;
+  }
+
+  .tt {
+    padding-top: 65px;
   }
 
   .no-projects li {
@@ -560,14 +600,6 @@ footer.footer-main .words:hover{
 
   .post header .post-timestamp {
     font-size: 12px;
-  }
-
-  .post-content {
-    margin-bottom: 40px;
-  }
-
-  .ty {
-    padding-top: 20px;
   }
 
   .project-icon {

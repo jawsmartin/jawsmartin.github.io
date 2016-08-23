@@ -5,7 +5,6 @@
     <div class="container-fluid container-fluid-tight">
 
       <header>
-        <a href="/words">&larr;&nbsp;&nbsp;All Posts</a>
         <h1 class="post-title">{{ page.title }}</h1>
         <span class="post-timestamp">{{ page.date | date_to_string }}</span>
       </header>
@@ -17,12 +16,12 @@
       </section>
 
       <footer>
-        <a href="/">About</a>
+        <a href="/words">&larr;&nbsp;&nbsp;All Posts</a>
       </footer>
-
 
     </div>
   </main>
 
 
-  {% include footer.html %}  
+{% include more-info.html %}  
+{% include footer.html %}  
