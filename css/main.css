@@ -246,7 +246,7 @@ h2 {
 /* Header
 ============================================== */
 header.header-main {
-  padding-top: 50px;
+  padding-top: 53px;
   text-align: center;
   padding-bottom: 85px;
 }
@@ -265,7 +265,7 @@ header.header-main .container-fluid {
   float: right;
   opacity: .7;
   position: relative;
-  top: 6px;  
+  top: 9px;  
 }
 header.header-main img {
   display: inline-block;
