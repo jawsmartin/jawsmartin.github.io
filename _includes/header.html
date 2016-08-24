@@ -2,36 +2,42 @@
 =============================================
 ============================================= -->
 <header class="header-main fade-down">
-  <div class="container-fluid clearfix">
+  <div class="container-fluid container-fluid-full clearfix">
 
     <nav class="nav navbar-nav">
-      {% if page.section == "about" %}
-        <a class="active n-m-l float-left" href="/">About</a>
-      {% else %}
-        <a class="float-left n-m-l" href="/">About</a>
-      {% endif %}
 
-      {% if page.section == "portfolio" %}
-        <a class="active float-left" href="/">Portfolio</a>
-      {% else %}
-        <a class="float-left" href="http://www.dribbble.com/jawsmartin">Portfolio</a>
-      {% endif %}
-
+      <!-- Logo -->
       <a href="/" class="wordmark"> 
         <img src="/imgs/wordmark.png"/>
       </a>
 
-      {% if page.section == "words" %}
-        <a class="active float-right n-m-r" href="/words">Words</a>
-      {% else %}
-        <a class="float-right n-m-r" href="/words">Words</a>
-      {% endif %}
+      <!-- Main Nav Links (Dropdown Nav on Mobile) -->
+      <div class="header-menu clearfix">
+        {% if page.section == "about" %}
+          <a class="active n-m-l float-left" href="/">About</a>
+        {% else %}
+          <a class="float-left n-m-l" href="/">About</a>
+        {% endif %}
 
-      {% if page.section == "nononsense" %}
-        <a class="active float-right" href="/nononsense">no.nonsense</a>
-      {% else %}
-        <a class="float-right" href="/nononsense">no.nonsense</a>
-      {% endif %}
+        {% if page.section == "work" %}
+          <a class="active float-left" href="/work">Work</a>
+        {% else %}
+          <a class="float-left" href="/work">Work</a>
+        {% endif %}
+
+        {% if page.section == "words" %}
+          <a class="active float-right n-m-r" href="/words">Words</a>
+        {% else %}
+          <a class="float-right n-m-r" href="/words">Words</a>
+        {% endif %}
+
+        {% if page.section == "nononsense" %}
+          <a class="active float-right" href="/nononsense">no.nonsense</a>
+        {% else %}
+          <a class="float-right" href="/nononsense">no.nonsense</a>
+        {% endif %}
+      </div>
+
     </nav>
 
   </div>

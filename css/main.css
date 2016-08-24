@@ -241,6 +241,11 @@ h2 {
   color: black;
 }
 
+.container-fluid-full {
+  max-width: 850px;
+}
+
+
 
 
 /* Header
@@ -251,21 +256,24 @@ header.header-main {
   padding-bottom: 85px;
 }
 header.header-main .container-fluid {
-  max-width: 750px;
   padding-bottom: 50px;
   border-bottom: 1px solid #ececec;
+}
+header.header-main .header-menu {
+  position: relative;
+  top: -16px;
+}
+header.header-main .wordmark {
+  position: relative;
+  top: 9px;
 }
 .float-left {
   float: left;
   opacity: .7;
-  position: relative;
-  top: 8px;
 }
 .float-right {
   float: right;
   opacity: .7;
-  position: relative;
-  top: 8px;  
 }
 header.header-main img {
   display: inline-block;
@@ -277,6 +285,10 @@ header.header-main nav a {
   color: rgba(112, 123, 132, 1);
   margin-right: 20px;
   margin-left: 20px;
+}
+header.header-main nav a:hover {
+  color: #333;
+  opacity: 1;
 }
 header.header-main nav a.n-m-l {
   margin-left: 0px;
@@ -520,6 +532,26 @@ footer.footer-main .words:hover{
   opacity: 1;
 }
 
+.portfolio-introduction p:last-of-type {
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+
+.portfolio ul {
+  padding-bottom: 35px;
+  margin-top: -15px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.portfolio li {
+  width: 33.33333%;
+  padding: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  float: left;
+}
 
 /* Media Queries
 ============================================== */

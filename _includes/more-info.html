@@ -1,7 +1,7 @@
 <!-- More Info
 =============================================
 ============================================= -->
-<section class="fade-up">
+<section class="fade-up more-info">
   <div class="container-fluid">
 
     <div class="row clearfix">
@@ -21,7 +21,10 @@
 
         <p>A detailed list of my work experience, endorsements, and proficiencies can be seen on my <a href="http://www.linkedin.com/in/jawsmartin" class="link">Linkedin</a> and <a href="joshmartinresume.pdf" class="link">Resume</a>.</p>
 
-        <p>I host my unabridged, visual portfolio on <a href="http://www.dribbble.com/jawsmartin" class="link">Dribbble</a> and offer a brief, consolidated .pdf version for <a href="http://www.dribbble.com/jawsmartin" class="link">download</a>.</p>
+	      {% if page.section == "work" %}
+	      {% else %}
+        	<p>I host my unabridged, visual portfolio on <a href="http://www.dribbble.com/jawsmartin" class="link">Dribbble</a> and offer a brief, consolidated .pdf version for <a href="http://www.dribbble.com/jawsmartin" class="link">download</a>.</p>
+	      {% endif %}
 
         <p>For all other inquiries, I'm reachable via <a href="mailto:jawsmartin@gmail.com" class="link">email</a>.</p>
 
