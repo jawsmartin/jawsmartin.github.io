@@ -241,9 +241,6 @@ h2 {
   color: black;
 }
 
-.container-fluid-full {
-  max-width: 850px;
-}
 
 
 
@@ -251,50 +248,23 @@ h2 {
 /* Header
 ============================================== */
 header.header-main {
-  padding-top: 53px;
+  padding-top: 25px;
   text-align: center;
-  padding-bottom: 85px;
-}
-header.header-main .container-fluid {
-  padding-bottom: 50px;
+  padding-bottom: 25px;
+  margin-bottom: 75px;
   border-bottom: 1px solid #ececec;
-}
-header.header-main .header-menu {
-  position: relative;
-  top: -16px;
-}
-header.header-main .wordmark {
-  position: relative;
-  top: 9px;
-}
-.float-left {
-  float: left;
-  opacity: .7;
-}
-.float-right {
-  float: right;
-  opacity: .7;
-}
-header.header-main img {
-  display: inline-block;
-  max-width: 125px;
 }
 /* Nav */
 header.header-main nav a {
-  font-size: 13px;
+  font-size: 14px;
   color: rgba(112, 123, 132, 1);
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+  opacity: .7;
 }
 header.header-main nav a:hover {
   color: #333;
   opacity: 1;
-}
-header.header-main nav a.n-m-l {
-  margin-left: 0px;
-}
-header.header-main nav a.n-m-r {
-  margin-right: 0px;
 }
 header.header-main nav a.active {
   color: black;
@@ -308,15 +278,14 @@ section.hero {
   margin-bottom: 75px;
 }
 section.hero h1 {
-  font-size: 24px;
+  font-size: 28px;
   color: black;
-  line-height: 35px;
-  font-weight: 400;
+  line-height: 39px;
+  font-weight: 200;
 }
 
 /* About
 ============================================== */
-/* Introduction */
 .introduction {
   padding-bottom: 55px;
 }
@@ -333,31 +302,6 @@ figcaption {
   margin-top: 15px;
   font-size: 11px;
   opacity: .7;
-}
-/* Selected Work */
-.selected-work ul {
-  margin-left: -12px;
-  margin-top: -12px;
-  margin-right: -12px;
-}
-.selected-work-thumbnails .col-md-3 {
-  width: 33.333%;
-  display: inline-block;
-  float: left;
-  padding: 12px;
-  overflow: hidden;
-  box-sizing:border-box;
-}
-.selected-work-thumbnails .col-md-3 figure {
-  overflow: hidden;
-}
-.selected-work-thumbnails .col-md-3 img {
-  transition: all .4s ease-in-out;
-  display: block;
-}
-.selected-work-thumbnails .col-md-3:hover {
-  opacity: .7;
-  transition: all .4s ease-in-out;
 }
 
 /* Words
@@ -388,12 +332,12 @@ figcaption {
 }
 .blog-posts ul li .post-timestamp {
   color: rgba(112, 123, 132, 1);
-  font-size: 12px;
+  font-size: 13px;
   opacity: .8;
   display: inline-block;
   position: absolute;
   left: 22px;
-  top: 23px;
+  top: 22px;
 }
 .blog-posts ul li .post-title {
   margin-left: 115px;
@@ -411,10 +355,10 @@ header.post-list h1{
   margin-bottom: 75px;
 }
 .post header .post-title {
-  font-weight: 400;
-  color: #333;
-  font-size: 24px;
-  line-height: 35px;
+  font-size: 28px;
+  color: black;
+  line-height: 39px;
+  font-weight: 200;
   margin-bottom: 10px;
 }
 .post header .post-timestamp {
@@ -498,13 +442,11 @@ header.post-list h1{
 /* Footer
 ============================================== */
 footer.footer-main {
-  background-color: rgba(0,0,0,.03);
-}
-footer.footer-main .container-fluid {
   padding-top: 75px;
   text-align: center;
   padding-bottom: 60px;
-  margin-top: 100px;
+  margin-top: 75px;
+  border-top: 1px solid #ececec;
 }
 footer.footer-main img {
   width: 40px;
@@ -546,11 +488,26 @@ footer.footer-main .words:hover{
   margin-right: -10px;
 }
 .portfolio li {
-  width: 33.33333%;
-  padding: 10px;
+  width: 50%;
+  padding: 15px 15px 25px 15px;
   display: inline-block;
   box-sizing: border-box;
   float: left;
+}
+
+.project-title {
+  color: black;
+  display: block;
+  padding-top: 19px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.project-year {
+  display: block;
+  font-size: 12px;
+  opacity: .4;
+  padding-top: 12px
 }
 
 /* Media Queries
@@ -558,8 +515,8 @@ footer.footer-main .words:hover{
 @media screen and (max-width: 1000px) {
   /* Decreases padding on main wrapping container */
   .container-fluid {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -581,9 +538,22 @@ footer.footer-main .words:hover{
     margin-top: 20px;
   }  
 
+  section.hero {
+    text-align: left;
+  }
 
-  footer.footer-main .container-fluid {
-    margin-bottom: 55px;
+  footer.footer-main {
+    margin-top: 45px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+  }
+
+  header.header-main {
+    margin-bottom: 50px;
+  }
+
+  section.hero {
+    margin-bottom: 45px;
   }
 
   .tt {
@@ -600,19 +570,19 @@ footer.footer-main .words:hover{
   }
   .blog-posts ul li .inner {
     position: relative;
-    padding: 15px 20px 15px 0px;
+    padding: 25px 20px 15px 0px;
   }
   .blog-posts ul li .post-timestamp {
     display: inline-block;
-    position: absolute;
+    position: static;
     left: 0px;
-    top: 15px;
+    top: 0px;
   }
   .blog-posts ul li {
     left: 0px;
   }
   .blog-posts ul li .post-title {
-    margin-top: 18px;
+    margin-top: 9px;
     display: block;
     margin-left: 0px;
   }
@@ -623,12 +593,10 @@ footer.footer-main .words:hover{
   }
 
   .post header .post-title {
-    font-weight: 400;
+    font-size: 26px;
     color: black;
-    margin-top: 50px;
-    font-size: 25px;
-    line-height: 33px;
-    margin-bottom: 10px;
+    line-height: 38px;
+    font-weight: 200;
   }
 
   .post header .post-timestamp {
@@ -662,6 +630,34 @@ footer.footer-main .words:hover{
   .no-projects li header span {
     line-height: 22px;
   }
+
+  header.header-main nav a {
+    font-size: 13px;
+    margin-right: 11px;
+    margin-left: 11px;
+  }
+
+  .portfolio li {
+    padding: 10px 10px 25px 10px;
+  }
+
+  .project-title {
+    padding-top: 11px;
+    font-size: 13px;
+  }
+  .project-year {
+    display: block;
+    font-size: 11px;
+    opacity: .4;
+    padding-top: 7px;
+  }
+
+  .portfolio ul {
+    margin-top: -40px;
+    padding-bottom: 10px;
+  }
+
+
 }
 
 @media screen and (max-width: 350px) {

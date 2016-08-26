@@ -6,37 +6,29 @@
 
     <nav class="nav navbar-nav">
 
-      <!-- Logo -->
-      <a href="/" class="wordmark"> 
-        <img src="/imgs/wordmark.png"/>
-      </a>
+      {% if page.section == "about" %}
+        <a class="active" href="/">About</a>
+      {% else %}
+        <a href="/">About</a>
+      {% endif %}
 
-      <!-- Main Nav Links (Dropdown Nav on Mobile) -->
-      <div class="header-menu clearfix">
-        {% if page.section == "about" %}
-          <a class="active n-m-l float-left" href="/">About</a>
-        {% else %}
-          <a class="float-left n-m-l" href="/">About</a>
-        {% endif %}
+      {% if page.section == "portfolio" %}
+        <a class="active" href="/portfolio">Portfolio</a>
+      {% else %}
+        <a href="/portfolio">Portfolio</a>
+      {% endif %}
 
-        {% if page.section == "work" %}
-          <a class="active float-left" href="/work">Work</a>
-        {% else %}
-          <a class="float-left" href="/work">Work</a>
-        {% endif %}
+      {% if page.section == "nononsense" %}
+        <a class="active" href="/nononsense">no.nonsense</a>
+      {% else %}
+        <a href="/nononsense">no.nonsense</a>
+      {% endif %}
 
-        {% if page.section == "words" %}
-          <a class="active float-right n-m-r" href="/words">Words</a>
-        {% else %}
-          <a class="float-right n-m-r" href="/words">Words</a>
-        {% endif %}
-
-        {% if page.section == "nononsense" %}
-          <a class="active float-right" href="/nononsense">no.nonsense</a>
-        {% else %}
-          <a class="float-right" href="/nononsense">no.nonsense</a>
-        {% endif %}
-      </div>
+      {% if page.section == "words" %}
+        <a class="active" href="/words">Words</a>
+      {% else %}
+        <a href="/words">Words</a>
+      {% endif %}      
 
     </nav>
 

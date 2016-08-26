@@ -6,7 +6,7 @@
 
       <header>
         <h1 class="post-title">{{ page.title }}</h1>
-        <span class="post-timestamp">{{ page.date | date_to_string }}</span>
+        <span class="post-timestamp">{{ page.date | date: "%m/%d/%Y" }}</span>
       </header>
 
       <!-- Post Main Content

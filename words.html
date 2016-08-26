@@ -15,7 +15,7 @@ section: words
       <div class="col-md-12">
         <p>Throughout high-school and college, I wrote a lot; I always thought I'd be a storyboard artist or script writer. When I discovered my passion for design, however, I started writing less and less&mdash;then nothing at all.
         <br><br>
-        I figured a low-key, non-Medium blog would be the best way to get back into writing real, 140+ character content. 
+        I figured a low-key blog would be the best way to get back into writing real, 140+ character content. Plus, it let's me continue experimenting with Liquid and Markdown.
         </p>
       </div>
 
@@ -38,7 +38,9 @@ section: words
         <li>
           <a href="{{ post.url }}">
             <div class="inner">
-              <span class="post-timestamp" >{{ post.date | date_to_string }}</span>
+              <span class="post-timestamp" >
+                {{ post.date | date: "%m/%d/%Y" }}
+              </span>
               <span class="post-title">{{ post.title }}</span>
             </div>
           </a>
