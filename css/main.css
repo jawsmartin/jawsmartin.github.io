@@ -250,9 +250,13 @@ h2 {
 header.header-main {
   padding-top: 25px;
   text-align: center;
-  padding-bottom: 25px;
-  margin-bottom: 75px;
-  border-bottom: 1px solid #ececec;
+  padding-bottom: 30px;
+  border-top: 1px solid #ececec;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: RGBA(247, 247, 248, .98);
+  z-index: 9999999;
 }
 /* Nav */
 header.header-main nav a {
@@ -275,6 +279,7 @@ header.header-main nav a.active {
 ============================================== */
 section.hero {
   text-align: center;
+  margin-top: 100px;
   margin-bottom: 75px;
 }
 section.hero h1 {
@@ -547,15 +552,15 @@ footer.footer-main .words:hover{
 
   footer.footer-main {
     margin-top: 45px;
-    padding-top: 50px;
-    padding-bottom: 35px;
+    padding-top: 35px;
+    padding-bottom: 75px;
   }
-
-  header.header-main {
-    margin-bottom: 50px;
+  footer.footer-main a.twitter {
+    display: block;
+    padding-bottom: 15px;
   }
-
   section.hero {
+    margin-top: 55px;
     margin-bottom: 45px;
   }
 
