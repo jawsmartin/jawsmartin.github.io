@@ -249,19 +249,18 @@ header.header-main {
   padding-top: 25px;
   text-align: center;
   padding-bottom: 26px;
-  border-top: 1px solid #ececec;
   position: fixed;
   bottom: 0px;
   width: 100%;
-  background-color: RGBA(246, 246, 247, .98);
+  background-color: RGBA(242, 242, 243, .95);
   z-index: 9999999;
 }
 /* Nav */
 header.header-main nav a {
   font-size: 14px;
   color: rgba(112, 123, 132, 1);
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 13px;
+  margin-left: 13px;
   opacity: .7;
 }
 header.header-main nav a:hover {
@@ -286,16 +285,13 @@ section.hero h1 {
   line-height: 39px;
   font-weight: 200;
 }
+section.hero span {
+  display: inline-block;
+  padding-bottom: 15px;
+}
 
 /* About
 ============================================== */
-.introduction {
-  padding-bottom: 55px;
-}
-i {
-  font-style: italic;
-}
-
 figure {
   margin-top: -25px;
   padding-top: 40px;
@@ -309,9 +305,6 @@ figcaption {
 
 /* Words
 ============================================== */
-.blog-posts {
-  margin-top: -50px;
-}
 .blog-posts ul {
   padding-top: 15px;
   padding-bottom: 30px;
@@ -397,9 +390,6 @@ header.post-list h1{
 .no-projects ul {
   padding-bottom: 30px;
 }
-.no-projects {
-  margin-top: -50px;
-}
 .no-projects li .inner {
   position: relative;
   padding: 22px 20px 22px 23px;
@@ -445,7 +435,6 @@ header.post-list h1{
 }
 .portfolio ul {
   padding-bottom: 35px;
-  margin-top: -15px;
   margin-left: -10px;
   margin-right: -10px;
 }
@@ -479,24 +468,25 @@ header.post-list h1{
 
 /* Footer
 ============================================== */
-footer.footer-main {
-  padding-top: 51px;
+footer.footer-main .container-fluid {
+  padding-top: 80px;
+  padding-bottom: 150px;
   text-align: center;
-  padding-bottom: 90px;
-  margin-top: 100px;
-  background-color: RGBA(246, 246, 247, .98);
-  border-top: 1px solid #ececec;
 }
 footer.footer-main p {
-  opacity: .7;
+  color: rgba(128, 137, 145, .7);
   line-height: 19px;
   font-size: 11px;
   max-width: 274px;
   display: inline-block;
 }
+footer.footer-main p a {
+  color: #333;
+}
 footer.footer-main a.twitter {
   display: block;
-  padding-bottom: 15px;
+  font-size: 13px;
+  padding-bottom: 10px;
 }
 
 
@@ -532,17 +522,16 @@ footer.footer-main a.twitter {
     text-align: left;
   }
 
-  footer.footer-main {
-    margin-top: 45px;
-    padding-top: 35px;
-    padding-bottom: 75px;
+  footer.footer-main .container-fluid {
+    padding-top: 0px;
+    padding-bottom: 100px;
   }
   footer.footer-main a.twitter {
     display: block;
     padding-bottom: 15px;
   }
   section.hero {
-    margin-top: 54px;
+    margin-top: 63px;
     margin-bottom: 45px;
   }
 
@@ -657,7 +646,6 @@ footer.footer-main a.twitter {
   }
 
   .portfolio ul {
-    margin-top: -40px;
     padding-bottom: 10px;
   }
 
