@@ -252,7 +252,7 @@ header.header-main {
   position: fixed;
   bottom: 0px;
   width: 100%;
-  background-color: RGBA(242, 242, 243, .95);
+  background-color: RGBA(238, 238, 239, .95);
   z-index: 9999999;
 }
 /* Nav */
@@ -523,8 +523,8 @@ footer.footer-main a.twitter {
   }
 
   footer.footer-main .container-fluid {
-    padding-top: 0px;
-    padding-bottom: 100px;
+    padding-top: 43px;
+    padding-bottom: 117px;
   }
   footer.footer-main a.twitter {
     display: block;
