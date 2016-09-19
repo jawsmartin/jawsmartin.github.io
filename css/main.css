@@ -236,40 +236,40 @@ h2 {
   border-top: 1px solid #ececec;
 }
 
-.font-largest {
-  font-size: 24px;
-  line-height: 37px;
-  color: black;
+.note {
+  color: #F15A29;
+  font-size: 12px;
+  line-height: 17px;
+  padding-bottom: 25px;
+  display: block;
 }
-
 
 /* Header
 ============================================== */
 header.header-main {
-  padding-top: 25px;
+  padding-top: 22px;
   text-align: center;
-  padding-bottom: 26px;
+  padding-bottom: 22px;
   position: fixed;
   bottom: 0px;
   width: 100%;
-  background-color: RGBA(238, 238, 239, .95);
+  background-color: RGBA(240, 240, 241, .96);
   z-index: 9999999;
 }
 /* Nav */
 header.header-main nav a {
-  font-size: 14px;
-  color: rgba(112, 123, 132, 1);
-  margin-right: 13px;
-  margin-left: 13px;
-  opacity: .7;
+  font-size: 13px;
+  color: #333; 
+  margin-right: 11px;
+  margin-left: 11px;
 }
 header.header-main nav a:hover {
-  color: #333;
-  opacity: 1;
+  color: rgba(112, 123, 132, 1);
+  opacity: .7;
 }
 header.header-main nav a.active {
-  color: black;
-  opacity: 1;
+  color: rgba(112, 123, 132, 1);
+  opacity: .7;
 }
 
 /* Hero
@@ -277,17 +277,19 @@ header.header-main nav a.active {
 section.hero {
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 75px;
+  margin-bottom: 80px;
 }
 section.hero h1 {
-  font-size: 28px;
+  font-size: 30px;
   color: #333;
-  line-height: 39px;
+  line-height: 40px;
   font-weight: 200;
 }
 section.hero span {
+  font-size: 16px;
   display: inline-block;
-  padding-bottom: 15px;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 /* About
@@ -310,6 +312,7 @@ figcaption {
   padding-bottom: 30px;
 }
 .blog-posts ul li {
+  opacity: .2;
   position: relative;
   transition: all .2s ease-in-out; 
 }
@@ -354,9 +357,9 @@ header.post-list h1{
   margin-bottom: 75px;
 }
 .post header .post-title {
-  font-size: 28px;
-  color: black;
-  line-height: 39px;
+  font-size: 30px;
+  color: #333;
+  line-height: 40px;
   font-weight: 200;
   margin-bottom: 10px;
 }
@@ -453,7 +456,7 @@ header.post-list h1{
   transition: all .4s ease-in-out; 
 }
 .project-title {
-  color: black;
+  color: #333;
   display: block;
   padding-top: 15px;
   font-size: 14px;
