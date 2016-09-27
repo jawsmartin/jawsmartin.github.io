@@ -276,8 +276,8 @@ header.header-main nav a.active {
 ============================================== */
 section.hero {
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin-top: 125px;
+  margin-bottom: 85px;
 }
 section.hero h1 {
   font-size: 30px;
@@ -285,22 +285,22 @@ section.hero h1 {
   line-height: 40px;
   font-weight: 200;
 }
-section.hero span {
-  font-size: 16px;
+.twitter {
   display: inline-block;
-  margin-bottom: 20px;
-  color: #333;
+  color: rgba(112, 123, 132, .9);
+  margin-bottom: 30px;
 }
 
 /* About
 ============================================== */
 figure {
   margin-top: -25px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 figcaption {
   margin-top: 15px;
+  line-height: 19px;
   font-size: 11px;
   opacity: .7;
 }
@@ -312,7 +312,6 @@ figcaption {
   padding-bottom: 30px;
 }
 .blog-posts ul li {
-  opacity: .2;
   position: relative;
   transition: all .2s ease-in-out; 
 }
@@ -526,8 +525,9 @@ footer.footer-main a.twitter {
   }
 
   footer.footer-main .container-fluid {
-    padding-top: 43px;
-    padding-bottom: 117px;
+    text-align: left;
+    padding-top: 49px;
+    padding-bottom: 70px;
   }
   footer.footer-main a.twitter {
     display: block;
