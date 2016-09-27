@@ -12,7 +12,33 @@ section: about
   </div>
 </section>
 
-<!-- Content
+
+<!-- Blog
+=============================================
+============================================= -->
+<section class="fade-down blog-posts">
+  <div class="container-fluid">
+
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">
+            <div class="inner">
+              <span class="post-timestamp" >
+                {{ post.date | date: "%m/%d/%Y" }}
+              </span>
+              <span class="post-title">{{ post.title }}</span>
+            </div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+</section>
+
+
+<!-- About
 =============================================
 ============================================= -->
 <section class="fade-down">
@@ -21,6 +47,9 @@ section: about
     <div class="row clearfix">
 
       <div class="col-md-7">
+
+        <h2>About</h2>
+
         <p>I work primarily with development teams, creating wireframes, high-fidelity mockups, prototypes, UI kits, and brand assets/style guides for web and mobile products. When needed, I also assist in front-end development: HTML5, CSS3/SASS, and Javascript.</p>
 
         <p>I have a passion for branding and it greatly influences my work. I believe a successful product is one that communicates it's identity through disciplined visuals and clear, brand-focused content.</p>
