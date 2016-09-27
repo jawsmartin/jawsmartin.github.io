@@ -299,10 +299,10 @@ figure {
   padding-bottom: 50px;
 }
 figcaption {
-  margin-top: 15px;
+  margin-top: 16px;
   line-height: 19px;
   font-size: 11px;
-  opacity: .7;
+  opacity: .8;
 }
 
 /* Words
@@ -476,11 +476,10 @@ header.post-list h1{
 footer.footer-main .container-fluid {
   padding-top: 80px;
   padding-bottom: 150px;
-  text-align: center;
 }
 footer.footer-main p {
   color: rgba(128, 137, 145, .7);
-  line-height: 19px;
+  line-height: 18px;
   font-size: 11px;
   max-width: 274px;
   display: inline-block;
