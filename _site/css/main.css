@@ -204,12 +204,29 @@ body.main-body {
   max-width: 500px;
 }
 
+/* Images
+============================================== */
 img {
   display: block;
   width: 100%;
   max-width: 100%;
 }
 
+figure {
+  margin-top: -25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+figcaption {
+  margin-top: 16px;
+  line-height: 19px;
+  font-size: 11px;
+  opacity: .8;
+}
+
+
+/* Typography
+============================================== */
 a {
   color: #333;
   text-decoration: none;
@@ -227,6 +244,13 @@ p {
   padding-bottom: 30px;
 }
 
+h1 {
+  font-size: 30px;
+  padding-bottom: 30px;
+  color: #333;
+  line-height: 40px;
+  font-weight: 200;
+}
 h2 {
   color: #333;
   font-size: 20px;
@@ -236,60 +260,26 @@ h2 {
   border-top: 1px solid #ececec;
 }
 
-.note {
-  color: #F15A29;
-  font-size: 12px;
-  line-height: 17px;
-  padding-bottom: 25px;
-  display: block;
-}
-
 /* Header
 ============================================== */
-
-
-/* Hero
-============================================== */
-section.hero {
-  margin-top: 75px;
-  margin-bottom: 30px;
-}
-section.hero h1 {
-  font-size: 30px;
-  padding-bottom: 30px;
-  color: #333;
-  line-height: 40px;
-  font-weight: 200;
-}
-.twitter {
-  display: inline-block;
-  color: rgba(112, 123, 132, .9);
-  margin-bottom: 30px;
-}
-
-/* About
-============================================== */
-figure {
-  margin-top: -25px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-figcaption {
-  margin-top: 16px;
-  line-height: 19px;
-  font-size: 11px;
-  opacity: .8;
-}
-
 .header-profile {
-  border-radius: 20px;
+  border-radius: 12px;
   overflow: hidden;
   display: inline-block;
-  margin-top: 100px;
-  width: 55px;
+  margin-top: 75px;
+  width: 43px;
 }
 
-/* Words
+
+/* Introduction
+============================================== */
+section.introduction {
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+
+
+/* Post List
 ============================================== */
 .blog-posts ul {
   padding-top: 15px;
@@ -327,133 +317,31 @@ figcaption {
   margin-left: 115px;
   font-size: 15px;
 }
-header.post-list h1{
-  font-size: 22px;
-  color: #333;
-  margin-bottom: 28px;
-  line-height: 37px;
-  font-weight: 400;
-}
-.post header {
-  margin-top: 75px; 
-  margin-bottom: 75px;
-}
+
+
+/* Post Page
+============================================== */
 .back {
   display: block;
-  margin-top: 100px;
+  margin-top: 70px;
 }
-.post header .post-title {
-  font-size: 30px;
-  color: #333;
-  line-height: 40px;
-  font-weight: 200;
-  margin-bottom: 10px;
+.post header {
+  margin-top: 70px; 
+  margin-bottom: 55px;
 }
 .post header .post-timestamp {
   font-size: 13px;
+  position: relative;
+  top: -15px;
 } 
 .post-content p:last-of-type {
   margin-bottom: 0px;
 }
 .post footer {
-  padding-top: 25px;
-  padding-bottom: 35px;
-}
-
-/* no.nonsense
-============================================== */
-.no-what h1 {
-  padding-bottom: 35px;
-}
-.no-what p {
-  line-height: 30px;
-  font-size: 16px;
-}
-.no-team li {
-  padding-bottom: 12px;
-}
-.no-projects li {
-  display: block;
-  margin-bottom: 15px;
-}
-.no-projects ul {
-  padding-bottom: 30px;
-}
-.no-projects li .inner {
-  position: relative;
-  padding: 22px 20px 22px 23px;
-  background-color: rgba(0,0,0,.028);
-  margin-bottom: 13px;
-}
-.no-projects li header h1 {
-  color: #333;
-  padding-bottom: 10px;
-  display: block;
-}
-.no-projects li header span {
-  font-size: 14px;
-}
-.no-projects li footer {
-  padding-top: 10px;
-}
-.no-projects li footer span {
-  font-size: 12px;
-  opacity: .7;
-}
-.no-projects li footer a {
-  font-size: 12px;
-  opacity: 1;
-  position: relative;
-  display: inline-block;
-  margin-left: 7px;
-  padding-left: 11px;
-  border-left: 1px solid rgba(112, 123, 132, .7);
-}
-.no-projects li footer a.disabled-link {
-  color: rgba(112, 123, 132, 1);
-  font-size: 12px;
-  opacity: .7;
-}
-
-/* Portfolio
-============================================== */
-.portfolio-introduction p:last-of-type {
-  border-bottom: 1px solid #ececec;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
-}
-.portfolio ul {
-  padding-bottom: 35px;
-  margin-left: -10px;
-  margin-right: -10px;
-}
-.portfolio li {
-  width: 50%;
-  padding: 15px 15px 25px 15px;
-  display: inline-block;
-  box-sizing: border-box;
-  float: left;
-}
-.portfolio li img {
-  transition: all .4s ease-in-out; 
-}
-.portfolio li:hover img {
-  opacity: .8;
-  transition: all .4s ease-in-out; 
-}
-.project-title {
-  color: #333;
-  display: block;
   padding-top: 15px;
-  font-size: 14px;
-  line-height: 18px;
+  padding-bottom: 65px;
 }
-.project-year {
-  display: block;
-  font-size: 12px;
-  opacity: .4;
-  padding-top: 8px
-}
+
 
 /* Footer
 ============================================== */
@@ -488,60 +376,31 @@ footer.footer-main a.twitter {
 }
 
 @media screen and (max-width: 750px) {
-  /* .selected-work thumbnails increased to 50% width from 33.333% */
-  .selected-work-thumbnails .col-md-3 {
-    width: 50%;
-    display: inline-block;
-    float: left;
-    padding: 12px;
-    box-sizing:border-box;
-  }  
 
-  /* Stacks footer elements */ 
-  footer.footer-main .words {
-    float: left;
-    opacity: .6;
-    display: inline-block;
-    margin-top: 20px;
-  }  
-
-  section.hero {
-    text-align: left;
+  /* Adjusts spacing/sizing within .blog-posts */
+  .header-profile {
+    margin-top: 50px;
   }
 
+  /* Adjusts spacing/sizing within .blog-posts */
   footer.footer-main .container-fluid {
-    text-align: left;
     padding-top: 49px;
     padding-bottom: 70px;
   }
-  footer.footer-main a.twitter {
-    display: block;
-    padding-bottom: 15px;
-  }
-  section.hero {
+
+  /* Adjusts spacing/sizing within .blog-posts */
+  section.introduction {
     margin-top: 50px;
-    margin-bottom: 45px;
-  }
-
-  .tt {
-    padding-top: 65px;
-  }
-
-  .no-projects li {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
   }
 
   /* Adjusts spacing/sizing within .blog-posts */ 
-  header.post-list {
-    margin-top: 10px;
-  }
   .blog-posts ul li .inner {
     position: relative;
     padding: 22px 20px 22px 23px;
     background-color: rgba(0,0,0,.028);
     margin-bottom: 13px;
   }
-
   .blog-posts ul {
     padding-top: 15px;
   }
@@ -560,101 +419,19 @@ footer.footer-main a.twitter {
     margin-left: 0px;
   }
 
+  /* Adjusts spacing/sizing within .blog-posts */
+  .back {
+    margin-top: 50px;
+  }
   .post header {
     text-align: left;
     margin-bottom: 48px;
     margin-top: 55px;
   }
-
   .post header .post-timestamp {
     font-size: 12px;
   }
-
-  .project-icon {
-    position: relative;
-    left: 0px;
-    display: inline-block;
-    width: 60px;
-    margin-bottom: 16px;
-  }
-  .no-projects li {
-    margin-bottom: 24px;
-    margin-bottom: 15px;
-  }
-  .no-projects li .inner {
-    padding: 35px;
-  }  
-  .no-projects li header {
-    margin-left: 0px;
-  }
-  .no-projects li footer {
-    margin-left: 0px;
-    padding-top: 3px;
-  }
-  .no-projects li header h1 {
-    padding-bottom: 4px;
-  }
-  .no-projects li header span {
-    line-height: 22px;
-    font-size: 13px;
-  }
-  .no-projects li footer span {
-    font-size: 11px;
-  }
-  .no-projects li footer a {
-    font-size: 11px;
-  }
-
-  .no-projects ul li .inner {
-    position: relative;
-    padding: 22px 20px 22px 23px;
-    background-color: rgba(0,0,0,.028);
-    margin-bottom: 13px;
-  }
-
-  header.header-main nav a {
-    font-size: 13px;
-    margin-right: 11px;
-    margin-left: 11px;
-  }
-
-  .portfolio li {
-    padding: 10px 10px 25px 10px;
-  }
-
-  .project-title {
-    padding-top: 11px;
-    font-size: 13px;
-  }
-  .project-year {
-    display: block;
-    font-size: 11px;
-    opacity: .4;
-    padding-top: 7px;
-  }
-
-  .portfolio ul {
-    padding-bottom: 10px;
-  }
-
-  .header-profile {
-    margin-top: 60px;
-  }
-
-  .back {
-    margin-top: 50px;
-  }
-
 }
-
-@media screen and (max-width: 350px) {
-  /* 100% full-width project thumbnails */   
-  .selected-work-thumbnails .col-md-3 {
-    width: 100%;
-  }
-}
-
-
 
 
 

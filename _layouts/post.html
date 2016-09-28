@@ -1,34 +1,38 @@
 {% include head.html %}   
 {% include header.html %}    
 
-  <main class="post fade-down">
-    <div class="container-fluid container-fluid-tight">
 
-      <a class="back" href="/">&larr;&nbsp;&nbsp;Home / All Posts</a>
+<!-- Post
+=============================================
+============================================= -->
+<main class="post fade-down">
+  <div class="container-fluid">
 
-      <header> 
-        <h1 class="post-title">{{ page.title }}</h1>
-        <span class="post-timestamp">{{ page.date | date: "%m/%d/%Y" }}</span>
-      </header>
+    <a class="back" href="/">&larr;&nbsp;&nbsp;Home / All Posts</a>
 
-      <!-- Post Main Content
-      ================================================== --> 
-      <section class="post-content">
-        {{ content }}   
-      </section>
+    <!-- Post Header--> 
+    <header> 
+      <h1 class="post-title">{{ page.title }}</h1>
+      <span class="post-timestamp">{{ page.date | date: "%m/%d/%Y" }}</span>
+    </header>
 
-      <footer>
+    <!-- Post Content --> 
+    <section class="post-content">
+      {{ content }}   
+    </section>
 
-        <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.jawsmartin.com&via=jawsmartin&text=This%20is%20the%20Title&">
-        Comment/Reply (via Twitter)
-        </a>
-      </footer>
+    <!-- Post Footer--> 
+    <footer>
+      <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.jawsmartin.com&via=jawsmartin&text=This%20is%20the%20Title&">
+      Comment/Reply (via Twitter)
+      </a>
+    </footer>
 
-    </div>
-  </main>
+  </div>
+</main>
 
 
-<!-- About
+<!-- My Name is Josh Martin
 =============================================
 ============================================= -->
 <section class="fade-down">
@@ -36,25 +40,15 @@
 
     <div class="row clearfix">
 
-      <div class="col-md-7">
+      <div class="col-md-12">
 
-        {% if page.section == "about" %}
-          <h2>More Info</h2>
-        {% else %}
-          <h2>My name is Josh Martin</h2>
-        {% endif %}
+        <h2>My name is Josh Martin</h2>
 
-        {% if page.section == "about" %}
-        {% else %}
-          <p>I'm a Chicago Designer focused on Branding and UI/UX. Currently, I am working in San Francisco as designer at <a href="mailto:jawsmartin@gmail.com" class="link">@shopify</a> where I'm helping build the perfect virtual employee at <a href="mailto:jawsmartin@gmail.com" class="link">@kitcrm</a>.</p>
-        {% endif %}
+        <p>I'm a Chicago Designer focused on Branding and UI/UX. Currently, I am working in San Francisco as designer at <a href="mailto:jawsmartin@gmail.com" class="link">@shopify</a> where I'm helping build the perfect virtual employee at <a href="mailto:jawsmartin@gmail.com" class="link">@kitcrm</a>.</p>
 
         <p>A detailed list of my work experience, endorsements, and proficiencies can be seen on my <a href="http://www.linkedin.com/in/jawsmartin" class="link">Linkedin</a> and <a href="josh_martin_resume.pdf" class="link">Resume</a>.</p>
 
-        {% if page.section == "about" %}
-        {% else %}
-          <p>I host my unabridged, visual portfolio on <a href="http://www.dribbble.com/jawsmartin" class="link">Dribbble</a> and offer a brief, consolidated .pdf version for <a href="josh_martin_portfolio.pdf" class="link">download</a>.</p>
-        {% endif %}
+        <p>I host my unabridged, visual portfolio on <a href="http://www.dribbble.com/jawsmartin" class="link">Dribbble</a> and offer a brief, consolidated .pdf version for <a href="josh_martin_portfolio.pdf" class="link">download</a>.</p>
 
         <p>For all other inquiries, I'm reachable via <a href="mailto:jawsmartin@gmail.com" class="link">Email</a>.</p>
 
@@ -64,4 +58,6 @@
 
   </div>
 </section>
+
+
 {% include footer.html %}  
