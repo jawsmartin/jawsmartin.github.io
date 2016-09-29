@@ -201,7 +201,7 @@ body.main-body {
 .container-fluid {
   margin: 0 auto;
   position: relative;
-  max-width: 500px;
+  max-width: 475px;
 }
 
 /* Images
@@ -245,11 +245,11 @@ p {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 26px;
   padding-bottom: 30px;
   color: #333;
-  line-height: 42px;
-  font-weight: 200;
+  line-height: 38px;
+  font-weight: 400;
 }
 h2 {
   color: #333;
@@ -267,7 +267,7 @@ h2 {
   overflow: hidden;
   display: inline-block;
   margin-top: 75px;
-  width: 45px;
+  width: 52px;
 }
 
 
