@@ -117,11 +117,13 @@ section.card header {
   text-align: center;
 }
 img.profile {
-  width: 60px;
+  width: 65px;
   display: inline-block;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
   border-radius: 50%;
   overflow: hidden;
+  border: 1px solid #e3e4e5;
+  padding: 4px;
 }
 section.card {
   text-align: center;
@@ -213,8 +215,8 @@ a.btn:hover {
 ============================================== */
 .social-links a {
   display: inline-block;
-  margin-right: 13px;
-  margin-left: 13px;
+  margin-right: 14px;
+  margin-left: 14px;
 }
 
 .social-links img {
@@ -237,6 +239,10 @@ footer.copyright {
   padding-top: 25px;
 }
 
+.copyright a {
+  color: inherit;
+  text-decoration: underline;
+}
 
 /* Media Queries
 ============================================== */
