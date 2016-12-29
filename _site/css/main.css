@@ -122,40 +122,15 @@ section.card header {
 }
 
 header.website-header nav {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 a.profile {
   width: 60px;
-  margin-right: 12px;
-  position: relative;
-  top: -2px;
   display: inline-block;
   border-radius: 50%;
   overflow: hidden;
 }
-a.email {
-  width: 55px;
-  display: inline-block;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 1px solid #e3e4e5;
-  padding: 4px;
-}
-
-a.email img {
-  opacity: .4;
-}
-
-nav a.email:hover {
-  cursor: pointer;
-}
-
-nav a.email:hover img {
-  opacity: 1;
-}
-
-
 section.card {
   text-align: center;
   position: relative;
