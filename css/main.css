@@ -86,18 +86,17 @@ body.main-body {
   max-width: 350px;
 }
 
-.hero {
-  padding-top: 80px;
-  padding-bottom: 90px;
-}
 
-
-/* Images
+/* Global
 ============================================== */
 img {
   display: block;
   width: 100%;
   max-width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Card
@@ -204,6 +203,10 @@ span {
   border: 1px solid #E7E9EC;
   border-radius: 40px;
   height: 46px;
+}
+
+a.btn:hover {
+  background-color: #fafafa;
 }
 
 /* Social
