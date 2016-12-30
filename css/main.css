@@ -69,8 +69,7 @@ table {
 }
 
 
-
-/* #General
+/* #structure
 ==============================================*/
 body.main-body {
   font-family: 'Open Sans', sans-serif;
@@ -79,7 +78,6 @@ body.main-body {
   font-weight: 400;
   background-color: #fafafa;
 }
-
 .container-fluid {
   margin: 0 auto;
   position: relative;
@@ -87,16 +85,18 @@ body.main-body {
 }
 
 
-/* Global
+/* #global
 ============================================== */
 img {
   display: block;
   width: 100%;
   max-width: 100%;
 }
-
 a {
   text-decoration: none;
+}
+i {
+  font-style: italic;
 }
 
 /* Card
@@ -113,15 +113,16 @@ main {
   box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.15);  
 }
 
+
+/* Header
+============================================== */
 section.card header {
   padding-bottom: 10px;
   text-align: center;
 }
-
 header.website-header nav {
   padding-bottom: 18px;
 }
-
 a.profile {
   width: 70px;
   display: inline-block;
@@ -135,9 +136,6 @@ section.card {
   transform: translateY(-49%);  
 }
 
-i {
-  font-style: italic;
-}
 
 /* Content
 ============================================== */
@@ -147,25 +145,21 @@ h1 {
   color: #0E1216;
   font-weight: 600;
 }
-
 .dots {
   padding-top: 9px;
   padding-bottom: 18px;
   display: block;
   text-align: center;
 }
-
 .dots img {
   display: inline-block;
   width: 18px;
 }
-
 p {
   font-size: 15px;
   line-height: 24px;
   color: #405060;
 }
-
 span {
   display: block;
   font-size: 13px;
@@ -174,28 +168,23 @@ span {
   opacity: .7;
 }
 
-/* CTA
+
+/* Social
 ============================================== */
 footer nav.social-links {
   padding-top: 37px;
 }
-
-/* Social
-============================================== */
 .social-links a {
   display: inline-block;
   margin-right: 14px;
   margin-left: 14px;
 }
-
 .social-links img {
   width: 19px;
 }
-
 .links a:hover {
   cursor: pointer;
 }
-
 .social-links a:hover img {
   opacity: .5;
 }
@@ -207,10 +196,51 @@ footer.copyright {
   text-align: center;
   padding-top: 35px;
 }
-
 .copyright a {
   color: inherit;
   text-decoration: underline;
+}
+
+/* Animation
+============================================== */
+.animated {
+  -webkit-animation-duration: 1,25s;
+  animation-duration: 1.25s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
 }
 
 /* Media Queries
