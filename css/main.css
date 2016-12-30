@@ -107,26 +107,23 @@ main {
 .card-inner {
   border-radius: 4px;
   background-color: white;
-  padding: 35px;
+  padding: 40px;
   -webkit-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.15);
   -moz-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.15);
-  box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.15);  
+  box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.15);  
 }
 
-
-
-
 section.card header {
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
 header.website-header nav {
-  padding-bottom: 15px;
+  padding-bottom: 18px;
 }
 
 a.profile {
-  width: 60px;
+  width: 70px;
   display: inline-block;
   border-radius: 50%;
   overflow: hidden;
@@ -142,49 +139,25 @@ i {
   font-style: italic;
 }
 
-.currently {
- color: black;
- text-decoration: none;
-}
-
-a.btn {
-  display: block;
-}
-
-.btn-inner {
-  position: relative;
-  top: 10px;
-}
-
-.emoji {
-  width: 18px;
-  margin-right: 7px;
-  display: inline-block;
-  position: relative;
-  top: 4px;
-}
-
-.btn span {
-  font-weight: 600;
-  display: inline-block;
-  color: #0E1216;
-  opacity: 1 !important;
-}
-
 /* Content
 ============================================== */
 h1 {
-  font-size: 19px;
+  font-size: 20px;
   padding-bottom: 2px;
   color: #0E1216;
   font-weight: 600;
 }
 
-.hr {
+.dots {
+  padding-top: 9px;
+  padding-bottom: 18px;
+  display: block;
+  text-align: center;
+}
+
+.dots img {
   display: inline-block;
-  width: 25px;
-  border-bottom: 2px solid #E7E9EC;
-  margin-bottom: 15px;
+  width: 18px;
 }
 
 p {
@@ -204,20 +177,7 @@ span {
 /* CTA
 ============================================== */
 footer nav.social-links {
-  padding-top: 30px;
-}
-
-.btn-block {
-  margin-top: 25px;
-  margin-bottom: 35px;
-  display: block;
-  border: 1px solid #E7E9EC;
-  border-radius: 40px;
-  height: 46px;
-}
-
-a.btn:hover {
-  background-color: #fafafa;
+  padding-top: 37px;
 }
 
 /* Social
@@ -245,7 +205,7 @@ a.btn:hover {
 ============================================== */
 footer.copyright {
   text-align: center;
-  padding-top: 25px;
+  padding-top: 35px;
 }
 
 .copyright a {
