@@ -121,10 +121,10 @@ section.card header {
   text-align: center;
 }
 header.website-header nav {
-  padding-bottom: 18px;
+  padding-bottom: 20px;
 }
 a.profile {
-  width: 70px;
+  width: 80px;
   display: inline-block;
   border-radius: 50%;
   overflow: hidden;
